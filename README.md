@@ -1,7 +1,7 @@
 # JDG Website
 A website for J. Dean Goldstein's creative works.
 
-## Developing
+## Development
 
 ### First time install
 
@@ -19,10 +19,10 @@ yarn run dev
 
 
 ```bash
-npm run build
+yarn run build
 ```
 
 ### Preview production
 ```bash
-npm run preview
+yarn run preview
 ```
