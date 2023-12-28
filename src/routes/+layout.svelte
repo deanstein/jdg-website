@@ -1,7 +1,7 @@
 <script>
-	import { JDGHeader } from "jdg-ui-svelte";
+	import { JDGHeader } from 'jdg-ui-svelte';
 </script>
 
-<JDGHeader logoTitle={"J. DEAN GOLDSTEIN"}/>
+<JDGHeader logoTitle={'J. DEAN GOLDSTEIN'} />
 
-<slot></slot>
+<slot />
