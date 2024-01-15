@@ -24,7 +24,7 @@
 	`;
 </script>
 
-<div class="jdgLayout {jdgLayoutCss}">
+<div class="jdg-layout {jdgLayoutCss}">
 	<JDGHeader logoTitle={'J. DEAN GOLDSTEIN'} logoSrc={'./jdg-logo.jpg'} />
 
 	<JDGBackground />
@@ -33,3 +33,10 @@
 
 	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {disclaimer} />
 </div>
+
+<style>
+	.jdg-layout {
+		display: flex;
+		flex-direction: column;
+	}
+</style>
