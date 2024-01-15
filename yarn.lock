@@ -1238,14 +1238,15 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-jdg-ui-svelte@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.0.2.tgz#d6dbf0d09cdad5d6c1b445d9e185be926b326ba7"
-  integrity sha512-XmgoN2Q11kL1LiSbMeARZZ5RBclxrPKw8mpNosSPenOZb4IsJGsuZydaNrFgCY4wQ11iZLYa4BzyFyao5XOKPQ==
+jdg-ui-svelte@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.0.3.tgz#8e4fae0be81e141d2c58729f123c4773db1f2506"
+  integrity sha512-0Rcu2k8hMgtjJTbUWubwLKA7v6ayzaWdakiVH0i4VpQsZE+jb6ZZt6yemVWxGmOWAsZp/25s0TC1CW3PG10FVg==
   dependencies:
     "@emotion/css" "^11.11.2"
     "@emotion/react" "^11.11.1"
     crypto-js "^4.2.0"
+    uuid "^9.0.0"
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -1879,6 +1880,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vite@^5.0.3:
   version "5.0.10"

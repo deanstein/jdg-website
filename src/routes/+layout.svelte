@@ -1,7 +1,35 @@
 <script>
-	import { JDGHeader } from 'jdg-ui-svelte';
+	import { css } from '@emotion/css';
+	import { JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
+
+	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import 'jdg-ui-svelte/jdg-styling-root.css';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+
+	// get the app version from package.json
+	//@ts-expect-error
+	const appVersion = packageJson.version;
+
+	const disclaimer =
+		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
+
+	// global styles, but using emotion css
+	const jdgLayoutCss = css`
+		a {
+			color: ${jdgColors.text};
+		}
+		a:before {
+			background-color: ${jdgColors.accentStripesJDG[2]};
+		}
+	`;
 </script>
 
-<JDGHeader logoTitle={'J. DEAN GOLDSTEIN'} />
+<div class="jdgLayout {jdgLayoutCss}">
+	<JDGHeader logoTitle={'J. DEAN GOLDSTEIN'} logoSrc={'./jdg-logo.jpg'} />
 
-<slot />
+	<JDGBackground />
+
+	<slot />
+
+	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {disclaimer} />
+</div>
