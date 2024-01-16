@@ -3,5 +3,5 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating>Hi! I'm Josh Goldstein.</JDGContentBoxFloating>
+	<JDGContentBoxFloating>Hi! I'm Josh.</JDGContentBoxFloating>
 </JDGContentContainer>

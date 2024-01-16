@@ -25,7 +25,11 @@
 </script>
 
 <div class="jdg-layout {jdgLayoutCss}">
-	<JDGHeader logoTitle={'J. DEAN GOLDSTEIN'} logoSrc={'./jdg-logo.jpg'} />
+	<JDGHeader
+		logoTitle={'J. DEAN GOLDSTEIN'}
+		logoSupertitle={'3D DESIGN BY'}
+		logoSrc={'./jdg-logo.jpg'}
+	/>
 
 	<JDGBackground />
 
