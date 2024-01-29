@@ -8,7 +8,10 @@
 
 	// get the app version from package.json
 	//@ts-expect-error
-	const appVersion = packageJson.version;
+	const appVersion = packageJson?.version;
+	const jdgUIVersion = packageJson?.dependencies["jdg-ui-svelte"];
+
+	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
 
 	const disclaimer =
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
@@ -35,7 +38,7 @@
 
 	<slot />
 
-	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {disclaimer} />
+	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
 </div>
 
 <style>

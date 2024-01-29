@@ -8,7 +8,7 @@
             Hi! 👋 I'm Josh.
         </div>
         <div class="intro-content-2">
-            I'm a 3D creator and developer
+            I'm a 3D creator
         </div>
         <div class="intro-content-1">
              with experience in:
