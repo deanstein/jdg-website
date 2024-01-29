@@ -6,9 +6,10 @@
 	import 'jdg-ui-svelte/jdg-styling-root.css';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 
-	// get the app version from package.json
+	// get versions from package.json to display in the footer
 	//@ts-expect-error
 	const appVersion = packageJson?.version;
+	//@ts-expect-error
 	const jdgUIVersion = packageJson?.dependencies["jdg-ui-svelte"];
 
 	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;

@@ -19,6 +19,13 @@
             <JDGImageTile label={"SOFTWARE"}/>
         </JDGGridLayout>    
     </JDGContentBoxFloating>
+    <JDGContentBoxFloating title={"ARCHITECTURE"}>
+        <JDGGridLayout >
+            <JDGImageTile label={"PROJECT 1"}/>
+            <JDGImageTile label={"PROJECT 2"}/>
+            <JDGImageTile label={"PROJECT 3"}/>
+        </JDGGridLayout>    
+    </JDGContentBoxFloating>
 </JDGContentContainer>
 
 <style>
