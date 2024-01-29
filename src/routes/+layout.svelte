@@ -27,7 +27,7 @@
 <div class="jdg-layout {jdgLayoutCss}">
 	<JDGHeader
 		logoTitle={'J. DEAN GOLDSTEIN'}
-		logoSupertitle={'3D DESIGN BY'}
+		logoSupertitle={'THE WORK OF'}
 		logoSrc={'./jdg-logo.jpg'}
 	/>
 
