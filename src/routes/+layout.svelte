@@ -10,7 +10,7 @@
 	//@ts-expect-error
 	const appVersion = packageJson?.version;
 	//@ts-expect-error
-	const jdgUIVersion = packageJson?.dependencies["jdg-ui-svelte"];
+	const jdgUIVersion = packageJson?.dependencies['jdg-ui-svelte'];
 
 	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
 

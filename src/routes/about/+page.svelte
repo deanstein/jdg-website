@@ -3,7 +3,5 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating>
-        ABOUT
-    </JDGContentBoxFloating>
+	<JDGContentBoxFloating>ABOUT</JDGContentBoxFloating>
 </JDGContentContainer>
