@@ -16,7 +16,7 @@ Use this when changes are in progress and realtime updates are required.
 yarn run dev
 ```
 
-> NOTE: When testing, you may notice that styles flash when the page initially loads. This can be ignored as it shouldn't happen when the final website host is compiled.
+> NOTE: When testing, you may notice that styles flash when the page initially loads. This can be ignored as it shouldn't happen when the compiled website runs.
 
 # Building
 
