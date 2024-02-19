@@ -41,6 +41,10 @@
 		a {
 			color: ${jdgColors.text};
 		}
+		a.no-initial-highlight::before,
+		.jdg-highlight-container .jdg-highlight::before {
+			background: ${jdgColors.accentStripesJDG[0]};
+		}
 		a:before {
 			background-color: ${jdgColors.accentStripesJDG[0]};
 		}
