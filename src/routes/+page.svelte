@@ -16,6 +16,7 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'ARCHITECTURE'}
+				imgSrc="./architecture/architecture-0.jpg"
 				labelContainerVerticalAlign="center"
 				labelJustification="center"
 				onClickFunction={() => {
@@ -24,6 +25,7 @@
 			/>
 			<JDGImageTile
 				label={'PRODUCTS'}
+				imgSrc="./products/product-0.jpg"
 				labelContainerVerticalAlign="center"
 				labelJustification="center"
 				onClickFunction={() => {
@@ -32,6 +34,7 @@
 			/>
 			<JDGImageTile
 				label={'SOFTWARE'}
+				imgSrc="./software/software-0.jpg"
 				labelContainerVerticalAlign="center"
 				labelJustification="center"
 				onClickFunction={() => {
