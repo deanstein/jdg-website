@@ -1,14 +1,11 @@
 <script>
-	import { css } from '@emotion/css';
-	import { JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
-
 	import navItem from 'jdg-ui-svelte/schemas/nav-item.js';
 
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
+	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import 'jdg-ui-svelte/jdg-styling-root.css';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(navItem);
@@ -35,25 +32,11 @@
 
 	const disclaimer =
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
-
-	// global styles, but using emotion css
-	const jdgLayoutCss = css`
-		a {
-			color: ${jdgColors.text};
-		}
-		a.no-initial-highlight::before,
-		.jdg-highlight-container .jdg-highlight::before {
-			background: ${jdgColors.accentStripesJDG[0]};
-		}
-		a:before {
-			background-color: ${jdgColors.accentStripesJDG[0]};
-		}
-	`;
 </script>
 
-<div class="jdg-layout {jdgLayoutCss}">
+<JDGAppContainer appLoadingIconSrc='./jdg-logo.jpg' >
 	<JDGHeader
-		logoTitle={'J. DEAN GOLDSTEIN'}
+		logoTitle={'JOSH DEAN GOLDSTEIN'}
 		logoSupertitle={'THE WORK OF'}
 		logoSrc={'./jdg-logo.jpg'}
 		{navItems}
@@ -64,11 +47,4 @@
 	<slot />
 
 	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
-</div>
-
-<style>
-	.jdg-layout {
-		display: flex;
-		flex-direction: column;
-	}
-</style>
+</JDGAppContainer>
