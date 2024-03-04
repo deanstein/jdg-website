@@ -17,8 +17,7 @@
 			<JDGImageTile
 				label={'ARCHITECTURE'}
 				imgSrc="./architecture/architecture-0.jpg"
-				labelContainerVerticalAlign="center"
-				labelJustification="center"
+				labelContainerVerticalAlign="bottom"
 				onClickFunction={() => {
 					scrollToAnchorFloatingContentBox('ARCHITECTURE');
 				}}
@@ -26,8 +25,7 @@
 			<JDGImageTile
 				label={'PRODUCTS'}
 				imgSrc="./products/product-0.jpg"
-				labelContainerVerticalAlign="center"
-				labelJustification="center"
+				labelContainerVerticalAlign="bottom"
 				onClickFunction={() => {
 					scrollToAnchorFloatingContentBox('PRODUCTS');
 				}}
@@ -35,8 +33,7 @@
 			<JDGImageTile
 				label={'SOFTWARE'}
 				imgSrc="./software/software-0.jpg"
-				labelContainerVerticalAlign="center"
-				labelJustification="center"
+				labelContainerVerticalAlign="bottom"
 				onClickFunction={() => {
 					scrollToAnchorFloatingContentBox('SOFTWARE');
 				}}
