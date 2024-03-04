@@ -34,7 +34,7 @@
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 </script>
 
-<JDGAppContainer appLoadingIconSrc='./jdg-logo.jpg' >
+<JDGAppContainer appLoadingIconSrc="./jdg-logo.jpg">
 	<JDGHeader
 		logoTitle={'JOSH DEAN GOLDSTEIN'}
 		logoSupertitle={'THE WORK OF'}
