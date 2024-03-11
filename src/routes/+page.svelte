@@ -5,7 +5,6 @@
 		JDGGridLayout,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-	import { scrollToAnchorFloatingContentBox } from 'jdg-ui-svelte/jdg-ui-management.js';
 </script>
 
 <JDGContentContainer>
@@ -18,25 +17,19 @@
 				label={'ARCHITECTURE'}
 				imgSrc="./architecture/architecture-0.jpg"
 				labelContainerVerticalAlign="bottom"
-				onClickFunction={() => {
-					scrollToAnchorFloatingContentBox('ARCHITECTURE');
-				}}
+				href="#ARCHITECTURE"
 			/>
 			<JDGImageTile
 				label={'PRODUCTS'}
 				imgSrc="./products/product-0.jpg"
 				labelContainerVerticalAlign="bottom"
-				onClickFunction={() => {
-					scrollToAnchorFloatingContentBox('PRODUCTS');
-				}}
+				href="#PRODUCTS"
 			/>
 			<JDGImageTile
 				label={'SOFTWARE'}
 				imgSrc="./software/software-0.jpg"
 				labelContainerVerticalAlign="bottom"
-				onClickFunction={() => {
-					scrollToAnchorFloatingContentBox('SOFTWARE');
-				}}
+				href="#SOFTWARE"
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
