@@ -1,5 +1,5 @@
 <script>
-	import navItem from 'jdg-ui-svelte/schemas/nav-item.js';
+	import navItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';

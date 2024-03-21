@@ -1,4 +1,6 @@
 <script>
+	import imageAttributesCollection from './image-attributes-collection';
+
 	import {
 		JDGContentBoxFloating,
 		JDGContentContainer,
@@ -14,20 +16,20 @@
 		<div class="intro-content-1">with experience in:</div>
 		<JDGGridLayout>
 			<JDGImageTile
+				imageAttributes={imageAttributesCollection.get('architecture-0')}
 				label={'ARCHITECTURE'}
-				imgSrc="./architecture/architecture-0.jpg"
 				labelContainerVerticalAlign="bottom"
 				href="#ARCHITECTURE"
 			/>
 			<JDGImageTile
+				imageAttributes={imageAttributesCollection.get('product-0')}
 				label={'PRODUCTS'}
-				imgSrc="./products/product-0.jpg"
 				labelContainerVerticalAlign="bottom"
 				href="#PRODUCTS"
 			/>
 			<JDGImageTile
+				imageAttributes={imageAttributesCollection.get('software-0')}
 				label={'SOFTWARE'}
-				imgSrc="./software/software-0.jpg"
 				labelContainerVerticalAlign="bottom"
 				href="#SOFTWARE"
 			/>
