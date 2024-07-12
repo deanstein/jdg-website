@@ -16,18 +16,18 @@
 		<div class="intro-content-1">with experience in:</div>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.get('architecture-0')}
+				imageAttributes={imageAttributesCollection.architecture_0}
 				label={'ARCHITECTURE'}
 				labelContainerVerticalAlign="bottom"
-				href="#ARCHITECTURE"
+				href="#architecture"
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.get('product-0')}
+				imageAttributes={imageAttributesCollection.products_0}
 				label={'PRODUCTS'}
 				labelContainerVerticalAlign="bottom"
-				href="#PRODUCTS"
+				href="#products"
 			/>
-			<JDGImageTile - label={'SOFTWARE'} labelContainerVerticalAlign="bottom" href="#SOFTWARE" />
+			<JDGImageTile label={'SOFTWARE'} labelContainerVerticalAlign="bottom" href="#software" />
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURE'}>
