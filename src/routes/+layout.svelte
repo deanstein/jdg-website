@@ -1,22 +1,21 @@
 <script>
-	import navItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
-	import 'jdg-ui-svelte/jdg-styling-root.css';
 
 	// define the nav items in the header
-	const newNavItem1 = instantiateObject(navItem);
+	const newNavItem1 = instantiateObject(jdgNavItem);
 	newNavItem1.label = 'HOME';
 	newNavItem1.href = '/';
 
-	const newNavItem2 = instantiateObject(navItem);
+	const newNavItem2 = instantiateObject(jdgNavItem);
 	newNavItem2.label = 'ABOUT';
 	newNavItem2.href = '/about';
 
-	const newNavItem3 = instantiateObject(navItem);
+	const newNavItem3 = instantiateObject(jdgNavItem);
 	newNavItem3.label = 'CONTACT';
 	newNavItem3.href = '/contact';
 
@@ -34,9 +33,9 @@
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 </script>
 
-<JDGAppContainer appLoadingIconSrc="./jdg-logo.jpg">
+<JDGAppContainer appLoadingIconSrc="./jdg-logo.jpg" showHeaderStripes={false}>
 	<JDGHeader
-		logoTitle={'JOSH DEAN GOLDSTEIN'}
+		logoTitle={'JOSHUA DEAN GOLDSTEIN'}
 		logoSupertitle={'THE WORK OF'}
 		logoSrc={'./jdg-logo.jpg'}
 		{navItems}
