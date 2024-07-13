@@ -27,7 +27,12 @@
 				labelContainerVerticalAlign="bottom"
 				href="#products"
 			/>
-			<JDGImageTile label={'SOFTWARE'} labelContainerVerticalAlign="bottom" href="#software" />
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.software_0}
+				label={'SOFTWARE'}
+				labelContainerVerticalAlign="bottom"
+				href="#software"
+			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURE'}>
