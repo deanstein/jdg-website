@@ -19,18 +19,21 @@
 				imageAttributes={imageAttributesCollection.architecture_0}
 				label={'ARCHITECTURE'}
 				labelContainerVerticalAlign="bottom"
+				labelJustification="center"
 				href="#architecture"
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.products_0}
 				label={'PRODUCTS'}
 				labelContainerVerticalAlign="bottom"
+				labelJustification="center"
 				href="#products"
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.software_0}
 				label={'SOFTWARE'}
 				labelContainerVerticalAlign="bottom"
+				labelJustification="center"
 				href="#software"
 			/>
 		</JDGGridLayout>

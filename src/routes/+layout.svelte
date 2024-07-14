@@ -1,10 +1,17 @@
 <script>
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
+	import {
+		JDGAppContainer,
+		JDGBackground,
+		JDGFooter,
+		JDGHeader,
+		JDGSocialMedia
+	} from 'jdg-ui-svelte';
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);
@@ -35,8 +42,8 @@
 
 <JDGAppContainer appLoadingIconSrc="./jdg-logo.jpg" showHeaderStripes={false}>
 	<JDGHeader
-		logoTitle={'JOSHUA DEAN GOLDSTEIN'}
 		logoSupertitle={'THE WORK OF'}
+		logoTitle={'JOSHUA DEAN GOLDSTEIN'}
 		logoSrc={'./jdg-logo.jpg'}
 		{navItems}
 	/>
@@ -45,5 +52,11 @@
 
 	<slot />
 
-	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
+	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer}>
+		<JDGSocialMedia
+			instagramHref={jdgSharedUrls.jdgInstagram}
+			linkedinHref={jdgSharedUrls.jdgLinkedIn}
+			githubHref={jdgSharedUrls.jdgGitHub}
+		/>
+	</JDGFooter>
 </JDGAppContainer>
