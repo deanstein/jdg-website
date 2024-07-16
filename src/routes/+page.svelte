@@ -57,7 +57,11 @@
 			>, for which I was a Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'CORPORATE SHOWROOM'} />
+			<JDGImageTile
+				label={'CORPORATE SHOWROOM'}
+				href="./exp/1551-wewatta"
+				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+			/>
 			<JDGImageTile
 				label={'CAMPUS ADAPTIVE REUSE'}
 				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}

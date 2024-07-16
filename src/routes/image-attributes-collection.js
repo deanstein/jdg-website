@@ -16,6 +16,32 @@ export const postProcessImageAttributes = (jdgImageAttributes) => {
 const imageAttributesCollection = {
 	arch: {},
 	exp: {
+		corporate_showroom_before: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721076292/jdg-website/exp/1551-wewatta-before.jpg'
+				),
+				imgCaption:
+					'The existing building at 15th Street and Delgany is beige, boring, and corporate.'
+			})
+		),
+		corporate_showroom_corner: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721076293/jdg-website/exp/1551-wewatta-corner.jpg'
+				),
+				imgCaption:
+					'The new showroom and cafe adds amenities like a fireplace, improved materials, and a more pedestrian scale to the intersection.'
+			})
+		),
+		corporate_showroom_elevation: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721076292/jdg-website/exp/1551-wewatta-elevation.jpg'
+				),
+				imgCaption: 'The new showroom and cafe as seen through an orthographic elevation view.'
+			})
+		),
 		fms_campus_before_aerial: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
