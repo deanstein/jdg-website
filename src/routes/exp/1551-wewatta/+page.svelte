@@ -21,11 +21,13 @@
 			</i>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
-			The beige corporate headquarters at the corner of 15th and Delgany in Denver, Colorado could have been transformed into something magical.
+			The beige corporate headquarters at the corner of 15th and Delgany in Denver, Colorado could
+			have been transformed into something magical.
 			<br /><br />
-			Housing the parent company of an outdoor apparel manufacturer, the building has an opportunity to maximize its
-			impact at the intersection by replacing the low-rise offices with an eye-catching showroom and
-			cafe, complete with a new public space between the showroom and the original office tower.
+			Housing the parent company of an outdoor apparel manufacturer, the building has an opportunity
+			to maximize its impact at the intersection by replacing the low-rise offices with an eye-catching
+			showroom and cafe, complete with a new public space between the showroom and the original office
+			tower.
 		</JDGBodyCopy>
 		<JDGImageCarousel
 			imageAttributeObjects={[
