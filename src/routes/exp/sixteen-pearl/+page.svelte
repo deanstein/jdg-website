@@ -11,7 +11,7 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title="16 PEARL"
+		title="16 PEARL ADAPTIVE REUSE"
 		subtitle="Striking new townhomes emerge from a bland apartment block"
 	>
 		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
@@ -23,7 +23,9 @@
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
 			This nondescript apartment block at the intersection of 16th Ave and Pearl St in Denver was
-			demolished in 2016. Prior to demolition, I studied reuse options for the building, including
+			demolished in 2016. 
+            <br><br>
+            Prior to demolition, I studied reuse options for the building, including
 			this scheme which converts each stack of apartments into a 3-story walk-up townhome, complete
 			with new exterior patio and deck spaces. The original mansard roof and exterior brick are both
 			retained and painted, but trimmed where necessary.

@@ -43,8 +43,8 @@
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Architecture is where it all started for me. 🎉
 			<br /><br />
-			After seeing the wasteful demolition of
-			<a href="https://www.cinderellacityproject.com/about">Cinderella City Mall</a>
+			After seeing the wasteful demolition of a
+			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a>
 			as a child, I embarked on a career to understand and evolve retail architectural design.
 			<br /><br />
 			I received my Master of Architecture degree in 2013 and worked at a world-class design firm before
@@ -58,7 +58,7 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				label={'CORPORATE SHOWROOM'}
+				label={'MINDFUL SHOWROOM'}
 				href="./exp/1551-wewatta"
 				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 			/>
