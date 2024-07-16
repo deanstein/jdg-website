@@ -1,0 +1,92 @@
+<script>
+	import {
+		JDGBodyCopy,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGGridLayout,
+		JDGImageCarousel,
+		JDGImageFullWidth,
+		JDGImageTile
+	} from 'jdg-ui-svelte';
+	import imageAttributesCollection from '../../image-attributes-collection';
+</script>
+
+<JDGContentContainer>
+	<JDGContentBoxFloating
+		title="CAMPUS VILLAGE ADAPTIVE REUSE"
+		subtitle="Micro mixed-use transforms a former school"
+	>
+		<JDGBodyCopy paddingTop="0">
+			<i>
+				This project examines an alternate ending for an old building with a unique history that was
+				demolished in 2013. For more on the original building, see my historical narrative on <a
+					href="./hst/flood-middle-school">Flood Middle School</a
+				>.
+				<br /><br />
+				This is part of a series of experimental 3D models built and tested while working on the
+				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
+			</i>
+		</JDGBodyCopy>
+		<JDGImageFullWidth imageAttributes={imageAttributesCollection.exp.fms_campus_lawn} />
+		<JDGBodyCopy>
+			The Campus Village concept is an exploration of alternate uses for a former middle school
+			property in Englewood, Colorado. The site and building layout provide unique opportunities for
+			a micro mixed-use development.
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.exp.fms_campus_before_aerial}
+				showCaption={true}
+				fillContainer={false}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.exp.fms_campus_massing}
+				showCaption={true}
+				fillContainer={false}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.exp.fms_campus_aerial}
+				showCaption={true}
+				fillContainer={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy>
+			This concept includes installing a series walk-up townhomes in former classroom space,
+			complete with original chalkboards and wood floors from the oldest wings of the building. The
+			townhomes would front an amenities plaza on the site of the original school lawn, and would be
+			anchored at the rear to the original school hallways, which would provide an interior common
+			circulation system.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.exp.fms_campus_lawn,
+				imageAttributesCollection.exp.fms_campus_before_1,
+				imageAttributesCollection.exp.fms_campus_kenyon_corner,
+				imageAttributesCollection.exp.fms_campus_before_3
+			]}
+		/>
+		<JDGBodyCopy>
+			Other spaces like the 2-story auditorium and gym on either end would be transformed into
+			restaurant incubator space, as well as worksharing and office space. The original timber
+			structure from both would be exposed to add character to the spaces.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.exp.fms_campus_plaza,
+				imageAttributesCollection.exp.fms_campus_before_2
+			]}
+		/>
+		<JDGBodyCopy>
+			Newer construction at the back of the school could support additional floors, and would become
+			a boutique hotel in this concept. The hotel would drive foot traffic around the project's
+			perimeter, including the new food truck-lined paseo that links the front and back of the
+			property.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.exp.fms_campus_paseo,
+				imageAttributesCollection.exp.fms_campus_before_4
+			]}
+		/>
+	</JDGContentBoxFloating>
+</JDGContentContainer>
