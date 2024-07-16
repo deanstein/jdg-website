@@ -146,6 +146,40 @@ const imageAttributesCollection = {
 				imgCaption:
 					'On the south side of the school, an existing two-floor wing is transformed into walk-up townhomes.'
 			})
+		),
+		sixteen_pearl_before: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721154488/jdg-website/exp/sixteen-pearl-before.jpg'
+				),
+				imgCaption: 'The original apartment building in 2015.'
+			})
+		),
+		sixteen_pearl_corner: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721154489/jdg-website/exp/sixteen-pearl-corner.jpg'
+				),
+				imgCaption:
+					'New 3-story walk-up townhomes fit within the original building, with an added rooftop deck and outdoor spaces on each level.'
+			})
+		),
+		sixteen_pearl_interior: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721154489/jdg-website/exp/sixteen-pearl-interior.jpg'
+				),
+				imgCaption:
+					'A bright, glassy stairwell provides vertical access and brightens spaces throughout the units and building.'
+			})
+		),
+		sixteen_pearl_terrace: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721154489/jdg-website/exp/sixteen-pearl-terrace.jpg'
+				),
+				imgCaption: 'Exterior spaces are added on the front and roof of each unit.'
+			})
 		)
 	},
 	architecture_0: instantiateObject(jdgImageAttributes, {

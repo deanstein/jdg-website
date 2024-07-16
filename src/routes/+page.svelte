@@ -64,10 +64,14 @@
 			/>
 			<JDGImageTile
 				label={'CAMPUS ADAPTIVE REUSE'}
-				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
 				href="./exp/fms-campus"
+				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
 			/>
-			<JDGImageTile label={'16 PEARL ADAPTIVE REUSE'} />
+			<JDGImageTile
+				label={'16 PEARL ADAPTIVE REUSE'}
+				href="./exp/sixteen-pearl"
+				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
+			/>
 			<JDGImageTile label={'SPEER POINT ADAPTIVE REUSE'} />
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center">
