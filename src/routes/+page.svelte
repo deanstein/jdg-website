@@ -17,7 +17,7 @@
 		<div class="intro-content-1">with experience in:</div>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.architecture_0}
+				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 				label={'ARCHITECTURE'}
 				labelContainerVerticalAlign="bottom"
 				labelJustification="center"

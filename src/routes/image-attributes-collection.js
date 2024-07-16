@@ -199,13 +199,6 @@ const imageAttributesCollection = {
 			})
 		)
 	},
-	architecture_0: instantiateObject(jdgImageAttributes, {
-		imgSrc: addCloudinaryUrlTransformation(
-			'https://res.cloudinary.com/jdg-main/image/upload/v1720834645/jdg-website/architecture/architecture-0.jpg'
-		),
-		imgAlt: 'Architecture',
-		imgCaption: 'Architecture'
-	}),
 	products_0: instantiateObject(jdgImageAttributes, {
 		imgSrc: addCloudinaryUrlTransformation(
 			'https://res.cloudinary.com/jdg-main/image/upload/v1720834651/jdg-website/products/products-0.jpg'
