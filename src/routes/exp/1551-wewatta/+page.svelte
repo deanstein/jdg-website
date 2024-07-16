@@ -21,13 +21,13 @@
 			</i>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
-			The beige corporate headquarters at the corner of 15th and Delgany in Denver, Colorado could
-			have been transformed into something magical.
+			A large office building at 15th and Wewatta in Denver, Colorado gets a major overhaul as the
+			headquarters of a fictional outdoor apparel company.
 			<br /><br />
-			Housing the parent company of an outdoor apparel manufacturer, the building has an opportunity
-			to maximize its impact at the intersection by replacing the low-rise offices with an eye-catching
-			showroom and cafe, complete with a new public space between the showroom and the original office
-			tower.
+			The short, 3-level portion of the building is demolished to make room for a striking, glassy showroom
+			and coffee shop anchoring the prominent intersection. Between the new showroom and the existing
+			office building, a new pedestrian alley allows visitors to cut across the site and experience the
+			showroom from another angle.
 		</JDGBodyCopy>
 		<JDGImageCarousel
 			imageAttributeObjects={[
