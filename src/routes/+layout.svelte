@@ -1,15 +1,17 @@
 <script>
+	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 
-	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
-	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+	import uiState from 'jdg-ui-svelte/states/ui-state.js';
 
 	import {
 		JDGAppContainer,
 		JDGBackground,
 		JDGFooter,
 		JDGHeader,
+		JDGImageDetailOverlay,
 		JDGSocialMedia
 	} from 'jdg-ui-svelte';
 
@@ -40,11 +42,18 @@
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 </script>
 
-<JDGAppContainer appLoadingIconSrc="./jdg-logo.jpg" showHeaderStripes={false}>
+<JDGAppContainer
+	appLoadingIconSrc={addCloudinaryUrlTransformation(
+		'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
+	)}
+	showHeaderStripes={false}
+>
 	<JDGHeader
 		logoSupertitle={'THE WORK OF'}
 		logoTitle={'JOSHUA DEAN GOLDSTEIN'}
-		logoSrc={'./jdg-logo.jpg'}
+		logoSrc={addCloudinaryUrlTransformation(
+			'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
+		)}
 		{navItems}
 	/>
 
@@ -52,11 +61,20 @@
 
 	<slot />
 
-	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer}>
+	<JDGFooter
+		repoName={jdgWebsiteRepoName}
+		{appVersion}
+		{additionalVersionData}
+		{disclaimer}
+		alignItems="center"
+	>
 		<JDGSocialMedia
 			instagramHref={jdgSharedUrls.jdgInstagram}
 			linkedinHref={jdgSharedUrls.jdgLinkedIn}
 			githubHref={jdgSharedUrls.jdgGitHub}
 		/>
 	</JDGFooter>
+	{#if $uiState.showImageDetailOverlay}
+		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
+	{/if}
 </JDGAppContainer>
