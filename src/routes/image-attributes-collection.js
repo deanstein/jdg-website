@@ -100,7 +100,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1721073530/jdg-website/exp/fms-campus-plaza.jpg'
 				),
 				imgCaption:
-					'The former large gymnasium on the northwest corner is transformed into ground-level retail with offices above, along with a plaza to provide access to the east side of the property.'
+					"The school's largest gym is demolished on the northwest corner to make room for a pedestrian paseo, overlooked by the original small gymnasium which has been converted to boutique office and retail."
 			})
 		),
 		fms_campus_paseo: postProcessImageAttributes(

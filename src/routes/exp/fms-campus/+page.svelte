@@ -29,9 +29,13 @@
 		</JDGBodyCopy>
 		<JDGImageFullWidth imageAttributes={imageAttributesCollection.exp.fms_campus_lawn} />
 		<JDGBodyCopy>
-			The Campus Village concept is an exploration of alternate uses for a former middle school
-			property in Englewood, Colorado. The site and building layout provide unique opportunities for
-			a micro mixed-use development.
+			The Campus Village concept is an exploration of alternate uses for the former <a
+				href="./hst/flood-middle-school">Flood Middle School</a
+			>
+			property in Englewood, Colorado.
+			<br /><br />
+			Sited at a prominent intersection, this historic building with a unique layout and history offers
+			a rare chance to create a micro mixed-use development with historic charm.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -64,6 +68,7 @@
 				imageAttributesCollection.exp.fms_campus_kenyon_corner,
 				imageAttributesCollection.exp.fms_campus_before_3
 			]}
+			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			Other spaces like the 2-story auditorium and gym on either end would be transformed into
@@ -75,6 +80,7 @@
 				imageAttributesCollection.exp.fms_campus_plaza,
 				imageAttributesCollection.exp.fms_campus_before_2
 			]}
+			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			Newer construction at the back of the school could support additional floors, and would become
@@ -87,6 +93,7 @@
 				imageAttributesCollection.exp.fms_campus_paseo,
 				imageAttributesCollection.exp.fms_campus_before_4
 			]}
+			maxHeight="600px"
 		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
