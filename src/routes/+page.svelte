@@ -72,7 +72,11 @@
 				href="./exp/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
 			/>
-			<JDGImageTile label={'SPEER POINT ADAPTIVE REUSE'} />
+			<JDGImageTile
+				label={'SPEER POINT ADAPTIVE REUSE'}
+				href="./exp/speer-point"
+				imageAttributes={imageAttributesCollection.exp.speer_point_after}
+			/>
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center">
 			<h3>LEGACY PLACES</h3>

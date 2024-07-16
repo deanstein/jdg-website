@@ -180,6 +180,23 @@ const imageAttributesCollection = {
 				),
 				imgCaption: 'Exterior spaces are added on the front and roof of each unit.'
 			})
+		),
+		speer_point_before: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721164768/jdg-website/exp/speer-point-before.jpg'
+				),
+				imgCaption: 'The original building at 10th and Speer in Denver.'
+			})
+		),
+		speer_point_after: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721164767/jdg-website/exp/speer-point-after.jpg'
+				),
+				imgCaption:
+					'An alternate use scheme includes artist studios, a cafe, a restaurant, and event space.'
+			})
 		)
 	},
 	architecture_0: instantiateObject(jdgImageAttributes, {
