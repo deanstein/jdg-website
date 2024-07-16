@@ -42,6 +42,14 @@ const imageAttributesCollection = {
 				imgCaption: 'The new showroom and cafe as seen through an orthographic elevation view.'
 			})
 		),
+		encode_campus_after: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721170481/jdg-website/exp/encode-campus-after.jpg'
+				),
+				imgCaption: 'The new showroom and cafe as seen through an orthographic elevation view.'
+			})
+		),
 		fms_campus_before_aerial: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(

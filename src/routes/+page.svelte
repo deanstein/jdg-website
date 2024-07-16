@@ -63,9 +63,14 @@
 				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 			/>
 			<JDGImageTile
-				label={'CAMPUS ADAPTIVE REUSE'}
+				label={'SCHOOL ADAPTIVE REUSE'}
 				href="./exp/fms-campus"
 				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+			/>
+			<JDGImageTile
+				label={'ENCODE CAMPUS'}
+				href="./exp/encode-campus"
+				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
 			/>
 			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
