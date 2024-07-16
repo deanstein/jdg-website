@@ -10,16 +10,17 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title="MINDFUL CORPORATE SHOWROOM"
-		subtitle="Softening a harsh intersection with a pedestrian-scale showroom"
+		title="MINDFUL SHOWROOM"
+		subtitle="Softening a corporate corner with a pedestrian-scale showroom"
 	>
-		<JDGBodyCopy paddingTop="0" textAlign="center">
+		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>
-				This is part of a series of experimental 3D models built and tested while working on the
+				This is part of a series of experimental 3D models
+				<br /> built while working on the
 				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
 			</i>
 		</JDGBodyCopy>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0">
 			The beige corporate headquarters at the corner of 15th and Delgany in Denver, Colorado could
 			be transformed into something magical.
 			<br /><br />

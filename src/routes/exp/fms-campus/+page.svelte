@@ -16,14 +16,16 @@
 		title="CAMPUS VILLAGE ADAPTIVE REUSE"
 		subtitle="Micro mixed-use transforms a former school"
 	>
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>
 				This project examines an alternate ending for an old building with a unique history that was
-				demolished in 2013. For more on the original building, see my historical narrative on <a
-					href="./hst/flood-middle-school">Flood Middle School</a
-				>.
+				demolished in 2013.
+				<br />
+				For more on the original building, see my historical narrative on
+				<a href="./hst/flood-middle-school">Flood Middle School</a>.
 				<br /><br />
-				This is part of a series of experimental 3D models built and tested while working on the
+				This is part of a series of experimental 3D models
+				<br /> built while working on the
 				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
 			</i>
 		</JDGBodyCopy>
