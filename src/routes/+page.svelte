@@ -113,6 +113,16 @@
 				href="./arch/bayou-mixed-use"
 				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_2}
 			/>
+			<JDGImageTile
+				label={'MODERN TEXAS LOBBY'}
+				href="./arch/texas-lobby"
+				imageAttributes={imageAttributesCollection.arch.texas_lobby}
+			/>
+			<JDGImageTile
+				label={'ORCHARD TOWN CENTER'}
+				href="./arch/orchard-town-center"
+				imageAttributes={imageAttributesCollection.arch.otc_below}
+			/>
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>

@@ -5,15 +5,16 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title="BAYOU MIXED USE"
-		subtitle="A new urban riverside destination for New Orleans"
+		title="ORCHARD TOWN CENTER"
+		subtitle="A community gathering space inspired by Prairie Style architecture"
 	>
 		<JDGImageCarousel
 			imageAttributeObjects={[
-				imageAttributesCollection.arch.bayou_mixed_use_4,
-				imageAttributesCollection.arch.bayou_mixed_use_2,
-				imageAttributesCollection.arch.bayou_mixed_use_3,
-				imageAttributesCollection.arch.bayou_mixed_use_1
+				imageAttributesCollection.arch.otc_below,
+				imageAttributesCollection.arch.otc_far,
+				imageAttributesCollection.arch.otc_column,
+				imageAttributesCollection.arch.otc_seating,
+				imageAttributesCollection.arch.otc_rendering
 			]}
 			maxHeight="600px"
 		/>
