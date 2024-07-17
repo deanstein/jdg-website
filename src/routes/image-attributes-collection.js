@@ -16,6 +16,75 @@ export const postProcessImageAttributes = (jdgImageAttributes) => {
 const imageAttributesCollection = {
 	arch: {},
 	exp: {
+		broadway_southwest_before_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721173132/jdg-website/exp/broadway-southwest-before-1.jpg'
+				),
+				imgCaption:
+					"Built in 1985 as the Broadway Southwest, the department store later became May D&F and then Foley's before Cinderella City closed in 1997."
+			})
+		),
+		broadway_southwest_before_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721173134/jdg-website/exp/broadway-southwest-before-2.jpg'
+				),
+				imgCaption:
+					'After Cinderella City was demolished in 1998, the former department store was saved and converted into the Englewood Civic Center.'
+			})
+		),
+		broadway_southwest_concept_1_aerial: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176141/jdg-website/exp/broadway-southwest-concept-1-aerial.jpg'
+				),
+				imgCaption: 'An aerial showing Concept 1 and its design intent.'
+			})
+		),
+		broadway_southwest_concept_1_market: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176149/jdg-website/exp/broadway-southwest-concept-1-market.jpg'
+				),
+				imgCaption: "A farmer's market takes place in the east paseo."
+			})
+		),
+		broadway_southwest_concept_1_promenade: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176151/jdg-website/exp/broadway-southwest-concept-1-promenade.jpg'
+				),
+				imgCaption:
+					'A terraced promenade replaces the former parking garage, providing much-needed greenery and open space in front of the building.'
+			})
+		),
+		broadway_southwest_concept_2_aerial: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176142/jdg-website/exp/broadway-southwest-concept-2-aerial.jpg'
+				),
+				imgCaption: 'An aerial showing Concept 1 and its design intent.'
+			})
+		),
+		broadway_southwest_concept_2_passage: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176145/jdg-website/exp/broadway-southwest-concept-2-passage.jpg'
+				),
+				imgCaption:
+					"The new passageway could serve as a connection to the site's history, educating visitors about the park and mall that preceded the Civic Center."
+			})
+		),
+		broadway_southwest_concept_2_promenade: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721176146/jdg-website/exp/broadway-southwest-concept-2-promenade.jpg'
+				),
+				imgCaption:
+					'A terraced promenade replaces the former parking garage, providing much-needed greenery and open space in front of the building.'
+			})
+		),
 		corporate_showroom_before: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(

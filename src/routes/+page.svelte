@@ -73,6 +73,11 @@
 				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
 			/>
 			<JDGImageTile
+				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
+				href="./exp/broadway-southwest"
+				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+			/>
+			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
 				href="./exp/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
