@@ -26,6 +26,7 @@
 			maxHeight="600px"
 			fillContainer={false}
 			showBlurInUnfilledSpace={true}
+			showCaption={true}
 		/>
 		<JDGBodyCopy>
 			This model was created to demonstrate the power of FormIt and Dynamo, specifically the
