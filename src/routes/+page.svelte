@@ -83,6 +83,11 @@
 				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
 			/>
 			<JDGImageTile
+				label={'O2 RESEARCH LOBBY STUDY'}
+				href="./exp/o2-research"
+				imageAttributes={imageAttributesCollection.exp.o2_research}
+			/>
+			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
 				href="./exp/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}

@@ -251,6 +251,14 @@ const imageAttributesCollection = {
 					'On the south side of the school, an existing two-floor wing is transformed into walk-up townhomes.'
 			})
 		),
+		o2_research: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721184331/jdg-website/exp/o2-research-lobby.jpg'
+				),
+				imgCaption: 'A spacious and curvacious lobby, with ample foliage and gathering spaces.'
+			})
+		),
 		ranch_elsie_option_3: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
