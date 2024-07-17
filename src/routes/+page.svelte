@@ -123,6 +123,16 @@
 				href="./arch/orchard-town-center"
 				imageAttributes={imageAttributesCollection.arch.otc_below}
 			/>
+			<JDGImageTile
+				label={'OLD ORCHARD'}
+				href="./arch/old-orchard"
+				imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
+			/>
+			<JDGImageTile
+				label={'ABANDONED SCHOOL REUSE'}
+				href="./arch/random-school"
+				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+			/>
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
