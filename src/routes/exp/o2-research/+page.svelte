@@ -6,7 +6,7 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title="O2 RESEARCH LOBBY STUDY"
-		subtitle="Curvacious biophilia for an office lobby"
+		subtitle="A spacious and curvacious office lobby"
 	>
 		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>

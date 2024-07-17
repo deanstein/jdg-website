@@ -148,8 +148,21 @@
 				href="./arch/beach-chic"
 				imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
 			/>
-			<JDGImageTile label={'PROJECT 2'} />
-			<JDGImageTile label={'PROJECT 3'} />
+			<JDGImageTile
+				label={'GRITTY BBQ ADAPTIVE REUSE'}
+				href="./arch/gritty-bbq"
+				imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
+			/>
+			<JDGImageTile
+				label={'MINDFUL MULTIFAMILY'}
+				href="./arch/mindful-multifamily"
+				imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
+			/>
+			<JDGImageTile
+				label={'ARROWHEAD TOWNE CENTER'}
+				href="./arch/arrowhead-towne-center"
+				imageAttributes={imageAttributesCollection.arch.atc_elevator}
+			/>
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>HISTORIC PLACES</h3>
