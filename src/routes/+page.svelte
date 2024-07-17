@@ -133,6 +133,21 @@
 				href="./arch/random-school"
 				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
 			/>
+			<JDGImageTile
+				label={'MINDFUL LIVE/WORK CAMPUS'}
+				href="./arch/mindful-campus"
+				imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
+			/>
+			<JDGImageTile
+				label={'THE FAIRGROUNDS'}
+				href="./arch/fairgrounds"
+				imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
+			/>
+			<JDGImageTile
+				label={'BEACH CHIC ADAPTIVE REUSE'}
+				href="./arch/beach-chic"
+				imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+			/>
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
