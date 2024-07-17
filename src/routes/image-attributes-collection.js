@@ -250,6 +250,24 @@ const imageAttributesCollection = {
 					'On the south side of the school, an existing two-floor wing is transformed into walk-up townhomes.'
 			})
 		),
+		ranch_elsie_option_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721182476/jdg-website/exp/ranch-elsie-option-3.jpg'
+				),
+				imgCaption:
+					'The layout takes advantage of the natural site topography, and the roof design was the result of computational design in Autodesk FormIt and Dynamo.'
+			})
+		),
+		ranch_elsie_roof_optioneering: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721182479/jdg-website/exp/ranch-elsie-roof-optioneering.gif'
+				),
+				imgCaption:
+					'Quick roof optioneering studies made possible by the integration between Autodesk FormIt and Autodesk Dynamo.'
+			})
+		),
 		sixteen_pearl_before: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(

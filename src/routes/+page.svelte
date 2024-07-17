@@ -78,6 +78,11 @@
 				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
 			/>
 			<JDGImageTile
+				label={'RANCH ELSIE MODERN HOME'}
+				href="./exp/ranch-elsie"
+				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+			/>
+			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
 				href="./exp/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
