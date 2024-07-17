@@ -108,7 +108,11 @@
 			Architectural designs from school and early career.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'PROJECT 1'} />
+			<JDGImageTile
+				label={'BAYOU MIXED USE'}
+				href="./arch/bayou-mixed-use"
+				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_2}
+			/>
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>

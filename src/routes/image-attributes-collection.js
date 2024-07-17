@@ -14,7 +14,36 @@ export const postProcessImageAttributes = (jdgImageAttributes) => {
 // a map of all available images and their attributes
 // new images with a caption must be added here
 const imageAttributesCollection = {
-	arch: {},
+	arch: {
+		bayou_mixed_use_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721190776/jdg-website/arch/bayou-mixed-use-1.jpg'
+				)
+			})
+		),
+		bayou_mixed_use_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721190775/jdg-website/arch/bayou-mixed-use-2.jpg'
+				)
+			})
+		),
+		bayou_mixed_use_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721190778/jdg-website/arch/bayou-mixed-use-3.jpg'
+				)
+			})
+		),
+		bayou_mixed_use_4: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721190780/jdg-website/arch/bayou-mixed-use-4.jpg'
+				)
+			})
+		)
+	},
 	exp: {
 		broadway_southwest_before_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
@@ -325,7 +354,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1721164767/jdg-website/exp/speer-point-after.jpg'
 				),
 				imgCaption:
-					'An alternate use scheme includes artist studios, a cafe, a restaurant, and event space.'
+					'The alternate use scheme includes artist studios, a cafe, a restaurant, and event space.'
 			})
 		)
 	},
