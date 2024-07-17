@@ -24,7 +24,8 @@
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
 			Built in 1985 as a Broadway Southwest department store for <a
-				href="https://www.cinderellacityproject.com/history" target="_blank">Cinderella City Mall</a
+				href="https://www.cinderellacityproject.com/history"
+				target="_blank">Cinderella City Mall</a
 			> and reused in 1998 as the Englewood Civic Center in Englewood, Colorado, this building is once
 			again facing the threat of the wrecking ball.
 		</JDGBodyCopy>
@@ -45,7 +46,7 @@
 			retail/office mix, and cutting a passage down its center to convert the upper levels to a
 			boutique hotel.
 		</JDGBodyCopy>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0">
 			<h3 style="text-align: center;">CONCEPT 1: FOOD HALL + COWORKING</h3>
 			<ul>
 				<li>Introduce Englewood's first food hall on the ground level</li>
@@ -61,7 +62,7 @@
 			]}
 			maxHeight="600px"
 		/>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0">
 			<h3 style="text-align: center;">CONCEPT 2: FOOD HALL + HOTEL</h3>
 			<ul>
 				<li>Introduce Englewood's first food hall on the ground level</li>
@@ -84,6 +85,10 @@
 			]}
 			maxHeight="600px"
 		/>
-		<JDGBodyCopy>Check out the project vision book for more detail on both schemes.</JDGBodyCopy>
+		<JDGBodyCopy
+			>Check out the <a href="https://1drv.ms/b/s!Aqq9aYoi8d58nKQl5jqNYxcy4ddt9Q?e=ERTi2D"
+				>project vision book</a
+			> for more detail on both schemes.</JDGBodyCopy
+		>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

@@ -50,7 +50,7 @@
 			I received my Master of Architecture degree in 2013 and worked at a world-class design firm before
 			eventually moving into <a href="#software">architectural software.</a>
 		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center">
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>EXPERIMENTAL PLACES</h3>
 			Testing grounds for architecture and software. These projects were digitally built using<a
 				href="https://formit.autodesk.com">Autodesk FormIt</a
@@ -87,8 +87,13 @@
 				href="./exp/speer-point"
 				imageAttributes={imageAttributesCollection.exp.speer_point_after}
 			/>
+			<JDGImageTile
+				label={'FIFTEEN PLATTE MODERN OFFICE'}
+				href="./exp/fifteen-platte"
+				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
+			/>
 		</JDGGridLayout>
-		<JDGBodyCopy textAlign="center">
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>LEGACY PLACES</h3>
 			Architectural designs from school and early career.
 		</JDGBodyCopy>
@@ -97,7 +102,7 @@
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
-		<JDGBodyCopy textAlign="center">
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>HISTORIC PLACES</h3>
 			Buildings lost to time, their dramatic rise and fall a product of a disposable society.
 			<br />

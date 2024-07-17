@@ -119,6 +119,32 @@ const imageAttributesCollection = {
 				imgCaption: 'The new showroom and cafe as seen through an orthographic elevation view.'
 			})
 		),
+		fifteen_platte_dynamo: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721180332/jdg-website/exp/fifteen-platte-dynamo.jpg'
+				),
+				imgCaption:
+					'FormIt and Dynamo working together to iterate on the exterior structural column design.'
+			})
+		),
+		fifteen_platte_grayscale: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721180328/jdg-website/exp/fifteen-platte-grayscale.jpg'
+				),
+				imgCaption: 'Eliminating the materials and colors for a shading study.'
+			})
+		),
+		fifteen_platte_sunset: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1721180328/jdg-website/exp/fifteen-platte-sunset.jpg'
+				),
+				imgCaption:
+					'A glassy office building gets some shade from extended floor plates and some style thanks to the angled exterior columns.'
+			})
+		),
 		fms_campus_before_aerial: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
