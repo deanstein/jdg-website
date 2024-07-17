@@ -116,7 +116,8 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1721170481/jdg-website/exp/encode-campus-after.jpg'
 				),
-				imgCaption: 'The new showroom and cafe as seen through an orthographic elevation view.'
+				imgCaption:
+					'An urban plaza anchors the new building design in the foreground, bookended by modernized existing brick buildings on either side..'
 			})
 		),
 		fifteen_platte_dynamo: postProcessImageAttributes(
