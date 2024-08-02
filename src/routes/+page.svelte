@@ -1,10 +1,12 @@
 <script>
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import imageAttributesCollection from './image-attributes-collection';
 
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGFullWidthContainer,
 		JDGGridLayout,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
@@ -38,6 +40,23 @@
 				href="#software"
 			/>
 		</JDGGridLayout>
+		<JDGBodyCopy>
+			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
+			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
+			software and videogame developer, product designer, and architectural historian.
+			<br /><br />
+			I'm also the creator of
+			<a href="https://www.cinderellacityproject.com/" target="blank">The Cinderella City Project</a
+			>, an immersive digital reconstruction of a unique mid-century shopping center of the same in
+			Englewood, Colorado.
+			<br /><br />
+			Interested in working together? Check out my
+			<a
+				href="https://res.cloudinary.com/jdg-main/image/upload/v1722571752/jdg-website/2024_05_JDG_resume.pdf"
+				target="blank">resume</a
+			>
+			or connect with me on <a href={jdgSharedUrls.jdgLinkedIn} target="blank">LinkedIn</a>.
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURE'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
@@ -50,8 +69,8 @@
 			I received my Master of Architecture degree in 2013 and worked at a world-class design firm before
 			eventually moving into <a href="#software">architectural software.</a>
 		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center" paddingBottom="0">
-			<h3>EXPERIMENTAL PLACES</h3>
+		<JDGBodyCopy textAlign="center" paddingBottom="0" paddingTop="0">
+			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
 			Testing grounds for architecture and software. These projects were digitally built using<a
 				href="https://formit.autodesk.com">Autodesk FormIt</a
 			>, for which I was a Senior Product Manager.
@@ -104,7 +123,7 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
-			<h3>LEGACY PLACES</h3>
+			<h3>LEGACY DESIGNS (2010-2015)</h3>
 			Architectural designs from school and early career.
 		</JDGBodyCopy>
 		<JDGGridLayout>
@@ -164,15 +183,16 @@
 				imageAttributes={imageAttributesCollection.arch.atc_elevator}
 			/>
 		</JDGGridLayout>
-		<JDGBodyCopy textAlign="center" paddingBottom="0">
-			<h3>HISTORIC PLACES</h3>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="ARCHITECTURAL HISTORY">
+		<JDGBodyCopy textAlign="center" paddingBottom="0" paddingTop="0">
 			Buildings lost to time, their dramatic rise and fall a product of a disposable society.
 			<br />
 			These places fascinated me as an aspiring architect, so I've documented their stories here.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'PROJECT 1'} />
-			<JDGImageTile label={'PROJECT 2'} />
+			<JDGImageTile label={'CINDERELLA CITY MALL'} />
+			<JDGImageTile label={'FLOOD MIDDLE SCHOOL'} />
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'PRODUCTS'}>
