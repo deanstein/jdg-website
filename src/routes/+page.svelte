@@ -41,9 +41,13 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>
-			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
-			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
-			software and videogame developer, product designer, and architectural historian.
+			Inspired by the natural and built environments of Colorado, my passion for 3D design of all
+			things ignited a career in architecture that evolved into a unique software and engineering
+			legacy, spanning domains and defying categorization.
+			<br /><br />
+			Today, I'm a Senior Product Manager building the next generation of 3D architectural modeling software
+			at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a software
+			and videogame developer, product designer, and architectural historian.
 			<br /><br />
 			I'm also the creator of
 			<a href="https://www.cinderellacityproject.com/" target="blank">The Cinderella City Project</a
@@ -58,73 +62,34 @@
 			or connect with me on <a href={jdgSharedUrls.jdgLinkedIn} target="blank">LinkedIn</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title={'ARCHITECTURE'}>
-		<JDGBodyCopy paddingTop="0" textAlign="center">
-			Architecture is where it all started for me. 🎉
+	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
+		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
+			This is where it all started for me:
+			<br />
+			Buildings lost to time, their dramatic rise and fall a product of a disposable society.
 			<br /><br />
-			After seeing the wasteful demolition of a
-			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a>
-			as a child, I embarked on a career to understand and evolve retail architectural design.
+			These long-lost places inspired my early career in architecture and I find their history fascinating,
+			so I've documented their stories here.
 			<br /><br />
-			I received my Master of Architecture degree in 2013 and worked at a world-class design firm before
-			eventually moving into <a href="#software">architectural software.</a>
-		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center" paddingBottom="0" paddingTop="0">
-			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
-			Testing grounds for architecture and software. These projects were digitally built using<a
-				href="https://formit.autodesk.com">Autodesk FormIt</a
-			>, for which I was a Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile
-				label={'MINDFUL SHOWROOM'}
-				href="./exp/1551-wewatta"
-				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-			/>
-			<JDGImageTile
-				label={'SCHOOL ADAPTIVE REUSE'}
-				href="./exp/fms-campus"
-				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
-			/>
-			<JDGImageTile
-				label={'ENCODE CAMPUS'}
-				href="./exp/encode-campus"
-				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
-			/>
-			<JDGImageTile
-				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
-				href="./exp/broadway-southwest"
-				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
-			/>
-			<JDGImageTile
-				label={'RANCH ELSIE MODERN HOME'}
-				href="./exp/ranch-elsie"
-				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
-			/>
-			<JDGImageTile
-				label={'O2 RESEARCH LOBBY STUDY'}
-				href="./exp/o2-research"
-				imageAttributes={imageAttributesCollection.exp.o2_research}
-			/>
-			<JDGImageTile
-				label={'16 PEARL ADAPTIVE REUSE'}
-				href="./exp/sixteen-pearl"
-				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
-			/>
-			<JDGImageTile
-				label={'SPEER POINT ADAPTIVE REUSE'}
-				href="./exp/speer-point"
-				imageAttributes={imageAttributesCollection.exp.speer_point_after}
-			/>
-			<JDGImageTile
-				label={'FIFTEEN PLATTE MODERN OFFICE'}
-				href="./exp/fifteen-platte"
-				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
-			/>
+			<JDGImageTile label={'CINDERELLA CITY MALL'} />
+			<JDGImageTile label={'FLOOD MIDDLE SCHOOL'} />
 		</JDGGridLayout>
-		<JDGBodyCopy textAlign="center" paddingBottom="0">
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title={'ARCHITECTURE'}>
+		<JDGBodyCopy paddingTop="0" textAlign="center">
+			Seeing the wasteful demolition of
+			<a href="https://www.cinderellacityproject.com/about">Cinderella City Mall</a> inspired in me
+			a career to understand and evolve retail architectural design.
+			<br /><br />
+			I received my Master of Architecture degree in 2013 and designed world-class retail centers before
+			eventually moving into <a href="#software">architectural software</a> in 2015.
+		</JDGBodyCopy>
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>LEGACY DESIGNS (2010-2015)</h3>
-			Architectural designs from school and early career.
+			School through early career: These projects were designed while pursuing architecture degree and
+			during my tenure as Associate Designer at 505Design.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -183,16 +148,58 @@
 				imageAttributes={imageAttributesCollection.arch.atc_elevator}
 			/>
 		</JDGGridLayout>
-	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="ARCHITECTURAL HISTORY">
-		<JDGBodyCopy textAlign="center" paddingBottom="0" paddingTop="0">
-			Buildings lost to time, their dramatic rise and fall a product of a disposable society.
-			<br />
-			These places fascinated me as an aspiring architect, so I've documented their stories here.
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
+			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
+			Testing grounds for architecture and software. These projects were digitally built using<a
+				href="https://formit.autodesk.com">Autodesk FormIt</a
+			>, for which I was a Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'CINDERELLA CITY MALL'} />
-			<JDGImageTile label={'FLOOD MIDDLE SCHOOL'} />
+			<JDGImageTile
+				label={'MINDFUL SHOWROOM'}
+				href="./exp/1551-wewatta"
+				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+			/>
+			<JDGImageTile
+				label={'SCHOOL ADAPTIVE REUSE'}
+				href="./exp/fms-campus"
+				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+			/>
+			<JDGImageTile
+				label={'ENCODE CAMPUS'}
+				href="./exp/encode-campus"
+				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+			/>
+			<JDGImageTile
+				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
+				href="./exp/broadway-southwest"
+				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+			/>
+			<JDGImageTile
+				label={'RANCH ELSIE MODERN HOME'}
+				href="./exp/ranch-elsie"
+				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+			/>
+			<JDGImageTile
+				label={'O2 RESEARCH LOBBY STUDY'}
+				href="./exp/o2-research"
+				imageAttributes={imageAttributesCollection.exp.o2_research}
+			/>
+			<JDGImageTile
+				label={'16 PEARL ADAPTIVE REUSE'}
+				href="./exp/sixteen-pearl"
+				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
+			/>
+			<JDGImageTile
+				label={'SPEER POINT ADAPTIVE REUSE'}
+				href="./exp/speer-point"
+				imageAttributes={imageAttributesCollection.exp.speer_point_after}
+			/>
+			<JDGImageTile
+				label={'FIFTEEN PLATTE MODERN OFFICE'}
+				href="./exp/fifteen-platte"
+				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
+			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'PRODUCTS'}>
