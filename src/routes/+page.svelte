@@ -64,12 +64,11 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
-			This is where it all started for me:
-			<br />
-			Buildings lost to time, their dramatic rise and fall a product of a disposable society.
+			Local places lost to time, <br />their dramatic rise and fall the product of a disposable
+			society.
 			<br /><br />
-			These long-lost places inspired my early career in architecture and I find their history fascinating,
-			so I've documented their stories here.
+			Theses quirky designs inspired my career,<br />
+			and their fascinating histories offer lessons for today.
 			<br /><br />
 		</JDGBodyCopy>
 		<JDGGridLayout>
@@ -79,9 +78,9 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURE'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
-			Seeing the wasteful demolition of
-			<a href="https://www.cinderellacityproject.com/about">Cinderella City Mall</a> inspired in me
-			a career to understand and evolve retail architectural design.
+			Seeing the wasteful demolition of a
+			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
+			my career in retail architectural design.
 			<br /><br />
 			I received my Master of Architecture degree in 2013 and designed world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
@@ -94,57 +93,57 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'BAYOU MIXED USE'}
-				href="./arch/bayou-mixed-use"
+				href="./architecture/bayou-mixed-use"
 				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_2}
 			/>
 			<JDGImageTile
 				label={'MODERN TEXAS LOBBY'}
-				href="./arch/texas-lobby"
+				href="./architecture/texas-lobby"
 				imageAttributes={imageAttributesCollection.arch.texas_lobby}
 			/>
 			<JDGImageTile
 				label={'ORCHARD TOWN CENTER'}
-				href="./arch/orchard-town-center"
+				href="./architecture/orchard-town-center"
 				imageAttributes={imageAttributesCollection.arch.otc_below}
 			/>
 			<JDGImageTile
 				label={'OLD ORCHARD'}
-				href="./arch/old-orchard"
+				href="./architecture/old-orchard"
 				imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
 			/>
 			<JDGImageTile
 				label={'ABANDONED SCHOOL REUSE'}
-				href="./arch/random-school"
+				href="./architecture/random-school"
 				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
 			/>
 			<JDGImageTile
 				label={'MINDFUL LIVE/WORK CAMPUS'}
-				href="./arch/mindful-campus"
+				href="./architecture/mindful-campus"
 				imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
 			/>
 			<JDGImageTile
 				label={'THE FAIRGROUNDS'}
-				href="./arch/fairgrounds"
+				href="./architecture/fairgrounds"
 				imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
 			/>
 			<JDGImageTile
 				label={'BEACH CHIC ADAPTIVE REUSE'}
-				href="./arch/beach-chic"
+				href="./architecture/beach-chic"
 				imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
 			/>
 			<JDGImageTile
 				label={'GRITTY BBQ ADAPTIVE REUSE'}
-				href="./arch/gritty-bbq"
+				href="./architecture/gritty-bbq"
 				imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
 			/>
 			<JDGImageTile
 				label={'MINDFUL MULTIFAMILY'}
-				href="./arch/mindful-multifamily"
+				href="./architecture/mindful-multifamily"
 				imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
 			/>
 			<JDGImageTile
 				label={'ARROWHEAD TOWNE CENTER'}
-				href="./arch/arrowhead-towne-center"
+				href="./architecture/arrowhead-towne-center"
 				imageAttributes={imageAttributesCollection.arch.atc_elevator}
 			/>
 		</JDGGridLayout>
@@ -157,47 +156,47 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'MINDFUL SHOWROOM'}
-				href="./exp/1551-wewatta"
+				href="./architecture-experimental/1551-wewatta"
 				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 			/>
 			<JDGImageTile
 				label={'CAMPUS VILLAGE ADAPTIVE REUSE'}
-				href="./exp/fms-campus"
+				href="./architecture-experimental/fms-campus"
 				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
 			/>
 			<JDGImageTile
 				label={'ENCODE CAMPUS'}
-				href="./exp/encode-campus"
+				href="./architecture-experimental/encode-campus"
 				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
 			/>
 			<JDGImageTile
 				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
-				href="./exp/broadway-southwest"
+				href="./architecture-experimental/broadway-southwest"
 				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
 			/>
 			<JDGImageTile
 				label={'RANCH ELSIE MODERN HOME'}
-				href="./exp/ranch-elsie"
+				href="./architecture-experimental/ranch-elsie"
 				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
 			/>
 			<JDGImageTile
 				label={'O2 RESEARCH LOBBY STUDY'}
-				href="./exp/o2-research"
+				href="./architecture-experimental/o2-research"
 				imageAttributes={imageAttributesCollection.exp.o2_research}
 			/>
 			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
-				href="./exp/sixteen-pearl"
+				href="./architecture-experimental/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
 			/>
 			<JDGImageTile
 				label={'SPEER POINT ADAPTIVE REUSE'}
-				href="./exp/speer-point"
+				href="./architecture-experimental/speer-point"
 				imageAttributes={imageAttributesCollection.exp.speer_point_after}
 			/>
 			<JDGImageTile
 				label={'FIFTEEN PLATTE MODERN OFFICE'}
-				href="./exp/fifteen-platte"
+				href="./architecture-experimental/fifteen-platte"
 				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
 			/>
 		</JDGGridLayout>
