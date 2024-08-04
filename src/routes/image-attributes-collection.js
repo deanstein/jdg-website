@@ -603,6 +603,134 @@ const imageAttributesCollection = {
 			})
 		)
 	},
+	hst: {
+		ehs_1919_plan: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722737633/jdg-website/hst/ehs-1919-plan.png'
+				),
+				imgCaption: "Englewood High School's original layout in 1919.",
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		ehs_1920_broadway_northeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722729966/jdg-website/hst/ehs-1920-broadway-northeast.jpg'
+				),
+				imgCaption:
+					'Englewood High School viewed from Broadway in 1920, a year after it was constructed.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		ehs_1936_southeast_wing: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722745253/jdg-website/hst/ehs-1936-southeast-wing.jpg'
+				),
+				imgCaption:
+					'The southeast wing under construction in 1936. By the 1960s, this would serve as the main entrance of Flood Junior High.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		ehs_1940s_aerial_northwest: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722738421/jdg-website/hst/ehs-1940s-aerial-northwest.jpg'
+				),
+				imgCaption: 'The high school is shown in the 1940s with the new south and north wings..',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1960s_renovation_courtyard: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722739369/jdg-website/hst/fms-1960s-renovation-courtyard.jpg'
+				),
+				imgCaption:
+					'Renovations begin in the courtyard, where a new semi-circular library would be added.',
+				imgAttribution: 'Getty Images'
+			})
+		),
+		fms_1967_east_side: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722745769/jdg-website/hst/fms-1967-east-side.jpg'
+				),
+				imgCaption:
+					"The new connector wing and new entrance attached to the south wing. Note the south wing's original architecture on the left.",
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1968_southeast_corner_entrance: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722746162/jdg-website/hst/fms-1968-southeast-corner-entrance.jpg'
+				),
+				imgCaption:
+					'The southeast wing, now renovated to match the new entrance and east wing of the junior high school.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_2000s_plan_additions: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722737633/jdg-website/hst/fms-2000s-plan-additions.png'
+				),
+				imgCaption: 'The school complex became a mess of additions and renovations by the 2000s.',
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2010s_aerial_northwest: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722738422/jdg-website/hst/fms-2010s-aerial-northwest.png'
+				),
+				imgCaption: 'Flood Middle School in the 2010s.',
+				imgAttribution: 'Bing Maps'
+			})
+		),
+		fms_2012_aerial_outline: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722738424/jdg-website/hst/fms-2012-aerial-outline.png'
+				),
+				imgCaption:
+					'The original Englewood High School (yellow) was augmented many times since 1919, creating an eclectic complex eventually known as Flood Middle School.',
+				imgAttribution: 'Bing Maps'
+			})
+		),
+		fms_2012_broadway_northeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722740258/jdg-website/hst/fms-2012-broadway-northeast.jpg'
+				),
+				imgCaption:
+					'Flood Middle School as seen in 2012 from Broadway. Its simplistic shell obscures a more ornate building underneath.',
+				imgAttribution: 'Englewood Schools'
+			})
+		),
+		fms_2012_courtyard_southwest: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722739371/jdg-website/hst/fms-2012-courtyard-southwest.jpg'
+				),
+				imgCaption:
+					'The courtyard as seen in 2012. Note the evidence of windows filled in, and signs of original brick detailing just under the roof line.',
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2013_broadway_northeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722729966/jdg-website/hst/fms-2013-broadway-northeast.jpg'
+				),
+				imgCaption:
+					"Flood Middle School's simplistic shell concealed the original Englewood High School building below it, as seen from Broadway during demolition in 2013.",
+				imgAttribution: 'Josh Goldstein'
+			})
+		)
+	},
 	products_0: instantiateObject(jdgImageAttributes, {
 		imgSrc: addCloudinaryUrlTransformation(
 			'https://res.cloudinary.com/jdg-main/image/upload/v1720834651/jdg-website/products/products-0.jpg'
