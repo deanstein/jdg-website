@@ -638,7 +638,36 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722738421/jdg-website/hst/ehs-1940s-aerial-northwest.jpg'
 				),
-				imgCaption: 'The high school is shown in the 1940s with the new south and north wings..',
+				imgCaption: 'The high school is shown in the 1940s with the new south and north wings.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		ehs_1950s_broadway_entrance: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722747056/jdg-website/hst/ehs-1950s-broadway-entrance.jpg'
+				),
+				imgCaption: 'The original main entrance of Englewood High School as seen in the 1950s.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1960s_broadway_entrance: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722747053/jdg-website/hst/fms-1960s-broadway-entrance.jpg'
+				),
+				imgCaption:
+					'After the 1960s remodel, little remains of the former grand entrance off of Broadway.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1960s_broadway_entrance_renovation: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722747336/jdg-website/hst/fms-1960s-broadway-entrance-renovation.jpg'
+				),
+				imgCaption:
+					"In 1965, crews began to remove ornate architectural details around the former entrance to match the district's new architectural standards.",
 				imgAttribution: 'Englewood Public Library'
 			})
 		),

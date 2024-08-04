@@ -94,7 +94,8 @@
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1936_southeast_wing,
-				imageAttributesCollection.hst.fms_2012_courtyard_southwest
+				imageAttributesCollection.hst.fms_1967_east_side,
+				imageAttributesCollection.hst.fms_1968_southeast_corner_entrance
 			]}
 			maxHeight="600px"
 		/>
@@ -104,5 +105,16 @@
 			windows, and columnades and were removed or covered with smooth beige brick, aligning with the
 			district's architectural standards at the time.
 		</JDGBodyCopy>
+		<JDGImageCarousel
+		imageAttributeObjects={[
+			imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
+			imageAttributesCollection.hst.fms_1960s_broadway_entrance_renovation,
+			imageAttributesCollection.hst.fms_1960s_broadway_entrance
+		]}
+		maxHeight="600px"
+	/>
+	<JDGBodyCopy>
+		Inside, ceilings were lowered, mechanical systems installed, carpet and tile covered up wood floors, and new drywall covered plaster and lathe walls. The original gymnasium and auditorium also saw major changes. The 1960s renovations saw the exposed wood trusses covered by lowered ceilings, and their large windows filled in and concealed with new interior walls.
+	</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
