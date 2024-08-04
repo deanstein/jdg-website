@@ -629,7 +629,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722745253/jdg-website/hst/ehs-1936-southeast-wing.jpg'
 				),
 				imgCaption:
-					'The southeast wing under construction in 1936. By the 1960s, this would serve as the main entrance of Flood Junior High.',
+					'The south wing under construction in 1936. This would become the main entrance of Flood Junior High in the 1960s.',
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
@@ -671,10 +671,10 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
-		fms_1960s_renovation_courtyard: postProcessImageAttributes(
+		fms_1960s_courtyard_renovation: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1722739369/jdg-website/hst/fms-1960s-renovation-courtyard.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722739369/jdg-website/hst/fms-1960s-courtyard-renovation.jpg'
 				),
 				imgCaption:
 					'Renovations begin in the courtyard, where a new semi-circular library would be added.',
@@ -697,7 +697,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722746162/jdg-website/hst/fms-1968-southeast-corner-entrance.jpg'
 				),
 				imgCaption:
-					'The southeast wing, now renovated to match the new entrance and east wing of the junior high school.',
+					'The renovated south wing, new east wing, and new junior high school main entrance in the 1960s.',
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
