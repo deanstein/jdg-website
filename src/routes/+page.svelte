@@ -64,8 +64,7 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
-			Local places lost to time, <br />their dramatic rise and fall the product of a disposable
-			society.
+			Places lost to time, <br />their dramatic rise and fall the product of a disposable society.
 			<br /><br />
 			Theses quirky designs inspired my career,<br />
 			and their fascinating histories offer lessons for today.
@@ -73,7 +72,10 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile label={'CINDERELLA CITY MALL'} />
-			<JDGImageTile label={'FLOOD MIDDLE SCHOOL'} />
+			<JDGImageTile
+				label={'FLOOD MIDDLE SCHOOL'}
+				href={'./architectural-history/flood-middle-school'}
+			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'ARCHITECTURE'}>
@@ -82,13 +84,13 @@
 			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
 			my career in retail architectural design.
 			<br /><br />
-			I received my Master of Architecture degree in 2013 and designed world-class retail centers before
+			I received my Master of Architecture degree in 2013 and created world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
 		</JDGBodyCopy>
 		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>LEGACY DESIGNS (2010-2015)</h3>
-			School through early career: These projects were designed while pursuing my architecture degree and
-			during my tenure as Associate Designer at 505Design.
+			School through early career: These projects were designed while pursuing my architecture degree
+			and during my tenure as Associate Designer at 505Design.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
