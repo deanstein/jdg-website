@@ -623,6 +623,15 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
+		ehs_1930s_auditorium_interior: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722820392/jdg-website/hst/ehs-1930s-auditorium-interior.jpg'
+				),
+				imgCaption: 'The auditorium as it appeared in the 1930s.',
+				imgAttribution: 'Getty Images'
+			})
+		),
 		ehs_1936_southeast_wing: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -649,6 +658,15 @@ const imageAttributesCollection = {
 				),
 				imgCaption: 'The original main entrance of Englewood High School as seen in the 1950s.',
 				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1964_classroom: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722828732/jdg-website/hst/fms_1964_classroom.jpg'
+				),
+				imgCaption: 'A typical classroom in an unrenovated wing in 1964.',
+				imgAttribution: '1964 Flood Junion High School Yearbook'
 			})
 		),
 		fms_1960s_broadway_entrance: postProcessImageAttributes(
@@ -710,6 +728,24 @@ const imageAttributesCollection = {
 				imgAttribution: 'Josh Goldstein'
 			})
 		),
+		fms_2007_auditorium_interior: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722820396/jdg-website/hst/fms-2007-auditorium-interior.jpg'
+				),
+				imgCaption: 'The auditorium after the school had been abandoned in 2007.',
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2007_classroom: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722829903/jdg-website/hst/fms_2007_classroom.jpg'
+				),
+				imgCaption: 'A typical classroom shortly after abandonment in 2007.',
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
 		fms_2010s_aerial_northwest: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -756,6 +792,65 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					"Flood Middle School's simplistic shell concealed the original Englewood High School building below it, as seen from Broadway during demolition in 2013.",
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2013_demo_auditorium_interior_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722824936/jdg-website/hst/fms-2013-demo-auditorium-interior-1.jpg'
+				),
+				imgCaption: 'The auditorium roof collapses during demolition.',
+				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_2013_demo_auditorium_interior_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722825917/jdg-website/hst/fms-2013-auditorium-demo-interior-2.jpg'
+				),
+				imgCaption:
+					'The original auditorium windows and moldings can be seen exposed during demolition.',
+				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_2013_demo_auditorium_interior_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722825914/jdg-website/hst/fms-2013-auditorium-demo-interior-3.jpg'
+				),
+				imgCaption:
+					'Auditorium demolition reveals the trusses and windows hidden behind the false ceilings and walls.',
+				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_2013_demo_auditorium_interior_4: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722826544/jdg-website/hst/fms-2013-auditorium-demo-interior-4.jpg'
+				),
+				imgCaption:
+					'Light cascades into the rear of the auditorium as the front is demolished in 2013.',
+				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_2013_demo_brickwork_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722811907/jdg-website/hst/fms-2013-demo-brickwork-1.jpg'
+				),
+				imgCaption:
+					'Demolition of the south wing reveals the original brickwork below the aluminum panels near the roof.',
+				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2013_demo_brickwork_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722819450/jdg-website/hst/fms-2013-demo-brickwork-2.jpg'
+				),
+				imgCaption:
+					'The north wing, built in 1926, is seen during demolition. Walls that faced into the courtyard were inexpensively patched, revealing original brickwork and windows.',
 				imgAttribution: 'Josh Goldstein'
 			})
 		)

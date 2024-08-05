@@ -143,10 +143,54 @@
 			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
-			Inside, ceilings were lowered, mechanical systems installed, carpet and tile covered up wood
-			floors, and new drywall covered plaster and lathe walls. The original gymnasium and auditorium
-			also saw major changes. The 1960s renovations saw the exposed wood trusses covered by lowered
-			ceilings, and their large windows filled in and concealed with new interior walls.
+			Inside the school, the modernization continued. Ceilings were lowered, new mechanical systems
+			were installed, and new carpet and tile covered old wood floors and plaster and lathe walls.
+			<br /><br />
+			Large and ample windows from the original design were modified as well. Some were covered entirely
+			by brick and stone, while others were drastically reduced - the remaining openings obscured by
+			metal louvers.
 		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_1964_classroom,
+				imageAttributesCollection.hst.fms_2007_classroom
+			]}
+		/>
+		<JDGBodyCopy>
+			The original gymnasium and auditorium also saw major changes. The 1960s renovations saw the
+			exposed wood trusses covered by lowered ceilings, and their large windows filled in and
+			concealed with new interior walls.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.ehs_1930s_auditorium_interior,
+				imageAttributesCollection.hst.fms_2007_auditorium_interior
+			]}
+		/>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_1,
+				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_2,
+				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_3,
+				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
+			]}
+			maxHeight="600px"
+		/>
+		<JDGBodyCopy>
+			1966 and 1967 saw the addition of the circular band room on the south end, and reconfiguration
+			of the floor plan in the 1926 north wing to improve circulation in tandem with the new east
+			wing.
+			<br /><br />
+			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
+			the original gymnasium. This left the former Englewood High School completely unrecognizable, completing
+			the identity transformation to Flood Junior High School.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_2
+			]}
+			maxHeight="600px"
+		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
