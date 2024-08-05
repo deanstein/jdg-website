@@ -157,9 +157,10 @@
 			]}
 		/>
 		<JDGBodyCopy>
-			The original gymnasium and auditorium also saw major changes. The 1960s renovations saw the
-			exposed wood trusses covered by lowered ceilings, and their large windows filled in and
-			concealed with new interior walls.
+			The gymnasium and auditorium also saw major changes during the 1960s renovation efforts.
+			<br /><br />
+			Large exposed wood trusses were obscured by lowered ceilings, and expansive windows from the original
+			school design were filled in and concealed by new interior walls.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
@@ -185,6 +186,33 @@
 			the original gymnasium. This left the former Englewood High School completely unrecognizable, completing
 			the identity transformation to Flood Junior High School.
 		</JDGBodyCopy>
+		<JDGBodyCopy>
+			Declining enrollment in the mid-2000s forced Englewood Schools to take a critical look at its
+			aging and underused building stock as part of a strategic district reorganization. Both Flood
+			and its sibling school, Sinclair Middle School, had been sitting at less than 50% capacity for
+			several years.
+			<br /><br />
+			Unlike Sinclair, Flood's age, layout, and site configuration posed significant challenges. Its
+			wood frame was deteriorating, and its sloping site and ample use of stairs would require significant
+			investment to comply with the Americans with Disabilities Act, enacted over a decade after the
+			school's last construction efforts.
+			<br /><br />
+			Ultimately, it was decided that the two middle schools would be combined into a new entity, Englewood
+			Middle School, and would reside at the newer Sinclair Middle School property which would be remodeled
+			under the district plan.
+			<br /><br />
+			In 2006, students left the building for good, leaving Flood Middle School abandoned. It took seven
+			years for the district find a suitable buyer for the property, during which time the building was
+			repeatedly broken into and vandalized.
+			<br /><br />
+			In 2012, the property was sold to Wood Partners, a Denver-based multifamily developer. Wood Partners
+			announced plans to demolish Flood Middle School and replace it with two low-rise residential buildings.
+			<br /><br />
+			Asbestos abatement commenced in early 2013, and by the end of the summer, the 97-year old building
+			was gone. By fall of 2015, a 306-unit luxury apartment complex stood in its place.
+			<br /><br />
+			Below are some moments from Flood Middle School's final days.
+		</JDGBodyCopy>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
@@ -192,5 +220,13 @@
 			]}
 			maxHeight="600px"
 		/>
+		<JDGBodyCopy>
+			As a former Flood Middle School student myself, I had hoped for a better ending to such a
+			unique building. I've since graduated from architecture school, and have explored the idea of
+			salvaging much of the school building and creating a new micro community for Englewood.
+			<br /><br />
+			For a look at what could have been, see my
+			<a href="../architecture-experimental/fms-campus">Campus Village Adaptive Reuse</a> project.
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

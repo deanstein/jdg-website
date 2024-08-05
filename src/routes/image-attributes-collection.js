@@ -810,7 +810,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722825917/jdg-website/hst/fms-2013-auditorium-demo-interior-2.jpg'
 				),
 				imgCaption:
-					'The original auditorium windows and moldings can be seen exposed during demolition.',
+					'The original auditorium windows and moldings can be seen exposed during demolition. Even the original curtain hooks remain.',
 				imgAttribution: 'Julie Klusener'
 			})
 		),
