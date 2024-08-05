@@ -120,12 +120,11 @@
 			Around this time, the main entrance to the school moved from west-facing Broadway to the southeast
 			corner at Lincoln and Kenyon, where the existing south wing and new east wing came together.
 		</JDGBodyCopy>
-		<JDGImageCarousel
+		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1936_southeast_wing,
 				imageAttributesCollection.hst.fms_1968_southeast_corner_entrance
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			The west side of the school in particular, previously serving as Englewood High School's main
@@ -210,12 +209,11 @@
 			the original gymnasium. This left the former Englewood High School completely unrecognizable,
 			completing the identity transformation to Flood Junior High School.
 		</JDGBodyCopy>
-		<JDGImageCarousel
+		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1940s_broadway_southeast,
 				imageAttributesCollection.hst.fms_2012_broadway_southeast
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			Declining enrollment in the mid-2000s forced Englewood Schools to take a critical look at its
