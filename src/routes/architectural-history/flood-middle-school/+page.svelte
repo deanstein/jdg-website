@@ -178,14 +178,45 @@
 			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
-			1966 and 1967 saw the addition of the circular band room on the south end, and reconfiguration
-			of the floor plan in the 1926 north wing to improve circulation in tandem with the new east
-			wing.
+			1966 and 1967 saw the addition of the iconic circular band room on the south side, freeing up
+			much-needed space from the basement where the band room had been stuffed out of necessity for
+			years.
 			<br /><br />
-			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
-			the original gymnasium. This left the former Englewood High School completely unrecognizable, completing
-			the identity transformation to Flood Junior High School.
+			Situated against the existing building, the band room was the final addition on the south side
+			before the remainder of the south wing was renovated to match the new modern additions.
+			<br /><br />
 		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.hst.fms_1967_band_room_construction}
+			showCaption={true}
+			showAttribution={true}
+			fillContainer={false}
+			maxHeight="500px"
+		/>
+		<JDGBodyCopy>
+			On the north side, the 1926-era north wing was reconfigured inside to improve circulation from
+			the new connecting wings, and like other parts of the school, its exterior design was updated
+			to match the new architecture.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_1967_north_wing_renovation,
+				imageAttributesCollection.hst.fms_2013_north_wing
+			]}
+			maxHeight="600px"
+		/>
+		<JDGBodyCopy>
+			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
+			the original gymnasium. This left the former Englewood High School completely unrecognizable,
+			completing the identity transformation to Flood Junior High School.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.ehs_1940s_broadway_southeast,
+				imageAttributesCollection.hst.fms_2012_broadway_southeast
+			]}
+			maxHeight="600px"
+		/>
 		<JDGBodyCopy>
 			Declining enrollment in the mid-2000s forced Englewood Schools to take a critical look at its
 			aging and underused building stock as part of a strategic district reorganization. Both Flood

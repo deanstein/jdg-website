@@ -651,6 +651,15 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
+		ehs_1940s_broadway_southeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722836640/jdg-website/hst/ehs-1940s-broadway-southeast.jpg'
+				),
+				imgCaption: 'The original gymnasium and partial north wing are seen in the 1940s.',
+				imgAttribution: 'Getty Images'
+			})
+		),
 		ehs_1950s_broadway_entrance: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -699,6 +708,16 @@ const imageAttributesCollection = {
 				imgAttribution: 'Getty Images'
 			})
 		),
+		fms_1967_band_room_construction: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722832940/jdg-website/hst/fms-1967-band-room-construction.jpg'
+				),
+				imgCaption:
+					'A new band room is constructed in 1967 against the south wing and auditorium. Notice the original building detailing still visible in the background.',
+				imgAttribution: 'Getty Images'
+			})
+		),
 		fms_1967_east_side: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -707,6 +726,16 @@ const imageAttributesCollection = {
 				imgCaption:
 					"The new connector wing and new entrance attached to the south wing. Note the south wing's original architecture on the left.",
 				imgAttribution: 'Englewood Public Library'
+			})
+		),
+		fms_1967_north_wing_renovation: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722835704/jdg-website/hst/fms-1967-north-wing-renovation.jpg'
+				),
+				imgCaption:
+					'The north wing is renovated to match the rest of the newly-modernized building.',
+				imgAttribution: 'Getty Images'
 			})
 		),
 		fms_1968_southeast_corner_entrance: postProcessImageAttributes(
@@ -773,6 +802,16 @@ const imageAttributesCollection = {
 				imgCaption:
 					'Flood Middle School as seen in 2012 from Broadway. Its simplistic shell obscures a more ornate building underneath.',
 				imgAttribution: 'Englewood Schools'
+			})
+		),
+		fms_2012_broadway_southeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722836635/jdg-website/hst/fms-2012-broadway-southeast.jpg'
+				),
+				imgCaption:
+					'Flood Middle School in 2012 from Broadway. The original gymnasium was augmented with a much larger facility, creating an imposing presence from the street.',
+				imgAttribution: 'Google'
 			})
 		),
 		fms_2012_courtyard_southwest: postProcessImageAttributes(
@@ -852,6 +891,15 @@ const imageAttributesCollection = {
 				imgCaption:
 					'The north wing, built in 1926, is seen during demolition. Walls that faced into the courtyard were inexpensively patched, revealing original brickwork and windows.',
 				imgAttribution: 'Josh Goldstein'
+			})
+		),
+		fms_2013_north_wing: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722835719/jdg-website/hst/fms-2013-north-wing.jpg'
+				),
+				imgCaption: 'The north wing as it appeared shortly before demolition in 2013.',
+				imgAttribution: 'Julie Klusener'
 			})
 		)
 	},
