@@ -259,4 +259,20 @@
 			<a href="../architecture-experimental/fms-campus">Campus Village Adaptive Reuse</a> project.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="LAYERS OF BRICK">
+		<JDGBodyCopy paddingTop="0">
+			During demolition, decades of renovations and facade modifications became apparent as
+			different brick types and multiple layers of brick were exposed.
+			<br /><br />
+			Enjoy these photographs showing places where the original Englewood High School peeks through the
+			surface of the Flood Middle School shell thanks to the distinct brickwork from each era.
+		</JDGBodyCopy>
+		<JDGImageCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_2
+			]}
+			maxHeight="600px"
+		/>
+	</JDGContentBoxFloating>
 </JDGContentContainer>
