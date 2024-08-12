@@ -610,7 +610,8 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722737633/jdg-website/hst/ehs-1919-plan.png'
 				),
 				imgCaption: "Englewood High School's original layout in 1919.",
-				imgAttribution: 'Englewood Public Library'
+				imgAttribution: 'Englewood Public Library',
+				allowBackgroundBlur: false
 			})
 		),
 		ehs_1920_broadway_northeast: postProcessImageAttributes(
@@ -754,7 +755,8 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722737633/jdg-website/hst/fms-2000s-plan-additions.png'
 				),
 				imgCaption: 'The school complex became a mess of additions and renovations by the 2000s.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: 'Josh Goldstein',
+				allowBackgroundBlur: false
 			})
 		),
 		fms_2007_auditorium_interior: postProcessImageAttributes(
