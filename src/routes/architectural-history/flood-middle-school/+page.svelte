@@ -62,6 +62,7 @@
 				imageAttributesCollection.hst.ehs_1919_plan,
 				imageAttributesCollection.hst.fms_2000s_plan_additions
 			]}
+			fillContainer={false}
 		/>
 		<JDGBodyCopy>
 			It was clear by the 1940s that the high school was outgrowing both its building and its land.
@@ -88,7 +89,7 @@
 			wing, fully enclosing the courtyard.
 			<br /><br />
 		</JDGBodyCopy>
-		<JDGGridLayout maxColumns={2}>
+		<JDGGridLayout>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.hst.fms_1960s_courtyard_renovation}
 				fillContainer={false}
