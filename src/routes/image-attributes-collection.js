@@ -1,3 +1,4 @@
+import { jdgSharedStrings } from 'jdg-ui-svelte/jdg-shared-strings.js';
 import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 
@@ -755,7 +756,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722737633/jdg-website/hst/fms-2000s-plan-additions.png'
 				),
 				imgCaption: 'The school complex became a mess of additions and renovations by the 2000s.',
-				imgAttribution: 'Josh Goldstein',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName,
 				allowBackgroundBlur: false
 			})
 		),
@@ -765,7 +766,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722820396/jdg-website/hst/fms-2007-auditorium-interior.jpg'
 				),
 				imgCaption: 'The auditorium after the school had been abandoned in 2007.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2007_classroom: postProcessImageAttributes(
@@ -774,7 +775,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722829903/jdg-website/hst/fms_2007_classroom.jpg'
 				),
 				imgCaption: 'A typical classroom shortly after abandonment in 2007.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2010s_aerial_northwest: postProcessImageAttributes(
@@ -823,7 +824,7 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					'The courtyard as seen in 2012. Note the evidence of windows filled in, and signs of original brick detailing just under the roof line.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2013_broadway_northeast: postProcessImageAttributes(
@@ -833,7 +834,7 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					"Flood Middle School's simplistic shell concealed the original Englewood High School building below it, as seen from Broadway during demolition in 2013.",
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2013_demo_auditorium_interior_1: postProcessImageAttributes(
@@ -875,6 +876,25 @@ const imageAttributesCollection = {
 				imgAttribution: 'Julie Klusener'
 			})
 		),
+		fms_2013_demo_basement_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526226/jdg-website/hst/fms-2013-demo-basement-1.jpg'
+				),
+				imgCaption: 'The basement near the former tech arts room during demolition.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_basement_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723527807/jdg-website/hst/fms-2013-demo-basement-2.jpg'
+				),
+				imgCaption:
+					'A basement-level locker room with glass offices is seen as the spaces above it are demolished in 2013',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2013_demo_brickwork_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -882,7 +902,7 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					'Demolition of the south wing reveals the original brickwork below the aluminum panels near the roof.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2013_demo_brickwork_2: postProcessImageAttributes(
@@ -892,7 +912,160 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					'The north wing, built in 1926, is seen during demolition. Walls that faced into the courtyard were inexpensively patched, revealing original brickwork and windows.',
-				imgAttribution: 'Josh Goldstein'
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_brickwork_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723525080/jdg-website/hst/fms-2013-demo-brickwork-3.jpg'
+				),
+				imgCaption:
+					'The original brickwork and window sill are seen on the auditorium wall, below the layer of brick added in the 1960s.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_brickwork_4: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526859/jdg-website/hst/fms-2013-demo-brickwork-4.jpg'
+				),
+				imgCaption: 'Layers of brick are seen at the junction of the original gym and the new gym.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_ceiling_fixture_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526142/jdg-website/hst/fms-2013-demo-ceiling-fixture-1.jpg'
+				),
+				imgCaption: 'Demolition reveals the original ceiling with a light fixture in the basement.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_ceiling_fixture_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526552/jdg-website/hst/fms-2013-demo-ceiling-fixture-2.jpg'
+				),
+				imgCaption:
+					'A ceiling fixture hangs precariously from a basement ceiling as the upper levels are demolished above it.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_chimney: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723527069/jdg-website/hst/fms-2013-demo-chimney.jpg'
+				),
+				imgCaption:
+					'The chimney from the school boilers is seen partially collapsed as the original 1919 wing is demolished.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_classroom_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526457/jdg-website/hst/fms-2013-demo-classroom-1.jpg'
+				),
+				imgCaption: 'A first-floor classroom in the 1919 wing is partially demolished.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_detail_cornice: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526020/jdg-website/hst/fms-2013-demo-detail-cornice.jpg'
+				),
+				imgCaption: 'The original cornice is seen from 1919 at the former main entrance location.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_hallway_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723525726/jdg-website/hst/fms-2013-demo-hallway-1.jpg'
+				),
+				imgCaption: 'A collapsing first-level corridor in the original 1919 wing.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_hallway_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526350/jdg-website/hst/fms-2013-demo-hallway-2.jpg'
+				),
+				imgCaption:
+					'A desk awaits its impending doom on the first floor of the original 1919 wing.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_hallway_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723527625/jdg-website/hst/fms-2013-demo-hallway-3.jpg'
+				),
+				imgCaption:
+					'A first-floor hallway in the original 1919 wing open at the end to the elements during demolition in 2013.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_hallway_lockers_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723525908/jdg-website/hst/fms-2013-demo-hallway-lockers-1.jpg'
+				),
+				imgCaption: 'A second-floor corridor in the original 1919 wing ends abruptly.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_large_gym: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526781/jdg-website/hst/fms-2013-demo-large-gym.jpg'
+				),
+				imgCaption:
+					'The gymnasium appended to the original building in the 1970s is seen after the rest of the complex was demolished.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_library_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723525519/jdg-website/hst/fms-2013-demo-library-1.jpg'
+				),
+				imgCaption:
+					'The lower level of the library stands with the upper portion collapsed above, with the overhang of the 1960s-era wing seen above. In the background, the wood trusses of the auditorium roof can be seen.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_lincoln: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723527230/jdg-website/hst/fms-2013-demo-lincoln.jpg'
+				),
+				imgCaption: 'Demolition of the school as seen from the grassy field to the east.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_window_sizes: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723526986/jdg-website/hst/fms-2013-demo-window-sizes.jpg'
+				),
+				imgCaption:
+					'The west wall facing Broadway is seen from behind. Note the original window headers revealing the window size prior to renovation.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2013_demo_wood_floors: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723524640/jdg-website/hst/fms-2013-demo-wood-floor.jpg'
+				),
+				imgCaption:
+					'The wood floors of the original Englewood High School building fall to the rubble.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		fms_2013_north_wing: postProcessImageAttributes(

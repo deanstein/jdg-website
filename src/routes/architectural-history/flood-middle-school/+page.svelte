@@ -245,8 +245,21 @@
 		</JDGBodyCopy>
 		<JDGImageCarousel
 			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_2
+				imageAttributesCollection.hst.fms_2013_demo_wood_floors,
+				imageAttributesCollection.hst.fms_2013_demo_library_1,
+				imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
+				imageAttributesCollection.hst.fms_2013_demo_hallway_2,
+				imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
+				imageAttributesCollection.hst.fms_2013_demo_basement_1,
+				imageAttributesCollection.hst.fms_2013_demo_hallway_2,
+				imageAttributesCollection.hst.fms_2013_demo_hallway_3,
+				imageAttributesCollection.hst.fms_2013_demo_classroom_1,
+				imageAttributesCollection.hst.fms_2013_demo_ceiling_fixture_2,
+				imageAttributesCollection.hst.fms_2013_demo_large_gym,
+				imageAttributesCollection.hst.fms_2013_demo_window_sizes,
+				imageAttributesCollection.hst.fms_2013_demo_chimney,
+				imageAttributesCollection.hst.fms_2013_demo_lincoln,
+				imageAttributesCollection.hst.fms_2013_demo_basement_2
 			]}
 			maxHeight="600px"
 		/>
@@ -270,7 +283,9 @@
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_2
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_2,
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_3,
+				imageAttributesCollection.hst.fms_2013_demo_brickwork_4
 			]}
 			maxHeight="600px"
 		/>
