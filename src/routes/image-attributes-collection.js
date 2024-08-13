@@ -921,7 +921,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723525080/jdg-website/hst/fms-2013-demo-brickwork-3.jpg'
 				),
 				imgCaption:
-					'The original brickwork and window sill are seen on the auditorium wall, below the layer of brick added in the 1960s.',
+					'The original brickwork and window sill are seen on the auditorium wall, beneath the layer of brick added in the 1960s.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
