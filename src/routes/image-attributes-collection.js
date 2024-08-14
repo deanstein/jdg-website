@@ -605,6 +605,14 @@ const imageAttributesCollection = {
 		)
 	},
 	hst: {
+		ccm_0: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1716962799/ccp-website/blue-mall/blue-mall-60s70s-2_vy6cnk.jpg'
+				),
+				imgCaption: 'Cinderella City Mall.'
+			})
+		),
 		ehs_1919_plan: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(

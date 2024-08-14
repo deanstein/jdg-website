@@ -6,9 +6,9 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGFullWidthContainer,
 		JDGGridLayout,
-		JDGImageTile
+		JDGImageTile,
+		JDGJumpTo
 	} from 'jdg-ui-svelte';
 </script>
 
@@ -23,14 +23,14 @@
 				label={'ARCHITECTURE'}
 				labelContainerVerticalAlign="bottom"
 				labelJustification="center"
-				href="#architecture"
+				href="#architectural-design"
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.products_0}
 				label={'PRODUCTS'}
 				labelContainerVerticalAlign="bottom"
 				labelJustification="center"
-				href="#products"
+				href="#industrial-design"
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.software_0}
@@ -45,42 +45,47 @@
 			things ignited a career in architecture that evolved into a unique software and engineering
 			legacy, spanning domains and defying categorization.
 			<br /><br />
-			Today, I'm a Senior Product Manager building the next generation of 3D architectural modeling software
-			at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a software
-			and videogame developer, product designer, and architectural historian.
+			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
+			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
+			software and videogame developer, product designer, and architectural historian.
 			<br /><br />
 			I'm also the creator of
 			<a href="https://www.cinderellacityproject.com/" target="blank">The Cinderella City Project</a
-			>, an immersive digital reconstruction of a unique mid-century shopping center of the same in
-			Englewood, Colorado.
+			>, an immersive digital reconstruction of a unique mid-century shopping center of the same
+			name in Englewood, Colorado.
 			<br /><br />
-			Interested in working together? Check out my
-			<a
-				href="https://res.cloudinary.com/jdg-main/image/upload/v1722571752/jdg-website/2024_05_JDG_resume.pdf"
-				target="blank">resume</a
-			>
-			or connect with me on <a href={jdgSharedUrls.jdgLinkedIn} target="blank">LinkedIn</a>.
+			See all my experience below, learn more <a href="./about">about me</a>, or
+			<a href="./contact">get in touch</a>.
+			<br /><br />
+			Thanks for stopping by!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<JDGJumpTo />
 	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
-			Places lost to time, <br />their dramatic rise and fall the product of a disposable society.
+			This is where it all started for me:<br />
+			Unique places lost to time, the products of a disposable society.
 			<br /><br />
-			Theses quirky designs inspired my career,<br />
+			Theses quirky designs inspired my career<br />
 			and their fascinating histories offer lessons for today.
-			<br /><br />
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'CINDERELLA CITY MALL'} />
+			<JDGImageTile
+				label={'CINDERELLA CITY MALL'}
+				imageAttributes={imageAttributesCollection.hst.ccm_0}
+				href={jdgSharedUrls.ccpWebsite}
+				hrefOpenInNewTab={true}
+			/>
 			<JDGImageTile
 				label={'FLOOD MIDDLE SCHOOL'}
+				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
 				href={'./architectural-history/flood-middle-school'}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title={'ARCHITECTURE'}>
+	<JDGContentBoxFloating title={'ARCHITECTURAL DESIGN'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
-			Seeing the wasteful demolition of a
+			Witnessing the wasteful demolition of a
 			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
 			my career in retail architectural design.
 			<br /><br />
@@ -96,7 +101,7 @@
 			<JDGImageTile
 				label={'BAYOU MIXED USE'}
 				href="./architecture/bayou-mixed-use"
-				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_2}
+				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_1}
 			/>
 			<JDGImageTile
 				label={'MODERN TEXAS LOBBY'}
@@ -203,7 +208,7 @@
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title={'PRODUCTS'}>
+	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
 		<JDGGridLayout>
 			<JDGImageTile label={'PROJECT 1'} />
 			<JDGImageTile label={'PROJECT 2'} />
