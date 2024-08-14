@@ -42,12 +42,12 @@
 		</JDGGridLayout>
 		<JDGBodyCopy>
 			Inspired by the natural and built environments of Colorado, my passion for 3D design of all
-			things ignited a career in architecture that evolved into a unique software and engineering
-			legacy, spanning domains and defying categorization.
+			things ignited a career in architecture that evolved into a unique software legacy, spanning
+			domains and defying categorization.
 			<br /><br />
-			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
-			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
-			software and videogame developer, product designer, and architectural historian.
+			I'm currently a Senior Product Manager building the next generation of 3D architectural modeling
+			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. At night, I'm a
+			software and simulation developer, product designer, and architectural historian.
 			<br /><br />
 			I'm also the creator of
 			<a href="https://www.cinderellacityproject.com/" target="blank">The Cinderella City Project</a
@@ -64,9 +64,9 @@
 	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
 			This is where it all started for me:<br />
-			Unique places lost to time, the products of a disposable society.
+			Unique places lost to time, casualties of a disposable society.
 			<br /><br />
-			Theses quirky designs inspired my career<br />
+			These quirky designs inspired my career,<br />
 			and their fascinating histories offer lessons for today.
 		</JDGBodyCopy>
 		<JDGGridLayout>
@@ -86,8 +86,8 @@
 	<JDGContentBoxFloating title={'ARCHITECTURAL DESIGN'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Witnessing the wasteful demolition of a
-			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
-			my career in retail architectural design.
+			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />ignited my
+			career in designing good places for great people.
 			<br /><br />
 			I received my Master of Architecture degree in 2013 and created world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
@@ -101,7 +101,7 @@
 			<JDGImageTile
 				label={'BAYOU MIXED USE'}
 				href="./architecture/bayou-mixed-use"
-				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_1}
+				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_4}
 			/>
 			<JDGImageTile
 				label={'MODERN TEXAS LOBBY'}
@@ -158,7 +158,7 @@
 			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
 			Testing grounds for architecture and software. These projects were digitally built using<a
 				href="https://formit.autodesk.com">Autodesk FormIt</a
-			>, for which I was a Senior Product Manager.
+			>, for which I was the Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
