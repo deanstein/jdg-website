@@ -1086,6 +1086,24 @@ const imageAttributesCollection = {
 			})
 		)
 	},
+	ind: {
+		cityscape_021A_0: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723612842/jdg-website/ind/021A-0.jpg'
+				),
+				imgCaption: 'The Denver Cityscape'
+			})
+		),
+		puzzle_decor_030A_0: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723613417/jdg-website/ind/030A-0.jpg'
+				),
+				imgCaption: 'Puzzle Decor'
+			})
+		)
+	},
 	products_0: instantiateObject(jdgImageAttributes, {
 		imgSrc: addCloudinaryUrlTransformation(
 			'https://res.cloudinary.com/jdg-main/image/upload/v1720834651/jdg-website/products/products-0.jpg'

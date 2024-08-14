@@ -209,9 +209,31 @@
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
+		<JDGBodyCopy textAlign="center" paddingTop="0">
+			Harnessing skills from my architecture career, I use visual scripting and 3D printing to
+			design, test, and refine useful products for the home under the label <a
+				href="http://www.parametrix3d.com/"
+				target="_blank">Parametrix3D</a
+			>
+			<br /><br />
+			Select designs were sold physically at the
+			<a href="http://www.parametrix3d.com/" target="_blank">I Heart Denver</a>
+			store from 2014 to 2017. If you have a 3D printer, you can get these printer-ready models at
+			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">CGTrader</a>.
+		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'PROJECT 1'} />
-			<JDGImageTile label={'PROJECT 2'} />
+			<JDGImageTile
+				label={'THE DENVER CITYSCAPE'}
+				imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
+				href="http://www.parametrix3d.com/021.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'PUZZLE DECOR'}
+				imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
+				href="http://www.parametrix3d.com/030.html"
+				hrefOpenInNewTab={true}
+			/>
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
