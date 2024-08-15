@@ -1111,7 +1111,7 @@ const imageAttributesCollection = {
 				imgCaption: 'Pen Holder'
 			})
 		),
-		business_card_holder_015C_0: postProcessImageAttributes(
+		card_holder_015C_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723694838/pmx-website/015C-0.jpg'

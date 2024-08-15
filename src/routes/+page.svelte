@@ -223,7 +223,7 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				label={'THE DENVER CITYSCAPE'}
+				label={'DENVER CITYSCAPE'}
 				imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
 				href="http://www.parametrix3d.com/021.html"
 				hrefOpenInNewTab={true}
@@ -247,8 +247,8 @@
 				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
-				label={'BUSINESS CARD HOLDER'}
-				imageAttributes={imageAttributesCollection.ind.business_card_holder_015C_0}
+				label={'CARD HOLDER'}
+				imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
 				href="http://www.parametrix3d.com/015.html"
 				hrefOpenInNewTab={true}
 			/>
@@ -259,7 +259,7 @@
 				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
-				label={'COLORADO TOPOGRAPHY MAGNET'}
+				label={'CO TOPO MAGNET'}
 				imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
 				href="http://www.parametrix3d.com/047d.html"
 				hrefOpenInNewTab={true}
