@@ -86,8 +86,8 @@
 	<JDGContentBoxFloating title={'ARCHITECTURAL DESIGN'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Witnessing the wasteful demolition of a
-			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />ignited my
-			career in designing good places for great people.
+			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
+			my career designing better places for people and the environment.
 			<br /><br />
 			I received my Master of Architecture degree in 2013 and created world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
@@ -214,7 +214,7 @@
 			design, test, and refine useful products for the home under the label <a
 				href="http://www.parametrix3d.com/"
 				target="_blank">Parametrix3D</a
-			>
+			>.
 			<br /><br />
 			Select designs were sold physically at the
 			<a href="http://www.parametrix3d.com/" target="_blank">I Heart Denver</a>
@@ -234,7 +234,54 @@
 				href="http://www.parametrix3d.com/030.html"
 				hrefOpenInNewTab={true}
 			/>
-			<JDGImageTile label={'PROJECT 3'} />
+			<JDGImageTile
+				label={'ADVANCED PLANTER'}
+				imageAttributes={imageAttributesCollection.ind.planter_003F_0}
+				href="http://www.parametrix3d.com/003.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'PEN HOLDER'}
+				imageAttributes={imageAttributesCollection.ind.pen_holder_008I_0}
+				href="http://www.parametrix3d.com/008.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'BUSINESS CARD HOLDER'}
+				imageAttributes={imageAttributesCollection.ind.business_card_holder_015C_0}
+				href="http://www.parametrix3d.com/015.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'DEN / CO MAGNETS'}
+				imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
+				href="http://www.parametrix3d.com/047.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'COLORADO TOPOGRAPHY MAGNET'}
+				imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
+				href="http://www.parametrix3d.com/047d.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'HERB GRINDER'}
+				imageAttributes={imageAttributesCollection.ind.grinder_039A_0}
+				href="http://www.parametrix3d.com/039.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'DENVER MAP COASTER'}
+				imageAttributes={imageAttributesCollection.ind.coaster_028A_0}
+				href="http://www.parametrix3d.com/028.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'KITCHEN CADDY'}
+				imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
+				href="http://www.parametrix3d.com/007.html"
+				hrefOpenInNewTab={true}
+			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
