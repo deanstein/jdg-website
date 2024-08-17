@@ -1,5 +1,0 @@
-		<JDGSocialMedia
-			instagramHref={jdgSharedUrls.jdgInstagram}
-			linkedinHref={jdgSharedUrls.jdgLinkedIn}
-			githubHref={jdgSharedUrls.jdgGitHub}
-		/>
