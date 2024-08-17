@@ -1,19 +1,17 @@
 <script>
-	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-
 	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 
 	import {
 		JDGAppContainer,
 		JDGBackground,
 		JDGFooter,
 		JDGHeader,
-		JDGImageDetailOverlay,
-		JDGSocialMedia
+		JDGImageDetailOverlay
 	} from 'jdg-ui-svelte';
+	import SocialMedia from '../components/SocialMedia.svelte';
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);
@@ -68,11 +66,7 @@
 		{disclaimer}
 		alignItems="center"
 	>
-		<JDGSocialMedia
-			instagramHref={jdgSharedUrls.jdgInstagram}
-			linkedinHref={jdgSharedUrls.jdgLinkedIn}
-			githubHref={jdgSharedUrls.jdgGitHub}
-		/>
+		<SocialMedia />
 	</JDGFooter>
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
