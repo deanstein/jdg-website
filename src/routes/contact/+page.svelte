@@ -4,16 +4,16 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title={'GET IN TOUCH'}>
+	<JDGContentBoxFloating
+		title={'GET IN TOUCH'}
+		subtitle={'Say hello, ask a question, make a comment'}
+	>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
-			Let's connect! You can reach me in a variety of ways:
-			<br />
-			<br />
 			<h3>SOCIAL MEDIA</h3>
 			<SocialMedia />
 			<br />
 			<br />
-			<h3>CONTACT FORM</h3>
+			<h3 style="margin-bottom: 10px;">CONTACT FORM</h3>
 			<div style="display: flex; justify-content: center;">
 				<iframe
 					title="Contact Joshua Dean Goldstein"
