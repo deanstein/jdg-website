@@ -140,7 +140,6 @@
 				imageAttributesCollection.hst.fms_1960s_broadway_entrance_renovation,
 				imageAttributesCollection.hst.fms_1960s_broadway_entrance
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			Inside the school, the modernization continued. Ceilings were lowered, new mechanical systems
@@ -175,7 +174,6 @@
 				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_3,
 				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			1966 and 1967 saw the addition of the iconic circular band room on the south side, freeing up
@@ -203,7 +201,6 @@
 				imageAttributesCollection.hst.fms_1967_north_wing_renovation,
 				imageAttributesCollection.hst.fms_2013_north_wing
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
@@ -260,7 +257,6 @@
 				imageAttributesCollection.hst.fms_2013_demo_lincoln,
 				imageAttributesCollection.hst.fms_2013_demo_basement_2
 			]}
-			maxHeight="600px"
 		/>
 		<JDGBodyCopy>
 			As a former Flood Middle School student myself, I had hoped for a better ending to such a
@@ -286,7 +282,6 @@
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_3,
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_4
 			]}
-			maxHeight="600px"
 		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
