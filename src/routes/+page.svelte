@@ -1,45 +1,89 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import imageAttributesCollection from './image-attributes-collection';
+	import uiState from 'jdg-ui-svelte/states/ui-state.js';
 
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
+	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
+
+	const imageHeightLg = 350;
+	const imageHeightSm = 250;
+	let currentImageHeight = 0;
+
+	const imageHeightBreakpointHandler = () => {
+		breakpointHandler(
+			// breakpoint 0
+			() => {
+				// force the mobile nav on
+				currentImageHeight = imageHeightSm;
+			},
+			// breakpoint 1
+			() => {
+				currentImageHeight = imageHeightSm;
+			},
+			// breakpoint 2
+			() => {
+				currentImageHeight = imageHeightLg;
+			}
+		);
+	};
+
+	$: {
+		$uiState.windowWidth;
+		imageHeightBreakpointHandler();
+	}
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating>
-		<div class="intro-content-1">Hi! 👋 I'm Josh.</div>
-		<div class="intro-content-2">I'm a 3D creator</div>
-		<div class="intro-content-1">with experience in:</div>
-		<JDGGridLayout>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-				label={'ARCHITECTURE'}
-				labelContainerVerticalAlign="bottom"
-				labelJustification="center"
-				href="#architectural-design"
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.products_0}
-				label={'PRODUCTS'}
-				labelContainerVerticalAlign="bottom"
-				labelJustification="center"
-				href="#industrial-design"
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.software_0}
-				label={'SOFTWARE'}
-				labelContainerVerticalAlign="bottom"
-				labelJustification="center"
-				href="#software"
-			/>
-		</JDGGridLayout>
+<JDGContentContainer overlapWithHeader={true} topBottomPadding="0">
+	<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
+		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+		superText={`Hi! 👋 I'm Josh.`}
+		primaryText={"I'm a 3D creator"}
+		secondaryText={'with experience in:'}
+	/>
+</JDGContentContainer>
+<JDGContentContainer topBottomPadding="0">
+	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
+		<div style={`margin-top: -${currentImageHeight / 2}px;`}>
+			<JDGGridLayout>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+					label={'ARCHITECTURE'}
+					labelContainerVerticalAlign="top"
+					labelJustification="center"
+					href="#architectural-design"
+					compactModeOnMobile={false}
+					maxHeight={`${currentImageHeight}px`}
+				/>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.products_0}
+					label={'PRODUCTS'}
+					labelContainerVerticalAlign="top"
+					labelJustification="center"
+					href="#industrial-design"
+					compactModeOnMobile={false}
+					maxHeight={`${currentImageHeight}px`}
+				/>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.software_0}
+					label={'SOFTWARE'}
+					labelContainerVerticalAlign="top"
+					labelJustification="center"
+					href="#software"
+					compactModeOnMobile={false}
+					maxHeight={`${currentImageHeight}px`}
+				/>
+			</JDGGridLayout>
+		</div>
 		<JDGBodyCopy>
 			Inspired by the natural and built environments of Colorado, my passion for 3D design of all
 			things ignited a career in architecture that evolved into a unique software legacy, spanning
@@ -55,9 +99,7 @@
 			name in Englewood, Colorado.
 			<br /><br />
 			See all my experience below, learn more <a href="./about">about me</a>, or
-			<a href="./contact">get in touch</a>.
-			<br /><br />
-			Thanks for stopping by!
+			<a href="./contact">get in touch</a>. Thanks for stopping by!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGJumpTo />
@@ -296,16 +338,5 @@
 <style>
 	h3 {
 		text-align: center;
-	}
-
-	.intro-content-1 {
-		display: flex;
-		justify-content: center;
-		font-size: 1.5rem;
-	}
-	.intro-content-2 {
-		display: flex;
-		justify-content: center;
-		font-size: 2rem;
 	}
 </style>
