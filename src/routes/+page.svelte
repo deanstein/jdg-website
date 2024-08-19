@@ -52,7 +52,7 @@
 	/>
 </JDGContentContainer>
 <JDGContentContainer topBottomPadding="0">
-	<JDGContentBoxFloating animateWhenVisible={false}>
+	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
 		<div style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
 				<JDGImageTile
@@ -338,16 +338,5 @@
 <style>
 	h3 {
 		text-align: center;
-	}
-
-	.intro-content-1 {
-		display: flex;
-		justify-content: center;
-		font-size: 1.5rem;
-	}
-	.intro-content-2 {
-		display: flex;
-		justify-content: center;
-		font-size: 2rem;
 	}
 </style>
