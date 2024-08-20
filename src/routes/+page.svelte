@@ -99,7 +99,7 @@
 			name in Englewood, Colorado.
 			<br /><br />
 			See all my experience below, learn more <a href="./about">about me</a>, or
-			<a href="./contact">get in touch</a>. Thanks for stopping by!
+			<a href="./contact">get in touch</a>. Enjoy!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGJumpTo />
@@ -128,8 +128,8 @@
 	<JDGContentBoxFloating title={'ARCHITECTURAL DESIGN'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Witnessing the wasteful demolition of a
-			<a href="https://www.cinderellacityproject.com/about">giant shopping mall</a> <br />inspired
-			my career designing better places for people and the environment.
+			<a href="https://www.cinderellacityproject.com/about" target="_blank">giant shopping mall</a>
+			<br />inspired my career designing better places for people and the environment.
 			<br /><br />
 			I received my Master of Architecture degree in 2013 and created world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
