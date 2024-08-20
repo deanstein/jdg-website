@@ -15,6 +15,14 @@ export const postProcessImageAttributes = (jdgImageAttributes) => {
 // a map of all available images and their attributes
 // new images with a caption must be added here
 const imageAttributesCollection = {
+	jdg_photo_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1724125291/jdg-website/jdg-photo-1.jpg'
+			),
+			imgCaption: 'Joshua Dean Goldstein'
+		})
+	),
 	arch: {
 		atc_elevator: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
