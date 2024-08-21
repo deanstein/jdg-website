@@ -8,17 +8,22 @@
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			<span style="font-size: 30px;">I'm Josh.</span>
 			<br /><br />
-			<div style="display: flex;">
+			I'm a maker and innovator with unique experience in the design and development of software, architecture,
+			and physical products.
+			<br /><br />
+			<div style="display: flex; justify-content: center;">
 				<JDGImage
-					imageAttributes={imageAttributesCollection.jdg_photo_1}
-					maxHeight="200px"
+					imageAttributes={imageAttributesCollection.jdg_photo_2}
+					maxHeight="300px"
 					fillContainer={false}
 					maxWidth="auto"
 				/>
 			</div>
-			<br />
-			I'm a maker and innovator with unique experience in the design and development of software, architecture,
-			and physical products.
+			<br /><br />
+			I live in downtown Denver, Colorado with my wife Haley and our cat
+			<a href="https://www.instagram.com/iris_theragdoll" target="_blank">Iris</a>. Surrounded by
+			natural and architectural beauty, we spend our time urban exploring, discovering new coffee
+			shops and restaurants, biking, and playing racquetball.
 			<br /><br />
 			By day, I'm a Senior Product Manager at
 			<a href="https://www.autodesk.com" target="_blank">Autodesk</a>
@@ -33,10 +38,15 @@
 			Growing up near Denver, Colorado, I witnessed vast changes to the metro area's urban character
 			and retail landscape, igniting a passion for architectural design and urban planning.
 			<br /><br />
-			In particular, the demolition of a
+			In particular, the wasteful demolition of a
 			<a href="https://www.cinderellacityproject.com/about" target="_blank">giant shopping mall</a>
-			brought me face-to-face with the waste of the architecture industry, and pushed me to a career
-			designing better places for people and the environment.
+			in 1998 brought me face-to-face with the shocking waste of the architecture industry, and
+			pushed me to a career designing better places for people and the environment.
+			<br /><br />
+			Furthering my formative interest, middle school was an incredible patchwork of renovations and
+			additions from the 1920s to the 1940s, culminating in a major overhaul in the 1960s. Despite sporting
+			a minimal mid-century appearance, the school betrayed its age with creaky floors and glimpses of
+			historic brick, and its entire history was uncovered during its tragic demolition.
 			<br /><br />
 			In high school, research and persistence led me to an internship with a Colorado real estate developer,
 			where for two years I helped transform the former
@@ -46,7 +56,7 @@
 			>
 			into a vibrant mixed-use town center for for the City of Centennial, Colorado.
 			<br /><br />
-			In design school, I created award-winning designs spanning architecture, planning, and furniture.
+			In college, I created award-winning designs spanning buildings, urban planning, and furniture.
 			I received my Master of Architecture degree at Kansas State University in 2013, where my thesis
 			focused on revitalizing the Main Street of a Kansas town and creating a unique public space in
 			the shell of an <a href="./architecture/random-school">abandoned building</a>.
@@ -57,32 +67,44 @@
 			at the firm - software which would prove critical for my next career evolution.
 			<br /><br />
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
-			While working in the architecture field, I began harnessing visual scripting and generative design
-			software to venture into physical product design.
+			While working in the architecture field, I began experimenting with visual scripting and generative
+			design software to venture into physical product design with the aid of the 3D printing boom of
+			the 2010s.
 			<br /><br />
-			Rather than manually modeling each design, visual scripting allows for parametric design, where
-			adjusting one parameter propagates to the entire design, making cascading adjustments easier than
-			ever.
+			Thanks to these technologies, I was able to use scripts - reusable sets of instructions - to generate
+			and finesse complex 3D models rather than manually sculpting and adjusting them, enabling me to
+			quickly test and improve product iterations.
 			<br /><br />
-			Treating the designs as software, each product was catalogued with variants and versions printed
-			on each product, for validation and tracking in the wild.
+			Treating the entire product line as software, each bespoke variant is catalogued with a unique
+			code and version printed on the bottom, for validation and tracking in the wild.
+			<br /><br />
+			I sold select designs physically at the
+			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
+			store from 2014 to 2017 and continue to offer them
+			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">online</a>
+			under the label <a href="http://www.parametrix3d.com/" target="_blank">Parametrix3D</a>.
 			<br /><br />
 			<h3>SOFTWARE + SIMULATION</h3>
 			In 2015, I had the opportunity to move into the technology world, starting as a User Experience
-			Designer for Autodesk FormIt.
+			Designer for Autodesk's premier architectural 3D modeling software, FormIt. I helped build FormIt
+			into a formidable competitor to SketchUp, eventually working my way into a Product Owner role.
 			<br /><br />
-			Today, I collaborate with full-stack development teams to create new features and improve workflows
-			in Autodesk 3D modeling platforms, including FormIt and Forma. Josh helps prioritize development
-			efforts based on customer feedback and interaction, tests the software from a customer perspective,
-			and also contributes directly to the product by writing code, authoring documentation, and building
-			sample datasets. In the architecture world, he led design teams, managed clients, and executed
-			projects that connected people and place.
+			Today, I'm a Senior Product Manager building the next generation of Autodesk's 3D modeling and
+			analysis software. I'm working to integrate FormIt's intuitive 3D modeling technology into a new
+			app called Forma, evolving legacy software into a cutting-edge platform for sustainable design.
 			<br /><br />
-			In his free time, Josh is working to preserve architectural history through technology. He created
-			The Cinderella City Project, combining his skills in 3D modeling and software development to create
-			an interactive, historically-accurate simulation of the mid-century modern shopping center known
-			as Cinderella City in Englewood, Colorado, which was demolished in 1998. Josh is also the Secretary
-			of Historic Englewood, a 501(c)(3) organization that aims to preserve the history of Englewood.
+			I collaborate with full-stack development teams to create new features and improve workflows based
+			on customer feedback, and I also test the software from a customer perspective - putting on my
+			architecture hat to create fictional but realistic buildings to test our software.
+			<br /><br />
+			Working at Autodesk has allowed me to learn software development, where I started with learning
+			JavaScript to create useful plugins for FormIt, and now I'm consistently contributing to the source
+			code base and strategizing on software engineering approaches based on customer needs.
+			<br /><br />
+			Coming full-circle, I'm currently working to preserve architectural history through technology
+			with The Cinderella City Project, where I'm harnessing my skills in 3D modeling and software development
+			to create an interactive, historically-accurate simulation of the place that ignited my passion
+			for architecture in the first place.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

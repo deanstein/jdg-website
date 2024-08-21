@@ -15,14 +15,6 @@ export const postProcessImageAttributes = (jdgImageAttributes) => {
 // a map of all available images and their attributes
 // new images with a caption must be added here
 const imageAttributesCollection = {
-	jdg_photo_1: postProcessImageAttributes(
-		instantiateObject(jdgImageAttributes, {
-			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1724125291/jdg-website/jdg-photo-1.jpg'
-			),
-			imgCaption: 'Joshua Dean Goldstein'
-		})
-	),
 	arch: {
 		atc_elevator: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
@@ -1189,7 +1181,23 @@ const imageAttributesCollection = {
 		),
 		imgAlt: 'Software',
 		imgCaption: 'Software'
-	})
+	}),
+	jdg_photo_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1724125291/jdg-website/jdg-photo-1.jpg'
+			),
+			imgCaption: 'Joshua Dean Goldstein'
+		})
+	),
+	jdg_photo_2: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1724204050/jdg-website/jdg-photo-2.jpg'
+			),
+			imgCaption: 'Josh, his wife Haley, and their cat Iris in their renovated kitchen in 2024.'
+		})
+	)
 };
 
 export default imageAttributesCollection;
