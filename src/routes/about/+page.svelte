@@ -47,10 +47,10 @@
 			<br /><br />
 			Furthering my formative interest,
 			<a href={sharedUrls.hst.flood_middle_school} target="_blank">middle school</a>
-			was an incredible patchwork of renovations and additions from the 1920s to the 1940s,
-			culminating in a major overhaul in the 1960s. Despite sporting a minimal mid-century
-			appearance, the school betrayed its age with creaky floors and glimpses of historic brick, and
-			its entire history was uncovered during its
+			was an incredible patchwork of renovations and additions from the 1920s to the 1940s, culminating
+			in a major overhaul in the 1960s. Despite sporting a minimal mid-century appearance, the school
+			betrayed its age with creaky floors and glimpses of historic brick, and its entire history was
+			uncovered during its&nbsp;
 			<a href={`${sharedUrls.hst.flood_middle_school}#layers-of-brick`} target="_blank"
 				>tragic demolition</a
 			>.
@@ -77,8 +77,8 @@
 			<br /><br />
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
 			While working in the architecture field, I began experimenting with visual scripting and generative
-			design software called <a href={sharedUrls.grasshopper} target="_blank">Grasshopper</a> to
-			venture into physical product design with the aid of the 3D printing boom of the 2010s.
+			design software called&nbsp;<a href={sharedUrls.grasshopper} target="_blank">Grasshopper</a>
+			to venture into physical product design with the aid of the 3D printing boom of the 2010s.
 			<br /><br />
 			Thanks to these technologies, I was able to use scripts - reusable sets of instructions - to generate
 			and finesse complex 3D models rather than manually sculpting and adjusting them, enabling me to
@@ -95,7 +95,7 @@
 			<br /><br />
 			<h3>SOFTWARE + SIMULATION</h3>
 			In 2015, I had the opportunity to move into the technology world, starting as a User Experience
-			Designer for Autodesk's premier architectural 3D modeling software, <a
+			Designer for Autodesk's premier architectural 3D modeling software,&nbsp;<a
 				href={jdgSharedUrls.adskFormIt}
 				target="_blank">FormIt</a
 			>. I helped build FormIt into a formidable competitor to SketchUp, eventually working my way

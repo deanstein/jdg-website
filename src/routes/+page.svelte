@@ -138,7 +138,7 @@
 		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>LEGACY DESIGNS (2010-2015)</h3>
 			School through early career: These projects were designed while pursuing my architecture degree
-			and during my tenure as Associate Designer at <a
+			and during my tenure as Associate Designer at&nbsp;<a
 				href="https://www.505design.com"
 				target="_blank">505Design</a
 			>.
