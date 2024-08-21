@@ -1,6 +1,8 @@
 <script>
-	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../image-attributes-collection';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import { sharedUrls } from '$lib/shared-strings';
+	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
 </script>
 
 <JDGContentContainer>
@@ -40,13 +42,18 @@
 			<br /><br />
 			In particular, the wasteful demolition of a
 			<a href="https://www.cinderellacityproject.com/about" target="_blank">giant shopping mall</a>
-			in 1998 brought me face-to-face with the shocking waste of the architecture industry, and
-			pushed me to a career designing better places for people and the environment.
+			in 1998 brought me face-to-face with the shocking waste of the architecture industry, and pushed
+			me to a career designing better places for people and the environment.
 			<br /><br />
-			Furthering my formative interest, middle school was an incredible patchwork of renovations and
-			additions from the 1920s to the 1940s, culminating in a major overhaul in the 1960s. Despite sporting
-			a minimal mid-century appearance, the school betrayed its age with creaky floors and glimpses of
-			historic brick, and its entire history was uncovered during its tragic demolition.
+			Furthering my formative interest,
+			<a href={sharedUrls.hst.flood_middle_school} target="_blank">middle school</a>
+			was an incredible patchwork of renovations and additions from the 1920s to the 1940s,
+			culminating in a major overhaul in the 1960s. Despite sporting a minimal mid-century
+			appearance, the school betrayed its age with creaky floors and glimpses of historic brick, and
+			its entire history was uncovered during its
+			<a href={`${sharedUrls.hst.flood_middle_school}#layers-of-brick`} target="_blank"
+				>tragic demolition</a
+			>.
 			<br /><br />
 			In high school, research and persistence led me to an internship with a Colorado real estate developer,
 			where for two years I helped transform the former
@@ -59,17 +66,19 @@
 			In college, I created award-winning designs spanning buildings, urban planning, and furniture.
 			I received my Master of Architecture degree at Kansas State University in 2013, where my thesis
 			focused on revitalizing the Main Street of a Kansas town and creating a unique public space in
-			the shell of an <a href="./architecture/random-school">abandoned building</a>.
+			the shell of an <a href={sharedUrls.arch.random_school}>abandoned building</a>.
 			<br /><br />
-			After graduation, I became an Associate at 505Design, where I created places uniquely designed
-			for the people who would inhabit them, from retail developments and office buildings to public
-			spaces and main streets. During my tenure, I introduced cutting-edge software to unlock new workflows
-			at the firm - software which would prove critical for my next career evolution.
+			After graduation, I became an Associate at
+			<a href={sharedUrls.f505Design} target="_blank">505Design</a>, where I created places uniquely
+			designed for the people who would inhabit them, from retail developments and office buildings
+			to public spaces and main streets. During my tenure, I introduced cutting-edge software to
+			unlock new workflows at the firm - software which would prove critical for my next career
+			evolution.
 			<br /><br />
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
 			While working in the architecture field, I began experimenting with visual scripting and generative
-			design software to venture into physical product design with the aid of the 3D printing boom of
-			the 2010s.
+			design software called <a href={sharedUrls.grasshopper} target="_blank">Grasshopper</a> to
+			venture into physical product design with the aid of the 3D printing boom of the 2010s.
 			<br /><br />
 			Thanks to these technologies, I was able to use scripts - reusable sets of instructions - to generate
 			and finesse complex 3D models rather than manually sculpting and adjusting them, enabling me to
@@ -81,30 +90,35 @@
 			I sold select designs physically at the
 			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
 			store from 2014 to 2017 and continue to offer them
-			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">online</a>
-			under the label <a href="http://www.parametrix3d.com/" target="_blank">Parametrix3D</a>.
+			<a href={jdgSharedUrls.pmxCgTrader} target="_blank">online</a>
+			under the label <a href={jdgSharedUrls.pmxWebsite} target="_blank">Parametrix3D</a>.
 			<br /><br />
 			<h3>SOFTWARE + SIMULATION</h3>
 			In 2015, I had the opportunity to move into the technology world, starting as a User Experience
-			Designer for Autodesk's premier architectural 3D modeling software, FormIt. I helped build FormIt
-			into a formidable competitor to SketchUp, eventually working my way into a Product Owner role.
+			Designer for Autodesk's premier architectural 3D modeling software, <a
+				href={jdgSharedUrls.adskFormIt}
+				target="_blank">FormIt</a
+			>. I helped build FormIt into a formidable competitor to SketchUp, eventually working my way
+			into a Product Owner role.
 			<br /><br />
 			Today, I'm a Senior Product Manager building the next generation of Autodesk's 3D modeling and
 			analysis software. I'm working to integrate FormIt's intuitive 3D modeling technology into a new
-			app called Forma, evolving legacy software into a cutting-edge platform for sustainable design.
+			app called <a href={sharedUrls.forma} target="_blank">Forma</a>, evolving legacy software into
+			a cutting-edge platform for sustainable design.
 			<br /><br />
 			I collaborate with full-stack development teams to create new features and improve workflows based
 			on customer feedback, and I also test the software from a customer perspective - putting on my
 			architecture hat to create fictional but realistic buildings to test our software.
 			<br /><br />
 			Working at Autodesk has allowed me to learn software development, where I started with learning
-			JavaScript to create useful plugins for FormIt, and now I'm consistently contributing to the source
-			code base and strategizing on software engineering approaches based on customer needs.
+			JavaScript to create useful plugins for FormIt, and now I'm contributing to the source code base
+			and strategizing on software engineering approaches based on customer needs.
 			<br /><br />
 			Coming full-circle, I'm currently working to preserve architectural history through technology
-			with The Cinderella City Project, where I'm harnessing my skills in 3D modeling and software development
-			to create an interactive, historically-accurate simulation of the place that ignited my passion
-			for architecture in the first place.
+			with <a href={jdgSharedUrls.ccpWebsite} target="_blank">The Cinderella City Project</a>, where
+			I'm harnessing my skills in 3D modeling and software development to create an interactive,
+			historically-accurate simulation of the place that ignited my passion for architecture in the
+			first place.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

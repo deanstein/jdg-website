@@ -1,7 +1,9 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import { sharedUrls } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 
 	import {
 		JDGBodyCopy,
@@ -12,7 +14,6 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
-	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
@@ -121,7 +122,7 @@
 			<JDGImageTile
 				label={'FLOOD MIDDLE SCHOOL'}
 				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
-				href={'./architectural-history/flood-middle-school'}
+				href={sharedUrls.hst.flood_middle_school}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
@@ -137,7 +138,10 @@
 		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>LEGACY DESIGNS (2010-2015)</h3>
 			School through early career: These projects were designed while pursuing my architecture degree
-			and during my tenure as Associate Designer at 505Design.
+			and during my tenure as Associate Designer at <a
+				href="https://www.505design.com"
+				target="_blank">505Design</a
+			>.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -162,7 +166,7 @@
 			/>
 			<JDGImageTile
 				label={'ABANDONED SCHOOL REUSE'}
-				href="./architecture/random-school"
+				href={sharedUrls.arch.random_school}
 				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
 			/>
 			<JDGImageTile
@@ -252,14 +256,15 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
 		<JDGBodyCopy textAlign="center" paddingTop="0">
-			Harnessing skills from my architecture career, I use visual scripting and 3D printing to
-			design, test, and refine useful products for the home under the label <a
-				href="http://www.parametrix3d.com/"
-				target="_blank">Parametrix3D</a
-			>.
+			Harnessing skills from my architecture career, I use <a
+				href={sharedUrls.grasshopper}
+				target="_blank">visual scripting</a
+			>
+			and 3D printing to design, test, and refine useful products for the home under the label
+			<a href="http://www.parametrix3d.com/" target="_blank">Parametrix3D</a>.
 			<br /><br />
 			Select designs were sold physically at the
-			<a href="http://www.parametrix3d.com/" target="_blank">I Heart Denver</a>
+			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
 			store from 2014 to 2017. If you have a 3D printer, you can get these printer-ready models at
 			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">CGTrader</a>.
 		</JDGBodyCopy>
