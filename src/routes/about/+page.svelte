@@ -69,15 +69,16 @@
 			the shell of an <a href={sharedUrls.arch.random_school}>abandoned building</a>.
 			<br /><br />
 			After graduation, I became an Associate at
-			<a href={sharedUrls.f505Design} target="_blank">505Design</a>, where I created places uniquely
-			designed for the people who would inhabit them, from retail developments and office buildings
-			to public spaces and main streets. During my tenure, I introduced cutting-edge software to
-			unlock new workflows at the firm - software which would prove critical for my next career
-			evolution.
+			<a href={jdgSharedUrls.arch505Design} target="_blank">505Design</a>, where I created places
+			uniquely designed for the people who would inhabit them, from retail developments and office
+			buildings to public spaces and main streets. During my tenure, I introduced cutting-edge
+			software to unlock new workflows at the firm - software which would prove critical for my next
+			career evolution.
 			<br /><br />
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
 			While working in the architecture field, I began experimenting with visual scripting and generative
-			design software called&nbsp;<a href={sharedUrls.grasshopper} target="_blank">Grasshopper</a>
+			design software called&nbsp;<a href={jdgSharedUrls.grasshopper} target="_blank">Grasshopper</a
+			>
 			to venture into physical product design with the aid of the 3D printing boom of the 2010s.
 			<br /><br />
 			Thanks to these technologies, I was able to use scripts - reusable sets of instructions - to generate
@@ -103,8 +104,8 @@
 			<br /><br />
 			Today, I'm a Senior Product Manager building the next generation of Autodesk's 3D modeling and
 			analysis software. I'm working to integrate FormIt's intuitive 3D modeling technology into a new
-			app called <a href={sharedUrls.forma} target="_blank">Forma</a>, evolving legacy software into
-			a cutting-edge platform for sustainable design.
+			app called <a href={jdgSharedUrls.adskForma} target="_blank">Forma</a>, evolving legacy
+			software into a cutting-edge platform for sustainable design.
 			<br /><br />
 			I collaborate with full-stack development teams to create new features and improve workflows based
 			on customer feedback, and I also test the software from a customer perspective - putting on my

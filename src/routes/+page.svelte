@@ -43,7 +43,7 @@
 	}
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topBottomPadding="0">
+<JDGContentContainer overlapWithHeader={true} topPadding="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
 		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
@@ -52,7 +52,7 @@
 		secondaryText={'with experience in:'}
 	/>
 </JDGContentContainer>
-<JDGContentContainer topBottomPadding="0">
+<JDGContentContainer>
 	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
@@ -203,7 +203,7 @@
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
 			Testing grounds for architecture and software. These projects were digitally built using<a
-				href="https://formit.autodesk.com">Autodesk FormIt</a
+				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
 			>, for which I was the Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGGridLayout>
@@ -257,7 +257,7 @@
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a
-				href={sharedUrls.grasshopper}
+				href={jdgSharedUrls.grasshopper}
 				target="_blank">visual scripting</a
 			>
 			and 3D printing to design, test, and refine useful products for the home under the label
