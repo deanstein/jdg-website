@@ -43,7 +43,7 @@
 	}
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topPadding="0">
+<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
 		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
@@ -52,7 +52,7 @@
 		secondaryText={'with experience in:'}
 	/>
 </JDGContentContainer>
-<JDGContentContainer>
+<JDGContentContainer topPadding="0">
 	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
