@@ -4,5 +4,5 @@ export const sharedUrls = {
 	},
 	hst: {
 		flood_middle_school: './architectural-history/flood-middle-school'
-	},
+	}
 };

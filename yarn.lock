@@ -1506,10 +1506,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-jdg-ui-svelte@0.19.7:
-  version "0.19.7"
-  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.19.7.tgz#66d59ba23b49b333a9aabbd807fa8bcf77240d52"
-  integrity sha512-pnwRw0XUYy4h/uAoeAY2ZIxg0KOEVv7tZkK9WbQfKQ8ugRKj7GVx0xID/O9JScMSRvzNksiqO4POSViXh5eVyg==
+jdg-ui-svelte@0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.20.1.tgz#7ff8db882d3d2be2df4a8494835160fb69ff6a7e"
+  integrity sha512-qjwkddmFAE9K++MrKDAzQoPGZkIC0orPD5bKaSG5B0AVZyokWedy1q8yTnqQqFvpSwwkDZUYh1zzkrk9Op1sHw==
   dependencies:
     "@emotion/css" "^11.11.2"
     crypto-js "^4.2.0"

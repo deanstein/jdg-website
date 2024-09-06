@@ -2,7 +2,7 @@
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { sharedUrls } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
-	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 
 	import {
@@ -38,12 +38,12 @@
 	};
 
 	$: {
-		$uiState.windowWidth;
+		$windowWidth;
 		imageHeightBreakpointHandler();
 	}
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0">
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
 		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
@@ -52,7 +52,7 @@
 		secondaryText={'with experience in:'}
 	/>
 </JDGContentContainer>
-<JDGContentContainer topPadding="0">
+<JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
@@ -62,7 +62,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#architectural-design"
-					compactModeOnMobile={false}
+					useCompactHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
@@ -71,7 +71,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#industrial-design"
-					compactModeOnMobile={false}
+					useCompactHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
@@ -80,7 +80,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#software"
-					compactModeOnMobile={false}
+					useCompactHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
 			</JDGGridLayout>

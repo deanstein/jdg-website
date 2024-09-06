@@ -1,5 +1,8 @@
 <script>
-	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+	import {
+		doShowImageDetailOverlay,
+		imageDetailAttributes
+	} from 'jdg-ui-svelte/states/ui-state.js';
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
@@ -68,7 +71,7 @@
 	>
 		<SocialMedia />
 	</JDGFooter>
-	{#if $uiState.showImageDetailOverlay}
-		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
+	{#if $doShowImageDetailOverlay}
+		<JDGImageDetailOverlay imageAttributes={$imageDetailAttributes} />
 	{/if}
 </JDGAppContainer>

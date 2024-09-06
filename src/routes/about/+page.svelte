@@ -2,26 +2,32 @@
 	import imageAttributesCollection from '../image-attributes-collection';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { sharedUrls } from '$lib/shared-strings';
-	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
+	import {
+		JDGBodyCopy,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGGridLayout,
+		JDGImage
+	} from 'jdg-ui-svelte';
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating title={'NICE TO MEET YOU'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			<span style="font-size: 30px;">I'm Josh.</span>
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			I'm a maker and innovator with unique experience in the design and development of software,
+			architecture, and physical products.
 			<br /><br />
-			I'm a maker and innovator with unique experience in the design and development of software, architecture,
-			and physical products.
-			<br /><br />
-			<div style="display: flex; justify-content: center;">
-				<JDGImage
-					imageAttributes={imageAttributesCollection.jdg_photo_2}
-					maxHeight="300px"
-					fillContainer={false}
-					maxWidth="auto"
-				/>
-			</div>
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.jdg_photo_2}
+			maxHeight="300px"
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={false}
+		/>
+		<JDGBodyCopy paddingTop="0">
 			I live in downtown Denver, Colorado with my wife Haley and our cat
 			<a href="https://www.instagram.com/iris_theragdoll" target="_blank">Iris</a>. Surrounded by
 			natural and architectural beauty, we spend our time urban exploring, discovering new coffee
@@ -35,8 +41,10 @@
 			<br /><br />
 			It's been a wild ride. Here's how I got here:
 		</JDGBodyCopy>
-		<JDGBodyCopy>
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>ARCHITECTURAL DESIGN + HISTORY</h3>
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			Growing up near Denver, Colorado, I witnessed vast changes to the metro area's urban character
 			and retail landscape, igniting a passion for architectural design and urban planning.
 			<br /><br />
@@ -44,8 +52,15 @@
 			<a href="https://www.cinderellacityproject.com/about" target="_blank">giant shopping mall</a>
 			in 1998 brought me face-to-face with the shocking waste of the architecture industry, and pushed
 			me to a career designing better places for people and the environment.
-			<br /><br />
-			Furthering my formative interest,
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.hst.ccm_demolition}
+			maxHeight="300px"
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={false}
+		/>
+		<JDGBodyCopy>
+			Furthering my formative interest in architecture, my
 			<a href={sharedUrls.hst.flood_middle_school} target="_blank">middle school</a>
 			was an incredible patchwork of renovations and additions from the 1920s to the 1940s, culminating
 			in a major overhaul in the 1960s. Despite sporting a minimal mid-century appearance, the school
@@ -54,9 +69,24 @@
 			<a href={`${sharedUrls.hst.flood_middle_school}#layers-of-brick`} target="_blank"
 				>tragic demolition</a
 			>.
-			<br /><br />
-			In high school, research and persistence led me to an internship with a Colorado real estate developer,
-			where for two years I helped transform the former
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.hst.ehs_1936_southeast_wing}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={false}
+			/>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy paddingBottom="0">
+			In high school, research and persistence led me to an internship with a Colorado real estate
+			developer, where for two years I helped transform the former
 			<a
 				href="http://coloradocommunitymedia.com/stories/Making-Southglenn-history-Shopping-malls-fascinate-teen-architect,65797"
 				target="_blank">Southglenn Mall</a
@@ -66,18 +96,35 @@
 			In college, I created award-winning designs spanning buildings, urban planning, and furniture.
 			I received my Master of Architecture degree at Kansas State University in 2013, where my thesis
 			focused on revitalizing the Main Street of a Kansas town and creating a unique public space in
-			the shell of an <a href={sharedUrls.arch.random_school}>abandoned building</a>.
-			<br /><br />
+			the shell of an <a href={sharedUrls.arch.random_school}>abandoned school</a>.
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.arch.random_school_canopy}
+			maxHeight="300px"
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={false}
+		/>
+		<JDGBodyCopy paddingBottom="0">
 			After graduation, I became an Associate at
 			<a href={jdgSharedUrls.arch505Design} target="_blank">505Design</a>, where I created places
 			uniquely designed for the people who would inhabit them, from retail developments and office
 			buildings to public spaces and main streets. During my tenure, I introduced cutting-edge
 			software to unlock new workflows at the firm - software which would prove critical for my next
 			career evolution.
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+			maxHeight="300px"
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={false}
+		/>
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
-			While working in the architecture field, I began experimenting with visual scripting and generative
-			design software called&nbsp;<a href={jdgSharedUrls.grasshopper} target="_blank">Grasshopper</a
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			While working in the architecture field, I began experimenting with visual scripting and
+			generative design software called&nbsp;<a href={jdgSharedUrls.grasshopper} target="_blank"
+				>Grasshopper</a
 			>
 			to venture into physical product design with the aid of the 3D printing boom of the 2010s.
 			<br /><br />
@@ -93,10 +140,13 @@
 			store from 2014 to 2017 and continue to offer them
 			<a href={jdgSharedUrls.pmxCgTrader} target="_blank">online</a>
 			under the label <a href={jdgSharedUrls.pmxWebsite} target="_blank">Parametrix3D</a>.
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>SOFTWARE + SIMULATION</h3>
-			In 2015, I had the opportunity to move into the technology world, starting as a User Experience
-			Designer for Autodesk's premier architectural 3D modeling software,&nbsp;<a
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0">
+			In 2015, I had the opportunity to move into the technology world, starting as a User
+			Experience Designer for Autodesk's premier architectural 3D modeling software,&nbsp;<a
 				href={jdgSharedUrls.adskFormIt}
 				target="_blank">FormIt</a
 			>. I helped build FormIt into a formidable competitor to SketchUp, eventually working my way
@@ -123,3 +173,9 @@
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
+
+<style>
+	h3 {
+		margin: 0;
+	}
+</style>

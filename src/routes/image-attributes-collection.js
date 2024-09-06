@@ -613,6 +613,14 @@ const imageAttributesCollection = {
 				imgCaption: 'Cinderella City Mall.'
 			})
 		),
+		ccm_demolition: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/blue-mall/blue-mall-80s90s-demolition-1_k7jfp2.jpg'
+				),
+				imgCaption: 'Cinderella City Mall being demolished in 1998.'
+			})
+		),
 		ehs_1919_plan: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -1084,6 +1092,15 @@ const imageAttributesCollection = {
 				imgCaption: 'The north wing as it appeared shortly before demolition in 2013.',
 				imgAttribution: 'Julie Klusener'
 			})
+		),
+		sas_rendering_aerial: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1724391251/jdg-website/hst/sas_rendering_aerial.jpg'
+				),
+				imgCaption: 'An aerial rendering of the Streets at SouthGlenn redevelopment.',
+				imgAttribution: 'Alberta Development Partners'
+			})
 		)
 	},
 	ind: {
@@ -1196,6 +1213,14 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1724204050/jdg-website/jdg-photo-2.jpg'
 			),
 			imgCaption: 'Josh, his wife Haley, and their cat Iris in their renovated kitchen in 2024.'
+		})
+	),
+	jdg_photo_3: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1724392902/jdg-website/jdg-photo-3.jpg'
+			),
+			imgCaption: 'Josh giving a presentation in 2022.'
 		})
 	)
 };
