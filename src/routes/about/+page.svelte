@@ -25,7 +25,7 @@
 			imageAttributes={imageAttributesCollection.jdg_photo_2}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={false}
+			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingTop="0">
 			I live in downtown Denver, Colorado with my wife Haley and our cat
@@ -57,7 +57,7 @@
 			imageAttributes={imageAttributesCollection.hst.ccm_demolition}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={false}
+			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy>
 			Furthering my formative interest in architecture, my
@@ -75,13 +75,13 @@
 				imageAttributes={imageAttributesCollection.hst.ehs_1936_southeast_wing}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={false}
+				useCompactHeightOnMobile={true}
 			/>
 			<JDGImage
 				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={false}
+				useCompactHeightOnMobile={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
@@ -102,7 +102,7 @@
 			imageAttributes={imageAttributesCollection.arch.random_school_canopy}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={false}
+			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingBottom="0">
 			After graduation, I became an Associate at
@@ -116,7 +116,7 @@
 			imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={false}
+			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
