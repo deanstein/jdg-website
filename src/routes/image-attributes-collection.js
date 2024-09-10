@@ -135,6 +135,13 @@ const imageAttributesCollection = {
 				)
 			})
 		),
+		hp_library_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1725930497/jdg-website/arch/hp-library-1.jpg'
+				)
+			})
+		),
 		mindful_campus_aerial: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -1104,6 +1111,24 @@ const imageAttributesCollection = {
 		)
 	},
 	ind: {
+		gh_script_0: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1725918467/pmx-website/gh-script-1.jpg'
+				),
+				imgCaption:
+					'A Grasshopper script which uses nodes and connections to create a flexible set of instructions which generate a final 3D model.'
+			})
+		),
+		product_line_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1725919763/pmx-website/product-line-1.jpg'
+				),
+				imgCaption:
+					'A Grasshopper script which uses nodes and connections to create a flexible set of instructions that generates a final 3D model.'
+			})
+		),
 		planter_003F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -1199,6 +1224,23 @@ const imageAttributesCollection = {
 		imgAlt: 'Software',
 		imgCaption: 'Software'
 	}),
+	about_forma_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1725932090/jdg-website/exp/forma-1.png'
+			),
+			imgCaption: 'An Autodesk Forma model showing the results of solar gain analysis.'
+		})
+	),
+	about_formit_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1721076293/jdg-website/exp/1551-wewatta-corner.jpg'
+			),
+			imgCaption:
+				'An Autodesk FormIt model showing the adaptive reuse of a middle school into a mixed-use development.'
+		})
+	),
 	jdg_photo_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
