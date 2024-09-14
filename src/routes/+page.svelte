@@ -136,7 +136,8 @@
 			eventually moving into <a href="#software">architectural software</a> in 2015.
 		</JDGBodyCopy>
 		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
-			<h3>LEGACY DESIGNS (2010-2015)</h3>
+			<h3 class="subheader-with-date">LEGACY DESIGNS</h3>
+			<h4 class="date">2010-2015</h4>
 			School through early career: These projects were designed while pursuing my architecture degree
 			and during my tenure as Associate Designer at&nbsp;<a
 				href="https://www.505design.com"
@@ -201,7 +202,8 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
-			<h3>EXPERIMENTAL DESIGNS (2015-2024)</h3>
+			<h3 class="subheader-with-date">EXPERIMENTAL DESIGNS</h3>
+			<h4 class="date">2015-2024</h4>
 			Testing grounds for architecture and software. These projects were digitally built using<a
 				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
 			>, for which I was the Senior Product Manager.
@@ -343,5 +345,14 @@
 <style>
 	h3 {
 		text-align: center;
+	}
+
+	h3.subheader-with-date {
+		margin-bottom: 0;
+	}
+
+	h4.date {
+		margin-top: 0;
+		color: gray;
 	}
 </style>
