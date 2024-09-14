@@ -275,6 +275,13 @@ const imageAttributesCollection = {
 				)
 			})
 		),
+		random_school_diagram_construction: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1726278684/jdg-website/arch/random-school-diagram-construction.png'
+				)
+			})
+		),
 		random_school_play: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -1237,8 +1244,15 @@ const imageAttributesCollection = {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1721076293/jdg-website/exp/1551-wewatta-corner.jpg'
 			),
-			imgCaption:
-				'An Autodesk FormIt model showing the adaptive reuse of a middle school into a mixed-use development.'
+			imgCaption: 'An Autodesk FormIt model.'
+		})
+	),
+	about_formit_2: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1721184331/jdg-website/exp/o2-research-lobby.jpg'
+			),
+			imgCaption: 'An Autodesk FormIt model.'
 		})
 	),
 	jdg_photo_1: postProcessImageAttributes(

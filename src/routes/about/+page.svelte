@@ -53,12 +53,20 @@
 			in 1998 brought me face-to-face with the shocking waste of the architecture industry, and pushed
 			me to a career designing better places for people and the environment.
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.hst.ccm_demolition}
-			maxHeight="300px"
-			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
-		/>
+		<JDGGridLayout>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.hst.ccm_demolition}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.hst.ccm_0}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			Furthering my formative interest in architecture, my
 			<a href={sharedUrls.hst.flood_middle_school} target="_blank">middle school</a>
@@ -90,12 +98,20 @@
 			focused on revitalizing the Main Street of a Kansas town and creating a unique public space in
 			the shell of an <a href={sharedUrls.arch.random_school}>abandoned school</a>.
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.arch.random_school_canopy}
-			maxHeight="300px"
-			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
-		/>
+		<JDGGridLayout>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.arch.random_school_diagram_construction}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			After graduation, I became an Associate at
 			<a href={jdgSharedUrls.arch505Design} target="_blank">505Design</a>, where I created places
@@ -152,28 +168,37 @@
 			<h3>SOFTWARE + SIMULATION</h3>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
-			In 2015, I had the opportunity to move into the technology world, starting as a User
-			Experience Designer for Autodesk's premier architectural 3D modeling software,&nbsp;<a
-				href={jdgSharedUrls.adskFormIt}
-				target="_blank">FormIt</a
-			>. I helped build FormIt into a formidable competitor to SketchUp, eventually working my way
-			into a Product Owner role.
+			In 2015, I jumped into the technology world where I harnessed my architecture experience to
+			become a User Experience Designer and Product Owner for Autodesk's premier architectural 3D
+			modeling software,&nbsp;<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>.
+			<br /><br />
+			Working with full-stack software development teams, I helped build FormIt into a formidable competitor
+			in the 3D modeling world, creating new features and improving capabilities based on customer feedback.
+			I also tested the software as a customer would, designing
+			<a href="./#experimental-architecture" target="_blank">fictional but realistic buildings</a> that
+			pushed performance limits and exercised new features.
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.about_formit_1}
-			maxHeight="300px"
-			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
-		/>
+		<JDGGridLayout>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.about_formit_1}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.about_formit_2}
+				maxHeight="300px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+			/>
+		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			Today, I'm a Senior Product Manager building the next generation of Autodesk's 3D modeling and
-			analysis software. I'm working to integrate FormIt's intuitive 3D modeling technology into a
-			new app called <a href={jdgSharedUrls.adskForma} target="_blank">Forma</a>, evolving legacy
-			software into a cutting-edge platform for sustainable design.
-			<br /><br />
-			I collaborate with full-stack development teams to create new features and improve workflows based
-			on customer feedback, and I also test the software from a customer perspective - putting on my
-			architecture hat to create fictional but realistic buildings to test our software.
+			analysis software. We're working to integrate FormIt's intuitive and powerful 3D modeling
+			engine into a new design and analysis environment called <a
+				href={jdgSharedUrls.adskForma}
+				target="_blank">Forma</a
+			>, evolving legacy software into a cutting-edge platform for sustainable design.
 		</JDGBodyCopy>
 		<JDGImage
 			imageAttributes={imageAttributesCollection.about_forma_1}
@@ -182,9 +207,10 @@
 			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy>
-			Working at Autodesk has allowed me to learn software development, where I started with
-			learning JavaScript to create useful plugins for FormIt, and now I'm contributing to the
-			source code base and strategizing on software engineering approaches based on customer needs.
+			Working at Autodesk has also afforded me the incredible opportunity to learn software
+			development. I started with JavaScript, building cross-platform FormIt plugins that filled
+			capability gaps and created powerful new workflows. For desktop specifically, I built new
+			interfaces and adjusted global interface styling using Qt C++.
 			<br /><br />
 			Coming full-circle, I'm currently working to preserve architectural history through technology
 			with <a href={jdgSharedUrls.ccpWebsite} target="_blank">The Cinderella City Project</a>, where
