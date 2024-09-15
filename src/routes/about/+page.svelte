@@ -7,7 +7,8 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
-		JDGImage
+		JDGImage,
+		JDGImageCompare
 	} from 'jdg-ui-svelte';
 </script>
 
@@ -168,15 +169,15 @@
 			<h3>SOFTWARE + SIMULATION</h3>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
-			In 2015, I jumped into the technology world where I harnessed my architecture experience to
+			In 2015, I jumped into the technology world where I harnessed my architecture background to
 			become a User Experience Designer and Product Owner for Autodesk's premier architectural 3D
 			modeling software,&nbsp;<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>.
 			<br /><br />
-			Working with full-stack software development teams, I helped build FormIt into a formidable competitor
-			in the 3D modeling world, creating new features and improving capabilities based on customer feedback.
-			I also tested the software as a customer would, designing
-			<a href="./#experimental-architecture" target="_blank">fictional but realistic buildings</a> that
-			pushed performance limits and exercised new features.
+			Working with full-stack software development teams, I helped transform FormIt into a formidable
+			competitor in the 3D modeling world, creating new features and improving capabilities based on
+			customer feedback. I also tested the software as a customer would, designing
+			<a href="./#experimental-designs" target="_blank">fictional but realistic buildings</a> that pushed
+			performance limits and demonstrated new features.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage
@@ -206,17 +207,42 @@
 			cropToFillContainer={false}
 			useCompactHeightOnMobile={true}
 		/>
-		<JDGBodyCopy>
-			Working at Autodesk has also afforded me the incredible opportunity to learn software
-			development. I started with JavaScript, building cross-platform FormIt plugins that filled
-			capability gaps and created powerful new workflows. For desktop specifically, I built new
-			interfaces and adjusted global interface styling using Qt C++.
+		<JDGBodyCopy paddingBottom="0">
+			Working at Autodesk has also afforded me the incredible opportunity to learn how to develop my
+			own software. Starting with JavaScript, I built dozens of cross-platform FormIt plugins that
+			filled capability gaps and created powerful new workflows, and also created new desktop visual
+			interfaces and overhauled styling using Qt C++.
+			<br /><br />
+			I've since taken my learnings and expanded them into web development, resulting in the very website
+			you're visiting now! I developed my own SvelteJS UI package to underpin several websites which
+			will showcase my portfolio in architecture, industrial design, and simulation.
 			<br /><br />
 			Coming full-circle, I'm currently working to preserve architectural history through technology
 			with <a href={jdgSharedUrls.ccpWebsite} target="_blank">The Cinderella City Project</a>, where
 			I'm harnessing my skills in 3D modeling and software development to create an interactive,
 			historically-accurate simulation of the place that ignited my passion for architecture in the
 			first place.
+		</JDGBodyCopy>
+		<JDGImageCompare
+			imageAttributes1={imageAttributesCollection.hst.ccp_blue_mall_60s70s_1}
+			imageAttributes2={imageAttributesCollection.hst.ccp_blue_mall_80s90s_1}
+			maxHeight="400px"
+			showBlurInUnfilledSpace={false}
+			caption={"Cinderella City's Blue Mall as seen simulated in two distinct time periods."}
+		/>
+		<JDGBodyCopy>
+			The simulation is currently on display in the <a
+				href="https://www.cinderellacityproject.com/exhibit"
+				target="_blank">Englewood History Museum</a
+			>, which I also helped design and build. The museum is inside a former Cinderella City
+			department store which was saved and reused during the mall's demolition.
+			<br /><br />
+			Looking ahead, I may attempt similar historic simulation efforts for other mid-century malls like
+			<a href={jdgSharedUrls.vipFacebook} target="_blank">Villa Italia Mall</a> or Lakeside Mall.
+			<br /><br />
+			I'm always seeking new ways to combine my skills and create solutions for architecture and architectural
+			history. Have an idea you'd like to collaborate with me on?
+			<a href="./contact" target="_blank">Let's chat</a>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

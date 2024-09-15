@@ -635,6 +635,22 @@ const imageAttributesCollection = {
 				imgCaption: 'Cinderella City Mall being demolished in 1998.'
 			})
 		),
+		ccp_blue_mall_60s70s_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962805/ccp-website/ccp/blue-mall-60s70s-1_v1lga0.png'
+				),
+				imgCaption: "Cinderella City's Blue Mall as simulated between 1968 and 1978."
+			})
+		),
+		ccp_blue_mall_80s90s_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962805/ccp-website/ccp/blue-mall-80s90s-1_xocsmu.png'
+				),
+				imgCaption: "Cinderella City's Blue Mall as simulated between 1987 and 1997."
+			})
+		),
 		ehs_1919_plan: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
