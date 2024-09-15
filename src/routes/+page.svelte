@@ -90,8 +90,8 @@
 			things ignited a career in architecture that evolved into a unique software legacy, spanning
 			domains and defying categorization.
 			<br /><br />
-			I'm currently a Senior Product Manager building the next generation of 3D architectural modeling
-			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. At night, I'm a
+			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
+			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
 			software and simulation developer, product designer, and architectural historian.
 			<br /><br />
 			I'm also the creator of
@@ -105,12 +105,13 @@
 	</JDGContentBoxFloating>
 	<JDGJumpTo />
 	<JDGContentBoxFloating title={'ARCHITECTURAL HISTORY'}>
-		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center">
-			This is where it all started for me:<br />
+		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center" textWrap="balance">
+			This is where it all started for me: <br />
 			Unique places lost to time, casualties of a disposable society.
-			<br /><br />
-			These quirky designs inspired my career,<br />
-			and their fascinating histories offer lessons for today.
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0" paddingTop="0" textAlign="center" textWrap="balance">
+			These quirky designs inspired my career and their fascinating histories continue to offer
+			lessons for today.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile

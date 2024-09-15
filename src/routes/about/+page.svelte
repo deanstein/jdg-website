@@ -221,8 +221,8 @@
 				href="https://github.com/FormIt3D"
 				target="_blank">FormIt plugins</a
 			>
-			that filled capability gaps and created powerful new workflows, and also created new desktop
-			visual interfaces and overhauled styling using Qt C++.
+			that filled capability gaps and created powerful new workflows, and also created new desktop visual
+			interfaces and overhauled styling using Qt C++.
 			<br /><br />
 			I've since taken my learnings and expanded them into web development, resulting in the very website
 			you're visiting now! I developed my own
