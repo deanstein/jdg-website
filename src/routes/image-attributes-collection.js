@@ -1233,6 +1233,14 @@ const imageAttributesCollection = {
 			})
 		)
 	},
+	swe: {
+		code_svelte_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1726419738/jdg-website/swe/code-svelte-1.jpg'
+			),
+			imgCaption: 'A snippet of SvelteJS code.'
+		})
+	},
 	products_0: instantiateObject(jdgImageAttributes, {
 		imgSrc: addCloudinaryUrlTransformation(
 			'https://res.cloudinary.com/jdg-main/image/upload/v1720834651/jdg-website/products/products-0.jpg'

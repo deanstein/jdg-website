@@ -3,13 +3,16 @@
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { sharedUrls } from '$lib/shared-strings';
 	import {
+		JDGAccentBlockWithText,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGFullWidthContainer,
 		JDGGridLayout,
 		JDGImage,
 		JDGImageCompare
 	} from 'jdg-ui-svelte';
+	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
 </script>
 
 <JDGContentContainer>
@@ -39,10 +42,15 @@
 			making the next generation of powerful 3D modeling, visualization, and analysis software for architects
 			and designers everywhere. By night, I'm a software and simulation developer, product designer,
 			and architectural historian.
-			<br /><br />
-			It's been a wild ride. Here's how I got here:
 		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
+		<JDGFullWidthContainer>
+			<JDGAccentBlockWithText
+				primaryText="It's been a wild ride."
+				secondaryText="Here's how I got here:"
+				backgroundColor={$accentColors[1]}
+			/>
+		</JDGFullWidthContainer>
+		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>ARCHITECTURAL DESIGN + HISTORY</h3>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
@@ -209,14 +217,26 @@
 		/>
 		<JDGBodyCopy paddingBottom="0">
 			Working at Autodesk has also afforded me the incredible opportunity to learn how to develop my
-			own software. Starting with JavaScript, I built dozens of cross-platform FormIt plugins that
-			filled capability gaps and created powerful new workflows, and also created new desktop visual
-			interfaces and overhauled styling using Qt C++.
+			own software. Starting with JavaScript, I built dozens of cross-platform <a
+				href="https://github.com/FormIt3D"
+				target="_blank">FormIt plugins</a
+			>
+			that filled capability gaps and created powerful new workflows, and also created new desktop
+			visual interfaces and overhauled styling using Qt C++.
 			<br /><br />
 			I've since taken my learnings and expanded them into web development, resulting in the very website
-			you're visiting now! I developed my own SvelteJS UI package to underpin several websites which
-			will showcase my portfolio in architecture, industrial design, and simulation.
-			<br /><br />
+			you're visiting now! I developed my own
+			<a href="https://github.com/deanstein/jdg-ui-svelte" target="_blank">SvelteJS UI package</a> to
+			underpin several websites which will showcase my portfolio in architecture, industrial design,
+			and simulation.
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.swe.code_svelte_1}
+			maxHeight="300px"
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={true}
+		/>
+		<JDGBodyCopy paddingBottom="0">
 			Coming full-circle, I'm currently working to preserve architectural history through technology
 			with <a href={jdgSharedUrls.ccpWebsite} target="_blank">The Cinderella City Project</a>, where
 			I'm harnessing my skills in 3D modeling and software development to create an interactive,
@@ -237,7 +257,8 @@
 			>, which I also helped design and build. The museum is inside a former Cinderella City
 			department store which was saved and reused during the mall's demolition.
 			<br /><br />
-			Looking ahead, I may attempt similar historic simulation efforts for other mid-century malls like
+			Looking ahead, I may attempt similar historic simulation efforts for other mid-century Colorado
+			places like
 			<a href={jdgSharedUrls.vipFacebook} target="_blank">Villa Italia Mall</a> or Lakeside Mall.
 			<br /><br />
 			I'm always seeking new ways to combine my skills and create solutions for architecture and architectural
