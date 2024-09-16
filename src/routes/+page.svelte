@@ -10,6 +10,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo
@@ -335,6 +336,34 @@
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			In 2015, I pivoted to architectural software, where I built an intuitive 3D modeling app
+			that's now powering a next-generation Autodesk platform.
+			<br /><br />
+			<h3 class="subheader-with-date">FORMIT</h3>
+			<i>Powerful modeling tools that feel like 3D sketching.</i>
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.swe.formit_0_ui}
+			cropToFillContainer={false}
+			useCompactHeightOnMobile={true}
+		/>
+		<JDGBodyCopy>
+			FormIt is Autodesk's premier conceptual modeling app, featuring intuitive tools, scene and
+			environment management, and impressive interoperability with other apps.
+			<br /><br />
+			As a Senior Product Manager, I grew FormIt into a formidable competitor in the 3D modeling space,
+			filling capability gaps and addressing customer requests to create one of the most powerful and
+			flexible modeling systems available.
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile label={'PROJECT 1'} />
+			<JDGImageTile label={'PROJECT 2'} />
+			<JDGImageTile label={'PROJECT 3'} />
+		</JDGGridLayout>
+		<JDGBodyCopy>
+			<h3 class="subheader-with-date">FORMA</h3>
+		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile label={'PROJECT 1'} />
 			<JDGImageTile label={'PROJECT 2'} />

@@ -1254,6 +1254,18 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1726419738/jdg-website/swe/code-svelte-1.jpg'
 			),
 			imgCaption: 'A snippet of SvelteJS code.'
+		}),
+		formit_0: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1726460443/jdg-website/swe/formit-0.jpg'
+			),
+			imgCaption: 'A FormIt model showing solar analysis, materiality, and sketchy lines.'
+		}),
+		formit_0_ui: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1726452883/jdg-website/swe/formit-0-ui.jpg'
+			),
+			imgCaption: 'A FormIt model showing solar analysis, materiality, and sketchy lines.'
 		})
 	},
 	about_forma_1: postProcessImageAttributes(
