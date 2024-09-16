@@ -340,14 +340,13 @@
 			In 2015, I pivoted to architectural software, where I built an intuitive 3D modeling app
 			that's now powering a next-generation Autodesk platform.
 			<br /><br />
-			<h3 class="subheader-with-date">FORMIT</h3>
-			<i>Powerful modeling tools that feel like 3D sketching.</i>
+			<JDGImageFullWidth
+				imageAttributes={imageAttributesCollection.swe.formit_0}
+				maxHeight="300px"
+				primaryText="FormIt"
+				secondaryText="Powerful modeling tools that feel like 3D sketching"
+			/>
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.swe.formit_0_ui}
-			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
-		/>
 		<JDGBodyCopy>
 			FormIt is Autodesk's premier conceptual modeling app, featuring intuitive tools, scene and
 			environment management, and impressive interoperability with other apps.
