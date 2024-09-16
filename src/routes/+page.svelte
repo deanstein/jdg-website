@@ -10,7 +10,6 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
-		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo
@@ -62,7 +61,7 @@
 					label={'ARCHITECTURE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
-					href="#architectural-design"
+					href="#architecture"
 					useCompactHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
@@ -128,7 +127,7 @@
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title={'ARCHITECTURAL DESIGN'}>
+	<JDGContentBoxFloating title={'ARCHITECTURE'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Witnessing the wasteful demolition of a
 			<a href="https://www.cinderellacityproject.com/about" target="_blank">giant shopping mall</a>
@@ -336,17 +335,16 @@
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
-		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
-			In 2015, I pivoted to architectural software, where I built an intuitive 3D modeling app
-			that's now powering a next-generation Autodesk platform.
-			<br /><br />
-			<JDGImageFullWidth
-				imageAttributes={imageAttributesCollection.swe.formit_0}
-				maxHeight="300px"
-				primaryText="FormIt"
-				secondaryText="Powerful modeling tools that feel like 3D sketching"
-			/>
+		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
+			In 2015, I pivoted to architectural software where I built an intuitive 3D modeling app that's
+			now powering a next-generation Autodesk platform.
 		</JDGBodyCopy>
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.swe.formit_0}
+			maxHeight="300px"
+			primaryText="FormIt"
+			secondaryText="Powerful modeling tools that feel like 3D sketching"
+		/>
 		<JDGBodyCopy>
 			FormIt is Autodesk's premier conceptual modeling app, featuring intuitive tools, scene and
 			environment management, and impressive interoperability with other apps.
