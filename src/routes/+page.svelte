@@ -66,7 +66,7 @@
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.products_0}
+					imageAttributes={imageAttributesCollection.ind.planter_003F_1}
 					label={'PRODUCTS'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
@@ -75,7 +75,7 @@
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.software_0}
+					imageAttributes={imageAttributesCollection.swe.ccp_1}
 					label={'SOFTWARE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"

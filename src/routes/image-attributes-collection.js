@@ -1160,6 +1160,14 @@ const imageAttributesCollection = {
 				imgCaption: 'Advanced Planter'
 			})
 		),
+		planter_003F_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1726422539/pmx-website/003F-1.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
 		kitchen_caddy_007F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -1234,6 +1242,13 @@ const imageAttributesCollection = {
 		)
 	},
 	swe: {
+		ccp_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/ccp/ccp-composite-2.jpg'
+			),
+			imgCaption:
+				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+		}),
 		code_svelte_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1726419738/jdg-website/swe/code-svelte-1.jpg'
@@ -1241,20 +1256,6 @@ const imageAttributesCollection = {
 			imgCaption: 'A snippet of SvelteJS code.'
 		})
 	},
-	products_0: instantiateObject(jdgImageAttributes, {
-		imgSrc: addCloudinaryUrlTransformation(
-			'https://res.cloudinary.com/jdg-main/image/upload/v1720834651/jdg-website/products/products-0.jpg'
-		),
-		imgAlt: 'Products',
-		imgCaption: 'Products'
-	}),
-	software_0: instantiateObject(jdgImageAttributes, {
-		imgSrc: addCloudinaryUrlTransformation(
-			'https://res.cloudinary.com/jdg-main/image/upload/v1720834658/jdg-website/software/software-0.jpg'
-		),
-		imgAlt: 'Software',
-		imgCaption: 'Software'
-	}),
 	about_forma_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
