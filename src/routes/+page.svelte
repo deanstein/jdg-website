@@ -358,9 +358,14 @@
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
-		<JDGBodyCopy>
-			<h3 class="subheader-with-date">FORMA</h3>
-		</JDGBodyCopy>
+		<JDGBodyCopy></JDGBodyCopy>
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
+			maxHeight="300px"
+			primaryText="Forma"
+			secondaryText="Autodesk's next-gen design and analysis platform"
+		/>
+		<JDGBodyCopy>Forma is...</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile label={'PROJECT 1'} />
 			<JDGImageTile label={'PROJECT 2'} />
