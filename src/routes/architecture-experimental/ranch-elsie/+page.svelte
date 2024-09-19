@@ -28,7 +28,7 @@
 		<JDGImage
 			imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
 			maxHeight="600px"
-			fillContainer={false}
+			cropToFillContainer={false}
 			showBlurInUnfilledSpace={true}
 			showCaption={true}
 		/>
@@ -40,7 +40,7 @@
 		<JDGImage
 			imageAttributes={imageAttributesCollection.exp.ranch_elsie_roof_optioneering}
 			maxHeight="600px"
-			fillContainer={false}
+			cropToFillContainer={false}
 			showBlurInUnfilledSpace={false}
 			showCaption={true}
 		/>

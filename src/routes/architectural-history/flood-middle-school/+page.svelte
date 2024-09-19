@@ -62,7 +62,7 @@
 				imageAttributesCollection.hst.ehs_1919_plan,
 				imageAttributesCollection.hst.fms_2000s_plan_additions
 			]}
-			fillContainer={false}
+			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy>
 			It was clear by the 1940s that the high school was outgrowing both its building and its land.
@@ -92,20 +92,20 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.hst.fms_1960s_courtyard_renovation}
-				fillContainer={false}
+				cropToFillContainer={false}
 				showCaption={true}
 				showAttribution={true}
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.hst.fms_2012_courtyard_southwest}
-				fillContainer={false}
+				cropToFillContainer={false}
 				showCaption={true}
 				showAttribution={true}
 			/>
 		</JDGGridLayout>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.hst.fms_1967_east_side}
-			fillContainer={false}
+			cropToFillContainer={false}
 			showCaption={true}
 			showAttribution={true}
 		/>
@@ -188,7 +188,7 @@
 			imageAttributes={imageAttributesCollection.hst.fms_1967_band_room_construction}
 			showCaption={true}
 			showAttribution={true}
-			fillContainer={false}
+			cropToFillContainer={false}
 			maxHeight="500px"
 		/>
 		<JDGBodyCopy>

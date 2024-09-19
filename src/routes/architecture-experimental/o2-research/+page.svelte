@@ -23,7 +23,7 @@
 		<JDGImage
 			imageAttributes={imageAttributesCollection.exp.o2_research}
 			maxHeight="600px"
-			fillContainer={false}
+			cropToFillContainer={false}
 			showBlurInUnfilledSpace={true}
 			showCaption={true}
 		/>

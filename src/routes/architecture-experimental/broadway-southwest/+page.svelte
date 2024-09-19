@@ -33,12 +33,12 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.exp.broadway_southwest_before_1}
 				showCaption={true}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.exp.broadway_southwest_before_2}
 				showCaption={true}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>

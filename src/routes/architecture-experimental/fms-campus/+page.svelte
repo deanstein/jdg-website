@@ -43,17 +43,17 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.exp.fms_campus_before_aerial}
 				showCaption={true}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.exp.fms_campus_massing}
 				showCaption={true}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.exp.fms_campus_aerial}
 				showCaption={true}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>

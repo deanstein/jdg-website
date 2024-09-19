@@ -45,7 +45,7 @@
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.exp.sixteen_pearl_interior}
-			fillContainer={false}
+			cropToFillContainer={false}
 			maxHeight="50vh"
 			showCaption={true}
 		/>

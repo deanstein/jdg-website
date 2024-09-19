@@ -24,7 +24,7 @@
 		<JDGImage
 			imageAttributes={imageAttributesCollection.exp.encode_campus_after}
 			maxHeight="600px"
-			fillContainer={false}
+			cropToFillContainer={false}
 			showBlurInUnfilledSpace={true}
 			showCaption={true}
 		/>
