@@ -335,15 +335,19 @@
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
-		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
-			In 2015, I pivoted to architectural software where I built an intuitive 3D modeling app that's
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			In 2015, I pivoted from architectural design to architectural software, where I helped build an intuitive 3D modeling app that's
 			now powering a next-generation Autodesk platform.
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
+			I've since bootstrapped my way into software development, creating an immersive simulation and a SvelteJS UI package that powers this very website.
 		</JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.formit_0}
 			maxHeight="300px"
-			primaryText="FormIt"
+			primaryText="Autodesk FormIt"
 			secondaryText="Powerful modeling tools that feel like 3D sketching"
+			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>
 			FormIt is Autodesk's premier conceptual modeling app, featuring intuitive tools, scene and
@@ -362,8 +366,9 @@
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
 			maxHeight="300px"
-			primaryText="Forma"
-			secondaryText="Autodesk's next-gen design and analysis platform"
+			primaryText="Autodesk Forma"
+			secondaryText="A next-gen design and analysis platform"
+			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>Forma is...</JDGBodyCopy>
 		<JDGGridLayout>
@@ -371,6 +376,15 @@
 			<JDGImageTile label={'PROJECT 2'} />
 			<JDGImageTile label={'PROJECT 3'} />
 		</JDGGridLayout>
+		<JDGBodyCopy></JDGBodyCopy>
+		<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.swe.ccp_1}
+		maxHeight="300px"
+		primaryText="The Cinderella City Project"
+		secondaryText="An immersive virtual history experience"
+		overlayColorRgba="rgba(50, 50, 50, 0.5)"
+	/>
+	<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 
