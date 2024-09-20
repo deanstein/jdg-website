@@ -336,15 +336,16 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
-			In 2015, I pivoted from architectural design to architectural software, where I helped build an intuitive 3D modeling app that's
-			now powering a next-generation Autodesk platform.
+			In 2015, I pivoted from architectural design to architectural software, where I helped build
+			an intuitive 3D modeling app that's now powering a next-generation Autodesk platform.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
-			I've since bootstrapped my way into software development, creating an immersive simulation and a SvelteJS UI package that powers this very website.
+			I've since bootstrapped my way into software development, creating an immersive history
+			simulation as well as a SvelteJS UI package that powers this very website.
 		</JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.formit_0}
-			maxHeight="300px"
+			maxHeight="350px"
 			primaryText="Autodesk FormIt"
 			secondaryText="Powerful modeling tools that feel like 3D sketching"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
@@ -358,33 +359,65 @@
 			flexible modeling systems available.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'PROJECT 1'} />
-			<JDGImageTile label={'PROJECT 2'} />
-			<JDGImageTile label={'PROJECT 3'} />
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 1'} />
+				<div>Testing the product as a customer, writing blog posts, and answering forums</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 2'} />
+				<div>Dynamo + FormIt graphs</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 3'} />
+				<div>JavaScript plugins</div>
+			</div>
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
-			maxHeight="300px"
+			maxHeight="350px"
 			primaryText="Autodesk Forma"
 			secondaryText="A next-gen design and analysis platform"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>Forma is...</JDGBodyCopy>
 		<JDGGridLayout>
-			<JDGImageTile label={'PROJECT 1'} />
-			<JDGImageTile label={'PROJECT 2'} />
-			<JDGImageTile label={'PROJECT 3'} />
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 1'} />
+				<div>Integrating legacy FormIt tech</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 2'} />
+				<div>UI work?</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 3'} />
+				<div>Forums and customer advocacy?</div>
+			</div>
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.swe.ccp_1}
-		maxHeight="300px"
-		primaryText="The Cinderella City Project"
-		secondaryText="An immersive virtual history experience"
-		overlayColorRgba="rgba(50, 50, 50, 0.5)"
-	/>
-	<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
+			imageAttributes={imageAttributesCollection.swe.ccp_1}
+			maxHeight="350px"
+			primaryText="The Cinderella City Project"
+			secondaryText="An immersive virtual history experience"
+			overlayColorRgba="rgba(50, 50, 50, 0.5)"
+		/>
+		<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
+		<JDGGridLayout>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 1'} />
+				<div>Modeling the mall using FormIt</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 2'} />
+				<div>C# code for Unity import pipeline and interactions</div>
+			</div>
+			<div class="image-with-details">
+				<JDGImageTile label={'PROJECT 3'} />
+				<div>Museum</div>
+			</div>
+		</JDGGridLayout>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 
@@ -400,5 +433,10 @@
 	h4.date {
 		margin-top: 0;
 		color: gray;
+	}
+
+	.image-with-details {
+		display: flex;
+		flex-direction: column;
 	}
 </style>

@@ -1263,7 +1263,7 @@ const imageAttributesCollection = {
 		}),
 		formit_0: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1726460443/jdg-website/swe/formit-0.jpg'
+				'https://res.cloudinary.com/jdg-main/image/upload/v1726720213/jdg-website/swe/formit-0.jpg'
 			),
 			imgCaption: 'A FormIt model showing solar analysis, materiality, and sketchy lines.'
 		}),
