@@ -1267,11 +1267,11 @@ const imageAttributesCollection = {
 			),
 			imgCaption: 'A FormIt model showing solar analysis, materiality, and sketchy lines.'
 		}),
-		formit_0_ui: instantiateObject(jdgImageAttributes, {
+		formit_dynamo_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1726452883/jdg-website/swe/formit-0-ui.jpg'
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727023526/jdg-website/swe/formit-dynamo-1.jpg'
 			),
-			imgCaption: 'A FormIt model showing solar analysis, materiality, and sketchy lines.'
+			imgCaption: 'A FormIt model created from a series of Dynamo graphs.'
 		})
 	},
 	about_forma_1: postProcessImageAttributes(

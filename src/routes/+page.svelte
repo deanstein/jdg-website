@@ -351,8 +351,9 @@
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>
-			FormIt is Autodesk's premier conceptual modeling app, featuring intuitive tools, scene and
-			environment management, and impressive interoperability with other apps.
+			<a href={jdgSharedUrls.adskFormIt}>FormIt</a> is Autodesk's premier conceptual modeling app
+			featuring intuitive tools, scenes and environment management, and impressive interoperability
+			with other apps.
 			<br /><br />
 			As a Senior Product Manager, I grew FormIt into a formidable competitor in the 3D modeling space,
 			filling capability gaps and addressing customer requests to create one of the most powerful and
@@ -360,16 +361,55 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 1'} />
-				<div>Testing the product as a customer, writing blog posts, and answering forums</div>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+					label={'3D MODELING + MARKETING'}
+					labelJustification="center"
+					href="./#experimental-designs"
+				/>
+				<div class="image-details">
+					Applying my architectural experience, I used FormIt to create fictional but realistic <a
+						href="./#experimental-designs">adaptive reuse designs</a
+					>
+					which exercised new features, pushed performance limits, and validated bug fixes.
+					<br /><br />
+					I also authored dozens of engaging and illustrative
+					<a href="https://formit.autodesk.com/blog/" target="_blank">blog posts</a> which demonstrated
+					the value of new features in each release from a customer's perspective.
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 2'} />
-				<div>Dynamo + FormIt graphs</div>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.formit_dynamo_1}
+					label={'DYNAMO VISUAL SCRIPTING'}
+					labelJustification="center"
+				/>
+				<div class="image-details">
+					The synergy between <a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a 3D
+					modeling and visualization engine, and
+					<a href={jdgSharedUrls.adskDynamo} target="_blank">Dynamo</a>, a computational scripting
+					and automation app, created an unrivaled architectural design powerhouse.
+					<br /><br />
+					I created dozens of
+					<a href="https://formit.autodesk.com/redirect/formit-dynamo" target="_blank"
+						>FormIt + Dynamo</a
+					> scripts which shipped with the app to fill capability gaps and showcase the possibilities
+					of combined systems.
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 3'} />
-				<div>JavaScript plugins</div>
+				<JDGImageTile label={'JAVASCRIPT PLUGINS'} labelJustification="center" />
+				<div class="image-details">
+					FormIt features a cross-platform <a
+						href="https://formit.autodesk.com/redirect/formit-plugins-api"
+						target="_blank">JavaScript plugin API</a
+					>, creating an ecosystem of plugins that can subscribe to messages and modify the
+					interface of both FormIt for Web and FormIt for Windows.
+					<br /><br />
+					FormIt plugins allowed me to bootstrap my software development career, and I created
+					<a href="https://github.com/FormIt3D" target="_blank">18 of them</a> - expanding capabilities
+					and adding new workflows using simple cross-platform web building blocks.
+				</div>
 			</div>
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
@@ -384,15 +424,15 @@
 		<JDGGridLayout>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 1'} />
-				<div>Integrating legacy FormIt tech</div>
+				<div class="image-details">Integrating legacy FormIt tech</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 2'} />
-				<div>UI work?</div>
+				<div class="image-details">UI work?</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 3'} />
-				<div>Forums and customer advocacy?</div>
+				<div class="image-details">Forums and customer advocacy?</div>
 			</div>
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
@@ -407,15 +447,15 @@
 		<JDGGridLayout>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 1'} />
-				<div>Modeling the mall using FormIt</div>
+				<div class="image-details">Modeling the mall using FormIt</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 2'} />
-				<div>C# code for Unity import pipeline and interactions</div>
+				<div class="image-details">C# code for Unity import pipeline and interactions</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile label={'PROJECT 3'} />
-				<div>Museum</div>
+				<div class="image-details">Museum</div>
 			</div>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
@@ -438,5 +478,11 @@
 	.image-with-details {
 		display: flex;
 		flex-direction: column;
+		gap: 10px;
+	}
+
+	.image-details {
+		padding: 10px;
+		line-height: 1.5;
 	}
 </style>
