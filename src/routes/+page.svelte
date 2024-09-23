@@ -352,8 +352,8 @@
 		/>
 		<JDGBodyCopy>
 			<a href={jdgSharedUrls.adskFormIt}>FormIt</a> is Autodesk's premier conceptual modeling app
-			featuring intuitive tools, scenes and environment management, and impressive interoperability
-			with other apps.
+			featuring intuitive tools, materials and visualization, and impressive interoperability with
+			other apps.
 			<br /><br />
 			As a Senior Product Manager, I grew FormIt into a formidable competitor in the 3D modeling space,
 			filling capability gaps and addressing customer requests to create one of the most powerful and
@@ -363,12 +363,11 @@
 			<div class="image-with-details">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-					label={'3D MODELING + MARKETING'}
-					labelJustification="center"
 					href="./#experimental-designs"
 				/>
 				<div class="image-details">
-					Applying my architectural experience, I used FormIt to create fictional but realistic <a
+					<h4 style="text-align: center;">3D MODELING + MARKETING</h4>
+					Applying my architectural experience, I used FormIt to create fictional but realistic<a
 						href="./#experimental-designs">adaptive reuse designs</a
 					>
 					which exercised new features, pushed performance limits, and validated bug fixes.
@@ -379,13 +378,10 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.formit_dynamo_1}
-					label={'DYNAMO VISUAL SCRIPTING'}
-					labelJustification="center"
-				/>
+				<JDGImageTile imageAttributes={imageAttributesCollection.swe.formit_dynamo_1} />
 				<div class="image-details">
-					The synergy between <a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a 3D
+					<h4 style="text-align: center;">DYNAMO VISUAL SCRIPTING</h4>
+					The synergy between<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a 3D
 					modeling and visualization engine, and
 					<a href={jdgSharedUrls.adskDynamo} target="_blank">Dynamo</a>, a computational scripting
 					and automation app, created an unrivaled architectural design powerhouse.
@@ -398,9 +394,10 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'JAVASCRIPT PLUGINS'} labelJustification="center" />
+				<JDGImageTile />
 				<div class="image-details">
-					FormIt features a cross-platform <a
+					<h4 style="text-align: center;">JAVASCRIPT PLUGINS</h4>
+					FormIt features a cross-platform<a
 						href="https://formit.autodesk.com/redirect/formit-plugins-api"
 						target="_blank">JavaScript plugin API</a
 					>, creating an ecosystem of plugins that can subscribe to messages and modify the
@@ -423,15 +420,15 @@
 		<JDGBodyCopy>Forma is...</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 1'} />
+				<JDGImageTile label={'3D ENGINE INTEGRATION'} labelJustification="center" />
 				<div class="image-details">Integrating legacy FormIt tech</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 2'} />
+				<JDGImageTile label={'UI WORK'} labelJustification="center" />
 				<div class="image-details">UI work?</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 3'} />
+				<JDGImageTile label={'CUSTOMER ADVOCACY'} labelJustification="center" />
 				<div class="image-details">Forums and customer advocacy?</div>
 			</div>
 		</JDGGridLayout>
@@ -446,15 +443,15 @@
 		<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 1'} />
+				<JDGImageTile label={'BUILDING THE MALL'} labelJustification="center" />
 				<div class="image-details">Modeling the mall using FormIt</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 2'} />
+				<JDGImageTile label={'C# INTERACTION'} labelJustification="center" />
 				<div class="image-details">C# code for Unity import pipeline and interactions</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'PROJECT 3'} />
+				<JDGImageTile label={'HISTORY MUSEUM'} labelJustification="center" />
 				<div class="image-details">Museum</div>
 			</div>
 		</JDGGridLayout>
@@ -484,5 +481,11 @@
 	.image-details {
 		padding: 10px;
 		line-height: 1.5;
+		color: rgb(80, 80, 80);
+	}
+
+	.image-details h4 {
+		margin-top: 5px;
+		margin-bottom: 15px;
 	}
 </style>
