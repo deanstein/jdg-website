@@ -384,12 +384,12 @@
 					The synergy between&nbsp<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a
 					3D modeling and visualization engine, and
 					<a href={jdgSharedUrls.adskDynamo} target="_blank">Dynamo</a>, a computational scripting
-					and automation app, created an unrivaled architectural design powerhouse.
+					and automation app, creates an unrivaled architectural design powerhouse.
 					<br /><br />
 					I created dozens of
 					<a href="https://formit.autodesk.com/redirect/formit-dynamo" target="_blank"
 						>FormIt + Dynamo</a
-					> scripts which shipped with the app to fill capability gaps and showcase the possibilities
+					> scripts which shipped with the app to fill capability gaps and showcase the incredible possibilities
 					of combined systems.
 				</div>
 			</div>
@@ -397,15 +397,16 @@
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">JAVASCRIPT PLUGINS</h4>
-					FormIt features a cross-platform&nbsp<a
+					FormIt offers a cross-platform&nbsp<a
 						href="https://formit.autodesk.com/redirect/formit-plugins-api"
 						target="_blank">JavaScript plugin API</a
-					>, creating an ecosystem of plugins that can subscribe to messages and modify the
-					interface of both FormIt for Web and FormIt for Windows.
+					>
+					which can subscribe to messages and modify the interface of both FormIt for Web and FormIt
+					for Windows.
 					<br /><br />
 					FormIt plugins allowed me to bootstrap my software development career, and I created
 					<a href="https://github.com/FormIt3D" target="_blank">18 of them</a> - expanding capabilities
-					and adding new workflows using simple cross-platform web building blocks.
+					and adding new workflows using cross-platform web building blocks.
 				</div>
 			</div>
 		</JDGGridLayout>
@@ -420,16 +421,25 @@
 		<JDGBodyCopy>Forma is...</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile label={'3D ENGINE INTEGRATION'} labelJustification="center" />
-				<div class="image-details">Integrating legacy FormIt tech</div>
+				<JDGImageTile />
+				<div class="image-details">
+					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
+					Integrating legacy FormIt tech
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'UI WORK'} labelJustification="center" />
-				<div class="image-details">UI work?</div>
+				<JDGImageTile labelJustification="center" />
+				<div class="image-details">
+					<h4 style="text-align: center;">UI WORK</h4>
+					UI work?
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'CUSTOMER ADVOCACY'} labelJustification="center" />
-				<div class="image-details">Forums and customer advocacy?</div>
+				<JDGImageTile />
+				<div class="image-details">
+					<h4 style="text-align: center;">CUSTOMER ADVOCACY</h4>
+					Forums and customer advocacy?
+				</div>
 			</div>
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
@@ -443,16 +453,25 @@
 		<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile label={'BUILDING THE MALL'} labelJustification="center" />
-				<div class="image-details">Modeling the mall using FormIt</div>
+				<JDGImageTile />
+				<div class="image-details">
+					<h4 style="text-align: center;">BUILDING THE MALL</h4>
+					Modeling the mall using FormIt
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'C# INTERACTION'} labelJustification="center" />
-				<div class="image-details">C# code for Unity import pipeline and interactions</div>
+				<JDGImageTile />
+				<div class="image-details">
+					<h4 style="text-align: center;">C# INTERACTION</h4>
+					C# code for Unity import pipeline and interactions
+				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile label={'HISTORY MUSEUM'} labelJustification="center" />
-				<div class="image-details">Museum</div>
+				<JDGImageTile />
+				<div class="image-details">
+					<h4 style="text-align: center;">HISTORY MUSEUM</h4>
+					Museum
+				</div>
 			</div>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
