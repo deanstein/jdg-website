@@ -367,7 +367,7 @@
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D MODELING + MARKETING</h4>
-					Applying my architectural experience, I used FormIt to create fictional but realistic<a
+					Applying my architectural experience, I used FormIt to create fictional but realistic&nbsp<a
 						href="./#experimental-designs">adaptive reuse designs</a
 					>
 					which exercised new features, pushed performance limits, and validated bug fixes.
@@ -381,8 +381,8 @@
 				<JDGImageTile imageAttributes={imageAttributesCollection.swe.formit_dynamo_1} />
 				<div class="image-details">
 					<h4 style="text-align: center;">DYNAMO VISUAL SCRIPTING</h4>
-					The synergy between<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a 3D
-					modeling and visualization engine, and
+					The synergy between&nbsp<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a
+					3D modeling and visualization engine, and
 					<a href={jdgSharedUrls.adskDynamo} target="_blank">Dynamo</a>, a computational scripting
 					and automation app, created an unrivaled architectural design powerhouse.
 					<br /><br />
@@ -397,7 +397,7 @@
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">JAVASCRIPT PLUGINS</h4>
-					FormIt features a cross-platform<a
+					FormIt features a cross-platform&nbsp<a
 						href="https://formit.autodesk.com/redirect/formit-plugins-api"
 						target="_blank">JavaScript plugin API</a
 					>, creating an ecosystem of plugins that can subscribe to messages and modify the
