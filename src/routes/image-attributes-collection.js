@@ -1272,6 +1272,12 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727023526/jdg-website/swe/formit-dynamo-1.jpg'
 			),
 			imgCaption: 'A FormIt model created from a series of Dynamo graphs.'
+		}),
+		formit_plugins_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727232499/jdg-website/swe/formit-plugins-1.jpg'
+			),
+			imgCaption: 'The FormIt Plugin Manager showing a series of plugins created by Josh Goldstein.'
 		})
 	},
 	about_forma_1: postProcessImageAttributes(

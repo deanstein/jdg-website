@@ -378,7 +378,10 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.formit_dynamo_1} />
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.formit_dynamo_1}
+					href="https://formit.autodesk.com/redirect/formit-dynamo"
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">DYNAMO VISUAL SCRIPTING</h4>
 					The synergy between&nbsp<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a
@@ -394,7 +397,10 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile />
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.formit_plugins_1}
+					href="https://github.com/FormIt3D"
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">JAVASCRIPT PLUGINS</h4>
 					FormIt offers a cross-platform&nbsp<a
