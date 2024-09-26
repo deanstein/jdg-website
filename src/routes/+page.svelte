@@ -355,7 +355,7 @@
 			featuring intuitive tools, materials and visualization, and impressive interoperability with
 			other apps.
 			<br /><br />
-			As a Senior Product Manager, I grew FormIt into a formidable competitor in the 3D modeling space,
+			As a Senior Product Owner, I grew FormIt into a formidable competitor in the 3D modeling space,
 			filling capability gaps and addressing customer requests to create one of the most powerful and
 			flexible modeling systems available.
 		</JDGBodyCopy>
@@ -424,13 +424,28 @@
 			secondaryText="A next-gen design and analysis platform"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
-		<JDGBodyCopy>Forma is...</JDGBodyCopy>
+		<JDGBodyCopy
+			><a href={jdgSharedUrls.adskForma} target="_blank">Forma</a> is a next-generation analysis and
+			design platform that charts the future of Autodesk's offerings, allowing legacy apps to
+			support outcome-based design across industries and phases.
+			<br /><br />
+			As Senior Product Manager, I helped integrate
+			<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>'s powerful 3D creation tools
+			into the Forma platform, providing intuitive modeling capabilities that seamlessly blend with
+			Forma's analysis suite and underlying element system.
+		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
-					Integrating legacy FormIt tech
+					Collaborating with full-stack development teams across organizations, we took on the task of
+					integrating FormIt's legacy modeling kernel into Forma, providing 3D modeling capabilities
+					critical to Forma's adoption in the market.
+					<br /><br />
+					Keeping the customer in mind at every turn, I guided the integration by prioritizing development
+					phases that aligned with customer and business needs, while also dogfooding the product to
+					demonstrate 3D capabilities both internally and externally.
 				</div>
 			</div>
 			<div class="image-with-details">
@@ -456,20 +471,40 @@
 			secondaryText="An immersive virtual history experience"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
-		<JDGBodyCopy>The Cinderella City Project is...</JDGBodyCopy>
+		<JDGBodyCopy
+			>The Cinderella City Project is an immersive history simulation of a unique and quirky
+			mid-century shopping mall that existed in Englewood, Colorado from 1968-1998.
+			<br /><br />
+			Seeing the mall getting demolished in 1998 sparked my career in retail architecture, eventually
+			leading me into the software world. Coming full-circle, I rebuilt Cinderella City as a FormIt testing
+			model before learning how to code and creating a fully-fledged Unity simulation which features
+			unique interactions like time-traveling.
+		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">BUILDING THE MALL</h4>
-					Modeling the mall using FormIt
+					The Cinderella City Project has humble roots: It started out as a testing model for FormIt,
+					which pushed performance limits and tested new capabilities through several releases.
+					<br /><br />
+					Starting the reconstruction efforts with the last 10 years of the mall's life (1987-1997),
+					I eventually worked my way backwards to the first 10 years (1968-1978) - by which point, I
+					could harness new, incredibly powerful modeling workflows that dovetailed perfectly with the
+					progress of the project.
 				</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">C# INTERACTION</h4>
-					C# code for Unity import pipeline and interactions
+					Taking the project a step further, I selected Unity as the gaming engine in order to bring
+					the static 3D models to life.
+					<br /><br />
+					I learned how to code, harnessing Unity's C# API to automate the import of the FormIt FBX assets
+					and automatically apply material characteristics like emission and reflection, before turning
+					to animations and interactions including NPC pathfinding and the ability to time-travel between
+					distinct eras.
 				</div>
 			</div>
 			<div class="image-with-details">
