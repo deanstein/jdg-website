@@ -436,16 +436,15 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile />
+				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
-					Collaborating with full-stack development teams across organizations, we took on the task of
-					integrating FormIt's legacy modeling kernel into Forma, providing 3D modeling capabilities
+					Collaborating with full-stack development teams across organizations, we integrated FormIt's legacy modeling kernel into Forma, providing 3D modeling capabilities
 					critical to Forma's adoption in the market.
 					<br /><br />
-					Keeping the customer in mind at every turn, I guided the integration by prioritizing development
-					phases that aligned with customer and business needs, while also dogfooding the product to
-					demonstrate 3D capabilities both internally and externally.
+					Keeping our customers in mind at every turn, I guided the integration by prioritizing development
+					phases that aligned with customer and business needs, while also dogfooding the product and
+					demonstrating new 3D capabilities both internally and externally.
 				</div>
 			</div>
 			<div class="image-with-details">
@@ -498,7 +497,7 @@
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">C# INTERACTION</h4>
-					Taking the project a step further, I selected Unity as the gaming engine in order to bring
+					Taking the project a step further, I used the incredibly powerful Unity game engine to bring
 					the static 3D models to life.
 					<br /><br />
 					I learned how to code, harnessing Unity's C# API to automate the import of the FormIt FBX assets

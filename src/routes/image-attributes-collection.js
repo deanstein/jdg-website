@@ -1255,6 +1255,12 @@ const imageAttributesCollection = {
 			),
 			imgCaption: 'A snippet of SvelteJS code.'
 		}),
+		forma_sun_hours_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727408671/jdg-website/swe/forma-sun-hours-1.jpg'
+			),
+			imgCaption: 'A Forma model showing sun hours analysis on a 3D Sketch building.'
+		}),
 		forma_wind_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1726549987/jdg-website/swe/forma-wind-1.jpg'
