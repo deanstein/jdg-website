@@ -436,11 +436,14 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}/>
+				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1} />
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
-					Collaborating with full-stack development teams across organizations, we integrated FormIt's legacy modeling kernel into Forma, providing 3D modeling capabilities
-					critical to Forma's adoption in the market.
+					Collaborating with full-stack development teams across organizations, we integrated<a
+						href={jdgSharedUrls.adskFormIt}
+						target="_blank">FormIt</a
+					>'s legacy modeling kernel into Forma, providing 3D modeling capabilities critical to
+					Forma's adoption in the market.
 					<br /><br />
 					Keeping our customers in mind at every turn, I guided the integration by prioritizing development
 					phases that aligned with customer and business needs, while also dogfooding the product and
@@ -448,17 +451,29 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile labelJustification="center" />
+				<JDGImageTile />
 				<div class="image-details">
-					<h4 style="text-align: center;">UI WORK</h4>
-					UI work?
+					<h4 style="text-align: center;">CUSTOMER SUPPORT + ADVOCACY</h4>
+					A new entrant in the design and analysis space, Forma benefitted well-written help center articles
+					and a fast and friendly support presence to engage with customers and ensure their success
+					in our software.
+					<br /><br />
+					I authored the entire 3D Sketch help center, illustrating the power of the FormIt modeling
+					kernel inside Forma, becoming one of the top solution authors on the Autodesk community forums
+					and Intercom chats, ensuring alignment between customer needs and development teams for a healthy,
+					usable product.
 				</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
-					<h4 style="text-align: center;">CUSTOMER ADVOCACY</h4>
-					Forums and customer advocacy?
+					<h4 style="text-align: center;">DELIVERY + OPERATIONS EVOLUTION</h4>
+					Forma presented a fundamental change in the way our teams worked, introducing new ways of delivery,
+					customer interaction, and software management.
+					<br /><br />
+					Unlike our legacy desktop app world, Forma is delivered continuously as a web experience. As
+					a result, I've adapted my way of working - learning new development and release methods, as
+					well as new apps for customer engagement and analytics like Intercom and Mixpanel.
 				</div>
 			</div>
 		</JDGGridLayout>
@@ -484,33 +499,44 @@
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">BUILDING THE MALL</h4>
-					The Cinderella City Project has humble roots: It started out as a testing model for FormIt,
-					which pushed performance limits and tested new capabilities through several releases.
+					The Cinderella City Project has humble roots, starting out as a testing model for<a
+						href={jdgSharedUrls.adskFormIt}
+						target="_blank">FormIt</a
+					>, intended to push performance limits and exercise new capabilities through several
+					releases.
 					<br /><br />
 					Starting the reconstruction efforts with the last 10 years of the mall's life (1987-1997),
 					I eventually worked my way backwards to the first 10 years (1968-1978) - by which point, I
-					could harness new, incredibly powerful modeling workflows that dovetailed perfectly with the
-					progress of the project.
+					could harness new, incredibly powerful
+					<a href="https://formit.autodesk.com/redirect/formit-dynamo" target="_blank"
+						>modeling workflows</a
+					> that dovetailed perfectly with the progress of the project.
 				</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">C# INTERACTION</h4>
-					Taking the project a step further, I used the incredibly powerful Unity game engine to bring
+					Taking the project a step further, I used the incredibly powerful game engine Unity to bring
 					the static 3D models to life.
 					<br /><br />
 					I learned how to code, harnessing Unity's C# API to automate the import of the FormIt FBX assets
-					and automatically apply material characteristics like emission and reflection, before turning
-					to animations and interactions including NPC pathfinding and the ability to time-travel between
-					distinct eras.
+					and automatically apply material characteristics like emission and reflection. Eventually,
+					I expanded my learning to to animations and interactions, including particle effects, NPC pathfinding,
+					and the ability to time-travel between distinct eras.
 				</div>
 			</div>
 			<div class="image-with-details">
 				<JDGImageTile />
 				<div class="image-details">
 					<h4 style="text-align: center;">HISTORY MUSEUM</h4>
-					Museum
+					In 2024, I helped design and build Englewood's first history museum and its inaugural exhibit
+					about Cinderella City Mall.
+					<br /><br />
+					The museum includes a dedicated theater with an interactive copy of the Cinderella City simulation.
+					For this, I developed both a guided tour and Xbox controller support, affording the exhibit
+					both a curated experience and full interactivity, guiding visitors between points of interest
+					and allowing them to take full control and experience the past in their desired way.
 				</div>
 			</div>
 		</JDGGridLayout>
