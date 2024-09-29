@@ -1249,11 +1249,50 @@ const imageAttributesCollection = {
 			imgCaption:
 				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
 		}),
+		ccp_construction_60s70s_blue_mall_columns_ceiling: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727628674/ccp-website/ccp/ccp-construction-60s70s-blue-mall-columns-ceiling.jpg'
+			),
+			imgCaption:
+				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+		}),
+		ccp_construction_unity_npc_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727629734/ccp-website/ccp/ccp-construction-unity-npc-1.jpg'
+			),
+			imgCaption:
+				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+		}),
+		ccp_exhibit: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1720559712/ccp-website/ccp/exhibit/ccp_exhibit_2.jpg'
+			),
+			imgCaption:
+				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+		}),
 		code_svelte_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1726419738/jdg-website/swe/code-svelte-1.jpg'
 			),
 			imgCaption: 'A snippet of SvelteJS code.'
+		}),
+		forma_3d_spaces_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727623728/jdg-website/swe/forma-3d-spaces-1.jpg'
+			),
+			imgCaption: 'A Forma model showing functions and labels on a 3D Sketch building.'
+		}),
+		forma_3d_spaces_2: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727623375/jdg-website/swe/forma-3d-spaces-2.jpg'
+			),
+			imgCaption: 'A Forma model functions on a 3D Sketch building.'
+		}),
+		forma_daylight_potential_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727622254/jdg-website/swe/forma-daylight-potential-1.jpg'
+			),
+			imgCaption: 'A Forma model showing daylight potential analysis on a 3D Sketch building.'
 		}),
 		forma_sun_hours_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
@@ -1263,7 +1302,13 @@ const imageAttributesCollection = {
 		}),
 		forma_wind_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1726549987/jdg-website/swe/forma-wind-1.jpg'
+				'https://res.cloudinary.com/jdg-main/image/upload/v1726793915/jdg-website/swe/forma-wind-1.jpg'
+			),
+			imgCaption: 'A Forma model showing wind analysis on a 3D Sketch building.'
+		}),
+		forma_wind_2: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1727622519/jdg-website/swe/forma-wind-2.jpg'
 			),
 			imgCaption: 'A Forma model showing wind analysis on a 3D Sketch building.'
 		}),
