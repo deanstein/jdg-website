@@ -337,7 +337,8 @@
 	<JDGContentBoxFloating title={'SOFTWARE'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
 			In 2015, I pivoted from architectural design to architectural software, where I helped build
-			an intuitive 3D modeling app that's now powering a next-generation Autodesk platform.
+			an intuitive 3D modeling app that's now powering a next-generation design and analysis
+			platform at Autodesk.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
 			I've since bootstrapped my way into software development, creating an immersive history
@@ -351,9 +352,9 @@
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>
-			<a href={jdgSharedUrls.adskFormIt}>FormIt</a> is Autodesk's premier conceptual modeling app
-			featuring intuitive tools, materials and visualization, and impressive interoperability with
-			other apps.
+			<a href={jdgSharedUrls.adskFormIt}>FormIt</a> is Autodesk's premier cross-platform conceptual
+			modeling app featuring intuitive tools, materials and visualization, and impressive
+			interoperability with other apps.
 			<br /><br />
 			As a Senior Product Owner, I grew FormIt into a formidable competitor in the 3D modeling space,
 			filling capability gaps and addressing customer requests to create one of the most powerful and
@@ -497,8 +498,8 @@
 			>The <a href="https://www.cinderellacityproject.com/simulation" target="_blank">
 				Cinderella City Project</a
 			>
-			is an immersive history simulation of a unique and quirky mid-century shopping mall that
-			existed in Englewood, Colorado from 1968-1998.
+			is an immersive history simulation of a unique and quirky mid-century shopping mall that existed
+			in Englewood, Colorado from 1968-1998.
 			<br /><br />
 			Seeing the mall getting demolished in 1998 sparked my career in retail architecture, eventually
 			leading me into the software world. Coming full-circle, I rebuilt Cinderella City as a FormIt testing
