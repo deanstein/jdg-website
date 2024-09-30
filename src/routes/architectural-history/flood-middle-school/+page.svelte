@@ -264,7 +264,7 @@
 			salvaging much of the school building and creating a new micro community for Englewood.
 			<br /><br />
 			For a look at what could have been, see my
-			<a href="../architecture-experimental/fms-campus">Campus Village Adaptive Reuse</a> project.
+			<a href="../architectural-experiments/fms-campus">Campus Village Adaptive Reuse</a> project.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="LAYERS OF BRICK">

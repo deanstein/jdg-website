@@ -212,47 +212,47 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'MINDFUL SHOWROOM'}
-				href="./architecture-experimental/1551-wewatta"
+				href="./architectural-experiments/1551-wewatta"
 				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 			/>
 			<JDGImageTile
 				label={'CAMPUS VILLAGE ADAPTIVE REUSE'}
-				href="./architecture-experimental/fms-campus"
+				href="./architectural-experiments/fms-campus"
 				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
 			/>
 			<JDGImageTile
 				label={'ENCODE CAMPUS'}
-				href="./architecture-experimental/encode-campus"
+				href="./architectural-experiments/encode-campus"
 				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
 			/>
 			<JDGImageTile
 				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
-				href="./architecture-experimental/broadway-southwest"
+				href="./architectural-experiments/broadway-southwest"
 				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
 			/>
 			<JDGImageTile
 				label={'RANCH ELSIE MODERN HOME'}
-				href="./architecture-experimental/ranch-elsie"
+				href="./architectural-experiments/ranch-elsie"
 				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
 			/>
 			<JDGImageTile
 				label={'O2 RESEARCH LOBBY STUDY'}
-				href="./architecture-experimental/o2-research"
+				href="./architectural-experiments/o2-research"
 				imageAttributes={imageAttributesCollection.exp.o2_research}
 			/>
 			<JDGImageTile
 				label={'16 PEARL ADAPTIVE REUSE'}
-				href="./architecture-experimental/sixteen-pearl"
+				href="./architectural-experiments/sixteen-pearl"
 				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
 			/>
 			<JDGImageTile
 				label={'SPEER POINT ADAPTIVE REUSE'}
-				href="./architecture-experimental/speer-point"
+				href="./architectural-experiments/speer-point"
 				imageAttributes={imageAttributesCollection.exp.speer_point_after}
 			/>
 			<JDGImageTile
 				label={'FIFTEEN PLATTE MODERN OFFICE'}
-				href="./architecture-experimental/fifteen-platte"
+				href="./architectural-experiments/fifteen-platte"
 				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
 			/>
 		</JDGGridLayout>
