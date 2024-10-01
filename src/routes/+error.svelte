@@ -2,6 +2,13 @@
 	import { onMount } from 'svelte';
 	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 
+    // page copy will change depending on whether a redirect was found
+    let redirectFound = false;
+    const titleNotFound = "PAGE NOT FOUND";
+    const textNotFound = "Sorry, the requested page wasn't found."
+    const titleRedirect = "REDIRECTING...";
+    const textRedirect = "This page has moved! Taking you there now.";
+
 	// these are the old Muse website paths
     // that we'll attempt to redirect to in this error page
 	const redirects = {
@@ -37,14 +44,25 @@
 		const path = window.location.pathname;
 		// if the redirects list has an entry with this path, redirect
 		if (redirects.hasOwnProperty(path)) {
-			// @ts-expect-error
-			window.location.href = redirects[path];
+            redirectFound = true;
+            // redirect after a short delay
+            // so the redirect message can be read
+            setTimeout(() => {
+                // @ts-expect-error
+                window.location.href = redirects[path];
+            }, 750)
 		}
 	});
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title="PAGE NOT FOUND" animateWhenVisible={false}>
-		<JDGBodyCopy>Sorry, the requested page wasn't found.</JDGBodyCopy>
+	<JDGContentBoxFloating title={redirectFound ? titleRedirect : titleNotFound} animateWhenVisible={false}>
+		<JDGBodyCopy paddingTop="0">
+            {#if redirectFound}
+                {textRedirect}
+            {:else}
+                {textNotFound}
+                {/if}
+        </JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
