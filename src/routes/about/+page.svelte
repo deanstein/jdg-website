@@ -34,8 +34,7 @@
 		<JDGBodyCopy paddingTop="0">
 			I live in downtown Denver, Colorado with my wife Haley and our cat
 			<a href="https://www.instagram.com/iris_theragdoll" target="_blank">Iris</a>. Surrounded by
-			natural and architectural beauty, we spend our time urban exploring, discovering new coffee
-			shops and restaurants, biking, and playing racquetball.
+			natural and architectural beauty, we spend our time urban exploring, biking, and playing racquetball.
 			<br /><br />
 			By day, I'm a Senior Product Manager at
 			<a href="https://www.autodesk.com" target="_blank">Autodesk</a>
