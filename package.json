@@ -1,6 +1,6 @@
 {
 	"name": "jdg-website",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -32,6 +32,6 @@
 		"@emotion/css": "^11.11.2",
 		"@emotion/react": "^11.11.1",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"jdg-ui-svelte": "0.21.1"
+		"jdg-ui-svelte": "0.22.0"
 	}
 }
