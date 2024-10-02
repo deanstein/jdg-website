@@ -86,9 +86,9 @@
 			</JDGGridLayout>
 		</div>
 		<JDGBodyCopy>
-			Inspired by natural and built environments of Colorado, my passion for 3D design of all
-			things ignited a career in architecture that evolved into a unique software legacy, spanning
-			domains and defying categorization.
+			Inspired by natural and built environments of Colorado, my passion for 3D design of all things
+			ignited a career in architecture that evolved into a unique software legacy, spanning domains
+			and defying categorization.
 			<br /><br />
 			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
 			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
