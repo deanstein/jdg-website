@@ -1260,8 +1260,7 @@ const imageAttributesCollection = {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727629734/ccp-website/ccp/ccp-construction-unity-npc-1.jpg'
 			),
-			imgCaption:
-				"NPCs hang out in front of the 1987-1997 JCPenney in Cinderella City's Blue Mall."
+			imgCaption: "NPCs hang out in front of the 1987-1997 JCPenney in Cinderella City's Blue Mall."
 		}),
 		ccp_exhibit: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(

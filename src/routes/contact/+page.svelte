@@ -9,10 +9,7 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating
-		title={'GET IN TOUCH'}
-		subtitle={'Questions? Comments?'}
-	>
+	<JDGContentBoxFloating title={'GET IN TOUCH'} subtitle={'Questions? Comments?'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
 			<h3>SOCIAL MEDIA</h3>
 			<SocialMedia />
