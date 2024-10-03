@@ -15,6 +15,7 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
+	import UpNext from '../components/UpNext.svelte';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
@@ -441,7 +442,11 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1} cropToFillContainer={true} useCompactHeightOnMobile={true}/>
+				<JDGImage
+					imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}
+					cropToFillContainer={true}
+					useCompactHeightOnMobile={true}
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
 					Collaborating with full-stack development teams across organizations, we integrated&nbsp;<a
@@ -456,7 +461,11 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1} cropToFillContainer={true} useCompactHeightOnMobile={true}/>
+				<JDGImage
+					imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1}
+					cropToFillContainer={true}
+					useCompactHeightOnMobile={true}
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">CUSTOMER SUPPORT + ADVOCACY</h4>
 					A new entrant in the design and analysis space, Forma benefitted well-written help center articles
@@ -476,7 +485,11 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1} cropToFillContainer={true} useCompactHeightOnMobile={true} />
+				<JDGImage
+					imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1}
+					cropToFillContainer={true}
+					useCompactHeightOnMobile={true}
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">DELIVERY + OPERATIONS EVOLUTION</h4>
 					Forma presented a fundamental change in the way our teams worked, introducing new ways of delivery,
@@ -559,8 +572,11 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.ccp_exhibit} href="https://www.cinderellacityproject.com/exhibit"
-				hrefOpenInNewTab={true}/>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.ccp_exhibit}
+					href="https://www.cinderellacityproject.com/exhibit"
+					hrefOpenInNewTab={true}
+				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">HISTORY MUSEUM</h4>
 					In 2024, I helped design and build Englewood's first history museum and its&nbsp;<a
@@ -582,6 +598,7 @@
 			</div>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>
 
 <style>

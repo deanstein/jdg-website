@@ -1,17 +1,16 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGFullWidthContainer,
 		JDGGridLayout,
-		JDGImage,
 		JDGImageCarousel,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
 <JDGContentContainer>
@@ -62,7 +61,7 @@
 				imageAttributesCollection.hst.ehs_1919_plan,
 				imageAttributesCollection.hst.fms_2000s_plan_additions
 			]}
-			cropToFillContainer={false}
+			fillContainer={false}
 		/>
 		<JDGBodyCopy>
 			It was clear by the 1940s that the high school was outgrowing both its building and its land.
@@ -284,4 +283,5 @@
 			]}
 		/>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>
