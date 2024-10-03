@@ -10,6 +10,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo
@@ -175,6 +176,7 @@
 				label={'MINDFUL LIVE/WORK CAMPUS'}
 				href="./architecture/mindful-campus"
 				imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
+				objectPosition="right"
 			/>
 			<JDGImageTile
 				label={'THE FAIRGROUNDS'}
@@ -195,11 +197,13 @@
 				label={'MINDFUL MULTIFAMILY'}
 				href="./architecture/mindful-multifamily"
 				imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
+				objectPosition="left"
 			/>
 			<JDGImageTile
 				label={'ARROWHEAD TOWNE CENTER'}
 				href="./architecture/arrowhead-towne-center"
 				imageAttributes={imageAttributesCollection.arch.atc_elevator}
+				objectPosition="left"
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
@@ -437,7 +441,7 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1} />
+				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1} cropToFillContainer={true} useCompactHeightOnMobile={true}/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
 					Collaborating with full-stack development teams across organizations, we integrated&nbsp;<a
@@ -452,7 +456,7 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1} />
+				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1} cropToFillContainer={true} useCompactHeightOnMobile={true}/>
 				<div class="image-details">
 					<h4 style="text-align: center;">CUSTOMER SUPPORT + ADVOCACY</h4>
 					A new entrant in the design and analysis space, Forma benefitted well-written help center articles
@@ -472,7 +476,7 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1} />
+				<JDGImage imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1} cropToFillContainer={true} useCompactHeightOnMobile={true} />
 				<div class="image-details">
 					<h4 style="text-align: center;">DELIVERY + OPERATIONS EVOLUTION</h4>
 					Forma presented a fundamental change in the way our teams worked, introducing new ways of delivery,
@@ -514,6 +518,8 @@
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe
 						.ccp_construction_60s70s_blue_mall_columns_ceiling}
+					href="https://www.youtube.com/watch?v=Rjq-hv47vsk"
+					hrefOpenInNewTab={true}
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">BUILDING THE MALL</h4>
@@ -534,6 +540,8 @@
 			<div class="image-with-details">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.ccp_construction_unity_npc_1}
+					href="https://github.com/deanstein/CinderellaCityProject"
+					hrefOpenInNewTab={true}
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">C# INTERACTION</h4>
@@ -551,7 +559,8 @@
 				</div>
 			</div>
 			<div class="image-with-details">
-				<JDGImageTile imageAttributes={imageAttributesCollection.swe.ccp_exhibit} />
+				<JDGImageTile imageAttributes={imageAttributesCollection.swe.ccp_exhibit} href="https://www.cinderellacityproject.com/exhibit"
+				hrefOpenInNewTab={true}/>
 				<div class="image-details">
 					<h4 style="text-align: center;">HISTORY MUSEUM</h4>
 					In 2024, I helped design and build Englewood's first history museum and its&nbsp;<a
