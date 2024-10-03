@@ -1254,14 +1254,14 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727628674/ccp-website/ccp/ccp-construction-60s70s-blue-mall-columns-ceiling.jpg'
 			),
 			imgCaption:
-				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+				'A composite image of a FormIt model with a Dynamo graph and the Unity simulation.'
 		}),
 		ccp_construction_unity_npc_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727629734/ccp-website/ccp/ccp-construction-unity-npc-1.jpg'
 			),
 			imgCaption:
-				'A composite image of two different time periods of a mid-century modern shopping center, powered by Unity.'
+				"NPCs hang out in front of the 1987-1997 JCPenney in Cinderella City's Blue Mall."
 		}),
 		ccp_exhibit: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
