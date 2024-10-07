@@ -10,6 +10,7 @@
 	item2Label={'ABOUT JOSH'}
 	item2Href="/about"
 	item2ImageAttributes={imageAttributesCollection.jdg_photo_2}
+	item2ObjectPosition="right"
 	item3Label="GET IN TOUCH"
 	item3Href="/contact"
 	item3ImageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
