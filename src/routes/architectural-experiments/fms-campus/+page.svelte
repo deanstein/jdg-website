@@ -22,7 +22,7 @@
 				demolished in 2013.
 				<br />
 				For more on the original building, see my historical narrative on
-				<a href="./hst/flood-middle-school">Flood Middle School</a>.
+				<a href="/architectural-history/flood-middle-school">Flood Middle School</a>.
 				<br /><br />
 				This is part of a series of experimental 3D models
 				<br /> built while working on the
@@ -32,7 +32,7 @@
 		<JDGImageFullWidth imageAttributes={imageAttributesCollection.exp.fms_campus_lawn} />
 		<JDGBodyCopy>
 			The Campus Village concept is an exploration of alternate uses for the former <a
-				href="./hst/flood-middle-school">Flood Middle School</a
+				href="/architectural-history/flood-middle-school">Flood Middle School</a
 			>
 			property in Englewood, Colorado.
 			<br /><br />
