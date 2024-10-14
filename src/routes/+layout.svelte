@@ -1,20 +1,11 @@
 <script>
-	import {
-		doShowImageDetailOverlay,
-		imageDetailAttributes
-	} from 'jdg-ui-svelte/states/ui-state.js';
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 
-	import {
-		JDGAppContainer,
-		JDGBackground,
-		JDGFooter,
-		JDGHeader,
-		JDGImageDetailOverlay
-	} from 'jdg-ui-svelte';
+	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader, JDGMetaTags } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
+	import { sharedStrings, sharedUrls } from '$lib/shared-strings';
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);
@@ -43,10 +34,14 @@
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 </script>
 
+<JDGMetaTags
+	title1={sharedStrings.websiteTitle}
+	imageSrc={sharedUrls.websiteIconSrc}
+	faviconSrc={sharedUrls.websiteIconSrc}
+	description={sharedStrings.websiteDescription}
+/>
 <JDGAppContainer
-	appLoadingIconSrc={addCloudinaryUrlTransformation(
-		'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
-	)}
+	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	showHeaderStripes={false}
 >
 	<JDGHeader
