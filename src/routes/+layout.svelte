@@ -72,7 +72,4 @@
 	>
 		<SocialMedia />
 	</JDGFooter>
-	{#if $doShowImageDetailOverlay}
-		<JDGImageDetailOverlay imageAttributes={$imageDetailAttributes} />
-	{/if}
 </JDGAppContainer>
