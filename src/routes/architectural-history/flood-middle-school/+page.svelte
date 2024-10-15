@@ -8,19 +8,11 @@
 		JDGImageCarousel,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
-		JDGImageTile,
-		JDGMetaTags
+		JDGImageTile
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-	import { sharedStrings } from '$lib/shared-strings';
 </script>
 
-<JDGMetaTags
-	title1={sharedStrings.websiteTitle}
-	title2="Flood Middle School"
-	imageSrc={imageAttributesCollection.hst.fms_2012_broadway_northeast}
-	description="Historic details hidden by a mid-century renovation"
-/>
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title="FLOOD MIDDLE SCHOOL"

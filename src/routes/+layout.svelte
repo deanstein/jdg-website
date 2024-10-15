@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
@@ -36,9 +37,10 @@
 
 <JDGMetaTags
 	title1={sharedStrings.websiteTitle}
-	imageSrc={sharedUrls.websiteIconSrc}
+	title2={$page?.data?.meta?.title}
+	imageSrc={$page?.data?.meta?.image ?? sharedUrls.websiteIconSrc}
+	description={$page?.data?.meta?.description ?? sharedStrings.websiteDescription}
 	faviconSrc={sharedUrls.websiteIconSrc}
-	description={sharedStrings.websiteDescription}
 />
 <JDGAppContainer
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
