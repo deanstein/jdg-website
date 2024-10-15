@@ -1,12 +1,15 @@
 <script>
 	import { page } from '$app/stores';
+	import { MetaTags } from 'svelte-meta-tags';
+	import extend from 'just-extend';
+
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 
-	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader, JDGMetaTags } from 'jdg-ui-svelte';
+	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
-	import { sharedStrings, sharedUrls } from '$lib/shared-strings';
+	import { sharedUrls } from '$lib/shared-strings';
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);
@@ -34,22 +37,13 @@
 	const disclaimer =
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 
-	import { MetaTags } from 'svelte-meta-tags';
-	import extend from 'just-extend'; // Please provide functions that allow deep merging of objects, such as lodash.merge, deepmerge, just-extend.
-
 	export let data;
 
+	// meta tags will be from +layout.js first, then +page.js as overrides via $page
 	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
 </script>
 
 <MetaTags {...metaTags} />
-<!-- <JDGMetaTags
-	title1={sharedStrings.websiteTitle}
-	title2={$page?.data?.meta?.title}
-	imageSrc={$page?.data?.meta?.image ?? sharedUrls.websiteIconSrc}
-	description={$page?.data?.meta?.description ?? sharedStrings.websiteDescription}
-	faviconSrc={sharedUrls.websiteIconSrc}
-/> -->
 <JDGAppContainer
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	showHeaderStripes={false}
