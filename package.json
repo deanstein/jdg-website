@@ -33,7 +33,7 @@
 		"@emotion/css": "^11.11.2",
 		"@emotion/react": "^11.11.1",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"jdg-ui-svelte": "0.24.1",
-		"just-extend": "^6.2.0"
+		"just-extend": "^6.2.0",
+		"jdg-ui-svelte": "0.24.1"
 	}
 }
