@@ -18,7 +18,7 @@ export const load = ({ url }) => {
 			description: sharedStrings.websiteDescription,
 			images: [
 				{
-					url: imageAttributesCollection.exp.corporate_showroom_corner.imgSrc,
+					url: imageAttributesCollection.swe.ccp_construction_60s70s_blue_mall_columns_ceiling.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'
