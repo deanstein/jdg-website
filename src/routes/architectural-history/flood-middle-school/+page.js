@@ -20,7 +20,7 @@ export const load = () => {
 			description: 'Historic details hidden by a mid-century renovation',
             images: [
 				{
-					url: imageAttributesCollection.hst.fms_2012_broadway_northeast,
+					url: imageAttributesCollection.hst.fms_2012_broadway_northeast.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

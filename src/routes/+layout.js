@@ -16,7 +16,7 @@ export const load = ({ url }) => {
 			description: sharedStrings.websiteDescription,
 			images: [
 				{
-					url: imageAttributesCollection.exp.o2_research,
+					url: imageAttributesCollection.exp.o2_research.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'
