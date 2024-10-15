@@ -695,7 +695,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722738421/jdg-website/hst/ehs-1940s-aerial-northwest.jpg'
 				),
-				imgCaption: 'The high school is shown in the 1940s with the new south and north wings.',
+				imgCaption: 'Englewood High School is shown in the 1940s with the new south and north wings.',
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
