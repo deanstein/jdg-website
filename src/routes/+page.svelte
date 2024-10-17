@@ -353,6 +353,7 @@
 			imageAttributes={imageAttributesCollection.swe.formit_0}
 			maxHeight="350px"
 			primaryText="Autodesk FormIt"
+			primaryTextBold
 			secondaryText="Powerful modeling tools that feel like 3D sketching"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
@@ -427,6 +428,7 @@
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
 			maxHeight="350px"
 			primaryText="Autodesk Forma"
+			primaryTextBold
 			secondaryText="A next-gen design and analysis platform"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
@@ -508,6 +510,7 @@
 			imageAttributes={imageAttributesCollection.swe.ccp_1}
 			maxHeight="350px"
 			primaryText="The Cinderella City Project"
+			primaryTextBold
 			secondaryText="An immersive virtual history experience"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
