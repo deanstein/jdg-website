@@ -4,8 +4,8 @@ import imageAttributesCollection from './image-attributes-collection.js';
 export const prerender = true;
 
 export const load = ({ url }) => {
-    // define meta tags that will apply site-wide
-    // these may be overridden with +page.js next to any +page.svelte
+	// define meta tags that will apply site-wide
+	// these may be overridden with +page.js next to any +page.svelte
 	const baseMetaTags = Object.freeze({
 		title: sharedStrings.websiteTitle,
 		titleTemplate: '%s | ' + sharedStrings.websiteTitle,
@@ -18,7 +18,8 @@ export const load = ({ url }) => {
 			description: sharedStrings.websiteDescription,
 			images: [
 				{
-					url: imageAttributesCollection.swe.ccp_construction_60s70s_blue_mall_columns_ceiling.imgSrc,
+					url: imageAttributesCollection.swe.ccp_construction_60s70s_blue_mall_columns_ceiling
+						.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

@@ -4,37 +4,33 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGFullWidthContainer,
 		JDGGridLayout,
 		JDGImageCarousel,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
-		JDGImageTile
+		JDGImageTile,
+		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating
-		title="FLOOD MIDDLE SCHOOL"
-		subtitle="Historic details hidden by a mid-century renovation"
-	>
-		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.hst.fms_2012_broadway_northeast}
-		/>
-		<JDGBodyCopy>
-			Mary Louise Flood Middle School loomed over the intersection of Broadway and Kenyon in
-			Englewood, Colorado. It appeared mysterious and hulking, its monolithic brick walls pierced
-			only occasionally by louvered windows.
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.hst.fms_2012_broadway_northeast}
+	/>
+	<JDGContentBoxFloating title="FLOOD MIDDLE SCHOOL" subtitle="Uncovering history beneath a layer of brick"  animateWhenVisible={false}>
+		<JDGBodyCopy paddingTop="0">
+			For over a century, the building ultimately known as Mary Louise Flood Middle School loomed
+			over the intersection of Broadway and Kenyon in Englewood, Colorado. In its later years,
+			appeared monolithic and hulking, with large swaths of brick pierced only occasionally by
+			louvered windows.
 			<br /><br />
-			Most passersby were unaware that school's brutal street presence concealed a beautiful, highly-detailed
-			building underneath: the original Englewood High School. The ornate building was unceremoniously
-			covered up in a district-wide school renovation effort in the 1960s, after the high school moved
-			to a new campus and Flood Junior High School called the original building home.
-			<br /><br />
-			Declining enrollment led to a district reorganization, and Flood Middle School was shuttered in
-			2007 and abandoned until 2012 when Englewood Schools sold the land to a multifamily residential
-			developer. The entire complex was demolished in the summer of 2013. Its demolition peeled back
-			layers of remodels, and provided a unique glimpse back in time.
+			Most passersby were unaware that the school's brutal street presence concealed a beautiful, highly-detailed
+			building underneath: the original <b>Englewood High School</b>. The ornate building was
+			unceremoniously covered up in a district-wide renovation effort in the 1960s, which saw the
+			high school moving out of the building and a new middle school calling the original building
+			home.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -47,37 +43,52 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>
-			The building underneath was constructed in 1919 as Englewood High School. It was built to
-			serve Englewood, Colorado, a rapidly-expanding suburb of Denver. The initial build was a
-			single two-level corridor bookended by an auditorium and a gym.
+			Declining enrollment in the early 2000s led to a district reorganization, and Flood Middle
+			School was shuttered in 2007 and abandoned until 2012 when Englewood Schools sold the land to
+			a multifamily residential developer. The entire complex was demolished in the summer of 2013.
+			Its demolition peeled back layers of remodels, and provided a unique glimpse back in time.
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+</JDGContentContainer>
+<JDGContentContainer>
+	<JDGJumpTo />
+	<JDGContentBoxFloating title="EARLY HISTORY">
+		<JDGBodyCopy paddingTop="0">
+			The building that started it all was constructed in 1919 as Englewood High School. Built to
+			serve Englewood, Colorado, a rapidly-expanding suburb of Denver, the initial structure was
+			simple: a two-level corridor bookended by an auditorium and a gym.
 			<br /><br />
-			Very quickly, a growing populous resulted in the school's first major addition in 1926, adding
-			a north wing to house mechanical and engine shops. A decade later, a similar wing was added through
-			the Works Progress Administration, at the south end of the building which expanded classrooms and
-			office space once more.
+			Very quickly, a growing populous resulted in the school's first major addition in 1926, which added
+			a north wing to house mechanical and engine shops. A decade later in 1936, a similar wing was added
+			on the south side which expanded classrooms and office space.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1919_plan,
 				imageAttributesCollection.hst.fms_2000s_plan_additions
 			]}
-			fillContainer={false}
+			cropToFillContainer={false}
+			fullWidthCarouselOnMobile={false}
 		/>
 		<JDGBodyCopy>
 			It was clear by the 1940s that the high school was outgrowing both its building and its land.
-			The two new wings reduced the former playing field to a mere courtyard, and the school was in
-			dire need of proper athletic facilities to compete with new rivals.
-			<br /><br />Englewood Schools selected a new site for the high school a few blocks away, and
-			Englewood High School moved out in 1951. The original building was renamed Mary L. Flood
-			Junior High School in honor of outgoing principal Mary Louise Flood.
+			The two previous additions reduced the original playing field to a small courtyard, and the
+			high school school was in dire need of proper athletic facilities to compete with new rivals.
+			<br /><br />Englewood Schools selected a new site for the school a few blocks away, and
+			Englewood High School moved to the new facilities in 1951. The former high school building was
+			renamed Mary L. Flood Junior High School in honor of outgoing principal Mary Louise Flood.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1940s_aerial_northwest,
 				imageAttributesCollection.hst.fms_2010s_aerial_northwest
 			]}
 		/>
-		<JDGBodyCopy>
+		</JDGFullWidthContainer>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="TRANSFORMATION">
+		<JDGBodyCopy paddingTop="0">
 			Flood Junior High operated within its aging, secondhand facilities through the 1950s before
 			the district embarked on a multi-year expansion and update effort. Denver architect Wheeler +
 			Lewis was selected to oversee the campus overhaul, which included several renovations and
@@ -133,6 +144,7 @@
 			Once gracing Broadway with grand roman columns, cornices, and engraved details, the updated east
 			entrance was heavily minimized through its ascetic, simplistic design.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
@@ -140,6 +152,7 @@
 				imageAttributesCollection.hst.fms_1960s_broadway_entrance
 			]}
 		/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			Inside the school, the modernization continued. Ceilings were lowered, new mechanical systems
 			were installed, and new carpet and tile covered old wood floors and plaster and lathe walls.
@@ -166,6 +179,7 @@
 				imageAttributesCollection.hst.fms_2007_auditorium_interior
 			]}
 		/>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_1,
@@ -174,6 +188,7 @@
 				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
 			]}
 		/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			1966 and 1967 saw the addition of the iconic circular band room on the south side, freeing up
 			much-needed space from the basement where the band room had been stuffed out of necessity for
@@ -195,12 +210,14 @@
 			the new connecting wings, and like other parts of the school, its exterior design was updated
 			to match the new architecture.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.fms_1967_north_wing_renovation,
 				imageAttributesCollection.hst.fms_2013_north_wing
 			]}
 		/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
 			the original gymnasium. This left the former Englewood High School completely unrecognizable,
@@ -212,8 +229,10 @@
 				imageAttributesCollection.hst.fms_2012_broadway_southeast
 			]}
 		/>
-		<JDGBodyCopy>
-			Declining enrollment in the mid-2000s forced Englewood Schools to take a critical look at its
+		</JDGContentBoxFloating>
+		<JDGContentBoxFloating title="THE END">
+		<JDGBodyCopy paddingTop="0">
+			A persistent enrollment decline in the mid-2000s forced Englewood Schools to take a critical look at its
 			aging and underused building stock as part of a strategic district reorganization. Both Flood
 			and its sibling school, Sinclair Middle School, had been sitting at less than 50% capacity for
 			several years.
@@ -227,7 +246,7 @@
 			Middle School, and would reside at the newer Sinclair Middle School property which would be remodeled
 			under the district plan.
 			<br /><br />
-			In 2006, students left the building for good, leaving Flood Middle School abandoned. It took seven
+			In 2006, the last students walked out of the building for good, leaving Flood Middle School abandoned. It took seven
 			years for the district find a suitable buyer for the property, during which time the building was
 			repeatedly broken into and vandalized.
 			<br /><br />
@@ -239,13 +258,14 @@
 			<br /><br />
 			Below are some moments from Flood Middle School's final days.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2013_demo_hallway_3,
 				imageAttributesCollection.hst.fms_2013_demo_wood_floors,
 				imageAttributesCollection.hst.fms_2013_demo_library_1,
 				imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
 				imageAttributesCollection.hst.fms_2013_demo_hallway_2,
-				imageAttributesCollection.hst.fms_2013_demo_hallway_3,
 				imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
 				imageAttributesCollection.hst.fms_2013_demo_basement_1,
 				imageAttributesCollection.hst.fms_2013_demo_classroom_1,
@@ -257,16 +277,9 @@
 				imageAttributesCollection.hst.fms_2013_demo_basement_2
 			]}
 		/>
-		<JDGBodyCopy>
-			As a former Flood Middle School student myself, I had hoped for a better ending to such a
-			unique building. I've since graduated from architecture school, and have explored the idea of
-			salvaging much of the school building and creating a new micro community for Englewood.
-			<br /><br />
-			For a look at what could have been, see my
-			<a href="../architectural-experiments/fms-campus">Campus Village Adaptive Reuse</a> project.
-		</JDGBodyCopy>
+		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="LAYERS OF BRICK">
+	<JDGContentBoxFloating title="LAYERS OF TIME">
 		<JDGBodyCopy paddingTop="0">
 			During demolition, decades of renovations and facade modifications became apparent as
 			different brick types and multiple layers of brick were exposed.
@@ -274,6 +287,7 @@
 			Enjoy these photographs showing places where the original Englewood High School peeks through the
 			surface of the Flood Middle School shell thanks to the distinct brickwork from each era.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
@@ -282,6 +296,19 @@
 				imageAttributesCollection.hst.fms_2013_demo_brickwork_4
 			]}
 		/>
+		</JDGFullWidthContainer>
+		</JDGContentBoxFloating>
+		<JDGContentBoxFloating title="ALTERNATE FUTURE">
+			<JDGBodyCopy paddingTop="0">
+				As a former Flood Middle School student myself, I'd hoped for a better ending for the building, but having since graduated from architecture school, I could also see why it would be prohibitive to save.
+				<br><br>
+				Nonetheless, I used my <a href="/#architecture" target="_blank">architecture</a> and <a href="/#software" target="_blank">architectural software</a> experience to create a hypothetical adaptive reuse concept that utilizes walk-up townhomes and mixed-use to salvage the building while creating a new micro-community for Englewood.
+				</JDGBodyCopy>
+				<JDGImageTile imageAttributes={imageAttributesCollection.exp.fms_campus_lawn} showCaption cropToFillContainer={false}/>
+				<JDGBodyCopy>
+				For a deeper look at what could have been, check out my
+				<a href="../architectural-experiments/fms-campus">Campus Village Adaptive Reuse</a> project!
+			</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>

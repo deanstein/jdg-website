@@ -1,14 +1,14 @@
 import imageAttributesCollection from '../../image-attributes-collection';
 
 export const load = () => {
-    // define page meta tags for social media previews
+	// define page meta tags for social media previews
 	const pageMetaTags = Object.freeze({
 		title: 'Flood Middle School',
-		description: 'Historic details hidden by a mid-century renovation',
+		description: 'Uncovering history beneath a layer of brick',
 		openGraph: {
 			title: 'Flood Middle School',
-			description: 'Historic details hidden by a mid-century renovation',
-            images: [
+			description: 'Uncovering history beneath a layer of brick',
+			images: [
 				{
 					url: imageAttributesCollection.hst.fms_2012_broadway_northeast.imgSrc,
 					width: 800,

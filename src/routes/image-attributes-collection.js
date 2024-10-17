@@ -695,7 +695,8 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722738421/jdg-website/hst/ehs-1940s-aerial-northwest.jpg'
 				),
-				imgCaption: 'Englewood High School is shown in the 1940s with the new south and north wings.',
+				imgCaption:
+					'Englewood High School is shown in the 1940s with the new south and north wings.',
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
@@ -704,7 +705,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722836640/jdg-website/hst/ehs-1940s-broadway-southeast.jpg'
 				),
-				imgCaption: 'The original gymnasium and partial north wing are seen in the 1940s.',
+				imgCaption: 'The original gymnasium and partial north wing are seen in the 1940s from Broadway.',
 				imgAttribution: 'Getty Images'
 			})
 		),
