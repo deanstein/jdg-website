@@ -705,7 +705,8 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722836640/jdg-website/hst/ehs-1940s-broadway-southeast.jpg'
 				),
-				imgCaption: 'The original gymnasium and partial north wing are seen in the 1940s from Broadway.',
+				imgCaption:
+					'The original gymnasium and partial north wing are seen in the 1940s from Broadway.',
 				imgAttribution: 'Getty Images'
 			})
 		),

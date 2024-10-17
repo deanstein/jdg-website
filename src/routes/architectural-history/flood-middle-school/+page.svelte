@@ -16,10 +16,13 @@
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
-	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.hst.fms_2012_broadway_northeast}
-	/>
-	<JDGContentBoxFloating title="FLOOD MIDDLE SCHOOL" subtitle="Uncovering history beneath a layer of brick"  animateWhenVisible={false}>
+	<JDGImageFullWidth imageAttributes={imageAttributesCollection.hst.fms_2012_broadway_northeast} />
+	<JDGContentBoxFloating
+		title="FLOOD MIDDLE SCHOOL"
+		subtitle="Uncovering history beneath a layer of brick"
+		animateWhenVisible={false}
+		includeInJumpTo={false}
+	>
 		<JDGBodyCopy paddingTop="0">
 			For over a century, the building ultimately known as Mary Louise Flood Middle School loomed
 			over the intersection of Broadway and Kenyon in Englewood, Colorado. In its later years,
@@ -79,12 +82,12 @@
 			renamed Mary L. Flood Junior High School in honor of outgoing principal Mary Louise Flood.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1940s_aerial_northwest,
-				imageAttributesCollection.hst.fms_2010s_aerial_northwest
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.ehs_1940s_aerial_northwest,
+					imageAttributesCollection.hst.fms_2010s_aerial_northwest
+				]}
+			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="TRANSFORMATION">
@@ -145,13 +148,13 @@
 			entrance was heavily minimized through its ascetic, simplistic design.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
-				imageAttributesCollection.hst.fms_1960s_broadway_entrance_renovation,
-				imageAttributesCollection.hst.fms_1960s_broadway_entrance
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
+					imageAttributesCollection.hst.fms_1960s_broadway_entrance_renovation,
+					imageAttributesCollection.hst.fms_1960s_broadway_entrance
+				]}
+			/>
 		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			Inside the school, the modernization continued. Ceilings were lowered, new mechanical systems
@@ -180,14 +183,14 @@
 			]}
 		/>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_1,
-				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_2,
-				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_3,
-				imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_1,
+					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_2,
+					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_3,
+					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
+				]}
+			/>
 		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			1966 and 1967 saw the addition of the iconic circular band room on the south side, freeing up
@@ -211,12 +214,12 @@
 			to match the new architecture.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_1967_north_wing_renovation,
-				imageAttributesCollection.hst.fms_2013_north_wing
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.fms_1967_north_wing_renovation,
+					imageAttributesCollection.hst.fms_2013_north_wing
+				]}
+			/>
 		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			Final exterior alterations concluded in 1970, with the addition of the "large gym" adjacent to
@@ -229,13 +232,13 @@
 				imageAttributesCollection.hst.fms_2012_broadway_southeast
 			]}
 		/>
-		</JDGContentBoxFloating>
-		<JDGContentBoxFloating title="THE END">
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="THE END">
 		<JDGBodyCopy paddingTop="0">
-			A persistent enrollment decline in the mid-2000s forced Englewood Schools to take a critical look at its
-			aging and underused building stock as part of a strategic district reorganization. Both Flood
-			and its sibling school, Sinclair Middle School, had been sitting at less than 50% capacity for
-			several years.
+			A persistent enrollment decline in the mid-2000s forced Englewood Schools to take a critical
+			look at its aging and underused building stock as part of a strategic district reorganization.
+			Both Flood and its sibling school, Sinclair Middle School, had been sitting at less than 50%
+			capacity for several years.
 			<br /><br />
 			Unlike Sinclair, Flood's age, layout, and site configuration posed significant challenges. Its
 			wood frame was deteriorating, and its sloping site and ample use of stairs would require significant
@@ -246,9 +249,9 @@
 			Middle School, and would reside at the newer Sinclair Middle School property which would be remodeled
 			under the district plan.
 			<br /><br />
-			In 2006, the last students walked out of the building for good, leaving Flood Middle School abandoned. It took seven
-			years for the district find a suitable buyer for the property, during which time the building was
-			repeatedly broken into and vandalized.
+			In 2006, the last students walked out of the building for good, leaving Flood Middle School abandoned.
+			It took seven years for the district find a suitable buyer for the property, during which time
+			the building was repeatedly broken into and vandalized.
 			<br /><br />
 			In 2012, the property was sold to Wood Partners, a Denver-based multifamily developer. Wood Partners
 			announced plans to demolish Flood Middle School and replace it with two low-rise residential buildings.
@@ -259,24 +262,24 @@
 			Below are some moments from Flood Middle School's final days.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2013_demo_hallway_3,
-				imageAttributesCollection.hst.fms_2013_demo_wood_floors,
-				imageAttributesCollection.hst.fms_2013_demo_library_1,
-				imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
-				imageAttributesCollection.hst.fms_2013_demo_hallway_2,
-				imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
-				imageAttributesCollection.hst.fms_2013_demo_basement_1,
-				imageAttributesCollection.hst.fms_2013_demo_classroom_1,
-				imageAttributesCollection.hst.fms_2013_demo_ceiling_fixture_2,
-				imageAttributesCollection.hst.fms_2013_demo_large_gym,
-				imageAttributesCollection.hst.fms_2013_demo_window_sizes,
-				imageAttributesCollection.hst.fms_2013_demo_chimney,
-				imageAttributesCollection.hst.fms_2013_demo_lincoln,
-				imageAttributesCollection.hst.fms_2013_demo_basement_2
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.fms_2013_demo_hallway_3,
+					imageAttributesCollection.hst.fms_2013_demo_wood_floors,
+					imageAttributesCollection.hst.fms_2013_demo_library_1,
+					imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
+					imageAttributesCollection.hst.fms_2013_demo_hallway_2,
+					imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
+					imageAttributesCollection.hst.fms_2013_demo_basement_1,
+					imageAttributesCollection.hst.fms_2013_demo_classroom_1,
+					imageAttributesCollection.hst.fms_2013_demo_ceiling_fixture_2,
+					imageAttributesCollection.hst.fms_2013_demo_large_gym,
+					imageAttributesCollection.hst.fms_2013_demo_window_sizes,
+					imageAttributesCollection.hst.fms_2013_demo_chimney,
+					imageAttributesCollection.hst.fms_2013_demo_lincoln,
+					imageAttributesCollection.hst.fms_2013_demo_basement_2
+				]}
+			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="LAYERS OF TIME">
@@ -288,27 +291,36 @@
 			surface of the Flood Middle School shell thanks to the distinct brickwork from each era.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_2,
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_3,
-				imageAttributesCollection.hst.fms_2013_demo_brickwork_4
-			]}
-		/>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
+					imageAttributesCollection.hst.fms_2013_demo_brickwork_2,
+					imageAttributesCollection.hst.fms_2013_demo_brickwork_3,
+					imageAttributesCollection.hst.fms_2013_demo_brickwork_4
+				]}
+			/>
 		</JDGFullWidthContainer>
-		</JDGContentBoxFloating>
-		<JDGContentBoxFloating title="ALTERNATE FUTURE">
-			<JDGBodyCopy paddingTop="0">
-				As a former Flood Middle School student myself, I'd hoped for a better ending for the building, but having since graduated from architecture school, I could also see why it would be prohibitive to save.
-				<br><br>
-				Nonetheless, I used my <a href="/#architecture" target="_blank">architecture</a> and <a href="/#software" target="_blank">architectural software</a> experience to create a hypothetical adaptive reuse concept that utilizes walk-up townhomes and mixed-use to salvage the building while creating a new micro-community for Englewood.
-				</JDGBodyCopy>
-				<JDGImageTile imageAttributes={imageAttributesCollection.exp.fms_campus_lawn} showCaption cropToFillContainer={false}/>
-				<JDGBodyCopy>
-				For a deeper look at what could have been, check out my
-				<a href="../architectural-experiments/fms-campus">Campus Village Adaptive Reuse</a> project!
-			</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="ALTERNATE FUTURE">
+		<JDGBodyCopy paddingTop="0">
+			As a former Flood Middle School student myself, I'd hoped for a better ending for the
+			building, but having since graduated from architecture school, I could also see why it would
+			be prohibitive to save.
+			<br /><br />
+			Nonetheless, I used my <a href="/#architecture" target="_blank">architecture</a> and
+			<a href="/#software" target="_blank">architectural software</a> experience to create a hypothetical
+			adaptive reuse concept that utilizes walk-up townhomes and mixed-use to salvage the building while
+			creating a new micro-community for Englewood.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
+			For a deeper look at what could have been, check out my
+			<a href="../architectural-experiments/fms-campus">Campus Village Adaptive Reuse</a> project!
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
