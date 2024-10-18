@@ -239,33 +239,51 @@
 			look at its aging and underused building stock as part of a strategic district reorganization.
 			Both Flood and its sibling school, Sinclair Middle School, had been sitting at less than 50%
 			capacity for several years.
-			</JDGBodyCopy>
+			<br /><br />
+			Unlike Sinclair, Flood's age, layout, and site configuration posed major challenges. Its wood frame
+			was deteriorating, and its ample use of stairs and lack of elevators would require significant
+			investment to comply with the Americans with Disabilities Act, which was enacted over a decade
+			after the school's last major renovation.
+		</JDGBodyCopy>
+		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast}
+				imageAttributes={imageAttributesCollection.hst.fms_2012_west_stairs}
 				showCaption
 				cropToFillContainer={false}
 			/>
-			<JDGBodyCopy>
-			Unlike Sinclair, Flood's age, layout, and site configuration posed major challenges. Its
-			wood frame was deteriorating, and its sloping site and ample use of stairs would require significant
-			investment to comply with the Americans with Disabilities Act, enacted over a decade after the
-			school's last construction efforts.
-			<br /><br />
-			Ultimately, it was decided that the two middle schools would be combined into a new entity: Englewood
-			Middle School. EMS would use the newer Sinclair Middle School building which would be remodeled
-			under the district plan.
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_2012_southeast_corner_entrance}
+				showCaption
+				cropToFillContainer={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy paddingBottom="0">
+			Ultimately, it was decided that the two middle schools would be combined into a new entity:
+			Englewood Middle School. EMS would use the newer Sinclair Middle School building which would
+			be remodeled under the district plan.
 			<br /><br />
 			In 2006, the last class walked out of the building for good, leaving Flood Middle School abandoned.
 			It took seven years for the district find a suitable buyer for the property, during which time
 			the building was repeatedly broken into and vandalized.
-			</JDGBodyCopy>
-
-			<JDGBodyCopy>
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_2012_entrance_interior}
+				showCaption
+				cropToFillContainer={false}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_2012_east_wing_l1}
+				showCaption
+				cropToFillContainer={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy>
+			In 2012, the property was sold to Wood Partners, a Denver-based multifamily developer. Wood
+			Partners announced plans to demolish Flood Middle School and replace it with two low-rise
+			residential buildings.
 			<br /><br />
-			In 2012, the property was sold to Wood Partners, a Denver-based multifamily developer. Wood Partners
-			announced plans to demolish Flood Middle School and replace it with two low-rise residential buildings.
-			<br /><br />
-			Asbestos abatement commenced in early 2013, and by the end of the summer, the 97-year old building
+			Asbestos abatement commenced in early 2013, and by the end of the summer, the 94-year old building
 			was gone. By fall of 2015, a 306-unit luxury apartment complex stood in its place.
 			<br /><br />
 			Below are some moments from Flood Middle School's final days.

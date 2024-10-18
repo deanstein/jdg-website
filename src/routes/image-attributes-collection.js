@@ -836,6 +836,16 @@ const imageAttributesCollection = {
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
+		fms_2007_east_wing_l1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729216980/jdg-website/hst/fms-2007-east-wing-l1.jpg'
+				),
+				imgCaption:
+					'The east wing, which was added to the building in 1963, and its connection to the 1936 wing, which contains the attendance office seen on the right.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2010s_aerial_northwest: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -872,6 +882,44 @@ const imageAttributesCollection = {
 				),
 				imgCaption:
 					'The courtyard as seen in 2012. Note the evidence of windows filled in, and signs of original brick detailing just under the roof line.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2012_east_wing_l1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729216984/jdg-website/hst/fms-2012-east-wing-l1.jpg'
+				),
+				imgCaption: 'The vandalized east wing in 2012, about a year before demolition.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2012_entrance_interior: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729218728/jdg-website/hst/fms-2012-entrance-interior.jpg'
+				),
+				imgCaption: 'The main entrance seen vandalized in 2012.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2012_southeast_corner_entrance: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729216308/jdg-website/hst/fms-2012-southeast-corner-entrance.jpg'
+				),
+				imgCaption:
+					"Flood Middle School's main entrance on the southeast corner in 2012, about a year before demolition.",
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2012_west_stairs: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729219311/jdg-website/hst/fms-2012-west-stairs.jpg'
+				),
+				imgCaption:
+					'The west side of Flood Middle School which faced Broadway and is the oldest wing, built in 1919.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
