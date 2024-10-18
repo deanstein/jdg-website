@@ -13,13 +13,14 @@
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
+	import { pageMeta } from '$lib/shared-strings';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast} />
 	<JDGContentBoxFloating
-		title="FLOOD MIDDLE SCHOOL"
-		subtitle="Uncovering history beneath a layer of brick"
+		title={pageMeta.hst.flood_middle_school.title.toUpperCase()}
+		subtitle={pageMeta.hst.flood_middle_school.description}
 		animateWhenVisible={false}
 		includeInJumpTo={false}
 	>
@@ -57,9 +58,9 @@
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="EARLY HISTORY">
 		<JDGBodyCopy paddingTop="0">
-			The building that started it all was constructed in 1919 as Englewood High School. Built to
-			serve Englewood, Colorado, a rapidly-expanding suburb of Denver, the initial structure was
-			simple: a two-level corridor bookended by an auditorium and a gym.
+			The building that started it all was constructed in 1919 as <b>Englewood High School</b>.
+			Built to serve Englewood, Colorado, a rapidly-expanding suburb of Denver, the initial
+			structure was simple: a two-level corridor bookended by an auditorium and a gym.
 			<br /><br />
 			Very quickly, a growing populous resulted in the school's first major addition in 1926, which added
 			a north wing to house mechanical and engine shops. A decade later in 1936, a similar wing was added
@@ -90,7 +91,7 @@
 			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="OVERHAUL">
+	<JDGContentBoxFloating title="MAJOR OVERHAUL">
 		<JDGBodyCopy paddingTop="0">
 			Flood Junior High operated within its aging, secondhand facilities through the 1950s before
 			the district embarked on a multi-year expansion and update effort. Denver architect Wheeler +
@@ -192,7 +193,7 @@
 				]}
 			/>
 		</JDGFullWidthContainer>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0">
 			1966 and 1967 saw the addition of the iconic circular band room on the south side, freeing up
 			much-needed space from the basement where the band room had been stuffed out of necessity for
 			years.
@@ -208,7 +209,7 @@
 			cropToFillContainer={false}
 			maxHeight="500px"
 		/>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingBottom>
 			On the north side, the 1926-era north wing was reconfigured inside to improve circulation from
 			the new connecting wings, and like other parts of the school, its exterior design was updated
 			to match the new architecture.
@@ -233,6 +234,173 @@
 			]}
 		/>
 	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="SCHOOL TOUR">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			Flood Middle School's final configuration comprised 7 major additions/renovations over the
+			course of 51 years, creating a unique donut-shaped layout with each wing representing a
+			different period of architectural history.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.hst.fms_2000s_plan_additions}
+			showCaption
+			cropToFillContainer={false}
+			maxHeight="500px"
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			<h3>SOUTH + EAST WINGS</h3>
+			Although built at very different times, the south and east wings joined forces to create the school's
+			final main entrance from 1963 to 2007 at the corner of Lincoln and Kenyon.
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.ehs_1936_southeast_wing}
+				showCaption
+				cropToFillContainer={false}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
+				showCaption
+				cropToFillContainer={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy paddingBottom="0">
+			The south wing was built in 1936 as a subsequent expansion of the school, extending the
+			original 1919 layout for the second time. It featured an ornate facade until it was modernized
+			in 1963 when the east end was buit.
+			<br /><br />
+			Used exclusively for classrooms since its creation in 1936, the south wing was renovated in 1963
+			to support a new main office, attendance office, and health rooms adjacent to the new stairwell
+			and entrance. The basement was shared between the band room and the cafeteria, until another renovation
+			in 1967 added the new circular band room on the south side.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2012_southeast_corner_entrance,
+				imageAttributesCollection.hst.fms_2007_band_room_interior_1,
+				imageAttributesCollection.hst.fms_2007_southeast_stair_interior_1,
+				imageAttributesCollection.hst.fms_2007_south_wing_l1,
+				imageAttributesCollection.hst.fms_2007_attendance_office,
+				imageAttributesCollection.hst.fms_2013_south_wing_basement_1
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			The east wing, on the other hand, was purpose-built for science rooms on the main level and
+			general classrooms above. The east wing was the only part of the complex to not have a
+			basement level; instead, this wing sat atop a series of concrete columns which lift the
+			building and provide access to the courtyard. This wing was also unique in that it had an
+			off-center hallway with windows providing views into the courtyard.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2012_east_wing_1,
+				imageAttributesCollection.hst.fms_2007_east_wing_l1,
+				imageAttributesCollection.hst.fms_2012_courtyard_southwest_2
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			<h3>NORTH + WEST WINGS</h3>
+			The north and west wings included some of Flood's newest and oldest sections, various recreational
+			spaces, as well as some of its most unique and transitional spaces between renovations of different
+			decades.
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_1967_north_wing_renovation}
+				showCaption
+				cropToFillContainer={true}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast}
+				showCaption
+				cropToFillContainer={true}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy paddingBottom="0">
+			The north wing was added to Englewood High School in 1926 as its first expansion from the
+			original 1919 layout. It was constructed specifically to house engine and mechanical shops in
+			the basement, with general-purpose classrooms above.
+			<br /><br />
+			A reconfiguration during the 1960s resulted in upper-level classroom hallways being pushed from
+			the center to the north exterior wall, creating a strange jog in the layout. Some parts of the
+			north wing also featured exposed hardwood floors from 1926, while other areas covered the hardwood
+			with carpet.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2013_north_wing,
+				imageAttributesCollection.hst.fms_2007_north_wing_l2,
+				imageAttributesCollection.hst.fms_2007_northwest_connector_l2
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			The north wing was also the recipient of a major fitniss facilities effort in 1970, which saw
+			the addition of the "large gym" and a fitness center below. These new facilities also
+			connected to the existing small gym and basement, creating liminal hallways and maze-like
+			spaces.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2007_fitness_room,
+				imageAttributesCollection.hst.fms_2007_locker_hall
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			The west wing, facing Broadway, was the original Englewood High School structure built in 1919
+			and featured the school's initial main entrance as well as its gymnasium and auditorium.
+			<br /><br />
+			The Broadway main entrance, covered in a 1963 school-wide refacing, could be seen briefly during
+			demolition as the original walls were revealed.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
+				imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
+				imageAttributesCollection.hst.fms_1960s_broadway_entrance
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			In its years as a middle school, the west wing featured classroom and computer space as well
+			as the school's semi-circular library which was added in 1963. As Englewood High School, this
+			wing reserved space for the main office, which was moved when the main entrance moved and the
+			school became a junior high.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2007_library,
+				imageAttributesCollection.hst.fms_2007_library_mlf
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			Of course, the original school included assembly spaces like the small gym and auditorium.
+			These were both built as part of the initial 1919 build-out, and both saw significant changes
+			during subsequent renovations.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.ehs_1930s_auditorium_interior,
+				imageAttributesCollection.hst.fms_2007_auditorium_interior
+			]}
+		/>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.ehs_1948_small_gym,
+				imageAttributesCollection.hst.fms_1970_small_gym
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			<h3>SCHOOL IDENTITY</h3>
+			Various generations of school identity could be found around the building, reflecting the school's
+			changing brand through the decades. Two photographed here were embedded in the floors, while the
+			third was found in the basement storage area during abandonment.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_identity_1,
+				imageAttributesCollection.hst.fms_identity_2,
+				imageAttributesCollection.hst.fms_identity_3
+			]}
+		/>
+	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="THE END">
 		<JDGBodyCopy paddingTop="0">
 			A persistent enrollment decline in the mid-2000s forced Englewood Schools to take a critical
@@ -249,12 +417,12 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.hst.fms_2012_southeast_corner_entrance}
 				showCaption
-				cropToFillContainer={false}
+				cropToFillContainer={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_west_stairs}
+				imageAttributes={imageAttributesCollection.hst.fms_2013_broadway_northeast}
 				showCaption
-				cropToFillContainer={false}
+				cropToFillContainer={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
@@ -262,18 +430,21 @@
 			Englewood Middle School. EMS would use the newer Sinclair Middle School building which would
 			be remodeled under the district plan.
 			<br /><br />
-			In 2006, the last class walked out of the building for good, leaving Flood Middle School abandoned.
-			I was fortunate to be part of a historic preservation group at the time, and we were able to acess
-			Flood in 2007 to photograph the property and look through its basement vault:
+			In the summer of 2006, Flood Middle School's final class left the building, rendering the school
+			abandoned while the districted sought a buyer for the property.
+			<br /><br />
+			As a Flood Middle School panther myself, I was fortunate to be part of a historic preservation
+			group at the time, and we were able to acess Flood in 2007 to photograph the property and look
+			through its basement vault:
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.hst.fms_2007_vault_composite}
 			showCaption
 			cropToFillContainer={false}
 		/>
-		<JDGBodyCopy>
-			It took seven years for the district find a suitable buyer for the property, during which time
-			the building was repeatedly broken into and vandalized.
+		<JDGBodyCopy paddingBottom="0">
+			It took five years for the district find a suitable buyer for the property, during which time
+			the building was repeatedly broken into and vandalized:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -313,7 +484,6 @@
 					imageAttributesCollection.hst.fms_2013_demo_library_1,
 					imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
 					imageAttributesCollection.hst.fms_2013_demo_hallway_2,
-					imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
 					imageAttributesCollection.hst.fms_2013_demo_basement_1,
 					imageAttributesCollection.hst.fms_2013_demo_classroom_1,
 					imageAttributesCollection.hst.fms_2013_demo_ceiling_fixture_2,
@@ -325,7 +495,7 @@
 			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="LAYERS OF HISTORY">
+	<JDGContentBoxFloating title="LAYERS OF TIME">
 		<JDGBodyCopy paddingTop="0">
 			During demolition, decades of renovations and facade modifications became apparent as
 			different brick types and multiple layers of brick were exposed.
@@ -369,3 +539,11 @@
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
+
+<style>
+	h3 {
+		text-align: center;
+		padding: 0;
+		margin: 0, 0, 10px, 0;
+	}
+</style>

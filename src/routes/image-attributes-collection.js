@@ -1,3 +1,4 @@
+import { sharedUrls } from '$lib/shared-strings';
 import { jdgSharedStrings } from 'jdg-ui-svelte/jdg-shared-strings.js';
 import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
@@ -710,6 +711,15 @@ const imageAttributesCollection = {
 				imgAttribution: 'Getty Images'
 			})
 		),
+		ehs_1948_small_gym: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729283930/jdg-website/hst/ehs-1948-small-gym.jpg'
+				),
+				imgCaption: "Englewood High School's gym in 1948.",
+				imgAttribution: '1948 Englewood High School Yearbook'
+			})
+		),
 		ehs_1950s_broadway_entrance: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -798,6 +808,15 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
+		fms_1970_small_gym: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729283869/jdg-website/hst/fms-1970-small-gym.jpg'
+				),
+				imgCaption: 'The small gym in 1970.',
+				imgAttribution: '1970 Flood Junior High Yearbook'
+			})
+		),
 		fms_2000_broadway_northeast: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -818,12 +837,31 @@ const imageAttributesCollection = {
 				allowBackgroundBlur: false
 			})
 		),
+		fms_2007_attendance_office: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729267991/jdg-website/hst/fms-2007-attendance-office.jpg'
+				),
+				imgCaption:
+					'The attendance office, added to the south wing near its connection to the east wing in 1963.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2007_auditorium_interior: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722820396/jdg-website/hst/fms-2007-auditorium-interior.jpg'
 				),
 				imgCaption: 'The auditorium after the school had been abandoned in 2007.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_band_room_interior_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270750/jdg-website/hst/fms-2007-band-room-interior-1.jpg'
+				),
+				imgCaption: 'The interior of the circular band room in 2007.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -839,10 +877,87 @@ const imageAttributesCollection = {
 		fms_2007_east_wing_l1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1729216980/jdg-website/hst/fms-2007-east-wing-l1.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729278837/jdg-website/hst/fms-2007-east-wing-l1_cropped.jpg'
 				),
 				imgCaption:
-					'The east wing, which was added to the building in 1963, and its connection to the 1936 wing, which contains the attendance office seen on the right.',
+					'Looking down the east wing, after passing the attendance office and main offices in the south behind.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_fitness_room: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729276024/jdg-website/hst/fms-2007-fitness-room.jpg'
+				),
+				imgCaption:
+					'A fitness room added below the large gym, both added in 1970 during a major physical fitness facilities improvement effort at the school.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_library: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729229338/jdg-website/hst/fms-2007-library.jpg'
+				),
+				imgCaption: 'The semi-circular library was added to the west wing in 1963.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_library_mlf: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729229359/jdg-website/hst/fms-2007-library-mlf.jpg'
+				),
+				imgCaption:
+					"A portrait of Mary Lousie Flood is seen in the library, mounted to a thick wall that's part of the west wing's original load-bearing exterior wall.",
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_locker_hall: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270773/jdg-website/hst/fms-2007-locker-hall.jpg'
+				),
+				imgCaption: 'A hallway to the locker rooms beneath the large gym, all added in 1970.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_north_wing_l2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729229329/jdg-website/hst/fms-2007-north-wing-l2.jpg'
+				),
+				imgCaption:
+					'The second level of the north wing, showing the shifted hallway and exposed wood floors.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_northwest_connector_l2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270958/jdg-website/hst/fms-2007-northwest-connector-l2.jpg'
+				),
+				imgCaption:
+					'A short connector hallway on the north side, bridging between the original 1919 wing and a shifted hallway caused by the 1963 renovation. One the left would be the small gym.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_southeast_stair_interior_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729272196/jdg-website/hst/fms-2007-southeast-stair-interior-1.jpg'
+				),
+				imgCaption: 'The interior of the southeast stairwell during abandonment in 2007.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_south_wing_l1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729267610/jdg-website/hst/fms-2007-south-wing-l1.jpg'
+				),
+				imgCaption:
+					'The main level of the south wing with the school office added in 1963 on the left.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -894,12 +1009,31 @@ const imageAttributesCollection = {
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
+		fms_2012_courtyard_southwest_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722739371/jdg-website/hst/fms-2012-courtyard-southwest.jpg'
+				),
+				imgCaption:
+					'The view from the east wing into the campus courtyard. On the left, the south wing shows evidence of its past with larger windows filled in with brick.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2012_east_wing_l1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1729216984/jdg-website/hst/fms-2012-east-wing-l1.jpg'
 				),
 				imgCaption: 'The vandalized east wing in 2012, about a year before demolition.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2012_east_wing_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729267043/jdg-website/hst/fms-2012-east-wing-1.jpg'
+				),
+				imgCaption: 'The exterior of the east wing as seen in 2012.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -918,7 +1052,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1729216308/jdg-website/hst/fms-2012-southeast-corner-entrance.jpg'
 				),
 				imgCaption:
-					"Flood Middle School's main entrance on the southeast corner in 2012, about a year before demolition.",
+					"Flood Middle School's main entrance on the southeast corner with the circular band room visible on the left, as seen in 2012 - about a year before demolition.",
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -1080,9 +1214,10 @@ const imageAttributesCollection = {
 		fms_2013_demo_detail_cornice: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723526020/jdg-website/hst/fms-2013-demo-detail-cornice.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729279338/jdg-website/hst/fms-2013-demo-detail-cornice.jpg'
 				),
-				imgCaption: 'The original cornice is seen from 1919 at the former main entrance location.',
+				imgCaption:
+					'The original brick wall and detailing is seen from 1919 at the former main entrance location.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -1149,7 +1284,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1729223779/jdg-website/hst/fms-2013-demo-lincoln.jpg'
 				),
-				imgCaption: 'Demolition of the school as seen from the grassy field to the east in 2013.',
+				imgCaption: 'Demolition of the school as seen from the east side grassy field in 2013.',
 				imgAttribution: 'Julie Klusener'
 			})
 		),
@@ -1180,6 +1315,46 @@ const imageAttributesCollection = {
 				),
 				imgCaption: 'The north wing as it appeared shortly before demolition in 2013.',
 				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_2013_south_wing_basement_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270992/jdg-website/hst/fms-2013-south-wing-basement-1.jpg'
+				),
+				imgCaption:
+					'The basement of the south wing contained the cafeteria, and was also shared with the band room prior to 1963.',
+				imgAttribution: 'Julie Klusener'
+			})
+		),
+		fms_identity_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270762/jdg-website/hst/fms-identity-1.jpg'
+				),
+				imgCaption:
+					'A Flood Middle School panther emblem embedded in the floor of the southeast entrance, on the stair landing that would bring students into the school from the ground level.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_identity_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270762/jdg-website/hst/fms-identity-2.jpg'
+				),
+				imgCaption:
+					'A red "F" emblem in the small gym floor. This was likely from the early 1950s after the Englewood High School moved out of the building, and Flood Junior High moved in.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_identity_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729270762/jdg-website/hst/fms-identity-3.jpg'
+				),
+				imgCaption:
+					'A large sign for Flood Junior High Panthers, found in the basement storage areas beneath Flood Middle School.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
 		sas_rendering_aerial: postProcessImageAttributes(

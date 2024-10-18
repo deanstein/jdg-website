@@ -13,3 +13,25 @@ export const sharedUrls = {
 		flood_middle_school: './architectural-history/flood-middle-school'
 	}
 };
+
+export const pageMeta = {
+	arch: {
+		random_school: {
+			url: '/architecture/random-school'
+		}
+	},
+	exp: {
+		fms_campus: {
+			title: 'Campus Village Adaptive Reuse',
+			description: 'Micro mixed-use transforms a former school',
+			url: '/architectural-experiments/fms-campus'
+		}
+	},
+	hst: {
+		flood_middle_school: {
+			title: 'Flood Middle School',
+			description: 'Uncovering history beneath a layer of brick',
+			url: '/architectural-history/flood-middle-school'
+		}
+	}
+};

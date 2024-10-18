@@ -9,12 +9,13 @@
 		JDGImageTile
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
+	import { pageMeta } from '$lib/shared-strings';
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title="CAMPUS VILLAGE ADAPTIVE REUSE"
-		subtitle="Micro mixed-use transforms a former school"
+		title={pageMeta.exp.fms_campus.title.toUpperCase()}
+		subtitle={pageMeta.exp.fms_campus.description}
 	>
 		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>
