@@ -16,7 +16,7 @@
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
-	<JDGImageFullWidth imageAttributes={imageAttributesCollection.hst.fms_2012_broadway_northeast} />
+	<JDGImageFullWidth imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast} />
 	<JDGContentBoxFloating
 		title="FLOOD MIDDLE SCHOOL"
 		subtitle="Uncovering history beneath a layer of brick"
@@ -25,7 +25,7 @@
 	>
 		<JDGBodyCopy paddingTop="0">
 			For over a century, the building ultimately known as Mary Louise Flood Middle School loomed
-			over the intersection of Broadway and Kenyon in Englewood, Colorado. In its later years,
+			over the intersection of Broadway and Kenyon in Englewood, Colorado. In its later years, it
 			appeared monolithic and hulking, with large swaths of brick pierced only occasionally by
 			louvered windows.
 			<br /><br />
@@ -90,7 +90,7 @@
 			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="TRANSFORMATION">
+	<JDGContentBoxFloating title="OVERHAUL">
 		<JDGBodyCopy paddingTop="0">
 			Flood Junior High operated within its aging, secondhand facilities through the 1950s before
 			the district embarked on a multi-year expansion and update effort. Denver architect Wheeler +
@@ -239,19 +239,28 @@
 			look at its aging and underused building stock as part of a strategic district reorganization.
 			Both Flood and its sibling school, Sinclair Middle School, had been sitting at less than 50%
 			capacity for several years.
-			<br /><br />
-			Unlike Sinclair, Flood's age, layout, and site configuration posed significant challenges. Its
+			</JDGBodyCopy>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast}
+				showCaption
+				cropToFillContainer={false}
+			/>
+			<JDGBodyCopy>
+			Unlike Sinclair, Flood's age, layout, and site configuration posed major challenges. Its
 			wood frame was deteriorating, and its sloping site and ample use of stairs would require significant
 			investment to comply with the Americans with Disabilities Act, enacted over a decade after the
 			school's last construction efforts.
 			<br /><br />
-			Ultimately, it was decided that the two middle schools would be combined into a new entity, Englewood
-			Middle School, and would reside at the newer Sinclair Middle School property which would be remodeled
+			Ultimately, it was decided that the two middle schools would be combined into a new entity: Englewood
+			Middle School. EMS would use the newer Sinclair Middle School building which would be remodeled
 			under the district plan.
 			<br /><br />
-			In 2006, the last students walked out of the building for good, leaving Flood Middle School abandoned.
+			In 2006, the last class walked out of the building for good, leaving Flood Middle School abandoned.
 			It took seven years for the district find a suitable buyer for the property, during which time
 			the building was repeatedly broken into and vandalized.
+			</JDGBodyCopy>
+
+			<JDGBodyCopy>
 			<br /><br />
 			In 2012, the property was sold to Wood Partners, a Denver-based multifamily developer. Wood Partners
 			announced plans to demolish Flood Middle School and replace it with two low-rise residential buildings.
