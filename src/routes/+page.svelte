@@ -1,6 +1,6 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { pageMeta } from '$lib/shared-strings';
+	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
@@ -48,7 +48,7 @@
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
-		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		superText={`Hi! 👋 I'm Josh.`}
 		primaryText={"I'm a 3D creator"}
 		primaryTextBold
@@ -424,7 +424,6 @@
 				</div>
 			</div>
 		</JDGGridLayout>
-		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
 			maxHeight="350px"

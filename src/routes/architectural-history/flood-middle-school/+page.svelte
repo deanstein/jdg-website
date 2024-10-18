@@ -1,5 +1,5 @@
 <script>
-	import { pageMeta } from '$lib/shared-strings';
+	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
@@ -23,7 +23,8 @@
 		primaryText={pageMeta.hst.flood_middle_school.title.toUpperCase()}
 		primaryTextBold
 		secondaryText={pageMeta.hst.flood_middle_school.description}
-		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
+		overlapWithHeader
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false} includeInJumpTo={false}>
 		<JDGBodyCopy paddingTop="0">

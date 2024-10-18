@@ -3,6 +3,10 @@ export const sharedStrings = {
 	websiteDescription: 'Architecture, software, and products created by Joshua Dean Goldstein.'
 };
 
+export const sharedStyles = {
+	overlayColorDarkRgba: 'rgba(50, 50, 50, 0.8)'
+};
+
 export const sharedUrls = {
 	websiteIconSrc:
 		'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'

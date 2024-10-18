@@ -1,10 +1,29 @@
 <script>
-	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
+
+	import {
+		JDGBodyCopy,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGImage,
+		JDGImageFullWidth
+	} from 'jdg-ui-svelte';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating title="ENCODE CAMPUS" subtitle="Enhancing a quirky, under-utilized site">
+<JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		primaryText="ENCODE CAMPUS"
+		primaryTextBold
+		secondaryText="Enhancing a quirky, under-utilized site"
+		imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
+		overlapWithHeader
+	/>
+</JDGContentContainer>
+<JDGContentContainer paddingTop="0">
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>
 				This is part of a series of experimental 3D models
@@ -29,8 +48,12 @@
 			showCaption={true}
 		/>
 		<JDGBodyCopy>
-			This model was created to demonstrate the power of FormIt and Dynamo, specifically the
-			SelectFromFormIt node, enabling geometric generation and modification more quickly than ever.
+			This model was created to demonstrate the power of <a
+				href="https://formit.autodesk.com/redirect/formit-dynamo"
+				target="_blank">FormIt and Dynamo</a
+			>, specifically the SelectFromFormIt node, enabling geometric generation and modification more
+			quickly than ever.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>

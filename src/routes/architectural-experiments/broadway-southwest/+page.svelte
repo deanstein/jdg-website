@@ -1,10 +1,12 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGFullWidthContainer,
 		JDGGridLayout,
 		JDGImageCarousel,
 		JDGImageFullWidth,
@@ -20,7 +22,8 @@
 		primaryTextBold
 		secondaryText="Two reuse schemes for a former mall anchor"
 		imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
-		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+		overlapWithHeader
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
@@ -58,14 +61,16 @@
 				<li>Create a terraced promenade for delightful connections and outdoor spaces</li>
 			</ul>
 		</JDGBodyCopy>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.exp.broadway_southwest_concept_1_promenade,
-				imageAttributesCollection.exp.broadway_southwest_concept_1_market,
-				imageAttributesCollection.exp.broadway_southwest_concept_1_aerial
-			]}
-			maxHeight="600px"
-		/>
+		<JDGFullWidthContainer>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.exp.broadway_southwest_concept_1_promenade,
+					imageAttributesCollection.exp.broadway_southwest_concept_1_market,
+					imageAttributesCollection.exp.broadway_southwest_concept_1_aerial
+				]}
+				maxHeight="600px"
+			/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy paddingBottom="0">
 			<h3 style="text-align: center;">CONCEPT 2: FOOD HALL + HOTEL</h3>
 			<ul>
@@ -81,14 +86,16 @@
 				<li>Create a terraced promenade for delightful connections and outdoor spaces</li>
 			</ul>
 		</JDGBodyCopy>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.exp.broadway_southwest_concept_2_promenade,
-				imageAttributesCollection.exp.broadway_southwest_concept_2_passage,
-				imageAttributesCollection.exp.broadway_southwest_concept_2_aerial
-			]}
-			maxHeight="600px"
-		/>
+		<JDGFullWidthContainer>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.exp.broadway_southwest_concept_2_promenade,
+					imageAttributesCollection.exp.broadway_southwest_concept_2_passage,
+					imageAttributesCollection.exp.broadway_southwest_concept_2_aerial
+				]}
+				maxHeight="600px"
+			/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy
 			>Check out the <a href="https://1drv.ms/b/s!Aqq9aYoi8d58nKQl5jqNYxcy4ddt9Q?e=ERTi2D"
 				>project vision book</a

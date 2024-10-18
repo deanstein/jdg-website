@@ -1,5 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
 		JDGBodyCopy,
@@ -19,7 +20,8 @@
 		primaryTextBold
 		secondaryText="Softening a corporate corner with a pedestrian-scale showroom"
 		imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+		overlapWithHeader
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
