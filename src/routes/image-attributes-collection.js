@@ -798,6 +798,16 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
+		fms_2000_broadway_northeast: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1722742061/jdg-website/hst/fms-2000-broadway-northeast.jpg'
+				),
+				imgCaption:
+					'Flood Middle School as seen in 2000 from Broadway. Its simplistic shell obscures a more ornate building underneath.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
 		fms_2000s_plan_additions: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -845,23 +855,13 @@ const imageAttributesCollection = {
 				imgAttribution: 'Bing Maps'
 			})
 		),
-		fms_2012_broadway_northeast: postProcessImageAttributes(
-			instantiateObject(jdgImageAttributes, {
-				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1722740258/jdg-website/hst/fms-2012-broadway-northeast.jpg'
-				),
-				imgCaption:
-					'Flood Middle School as seen in 2012 from Broadway. Its simplistic shell obscures a more ornate building underneath.',
-				imgAttribution: 'Englewood Schools'
-			})
-		),
 		fms_2012_broadway_southeast: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1722836635/jdg-website/hst/fms-2012-broadway-southeast.jpg'
 				),
 				imgCaption:
-					'Flood Middle School in 2012 from Broadway. The original gymnasium was augmented with a much larger facility, creating an imposing presence from the street.',
+					'Flood Middle School in 2012 from Broadway. The "Large Gym" on the left was added in the 1970s, connecting to the original gym which was now known as the "Small Gym."',
 				imgAttribution: 'Google'
 			})
 		),
