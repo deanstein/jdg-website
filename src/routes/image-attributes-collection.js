@@ -865,6 +865,25 @@ const imageAttributesCollection = {
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
+		fms_2007_basement_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729229384/jdg-website/hst/fms-2007-basement-1.jpg'
+				),
+				imgCaption: 'A basement-level storage area below Flood Middle School.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
+		fms_2007_basement_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729286169/jdg-website/hst/fms-2007-basement-2.jpg'
+				),
+				imgCaption:
+					'A basement-level storage area below Flood Middle School with a short set of steps visible in the foreground.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2007_classroom: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(

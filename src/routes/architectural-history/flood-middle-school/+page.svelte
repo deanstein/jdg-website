@@ -388,6 +388,17 @@
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
+			The school's original basement also resided below the gymnasium, complete with a vault for
+			student records and a maze-like storage area with a short ceiling that stepped up and down in
+			various places due to foundation height changes.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.hst.fms_2007_basement_2,
+				imageAttributesCollection.hst.fms_2007_vault_composite
+			]}
+		/>
+		<JDGBodyCopy paddingBottom="0">
 			<h3>SCHOOL IDENTITY</h3>
 			Various generations of school identity could be found around the building, reflecting the school's
 			changing brand through the decades. Two photographed here were embedded in the floors, while the
