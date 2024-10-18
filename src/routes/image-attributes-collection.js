@@ -846,6 +846,15 @@ const imageAttributesCollection = {
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
+		fms_2007_vault_composite: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729226260/jdg-website/hst/fms-2007-vault-composite.jpg'
+				),
+				imgCaption: 'The original school vault in the basement of Flood Middle School.',
+				imgAttribution: jdgSharedStrings.jdgCopyrightName
+			})
+		),
 		fms_2010s_aerial_northwest: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -919,7 +928,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1729219311/jdg-website/hst/fms-2012-west-stairs.jpg'
 				),
 				imgCaption:
-					'The west side of Flood Middle School which faced Broadway and is the oldest wing, built in 1919.',
+					'The west side of Flood Middle School faced Broadway and was the oldest wing, built in 1919.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -987,7 +996,7 @@ const imageAttributesCollection = {
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723527807/jdg-website/hst/fms-2013-demo-basement-2.jpg'
 				),
 				imgCaption:
-					'A basement-level locker room with glass offices is seen as the spaces above it are demolished in 2013',
+					'A basement-level locker room with glass offices is seen as the spaces above it are demolished in 2013.',
 				imgAttribution: jdgSharedStrings.jdgCopyrightName
 			})
 		),
@@ -1138,10 +1147,10 @@ const imageAttributesCollection = {
 		fms_2013_demo_lincoln: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723527230/jdg-website/hst/fms-2013-demo-lincoln.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729223779/jdg-website/hst/fms-2013-demo-lincoln.jpg'
 				),
-				imgCaption: 'Demolition of the school as seen from the grassy field to the east.',
-				imgAttribution: jdgSharedStrings.jdgCopyrightName
+				imgCaption: 'Demolition of the school as seen from the grassy field to the east in 2013.',
+				imgAttribution: 'Julie Klusener'
 			})
 		),
 		fms_2013_demo_window_sizes: postProcessImageAttributes(

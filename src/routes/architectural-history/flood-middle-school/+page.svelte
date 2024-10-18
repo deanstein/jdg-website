@@ -247,12 +247,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_west_stairs}
+				imageAttributes={imageAttributesCollection.hst.fms_2012_southeast_corner_entrance}
 				showCaption
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_southeast_corner_entrance}
+				imageAttributes={imageAttributesCollection.hst.fms_2012_west_stairs}
 				showCaption
 				cropToFillContainer={false}
 			/>
@@ -263,6 +263,15 @@
 			be remodeled under the district plan.
 			<br /><br />
 			In 2006, the last class walked out of the building for good, leaving Flood Middle School abandoned.
+			I was fortunate to be part of a historic preservation group at the time, and we were able to acess
+			Flood in 2007 to photograph the property and look through its basement vault:
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.hst.fms_2007_vault_composite}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
 			It took seven years for the district find a suitable buyer for the property, during which time
 			the building was repeatedly broken into and vandalized.
 		</JDGBodyCopy>
@@ -285,8 +294,16 @@
 			<br /><br />
 			Asbestos abatement commenced in early 2013, and by the end of the summer, the 94-year old building
 			was gone. By fall of 2015, a 306-unit luxury apartment complex stood in its place.
-			<br /><br />
-			Below are some moments from Flood Middle School's final days.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.hst.fms_2013_demo_lincoln}
+			showCaption
+			showAttribution
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
+			During demolition in 2013, I visited the school to capture its history being unearthed by the
+			destruction. Here are several fascinating moments from Flood Middle School's final days:
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
@@ -303,19 +320,18 @@
 					imageAttributesCollection.hst.fms_2013_demo_large_gym,
 					imageAttributesCollection.hst.fms_2013_demo_window_sizes,
 					imageAttributesCollection.hst.fms_2013_demo_chimney,
-					imageAttributesCollection.hst.fms_2013_demo_lincoln,
 					imageAttributesCollection.hst.fms_2013_demo_basement_2
 				]}
 			/>
 		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="LAYERS OF TIME">
+	<JDGContentBoxFloating title="LAYERS OF HISTORY">
 		<JDGBodyCopy paddingTop="0">
 			During demolition, decades of renovations and facade modifications became apparent as
 			different brick types and multiple layers of brick were exposed.
 			<br /><br />
-			Enjoy these photographs showing places where the original Englewood High School peeks through the
-			surface of the Flood Middle School shell thanks to the distinct brickwork from each era.
+			These photographs show places where the original Englewood High School peeks through the surface
+			of the Flood Middle School shell, thanks to the distinct brickwork from each era.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
@@ -335,9 +351,11 @@
 			be prohibitive to save.
 			<br /><br />
 			Nonetheless, I used my <a href="/#architecture" target="_blank">architecture</a> and
-			<a href="/#software" target="_blank">architectural software</a> experience to create a hypothetical
-			adaptive reuse concept that utilizes walk-up townhomes and mixed-use to salvage the building while
-			creating a new micro-community for Englewood.
+			<a href="/#software" target="_blank">architectural software</a> experience to create a
+			hypothetical
+			<a href="../architectural-experiments/fms-campus" target="_blank">adaptive reuse</a> concept that
+			utilizes walk-up townhomes and mixed-use to salvage the building while creating a new micro-community
+			for Englewood.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
