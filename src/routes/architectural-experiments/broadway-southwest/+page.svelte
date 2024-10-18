@@ -1,27 +1,31 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
 		JDGImageCarousel,
+		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating
-		title="DEPARTMENT STORE ADAPTIVE REUSE"
-		subtitle="Two reuse schemes for a former mall anchor"
-	>
-		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
-			<i>
-				This is part of a series of experimental 3D models
-				<br /> built while working on the
-				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
-			</i>
-		</JDGBodyCopy>
+<JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		primaryText="DEPARTMENT STORE ADAPTIVE REUSE"
+		primaryTextBold
+		secondaryText="Two reuse schemes for a former mall anchor"
+		imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+	/>
+</JDGContentContainer>
+<JDGContentContainer paddingTop="0">
+	<JDGContentBoxFloating animateWhenVisible={false}>
+		<SeriesExperimental />
 		<JDGBodyCopy paddingTop="0">
 			Built in 1985 as a Broadway Southwest department store for <a
 				href="https://www.cinderellacityproject.com/history"
@@ -46,7 +50,7 @@
 			retail/office mix, and cutting a passage down its center to convert the upper levels to a
 			boutique hotel.
 		</JDGBodyCopy>
-		<JDGBodyCopy paddingBottom="0">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			<h3 style="text-align: center;">CONCEPT 1: FOOD HALL + COWORKING</h3>
 			<ul>
 				<li>Introduce Englewood's first food hall on the ground level</li>
@@ -91,4 +95,5 @@
 			> for more detail on both schemes.</JDGBodyCopy
 		>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>

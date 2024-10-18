@@ -1,4 +1,6 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -8,7 +10,6 @@
 		JDGFullWidthContainer
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
 	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
 </script>
 
