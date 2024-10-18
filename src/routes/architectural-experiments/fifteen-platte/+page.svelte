@@ -1,18 +1,30 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImageCarousel
+		JDGFullWidthContainer,
+		JDGImageCarousel,
+		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating
-		title="FIFTEEN PLATTE MODERN OFFICE"
-		subtitle="Powerful 3D software generating unique architecture"
-	>
+<JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		primaryText="FIFTEEN PLATTE MODERN OFFICE"
+		primaryTextBold
+		secondaryText="Powerful 3D software generating unique architecture"
+		imageAttributes={imageAttributesCollection.exp.fifteen_platte_dynamo}
+		overlapWithHeader
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
+	/>
+</JDGContentContainer>
+<JDGContentContainer paddingTop="0">
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
 			<i>
 				This is part of a series of experimental 3D models
@@ -26,13 +38,16 @@
 			<br /><br />
 			This model was used to demonstrate FormIt + Dynamo workflows in the early stages of that integration.
 		</JDGBodyCopy>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.exp.fifteen_platte_sunset,
-				imageAttributesCollection.exp.fifteen_platte_grayscale,
-				imageAttributesCollection.exp.fifteen_platte_dynamo
-			]}
-			maxHeight="600px"
-		/>
+		<JDGFullWidthContainer>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.exp.fifteen_platte_sunset,
+					imageAttributesCollection.exp.fifteen_platte_grayscale,
+					imageAttributesCollection.exp.fifteen_platte_dynamo
+				]}
+				maxHeight="600px"
+			/>
+		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>
