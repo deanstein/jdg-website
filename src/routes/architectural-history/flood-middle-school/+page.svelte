@@ -1,5 +1,7 @@
 <script>
+	import { pageMeta } from '$lib/shared-strings';
 	import imageAttributesCollection from '../../image-attributes-collection';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -13,17 +15,17 @@
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-	import { pageMeta } from '$lib/shared-strings';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
-	<JDGImageFullWidth imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast} />
-	<JDGContentBoxFloating
-		title={pageMeta.hst.flood_middle_school.title.toUpperCase()}
-		subtitle={pageMeta.hst.flood_middle_school.description}
-		animateWhenVisible={false}
-		includeInJumpTo={false}
-	>
+	<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast_noname}
+		primaryText={pageMeta.hst.flood_middle_school.title.toUpperCase()}
+		primaryTextBold
+		secondaryText={pageMeta.hst.flood_middle_school.description}
+		overlayColorRgba={'rgba(50, 50, 50, 0.8)'}
+	/>
+	<JDGContentBoxFloating animateWhenVisible={false} includeInJumpTo={false}>
 		<JDGBodyCopy paddingTop="0">
 			For over a century, the building ultimately known as Mary Louise Flood Middle School loomed
 			over the intersection of Broadway and Kenyon in Englewood, Colorado. In its later years, it

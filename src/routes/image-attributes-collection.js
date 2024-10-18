@@ -827,6 +827,16 @@ const imageAttributesCollection = {
 				imgAttribution: 'Englewood Public Library'
 			})
 		),
+		fms_2000_broadway_northeast_noname: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1729291700/jdg-website/hst/fms-2000-broadway-northeast-noname.jpg'
+				),
+				imgCaption:
+					'Flood Middle School as seen in 2000 from Broadway. Its simplistic shell obscures a more ornate building underneath.',
+				imgAttribution: 'Englewood Public Library'
+			})
+		),
 		fms_2000s_plan_additions: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
