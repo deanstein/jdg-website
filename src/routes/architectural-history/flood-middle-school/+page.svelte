@@ -247,7 +247,8 @@
 			maxHeight="500px"
 		/>
 		<JDGBodyCopy paddingBottom="0">
-			<h3>SOUTH + EAST WINGS</h3>
+			<h3 class="with-dates">SOUTH + EAST WINGS</h3>
+			<h4>(1936, 1963, 1967)</h4>
 			Although built at very different times, the south and east wings joined forces to create the school's
 			final main entrance from 1963 to 2007 at the corner of Lincoln and Kenyon.
 		</JDGBodyCopy>
@@ -298,7 +299,8 @@
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
-			<h3>NORTH + WEST WINGS</h3>
+			<h3 class="with-dates">NORTH + WEST WINGS</h3>
+			<h4>(1919, 1926, 1963, 1970, 2000)</h4>
 			The north and west wings included some of Flood's newest and oldest sections, various recreational
 			spaces, as well as some of its most unique and transitional spaces between renovations of different
 			decades.
@@ -555,6 +557,17 @@
 	h3 {
 		text-align: center;
 		padding: 0;
-		margin: 0, 0, 10px, 0;
+		margin: 0 0 10px 0;
+	}
+
+	h3.with-dates {
+		margin: 0;
+	}
+
+	h4 {
+		text-align: center;
+		padding: 0;
+		margin-top: 0;
+		color: gray;
 	}
 </style>
