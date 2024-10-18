@@ -1,7 +1,7 @@
 <script>
 	import imageAttributesCollection from '../image-attributes-collection';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { sharedUrls } from '$lib/shared-strings';
+	import { pageMeta } from '$lib/shared-strings';
 	import {
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
@@ -78,12 +78,12 @@
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			Furthering my formative interest in architecture, my
-			<a href={sharedUrls.hst.flood_middle_school} target="_blank">middle school</a>
+			<a href={pageMeta.hst.flood_middle_school.url} target="_blank">middle school</a>
 			was an incredible patchwork of renovations and additions from the 1920s to the 1940s, culminating
 			in a major overhaul in the 1960s. Despite sporting a minimal mid-century appearance, the school
 			betrayed its age with creaky floors and glimpses of historic brick, and its entire history was
 			uncovered during its&nbsp;
-			<a href={`${sharedUrls.hst.flood_middle_school}#layers-of-brick`} target="_blank"
+			<a href={`${pageMeta.hst.flood_middle_school.url}#layers-of-time`} target="_blank"
 				>tragic demolition</a
 			>.
 		</JDGBodyCopy>
@@ -105,7 +105,7 @@
 			In college, I created award-winning designs spanning buildings, urban planning, and furniture.
 			I received my Master of Architecture degree at Kansas State University in 2013, where my thesis
 			focused on revitalizing the Main Street of a Kansas town and creating a unique public space in
-			the shell of an <a href={sharedUrls.arch.random_school}>abandoned school</a>.
+			the shell of an <a href={pageMeta.arch.random_school.url}>abandoned school</a>.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage

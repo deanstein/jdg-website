@@ -1,6 +1,6 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { sharedUrls } from '$lib/shared-strings';
+	import { pageMeta } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
@@ -125,7 +125,7 @@
 			<JDGImageTile
 				label={'FLOOD MIDDLE SCHOOL'}
 				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
-				href={sharedUrls.hst.flood_middle_school}
+				href={pageMeta.hst.flood_middle_school.url}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
@@ -170,7 +170,7 @@
 			/>
 			<JDGImageTile
 				label={'ABANDONED SCHOOL REUSE'}
-				href={sharedUrls.arch.random_school}
+				href={pageMeta.arch.random_school.url}
 				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
 			/>
 			<JDGImageTile
