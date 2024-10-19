@@ -212,7 +212,7 @@
 			cropToFillContainer={false}
 			maxHeight="500px"
 		/>
-		<JDGBodyCopy paddingBottom>
+		<JDGBodyCopy paddingBottom="0">
 			On the north side, the 1926-era north wing was reconfigured inside to improve circulation from
 			the new connecting wings, and like other parts of the school, its exterior design was updated
 			to match the new architecture.
