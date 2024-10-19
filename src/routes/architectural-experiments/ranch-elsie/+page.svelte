@@ -1,38 +1,46 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGImage,
-		JDGImageCarousel
+		JDGImageFullWidth,
+		JDGFullWidthContainer
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating
-		title="RANCH ELSIE MODERN HOME"
-		subtitle="A marriage of software and design, site and architecture"
-	>
-		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
-			<i>
-				This is part of a series of experimental 3D models
-				<br /> built while working on the
-				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
-			</i>
-		</JDGBodyCopy>
+<JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		primaryText="RANCH ELSIE MODERN HOME"
+		primaryTextBold
+		secondaryText="A marriage of software and architecture"
+		imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+		overlapWithHeader
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
+	/>
+</JDGContentContainer>
+<JDGContentContainer paddingTop="0">
+	<JDGContentBoxFloating animateWhenVisible={false}>
+		<SeriesExperimental />
 		<JDGBodyCopy paddingTop="0">
 			Nestled in the hills of Coal Creek Canyon, Colorado, this modern mountain home features open
 			interior spaces across a split-level plan, with incredible views of the surrounding mountains.
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
-			maxHeight="600px"
-			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
-			showBlurInUnfilledSpace={true}
-			showCaption={true}
-		/>
+		<JDGFullWidthContainer>
+			<JDGImage
+				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+				maxHeight="600px"
+				cropToFillContainer={false}
+				useCompactHeightOnMobile={true}
+				showBlurInUnfilledSpace={true}
+				showCaption={true}
+			/>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			Built to test and validate a new release of FormIt and its various improvements including
 			multiple Dynamo SendToFormIt nodes, nested graphs, and more, resulting in easier computational
@@ -47,4 +55,5 @@
 			showCaption={true}
 		/>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>
