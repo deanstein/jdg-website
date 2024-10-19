@@ -1,11 +1,15 @@
 <script>
+	imageAttributesCollection;
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGIFrame
+		JDGIFrame,
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../../components/SocialMedia.svelte';
+	import imageAttributesCollection from '../image-attributes-collection';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 </script>
 
 <JDGContentContainer>
@@ -24,6 +28,18 @@
 			/>
 		</div>
 	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'SEE ALL WORK'}
+		item1Href={'/'}
+		item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
+		item2Label={'ABOUT JOSH'}
+		item2Href="/about"
+		item2ImageAttributes={imageAttributesCollection.jdg_photo_2}
+		item2ObjectPosition="right"
+		item3Label="CINDERELLA CITY PROJECT"
+		item3Href={jdgSharedUrls.ccpWebsite}
+		item3ImageAttributes={imageAttributesCollection.swe.ccp_1}
+	/>
 </JDGContentContainer>
 
 <style>

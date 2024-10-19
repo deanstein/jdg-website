@@ -10,7 +10,8 @@
 		JDGFullWidthContainer,
 		JDGGridLayout,
 		JDGImage,
-		JDGImageCompare
+		JDGImageCompare,
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
 </script>
@@ -266,6 +267,17 @@
 			<a href="./contact" target="_blank">Let's chat</a>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'SEE ALL WORK'}
+		item1Href={'/'}
+		item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
+		item2Label="CINDERELLA CITY PROJECT"
+		item2Href={jdgSharedUrls.ccpWebsite}
+		item2ImageAttributes={imageAttributesCollection.swe.ccp_1}
+		item3Label="GET IN TOUCH"
+		item3Href="/contact"
+		item3ImageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+	/>
 </JDGContentContainer>
 
 <style>
