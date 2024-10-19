@@ -1,25 +1,32 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
+	import { sharedStyles } from '$lib/shared-strings';
+
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImageCarousel
+		JDGFullWidthContainer,
+		JDGImageCarousel,
+		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating
-		title="SPEER POINT ADAPTIVE REUSE"
-		subtitle="Enhancing a quirky, under-utilized site"
-	>
-		<JDGBodyCopy paddingTop="0" textAlign="center" fontSizeMultiplier={0.75}>
-			<i>
-				This is part of a series of experimental 3D models
-				<br /> built while working on the
-				<a href="https://www.formit.autodesk.com/">Autodesk FormIt</a> software team.
-			</i>
-		</JDGBodyCopy>
+<JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">
+	<JDGImageFullWidth
+		primaryText="SPEER POINT ADAPTIVE REUSE"
+		primaryTextBold
+		secondaryText="Enhancing a quirky, under-utilized site"
+		imageAttributes={imageAttributesCollection.exp.speer_point_after}
+		overlapWithHeader
+		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
+	/>
+</JDGContentContainer>
+<JDGContentContainer paddingTop="0">
+	<JDGContentBoxFloating animateWhenVisible={false}>
+		<SeriesExperimental />
 		<JDGBodyCopy paddingTop="0">
 			A small building in Denver gets transformed into an artist-focused mixed use space in this
 			adaptive reuse scheme.
@@ -28,12 +35,15 @@
 			at many hours during the day and would provide eyes on the street and a convenient place to recharge
 			for the nearby pedestrian trail.
 		</JDGBodyCopy>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.exp.speer_point_after,
-				imageAttributesCollection.exp.speer_point_before
-			]}
-			maxHeight="600px"
-		/>
+		<JDGFullWidthContainer>
+			<JDGImageCarousel
+				imageAttributeObjects={[
+					imageAttributesCollection.exp.speer_point_after,
+					imageAttributesCollection.exp.speer_point_before
+				]}
+				maxHeight="600px"
+			/>
+		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
+	<UpNext />
 </JDGContentContainer>
