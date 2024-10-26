@@ -11,6 +11,12 @@
 	import SocialMedia from '../components/SocialMedia.svelte';
 	import { sharedUrls } from '$lib/shared-strings';
 
+	// META TAGS
+	// will be be sourced from +layout.js first, 
+	// then optionally +page.js as overrides via $page
+	export let data; // meta tag data from $page
+	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
+
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);
 	newNavItem1.label = 'HOME';
@@ -36,11 +42,6 @@
 
 	const disclaimer =
 		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
-
-	export let data;
-
-	// meta tags will be from +layout.js first, then +page.js as overrides via $page
-	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
 </script>
 
 <MetaTags {...metaTags} />
