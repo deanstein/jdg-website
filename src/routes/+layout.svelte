@@ -68,7 +68,7 @@
 		{additionalVersionData}
 		{disclaimer}
 		alignItems="center"
-		showDevToolsButton
+		showDevToolsButton={false}
 	>
 		<SocialMedia />
 	</JDGFooter>
