@@ -12,7 +12,7 @@
 	import { sharedUrls } from '$lib/shared-strings';
 
 	// META TAGS
-	// will be be sourced from +layout.js first, 
+	// will be be sourced from +layout.js first,
 	// then optionally +page.js as overrides via $page
 	export let data; // meta tag data from $page
 	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);

@@ -7,6 +7,7 @@
 
 	import {
 		JDGBodyCopy,
+		JDGClipFade,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
@@ -148,66 +149,68 @@
 				target="_blank">505Design</a
 			>.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				label={'BAYOU MIXED USE'}
-				href="./architecture/bayou-mixed-use"
-				imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_4}
-			/>
-			<JDGImageTile
-				label={'MODERN TEXAS LOBBY'}
-				href="./architecture/texas-lobby"
-				imageAttributes={imageAttributesCollection.arch.texas_lobby}
-			/>
-			<JDGImageTile
-				label={'ORCHARD TOWN CENTER'}
-				href="./architecture/orchard-town-center"
-				imageAttributes={imageAttributesCollection.arch.otc_below}
-			/>
-			<JDGImageTile
-				label={'OLD ORCHARD'}
-				href="./architecture/old-orchard"
-				imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
-			/>
-			<JDGImageTile
-				label={'ABANDONED SCHOOL REUSE'}
-				href={pageMeta.arch.random_school.url}
-				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
-			/>
-			<JDGImageTile
-				label={'MINDFUL LIVE/WORK CAMPUS'}
-				href="./architecture/mindful-campus"
-				imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
-				objectPosition="right"
-			/>
-			<JDGImageTile
-				label={'THE FAIRGROUNDS'}
-				href="./architecture/fairgrounds"
-				imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
-			/>
-			<JDGImageTile
-				label={'BEACH CHIC ADAPTIVE REUSE'}
-				href="./architecture/beach-chic"
-				imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
-			/>
-			<JDGImageTile
-				label={'GRITTY BBQ ADAPTIVE REUSE'}
-				href="./architecture/gritty-bbq"
-				imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
-			/>
-			<JDGImageTile
-				label={'MINDFUL MULTIFAMILY'}
-				href="./architecture/mindful-multifamily"
-				imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
-				objectPosition="left"
-			/>
-			<JDGImageTile
-				label={'ARROWHEAD TOWNE CENTER'}
-				href="./architecture/arrowhead-towne-center"
-				imageAttributes={imageAttributesCollection.arch.atc_elevator}
-				objectPosition="left"
-			/>
-		</JDGGridLayout>
+		<JDGClipFade>
+			<JDGGridLayout>
+				<JDGImageTile
+					label={'BAYOU MIXED USE'}
+					href="./architecture/bayou-mixed-use"
+					imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_4}
+				/>
+				<JDGImageTile
+					label={'MODERN TEXAS LOBBY'}
+					href="./architecture/texas-lobby"
+					imageAttributes={imageAttributesCollection.arch.texas_lobby}
+				/>
+				<JDGImageTile
+					label={'ORCHARD TOWN CENTER'}
+					href="./architecture/orchard-town-center"
+					imageAttributes={imageAttributesCollection.arch.otc_below}
+				/>
+				<JDGImageTile
+					label={'OLD ORCHARD'}
+					href="./architecture/old-orchard"
+					imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
+				/>
+				<JDGImageTile
+					label={'ABANDONED SCHOOL REUSE'}
+					href={pageMeta.arch.random_school.url}
+					imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+				/>
+				<JDGImageTile
+					label={'MINDFUL LIVE/WORK CAMPUS'}
+					href="./architecture/mindful-campus"
+					imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
+					objectPosition="right"
+				/>
+				<JDGImageTile
+					label={'THE FAIRGROUNDS'}
+					href="./architecture/fairgrounds"
+					imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
+				/>
+				<JDGImageTile
+					label={'BEACH CHIC ADAPTIVE REUSE'}
+					href="./architecture/beach-chic"
+					imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+				/>
+				<JDGImageTile
+					label={'GRITTY BBQ ADAPTIVE REUSE'}
+					href="./architecture/gritty-bbq"
+					imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
+				/>
+				<JDGImageTile
+					label={'MINDFUL MULTIFAMILY'}
+					href="./architecture/mindful-multifamily"
+					imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
+					objectPosition="left"
+				/>
+				<JDGImageTile
+					label={'ARROWHEAD TOWNE CENTER'}
+					href="./architecture/arrowhead-towne-center"
+					imageAttributes={imageAttributesCollection.arch.atc_elevator}
+					objectPosition="left"
+				/>
+			</JDGGridLayout>
+		</JDGClipFade>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3 class="subheader-with-date">EXPERIMENTAL DESIGNS</h3>
 			<h4 class="date">2015-2024</h4>
@@ -215,53 +218,55 @@
 				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
 			>, for which I was the Senior Product Manager.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				label={'MINDFUL SHOWROOM'}
-				href="./architectural-experiments/1551-wewatta"
-				imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-			/>
-			<JDGImageTile
-				label={'CAMPUS VILLAGE ADAPTIVE REUSE'}
-				href="./architectural-experiments/fms-campus"
-				imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
-			/>
-			<JDGImageTile
-				label={'ENCODE CAMPUS'}
-				href="./architectural-experiments/encode-campus"
-				imageAttributes={imageAttributesCollection.exp.encode_campus_after}
-			/>
-			<JDGImageTile
-				label={'DEPARTMENT STORE ADAPTIVE REUSE'}
-				href="./architectural-experiments/broadway-southwest"
-				imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
-			/>
-			<JDGImageTile
-				label={'RANCH ELSIE MODERN HOME'}
-				href="./architectural-experiments/ranch-elsie"
-				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
-			/>
-			<JDGImageTile
-				label={'O2 RESEARCH LOBBY STUDY'}
-				href="./architectural-experiments/o2-research"
-				imageAttributes={imageAttributesCollection.exp.o2_research}
-			/>
-			<JDGImageTile
-				label={'16 PEARL ADAPTIVE REUSE'}
-				href="./architectural-experiments/sixteen-pearl"
-				imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
-			/>
-			<JDGImageTile
-				label={'SPEER POINT ADAPTIVE REUSE'}
-				href="./architectural-experiments/speer-point"
-				imageAttributes={imageAttributesCollection.exp.speer_point_after}
-			/>
-			<JDGImageTile
-				label={'FIFTEEN PLATTE MODERN OFFICE'}
-				href="./architectural-experiments/fifteen-platte"
-				imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
-			/>
-		</JDGGridLayout>
+		<JDGClipFade>
+			<JDGGridLayout>
+				<JDGImageTile
+					label={'MINDFUL SHOWROOM'}
+					href="./architectural-experiments/1551-wewatta"
+					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+				/>
+				<JDGImageTile
+					label={'CAMPUS VILLAGE ADAPTIVE REUSE'}
+					href="./architectural-experiments/fms-campus"
+					imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+				/>
+				<JDGImageTile
+					label={'ENCODE CAMPUS'}
+					href="./architectural-experiments/encode-campus"
+					imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+				/>
+				<JDGImageTile
+					label={'DEPARTMENT STORE ADAPTIVE REUSE'}
+					href="./architectural-experiments/broadway-southwest"
+					imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+				/>
+				<JDGImageTile
+					label={'RANCH ELSIE MODERN HOME'}
+					href="./architectural-experiments/ranch-elsie"
+					imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+				/>
+				<JDGImageTile
+					label={'O2 RESEARCH LOBBY STUDY'}
+					href="./architectural-experiments/o2-research"
+					imageAttributes={imageAttributesCollection.exp.o2_research}
+				/>
+				<JDGImageTile
+					label={'16 PEARL ADAPTIVE REUSE'}
+					href="./architectural-experiments/sixteen-pearl"
+					imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
+				/>
+				<JDGImageTile
+					label={'SPEER POINT ADAPTIVE REUSE'}
+					href="./architectural-experiments/speer-point"
+					imageAttributes={imageAttributesCollection.exp.speer_point_after}
+				/>
+				<JDGImageTile
+					label={'FIFTEEN PLATTE MODERN OFFICE'}
+					href="./architectural-experiments/fifteen-platte"
+					imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
+				/>
+			</JDGGridLayout>
+		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
 		<JDGBodyCopy textAlign="center" paddingTop="0">
@@ -277,68 +282,70 @@
 			store from 2014 to 2017. If you have a 3D printer, you can get these printer-ready models at
 			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">CGTrader</a>.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				label={'DENVER CITYSCAPE'}
-				imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
-				href="http://www.parametrix3d.com/021.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'PUZZLE DECOR'}
-				imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
-				href="http://www.parametrix3d.com/030.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'ADVANCED PLANTER'}
-				imageAttributes={imageAttributesCollection.ind.planter_003F_0}
-				href="http://www.parametrix3d.com/003.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'PEN HOLDER'}
-				imageAttributes={imageAttributesCollection.ind.pen_holder_008I_0}
-				href="http://www.parametrix3d.com/008.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'CARD HOLDER'}
-				imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
-				href="http://www.parametrix3d.com/015.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'DEN / CO MAGNETS'}
-				imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
-				href="http://www.parametrix3d.com/047.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'CO TOPO MAGNET'}
-				imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
-				href="http://www.parametrix3d.com/047d.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'HERB GRINDER'}
-				imageAttributes={imageAttributesCollection.ind.grinder_039A_0}
-				href="http://www.parametrix3d.com/039.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'DENVER MAP COASTER'}
-				imageAttributes={imageAttributesCollection.ind.coaster_028A_0}
-				href="http://www.parametrix3d.com/028.html"
-				hrefOpenInNewTab={true}
-			/>
-			<JDGImageTile
-				label={'KITCHEN CADDY'}
-				imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
-				href="http://www.parametrix3d.com/007.html"
-				hrefOpenInNewTab={true}
-			/>
-		</JDGGridLayout>
+		<JDGClipFade>
+			<JDGGridLayout>
+				<JDGImageTile
+					label={'DENVER CITYSCAPE'}
+					imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
+					href="http://www.parametrix3d.com/021.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'PUZZLE DECOR'}
+					imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
+					href="http://www.parametrix3d.com/030.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'ADVANCED PLANTER'}
+					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
+					href="http://www.parametrix3d.com/003.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'PEN HOLDER'}
+					imageAttributes={imageAttributesCollection.ind.pen_holder_008I_0}
+					href="http://www.parametrix3d.com/008.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'CARD HOLDER'}
+					imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
+					href="http://www.parametrix3d.com/015.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'DEN / CO MAGNETS'}
+					imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
+					href="http://www.parametrix3d.com/047.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'CO TOPO MAGNET'}
+					imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
+					href="http://www.parametrix3d.com/047d.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'HERB GRINDER'}
+					imageAttributes={imageAttributesCollection.ind.grinder_039A_0}
+					href="http://www.parametrix3d.com/039.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'DENVER MAP COASTER'}
+					imageAttributes={imageAttributesCollection.ind.coaster_028A_0}
+					href="http://www.parametrix3d.com/028.html"
+					hrefOpenInNewTab={true}
+				/>
+				<JDGImageTile
+					label={'KITCHEN CADDY'}
+					imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
+					href="http://www.parametrix3d.com/007.html"
+					hrefOpenInNewTab={true}
+				/>
+			</JDGGridLayout>
+		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">

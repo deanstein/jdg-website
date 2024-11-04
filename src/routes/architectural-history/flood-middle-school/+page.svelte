@@ -449,9 +449,9 @@
 			In the summer of 2006, Flood Middle School's final class left the building, rendering the school
 			abandoned while the districted sought a buyer for the property.
 			<br /><br />
-			Having attended Flood from 2002-2003, I was fortunate to be part of a historic preservation
-			group at the time, and we were able to acess Flood in 2007 to photograph the property and look
-			through its basement vault:
+			Having attended Flood from 2002-2003, I was fortunate to be part of a historic preservation group
+			at the time, and we were able to acess Flood in 2007 to photograph the property and look through
+			its basement vault:
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.hst.fms_2007_vault_composite}
