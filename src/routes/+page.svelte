@@ -17,6 +17,8 @@
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import UpNext from '../components/UpNext.svelte';
+	import ImpactItem from '../components/ImpactItem.svelte';
+	import ImpactSection from '../components/ImpactSection.svelte';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
@@ -431,6 +433,37 @@
 				</div>
 			</div>
 		</JDGGridLayout>
+		<JDGBodyCopy>
+			<ImpactSection maxColumns={4}>
+				<ImpactItem faIcon="fa-burst" impactNumber="12" impactDescription="major app releases" />
+				<ImpactItem
+					faIcon="fa-chart-line"
+					impactNumber="300%"
+					impactDescription="usership increase"
+				/>
+				<ImpactItem faIcon="fa-bug" impactNumber="5,000+" impactDescription="tasks filed + fixed" />
+				<ImpactItem
+					faIcon="fa-archway"
+					impactNumber="30+"
+					impactDescription="architectural datasets created"
+				/>
+				<ImpactItem
+					faIcon="fa-newspaper"
+					impactNumber="24"
+					impactDescription="blog posts authored"
+				/>
+				<ImpactItem
+					faIcon="fa-diagram-project"
+					impactNumber="22"
+					impactDescription="Dynamo sample graphs shipped"
+				/>
+				<ImpactItem
+					faIcon="fa-plug"
+					impactNumber="18"
+					impactDescription="JavaScript plugins shipped"
+				/>
+			</ImpactSection>
+		</JDGBodyCopy>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
