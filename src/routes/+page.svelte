@@ -431,6 +431,7 @@
 				</div>
 			</div>
 		</JDGGridLayout>
+		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
 			maxHeight="350px"
