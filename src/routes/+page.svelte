@@ -546,6 +546,27 @@
 				</div>
 			</div>
 		</JDGGridLayout>
+		<JDGBodyCopy>
+			<ImpactSection maxColumns={3}>
+				<ImpactItem faIcon="fa-burst" impactNumber="30+" impactDescription="major feature updates" />
+				<ImpactItem
+					faIcon="fa-chart-line"
+					impactNumber="3.5x"
+					impactDescription="usership increase"
+				/>
+				<ImpactItem faIcon="fa-bug" impactNumber="1,000+" impactDescription="tasks filed + fixed" />
+				<ImpactItem
+					faIcon="fa-archway"
+					impactNumber="20+"
+					impactDescription="architectural datasets created"
+				/>
+				<ImpactItem
+					faIcon="fa-newspaper"
+					impactNumber="8"
+					impactDescription="blog posts authored"
+				/>
+			</ImpactSection>
+		</JDGBodyCopy>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.swe.ccp_1}
