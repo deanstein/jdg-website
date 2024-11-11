@@ -439,7 +439,7 @@
 				<ImpactItem
 					faIcon="fa-chart-line"
 					impactNumber="300%"
-					impactDescription="usership increase"
+					impactDescription="usage increase"
 				/>
 				<ImpactItem faIcon="fa-bug" impactNumber="5,000+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
@@ -552,7 +552,7 @@
 				<ImpactItem
 					faIcon="fa-chart-line"
 					impactNumber="3.5x"
-					impactDescription="usership increase"
+					impactDescription="usage increase"
 				/>
 				<ImpactItem faIcon="fa-bug" impactNumber="1,000+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
