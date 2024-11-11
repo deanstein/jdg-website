@@ -689,7 +689,6 @@
 	.image-details {
 		padding: 10px;
 		line-height: 1.5;
-		color: rgb(80, 80, 80);
 	}
 
 	.image-details h4 {
