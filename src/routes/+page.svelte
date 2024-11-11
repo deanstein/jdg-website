@@ -63,7 +63,7 @@
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+					imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
 					label={'ARCHITECTURE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
