@@ -81,7 +81,7 @@
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.ccp_1}
+					imageAttributes={imageAttributesCollection.swe.formit_0}
 					label={'SOFTWARE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
@@ -436,11 +436,7 @@
 		<JDGBodyCopy>
 			<ImpactSection maxColumns={4}>
 				<ImpactItem faIcon="fa-burst" impactNumber="12" impactDescription="major app releases" />
-				<ImpactItem
-					faIcon="fa-chart-line"
-					impactNumber="300%"
-					impactDescription="usage increase"
-				/>
+				<ImpactItem faIcon="fa-chart-line" impactNumber="300%" impactDescription="usage increase" />
 				<ImpactItem faIcon="fa-bug" impactNumber="5,000+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
 					faIcon="fa-archway"
@@ -548,12 +544,12 @@
 		</JDGGridLayout>
 		<JDGBodyCopy>
 			<ImpactSection maxColumns={3}>
-				<ImpactItem faIcon="fa-burst" impactNumber="30+" impactDescription="major feature updates" />
 				<ImpactItem
-					faIcon="fa-chart-line"
-					impactNumber="3.5x"
-					impactDescription="usage increase"
+					faIcon="fa-burst"
+					impactNumber="30+"
+					impactDescription="major feature updates"
 				/>
+				<ImpactItem faIcon="fa-chart-line" impactNumber="3.5x" impactDescription="usage increase" />
 				<ImpactItem faIcon="fa-bug" impactNumber="1,000+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
 					faIcon="fa-archway"
