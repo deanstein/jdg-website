@@ -550,7 +550,7 @@
 					impactDescription="major feature updates"
 				/>
 				<ImpactItem faIcon="fa-chart-line" impactNumber="3.5x" impactDescription="usage increase" />
-				<ImpactItem faIcon="fa-bug" impactNumber="1,000+" impactDescription="tasks filed + fixed" />
+				<ImpactItem faIcon="fa-bug" impactNumber="1,200+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
 					faIcon="fa-archway"
 					impactNumber="20+"
@@ -558,7 +558,7 @@
 				/>
 				<ImpactItem
 					faIcon="fa-newspaper"
-					impactNumber="8"
+					impactNumber="5"
 					impactDescription="blog posts authored"
 				/>
 			</ImpactSection>
