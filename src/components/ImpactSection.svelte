@@ -5,7 +5,7 @@
 </script>
 
 <div class="impact-container">
-	<JDGH3H4 h3String="IMPACT" />
+	<JDGH3H4 h3String="IMPACTS" />
 	<div class="impact-content"></div>
 	<JDGGridLayout {maxColumns}>
 		<slot />
