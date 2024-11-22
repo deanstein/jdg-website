@@ -549,7 +549,11 @@
 					impactNumber="30+"
 					impactDescription="major feature updates"
 				/>
-				<ImpactItem faIcon="fa-chart-line" impactNumber="3.5x" impactDescription="usage increase" />
+				<ImpactItem
+					faIcon="fa-chart-line"
+					impactNumber="5x"
+					impactDescription="3D Sketch usage increase"
+				/>
 				<ImpactItem faIcon="fa-bug" impactNumber="1,200+" impactDescription="tasks filed + fixed" />
 				<ImpactItem
 					faIcon="fa-archway"
