@@ -280,7 +280,8 @@
 			<br /><br />
 			Select designs were sold physically at the
 			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
-			store from 2014 to 2017. If you have a 3D printer, you can get these printer-ready models at
+			store from 2014 to 2017, with over 600 products sold. If you have a 3D printer, you can get these
+			printer-ready models at
 			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">CGTrader</a>.
 		</JDGBodyCopy>
 		<JDGClipFade>
