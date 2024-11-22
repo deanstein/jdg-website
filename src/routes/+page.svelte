@@ -144,7 +144,7 @@
 		</JDGBodyCopy>
 		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0" textWrap="balance">
 			<h3 class="subheader-with-date">LEGACY ARCHITECTURE</h3>
-			<h4 class="date">2010-2015</h4>
+			<h4 class="date">2012-2015</h4>
 			School through early career: These projects were designed while pursuing my degree and during my
 			tenure as Associate Designer at&nbsp;<a href="https://www.505design.com" target="_blank"
 				>505Design</a
