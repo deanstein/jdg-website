@@ -142,13 +142,12 @@
 			I received my Master of Architecture degree in 2013 and created world-class retail centers before
 			eventually moving into <a href="#software">architectural software</a> in 2015.
 		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
-			<h3 class="subheader-with-date">LEGACY DESIGNS</h3>
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0" textWrap="balance">
+			<h3 class="subheader-with-date">LEGACY ARCHITECTURE</h3>
 			<h4 class="date">2010-2015</h4>
-			School through early career: These projects were designed while pursuing my architecture degree
-			and during my tenure as Associate Designer at&nbsp;<a
-				href="https://www.505design.com"
-				target="_blank">505Design</a
+			School through early career: These projects were designed while pursuing my degree and during my
+			tenure as Associate Designer at&nbsp;<a href="https://www.505design.com" target="_blank"
+				>505Design</a
 			>.
 		</JDGBodyCopy>
 		<JDGClipFade>
@@ -213,8 +212,8 @@
 				/>
 			</JDGGridLayout>
 		</JDGClipFade>
-		<JDGBodyCopy textAlign="center" paddingBottom="0">
-			<h3 class="subheader-with-date">EXPERIMENTAL DESIGNS</h3>
+		<JDGBodyCopy textAlign="center" paddingBottom="0" textWrap="balance">
+			<h3 class="subheader-with-date">EXPERIMENTAL ARCHITECTURE</h3>
 			<h4 class="date">2015-2024</h4>
 			Testing grounds for architecture and software. These projects were digitally built using&nbsp;<a
 				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
