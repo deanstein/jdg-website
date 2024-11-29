@@ -1,6 +1,6 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { pageMeta, sharedStyles } from '$lib/shared-strings';
+	import { pageMeta, sharedStrings, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
@@ -279,11 +279,11 @@
 		<JDGImageTile
 			label={'PIVOT CHAIR'}
 			imageAttributes={imageAttributesCollection.ind.pivot_model_1}
-			href="http://www.parametrix3d.com/021.html"
+			href={pageMeta.ind.pivot_chair.url}
 			hrefOpenInNewTab={true}
 			cropToFillContainer={false}
 		/>
-		<JDGBodyCopy />
+		<JDGBodyCopy paddingBottom="0" />
 		<JDGH3H4 h3String="PARAMETRIX3D" h4String="Generative 3D-printed products" />
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a

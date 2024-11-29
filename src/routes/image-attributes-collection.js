@@ -1506,7 +1506,7 @@ const imageAttributesCollection = {
 		pivot_model_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1732824369/jdg-website/frn/pivot-model-1.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1732906467/jdg-website/ind/pivot-model-1.png'
 				),
 				imgCaption: 'A model of the Pivot chair'
 			})
