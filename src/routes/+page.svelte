@@ -270,6 +270,22 @@
 		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0" textWrap="balance">
+			My passion for design extends naturally beyond buildings to the products, furniture, and
+			humans that inhabit them.
+		</JDGBodyCopy>
+		<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
+			I use cutting-edge technology to design and manufacture innovative and delightful products for
+			the home and office.
+		</JDGBodyCopy>
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.ind.gh_script_0}
+			maxHeight="350px"
+			primaryText="PARAMETRIX3D"
+			primaryTextBold
+			secondaryText="Generative design for human products"
+			overlayColorRgba="rgba(91, 165, 198, 0.8)"
+		/>
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a
 				href={jdgSharedUrls.grasshopper}
