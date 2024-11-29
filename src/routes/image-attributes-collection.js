@@ -1502,6 +1502,14 @@ const imageAttributesCollection = {
 				),
 				imgCaption: 'Colorado Topography Magnet'
 			})
+		),
+		pivot_model_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1732824369/jdg-website/frn/pivot-model-1.jpg'
+				),
+				imgCaption: 'A model of the Pivot chair'
+			})
 		)
 	},
 	swe: {

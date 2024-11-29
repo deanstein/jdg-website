@@ -11,6 +11,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGH3H4,
 		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
@@ -270,22 +271,20 @@
 		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
-		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0" textWrap="balance">
+		<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
 			My passion for design extends naturally beyond buildings to the products, furniture, and
 			humans that inhabit them.
 		</JDGBodyCopy>
-		<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
-			I use cutting-edge technology to design and manufacture innovative and delightful products for
-			the home and office.
-		</JDGBodyCopy>
-		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.ind.gh_script_0}
-			maxHeight="350px"
-			primaryText="PARAMETRIX3D"
-			primaryTextBold
-			secondaryText="Generative design for human products"
-			overlayColorRgba="rgba(91, 165, 198, 0.8)"
+		<JDGH3H4 h3String="FURNITURE" />
+		<JDGImageTile
+			label={'PIVOT CHAIR'}
+			imageAttributes={imageAttributesCollection.ind.pivot_model_1}
+			href="http://www.parametrix3d.com/021.html"
+			hrefOpenInNewTab={true}
+			cropToFillContainer={false}
 		/>
+		<JDGBodyCopy />
+		<JDGH3H4 h3String="PARAMETRIX3D" h4String="Generative 3D-printed products" />
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a
 				href={jdgSharedUrls.grasshopper}
