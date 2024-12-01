@@ -214,7 +214,7 @@
 		</JDGClipFade>
 		<JDGBodyCopy textAlign="center" paddingBottom="0" textWrap="balance">
 			<h3 class="subheader-with-date">EXPERIMENTAL ARCHITECTURE</h3>
-			<h4 class="date">2015-2024</h4>
+			<h4 class="date">2015-2022</h4>
 			Testing grounds for architecture and software. These projects were digitally built using&nbsp;<a
 				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
 			>, for which I was the Senior Product Manager.
