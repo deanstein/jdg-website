@@ -9,13 +9,24 @@
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
-	import { sharedUrls } from '$lib/shared-strings';
+	import { pageMeta, sharedStrings, sharedUrls } from '$lib/shared-strings';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
 	// then optionally +page.js as overrides via $page
 	export let data; // meta tag data from $page
-	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
+	/** @type {Object.<string, any>} */
+	let metaTags;
+	$: {
+		metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
+		// make the title template simply the website title
+		// if the page title is the same as the website title
+		if (metaTags.title === sharedStrings.websiteTitle) {
+			metaTags.titleTemplate = sharedStrings.websiteTitle;
+		} else {
+			metaTags.titleTemplate = pageMeta.titleTemplate;
+		}
+	}
 
 	// define the nav items in the header
 	const newNavItem1 = instantiateObject(jdgNavItem);

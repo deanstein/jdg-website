@@ -13,6 +13,7 @@ export const sharedUrls = {
 };
 
 export const pageMeta = {
+	titleTemplate: '%s | ' + sharedStrings.websiteTitle,
 	arch: {
 		random_school: {
 			url: '/architecture/random-school'
