@@ -1,4 +1,4 @@
-import { sharedStrings } from '$lib/shared-strings.js';
+import { pageMeta, sharedStrings } from '$lib/shared-strings.js';
 import imageAttributesCollection from './image-attributes-collection.js';
 
 export const prerender = true;
@@ -8,7 +8,7 @@ export const load = ({ url }) => {
 	// these may be overridden with +page.js next to any +page.svelte
 	const baseMetaTags = Object.freeze({
 		title: sharedStrings.websiteTitle,
-		titleTemplate: '%s | ' + sharedStrings.websiteTitle,
+		titleTemplate: pageMeta.titleTemplate,
 		description: sharedStrings.websiteDescription,
 		canonical: new URL(url.pathname, url.origin).href,
 		openGraph: {
