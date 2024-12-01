@@ -280,7 +280,6 @@
 			label={'PIVOT CHAIR'}
 			imageAttributes={imageAttributesCollection.ind.pivot_model_1}
 			href={pageMeta.ind.pivot_chair.url}
-			hrefOpenInNewTab={true}
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingBottom="0" />

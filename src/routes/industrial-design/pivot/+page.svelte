@@ -9,7 +9,6 @@
 		JDGImageCarousel,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import Series505 from '../../../components/Series505.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
@@ -17,7 +16,7 @@
 	<JDGImageFullWidth
 		primaryText="PIVOT CHAIR"
 		primaryTextBold
-		secondaryText="Adjustible, flexible, comfortable"
+		secondaryText="Versatile, flexible, comfortable"
 		imageAttributes={imageAttributesCollection.ind.pivot_model_1}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
@@ -25,7 +24,9 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false}>
-		<JDGBodyCopy>The Pivot chair was designed...</JDGBodyCopy>
+		<JDGBodyCopy>The Pivot chair is an innovative and versatile chair design that offers incredible customization and versatility thanks to its ingenius rotating hub.
+		<br><br>
+		The central pivoting hub allows for precise angle and height customization as well as unique configurations for storage and sleeping.</JDGBodyCopy>
 		<JDGImageCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.arch.atc_elevator,
