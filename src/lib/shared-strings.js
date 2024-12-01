@@ -1,8 +1,3 @@
-export const sharedStrings = {
-	websiteTitle: 'The Work of Joshua Dean Goldstein',
-	websiteDescription: 'Architecture, software, and products created by Joshua Dean Goldstein.'
-};
-
 export const sharedStyles = {
 	overlayColorDarkRgba: 'rgba(50, 50, 50, 0.8)'
 };
@@ -13,7 +8,13 @@ export const sharedUrls = {
 };
 
 export const pageMeta = {
-	titleTemplate: '%s | ' + sharedStrings.websiteTitle,
+	get titleTemplate() {
+		return '%s | ' + this.home.title;
+	},
+	home: {
+		title: 'The Work of Joshua Dean Goldstein',
+		description: 'Architecture, software, and products created by Joshua Dean Goldstein.'
+	},
 	arch: {
 		random_school: {
 			url: '/architecture/random-school'

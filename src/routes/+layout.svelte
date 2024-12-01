@@ -9,7 +9,7 @@
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
-	import { pageMeta, sharedStrings, sharedUrls } from '$lib/shared-strings';
+	import { pageMeta, sharedUrls } from '$lib/shared-strings';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -21,8 +21,8 @@
 		metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
 		// make the title template simply the website title
 		// if the page title is the same as the website title
-		if (metaTags.title === sharedStrings.websiteTitle) {
-			metaTags.titleTemplate = sharedStrings.websiteTitle;
+		if (metaTags.title === pageMeta.home.title) {
+			metaTags.titleTemplate = pageMeta.home.title;
 		} else {
 			metaTags.titleTemplate = pageMeta.titleTemplate;
 		}
