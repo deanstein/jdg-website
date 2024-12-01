@@ -24,7 +24,7 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false}>
-		<JDGBodyCopy>The Pivot chair is an innovative and versatile chair design that offers incredible customization and versatility thanks to its ingenius rotating hub.
+		<JDGBodyCopy>The Pivot chair is an innovative chair design that offers incredible customization and versatility thanks to its ingenius rotating hub.
 		<br><br>
 		The central pivoting hub allows for precise angle and height customization as well as unique configurations for storage and sleeping.</JDGBodyCopy>
 		<JDGImageCarousel
