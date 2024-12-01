@@ -1,6 +1,6 @@
 <script>
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { pageMeta, sharedStrings, sharedStyles } from '$lib/shared-strings';
+	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
