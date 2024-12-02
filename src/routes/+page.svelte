@@ -278,7 +278,7 @@
 		<JDGH3H4 h3String="FURNITURE" />
 		<JDGImageTile
 			label={'PIVOT CHAIR'}
-			imageAttributes={imageAttributesCollection.ind.pivot_model_1}
+			imageAttributes={imageAttributesCollection.ind.pivot_model_1_transparent}
 			href={pageMeta.ind.pivot_chair.url}
 			cropToFillContainer={false}
 		/>

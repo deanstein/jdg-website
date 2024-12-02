@@ -1506,9 +1506,25 @@ const imageAttributesCollection = {
 		pivot_model_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1732906467/jdg-website/ind/pivot-model-1.png'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733121280/jdg-website/ind/pivot-model-1.png'
 				),
 				imgCaption: 'A model of the Pivot chair'
+			})
+		),
+		pivot_model_1_transparent: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733120898/jdg-website/ind/pivot-model-1-transparent.png'
+				),
+				imgCaption: 'A model of the Pivot chair'
+			})
+		),
+		pivot_positions_all: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733108609/jdg-website/ind/pivot-positions-all.png'
+				),
+				imgCaption: 'Some possible positions of the Pivot chair'
 			})
 		)
 	},

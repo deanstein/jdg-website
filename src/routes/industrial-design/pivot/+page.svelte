@@ -6,6 +6,7 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGImage,
 		JDGImageCarousel,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
@@ -16,7 +17,7 @@
 	<JDGImageFullWidth
 		primaryText="PIVOT CHAIR"
 		primaryTextBold
-		secondaryText="Versatile, flexible, comfortable"
+		secondaryText="Versatile, flexible, and comfortable"
 		imageAttributes={imageAttributesCollection.ind.pivot_model_1}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
@@ -24,17 +25,21 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false}>
-		<JDGBodyCopy>The Pivot chair is an innovative chair design that offers incredible customization and versatility thanks to its ingenius rotating hub.
-		<br><br>
-		The central pivoting hub allows for precise angle and height customization as well as unique configurations for storage and sleeping.</JDGBodyCopy>
-		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.arch.atc_elevator,
-				imageAttributesCollection.arch.atc_escalator,
-				imageAttributesCollection.arch.atc_food_court
-			]}
-			maxHeight="600px"
+		<JDGBodyCopy
+			>The Pivot Chair is an innovative chair design that offers incredible customization and
+			versatility thanks to its ingenius rotating hub.
+			<br /><br />
+			The central pivoting hub allows for precise angle and height customization as well as unique configurations
+			for storage and slumber.
+		</JDGBodyCopy>
+		<JDGImage
+			imageAttributes={imageAttributesCollection.ind.pivot_positions_all}
+			maxHeight="300px"
 		/>
+		<JDGBodyCopy
+			>When combined with the Pivot Ottoman, the Pivot Chair becomes a small bed - a compact and
+			versatile solution for urban homes or empty nesters!
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
