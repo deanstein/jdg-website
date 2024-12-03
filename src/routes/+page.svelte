@@ -11,6 +11,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGH3H4,
 		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
@@ -270,6 +271,11 @@
 		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
+		<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
+			My passion for design extends naturally beyond buildings to the products, furniture, and
+			humans that inhabit them.
+		</JDGBodyCopy>
+		<JDGH3H4 h3String="PARAMETRIX3D" h4String="Generative 3D-printed products" />
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a
 				href={jdgSharedUrls.grasshopper}
@@ -348,6 +354,18 @@
 				/>
 			</JDGGridLayout>
 		</JDGClipFade>
+		<JDGBodyCopy paddingBottom="0" />
+		<JDGH3H4 h3String="FURNITURE" />
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0" textWrap="balance">
+			Taking architectural concepts to a smaller scale, I've designed and manufactured award-winning
+			furniture that's as innovative as it is comfortable.
+		</JDGBodyCopy>
+		<JDGImageTile
+			label={'PIVOT CHAIR'}
+			imageAttributes={imageAttributesCollection.ind.pivot_chair_model_1_transparent}
+			href={pageMeta.ind.pivot_chair.url}
+			cropToFillContainer={false}
+		/>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title={'SOFTWARE'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">

@@ -27,6 +27,13 @@ export const pageMeta = {
 			url: '/architectural-experiments/fms-campus'
 		}
 	},
+	ind: {
+		pivot_chair: {
+			title: 'Pivot Chair',
+			description: 'Adjustible, flexible, comfortable',
+			url: '/industrial-design/pivot-chair'
+		}
+	},
 	hst: {
 		flood_middle_school: {
 			title: 'Flood Middle School',
