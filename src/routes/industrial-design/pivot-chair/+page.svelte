@@ -28,7 +28,7 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false}>
-		<JDGBodyCopy
+		<JDGBodyCopy paddingBottom="0"
 			>The Pivot Chair is an innovative chair design that offers incredible customization and
 			versatility thanks to its ingenius rotating hub.
 			<br /><br />
@@ -39,14 +39,14 @@
 			imageAttributes={imageAttributesCollection.ind.pivot_chair_positions_all}
 			maxHeight="300px"
 		/>
-		<JDGBodyCopy
-			>When combined with the Pivot Ottoman, the Pivot Chair can transform into a small bed - a
-			compact and versatile solution for urban homes or empty nesters!
+		<JDGBodyCopy paddingBottom="0"
+			>When combined with the Pivot Ottoman, the Pivot Chair can transform into a small bed,
+			creating a compact and versatile solution for urban homes or empty nesters.
 		</JDGBodyCopy>
 		<JDGImage imageAttributes={imageAttributesCollection.ind.pivot_chair_ottoman_composite} />
-		<JDGBodyCopy>
-			A functioning prototype of the Pivot Chair was built using a CNC machining and hand assembly,
-			along with a custom fabricated cushion.
+		<JDGBodyCopy paddingBottom="0">
+			A functioning prototype of the Pivot Chair was built using CNC machining and hand assembly,
+			along with a bespoke fabricated cushion.
 			<br /><br />
 			The Pivot Chair prototype now resides in my condo:
 		</JDGBodyCopy>
