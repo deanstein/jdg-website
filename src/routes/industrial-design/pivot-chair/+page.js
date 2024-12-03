@@ -11,7 +11,7 @@ export const load = () => {
 			description: pageMeta.ind.pivot_chair.description,
 			images: [
 				{
-					url: imageAttributesCollection.ind.pivot_model_1.imgSrc,
+					url: imageAttributesCollection.ind.pivot_chair_model_1.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

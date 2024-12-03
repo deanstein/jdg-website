@@ -31,7 +31,7 @@ export const pageMeta = {
 		pivot_chair: {
 			title: 'Pivot Chair',
 			description: 'Adjustible, flexible, comfortable',
-			url: '/industrial-design/pivot'
+			url: '/industrial-design/pivot-chair'
 		}
 	},
 	hst: {

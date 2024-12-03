@@ -1503,28 +1503,61 @@ const imageAttributesCollection = {
 				imgCaption: 'Colorado Topography Magnet'
 			})
 		),
-		pivot_model_1: postProcessImageAttributes(
+		pivot_chair_ottoman_composite: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1733121280/jdg-website/ind/pivot-model-1.png'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733207307/jdg-website/ind/pivot-chair-ottoman-composite.png'
 				),
-				imgCaption: 'A model of the Pivot chair'
+				imgCaption:
+					'The Pivot Chair and Pivot Ottoman in a folded configuration for seating, and a flat configuration for sleeping'
 			})
 		),
-		pivot_model_1_transparent: postProcessImageAttributes(
+		pivot_chair_ottoman_flat: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1733120898/jdg-website/ind/pivot-model-1-transparent.png'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733206977/jdg-website/ind/pivot-chair-ottoman-flat.png'
 				),
-				imgCaption: 'A model of the Pivot chair'
+				imgCaption: 'The Pivot Chair and Pivot Ottoman in a flat configuration for sleeping'
 			})
 		),
-		pivot_positions_all: postProcessImageAttributes(
+		pivot_chair_ottoman_folded: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1733108609/jdg-website/ind/pivot-positions-all.png'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733206978/jdg-website/ind/pivot_ottoman_-_folded.png'
 				),
-				imgCaption: 'Some possible positions of the Pivot chair'
+				imgCaption: 'The Pivot Chair and Pivot Ottoman in a folded configuration for seating'
+			})
+		),
+		pivot_chair_model_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733200389/jdg-website/ind/pivot-chair-model-1.png'
+				),
+				imgCaption: 'A model of the Pivot Chair'
+			})
+		),
+		pivot_chair_model_1_transparent: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733120898/jdg-website/ind/pivot-chair-model-1-transparent.png'
+				),
+				imgCaption: 'A model of the Pivot Chair'
+			})
+		),
+		pivot_chair_photo_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733205174/jdg-website/ind/pivot-chair-photo-1.jpg'
+				),
+				imgCaption: 'A built prototype of the Pivot Chair'
+			})
+		),
+		pivot_chair_positions_all: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1733193012/jdg-website/ind/pivot-chair-positions-all.png'
+				),
+				imgCaption: 'Some possible positions of the Pivot Chair'
 			})
 		)
 	},
