@@ -32,9 +32,7 @@
 		'/exp01.html': '/architectural-experiments/fms-campus',
 		'/exp02.html': '/architectural-experiments/sixteen-pearl',
 		'/exp03.html': '/architectural-experiments/speer-point',
-		'/hst02.html': '/architectural-history/flood-middle-school',
-		'/about.html': '/about',
-		'/contact.html': '/contact'
+		'/hst02.html': '/architectural-history/flood-middle-school'
 	};
 
 	// check for whether the user is trying to access
