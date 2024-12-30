@@ -1,7 +1,7 @@
 <script>
 	import { css } from '@emotion/css';
 	import { adjustColorForContrast } from 'jdg-ui-svelte/jdg-utils.js';
-	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
+	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	export let faIcon = 'fa-burst';
@@ -9,7 +9,7 @@
 	export let impactDescription;
 
 	const impactAccentCss = css`
-		color: ${adjustColorForContrast($accentColors[0], jdgColors.contentBoxBackground, 3)};
+		color: ${adjustColorForContrast($appAccentColors[0], jdgColors.contentBoxBackground, 3)};
 	`;
 </script>
 

@@ -6,13 +6,11 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGFullWidthContainer,
-		JDGGridLayout,
 		JDGImage,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
+	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 	import { darkenColor } from 'jdg-ui-svelte/jdg-utils.js';
 </script>
 
@@ -58,7 +56,7 @@
 		<JDGBodyCopy paddingBottom="0" />
 		<i
 			class="fa-solid fa-medal"
-			style="font-size: 75px; color: {darkenColor($accentColors[0], 0.2)};"
+			style="font-size: 75px; color: {darkenColor($appAccentColors[0], 0.2)};"
 		/>
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance"
 			>The Pivot Chair won first place in the 2012 International Woodworking Fair Design Emphasis

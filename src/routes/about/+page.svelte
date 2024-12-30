@@ -1,4 +1,5 @@
 <script>
+		import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 	import imageAttributesCollection from '../image-attributes-collection';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { pageMeta } from '$lib/shared-strings';
@@ -13,7 +14,6 @@
 		JDGImageCompare,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
 </script>
 
 <JDGContentContainer>
@@ -48,7 +48,7 @@
 			<JDGAccentBlockWithText
 				primaryText="It's been a wild ride."
 				secondaryText="Here's how I got here:"
-				backgroundColor={$accentColors[1]}
+				backgroundColor={$appAccentColors[1]}
 			/>
 		</JDGFullWidthContainer>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
