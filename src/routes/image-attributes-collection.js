@@ -1418,7 +1418,7 @@ const imageAttributesCollection = {
 		planter_003F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723693178/pmx-website/003F-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723693178/pmx-website/products/003F-0.jpg'
 				),
 				imgCaption: 'Advanced Planter'
 			})
@@ -1426,7 +1426,7 @@ const imageAttributesCollection = {
 		planter_003F_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1726422539/pmx-website/003F-1.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1726422539/pmx-website/products/003F-1.jpg'
 				),
 				imgCaption: 'Advanced Planter'
 			})
@@ -1434,7 +1434,7 @@ const imageAttributesCollection = {
 		kitchen_caddy_007F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723696902/pmx-website/007F-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723697506/pmx-website/products/007F-0.jpg'
 				),
 				imgCaption: 'Kitchen Caddy'
 			})
@@ -1442,7 +1442,7 @@ const imageAttributesCollection = {
 		pen_holder_008I_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723693771/pmx-website/008I-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723693771/pmx-website/products/008I-0.jpg'
 				),
 				imgCaption: 'Pen Holder'
 			})
@@ -1450,7 +1450,7 @@ const imageAttributesCollection = {
 		card_holder_015C_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723694838/pmx-website/015C-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723694838/pmx-website/products/015C-0.jpg'
 				),
 				imgCaption: 'Business Card Holder'
 			})
@@ -1458,7 +1458,7 @@ const imageAttributesCollection = {
 		cityscape_021A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723693930/pmx-website/021A-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723693930/pmx-website/products/021A-0.jpg'
 				),
 				imgCaption: 'Denver Cityscape'
 			})
@@ -1466,7 +1466,7 @@ const imageAttributesCollection = {
 		coaster_028A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723696691/pmx-website/028A-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723696691/pmx-website/products/028A-0.jpg'
 				),
 				imgCaption: 'Denver Map Coaster'
 			})
@@ -1474,7 +1474,7 @@ const imageAttributesCollection = {
 		puzzle_decor_030A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723693838/pmx-website/030A-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723693838/pmx-website/products/030A-0.jpg'
 				),
 				imgCaption: 'Puzzle Decor'
 			})
@@ -1482,7 +1482,7 @@ const imageAttributesCollection = {
 		grinder_039A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723696392/pmx-website/039A-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723696392/pmx-website/products/039A-0.jpg'
 				),
 				imgCaption: 'Herb Grinder'
 			})
@@ -1490,7 +1490,7 @@ const imageAttributesCollection = {
 		den_co_magnets_047BC_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723695383/pmx-website/047BC-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723695383/pmx-website/products/047BC-0.jpg'
 				),
 				imgCaption: 'DEN/CO Magnets'
 			})
@@ -1498,7 +1498,7 @@ const imageAttributesCollection = {
 		co_topo_magnet_047D_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723695588/pmx-website/047D-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1723695588/pmx-website/products/047D-0.jpg'
 				),
 				imgCaption: 'Colorado Topography Magnet'
 			})
