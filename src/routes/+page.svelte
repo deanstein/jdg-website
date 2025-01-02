@@ -1,10 +1,11 @@
 <script>
+	import { css } from '@emotion/css';
+	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
+	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
-	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
-	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
-
+	
 	import {
 		JDGBodyCopy,
 		JDGClipFade,
@@ -20,6 +21,7 @@
 	import UpNext from '../components/UpNext.svelte';
 	import ImpactItem from '../components/ImpactItem.svelte';
 	import ImpactSection from '../components/ImpactSection.svelte';
+	import { jdgBreakpoints } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
@@ -42,6 +44,19 @@
 			}
 		);
 	};
+
+	const imageWithDetailsCss = css`
+		@media (max-width: ${jdgBreakpoints.width[0].toString() + jdgBreakpoints.unit}) {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		@media (min-width: ${jdgBreakpoints.width[0].toString() +
+			jdgBreakpoints.unit}) and (max-width: ${jdgBreakpoints.width[1].toString() +
+			jdgBreakpoints.unit}) {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+	`;
 
 	$: {
 		$windowWidth;
@@ -395,7 +410,7 @@
 			flexible modeling systems available.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
 					href="./#experimental-designs"
@@ -412,7 +427,7 @@
 					the value of new features in each release from a customer's perspective.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.formit_dynamo_1}
 					href="https://formit.autodesk.com/redirect/formit-dynamo"
@@ -431,7 +446,7 @@
 					of combined systems.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.formit_plugins_1}
 					href="https://github.com/FormIt3D"
@@ -498,7 +513,7 @@
 			Forma's analysis suite and underlying element system.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}
 					cropToFillContainer={true}
@@ -517,7 +532,7 @@
 					demonstrating new 3D capabilities both internally and externally.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1}
 					cropToFillContainer={true}
@@ -541,7 +556,7 @@
 					usable product.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1}
 					cropToFillContainer={true}
@@ -610,7 +625,7 @@
 			>.
 		</JDGBodyCopy>
 		<JDGGridLayout>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe
 						.ccp_construction_60s70s_blue_mall_columns_ceiling}
@@ -633,7 +648,7 @@
 					> that dovetailed perfectly with the progress of the project.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.ccp_construction_unity_npc_1}
 					href="https://github.com/deanstein/CinderellaCityProject"
@@ -654,7 +669,7 @@
 					particle effects, NPC pathfinding, and the ability to time-travel between distinct eras.
 				</div>
 			</div>
-			<div class="image-with-details">
+			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.ccp_exhibit}
 					href="https://www.cinderellacityproject.com/exhibit"
