@@ -1,5 +1,5 @@
 <script>
-		import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
+	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 	import imageAttributesCollection from '../image-attributes-collection';
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { pageMeta } from '$lib/shared-strings';
