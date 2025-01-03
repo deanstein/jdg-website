@@ -5,7 +5,7 @@
 	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
-	
+
 	import {
 		JDGBodyCopy,
 		JDGClipFade,
