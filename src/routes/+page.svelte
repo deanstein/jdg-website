@@ -88,13 +88,14 @@
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.ind.planter_003F_1}
+					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
 					label={'PRODUCTS'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#industrial-design"
 					useCompactHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
+					objectPosition="left top"
 				/>
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.swe.formit_0}
@@ -318,12 +319,14 @@
 					imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
 					href="http://www.parametrix3d.com/030.html"
 					hrefOpenInNewTab={true}
+					objectPosition="left"
 				/>
 				<JDGImageTile
 					label={'ADVANCED PLANTER'}
 					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
 					href="http://www.parametrix3d.com/003.html"
 					hrefOpenInNewTab={true}
+					objectPosition="left top"
 				/>
 				<JDGImageTile
 					label={'PEN HOLDER'}
@@ -336,18 +339,21 @@
 					imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
 					href="http://www.parametrix3d.com/015.html"
 					hrefOpenInNewTab={true}
+					objectPosition="left top"
 				/>
 				<JDGImageTile
 					label={'DEN / CO MAGNETS'}
 					imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
 					href="http://www.parametrix3d.com/047.html"
 					hrefOpenInNewTab={true}
+					objectPosition="top"
 				/>
 				<JDGImageTile
 					label={'CO TOPO MAGNET'}
 					imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
 					href="http://www.parametrix3d.com/047d.html"
 					hrefOpenInNewTab={true}
+					objectPosition="left bottom"
 				/>
 				<JDGImageTile
 					label={'HERB GRINDER'}
@@ -366,6 +372,7 @@
 					imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
 					href="http://www.parametrix3d.com/007.html"
 					hrefOpenInNewTab={true}
+					objectPosition="left bottom"
 				/>
 			</JDGGridLayout>
 		</JDGClipFade>
