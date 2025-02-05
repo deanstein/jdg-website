@@ -31,6 +31,7 @@ jobs:
         with:
           # this should match the `pages` option in the adapter-static options
           path: 'build'
+          name: 'github-pages-artifact'
 
   deploy:
     needs: build_site
@@ -48,3 +49,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v3
+        with:
+          artifact-name: 'github-pages-artifact'
