@@ -420,12 +420,12 @@
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
-					href="./#experimental-designs"
+					href="./#experimental-architecture"
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D MODELING + MARKETING</h4>
 					Applying my architectural experience, I used FormIt to create fictional but realistic&nbsp<a
-						href="./#experimental-designs">adaptive reuse designs</a
+						href="./#experimental-architecture">adaptive reuse designs</a
 					>
 					which exercised new features, pushed performance limits, and validated bug fixes.
 					<br /><br />
