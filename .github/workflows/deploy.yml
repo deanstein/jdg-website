@@ -27,10 +27,11 @@ jobs:
           npm run build
 
       - name: Upload Artifacts for Deployment
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           # this should match the `pages` option in the adapter-static options
           path: 'build'
+          name: 'artifact'
 
   deploy:
     needs: build_site
@@ -48,3 +49,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v3
+        with:
+          artifact_name: 'artifact'
