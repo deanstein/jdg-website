@@ -32,7 +32,7 @@ jobs:
         run: ls -l build
 
       - name: Upload Artifacts for Deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           # this should match the `pages` option in the adapter-static options
           path: 'build'
