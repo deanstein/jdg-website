@@ -602,7 +602,7 @@
 				/>
 				<ImpactItem
 					faIcon="fa-newspaper"
-					impactNumber="5"
+					impactNumber="10"
 					impactDescription="blog posts authored"
 				/>
 			</ImpactSection>
