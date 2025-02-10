@@ -18,18 +18,12 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Clean build directory
-        run: rm -rf build
+        run: yarn install
 
       - name: Build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-        run: npm run build
-
-      - name: Verify build output
-        run: ls -l build
+        run: yarn run build
 
       - name: Upload Artifacts for Deployment
         uses: actions/upload-pages-artifact@v3
