@@ -36,12 +36,16 @@
 		<JDGImage
 			imageAttributes={imageAttributesCollection.ind.pivot_chair_positions_all}
 			maxHeight="300px"
+			useCompactHeightOnMobile
 		/>
 		<JDGBodyCopy paddingBottom="0"
 			>When combined with the Pivot Ottoman, the Pivot Chair can transform into a small bed,
 			creating a compact and versatile solution for urban homes or empty nesters.
 		</JDGBodyCopy>
-		<JDGImage imageAttributes={imageAttributesCollection.ind.pivot_chair_ottoman_composite} />
+		<JDGImage
+			imageAttributes={imageAttributesCollection.ind.pivot_chair_ottoman_composite}
+			useCompactHeightOnMobile
+		/>
 		<JDGBodyCopy paddingBottom="0">
 			A functioning prototype of the Pivot Chair was built using CNC machining and hand assembly,
 			along with a bespoke fabricated cushion.
@@ -52,6 +56,7 @@
 			imageAttributes={imageAttributesCollection.ind.pivot_chair_photo_1}
 			cropToFillContainer={false}
 			maxHeight="600px"
+			useCompactHeightOnMobile
 		/>
 		<JDGBodyCopy paddingBottom="0" />
 		<i
