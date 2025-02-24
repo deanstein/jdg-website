@@ -66,7 +66,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
+		imageAttributes={imageAttributesCollection.arch.beach_chic_aerial}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		superText={`Hi! 👋 I'm Josh.`}
 		primaryText={"I'm a 3D creator"}
@@ -79,13 +79,14 @@
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
 			<JDGGridLayout>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+					imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
 					label={'ARCHITECTURE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#architecture"
 					useAutoHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
+					objectPosition="top"
 				/>
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
