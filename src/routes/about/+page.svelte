@@ -1,7 +1,7 @@
 <script>
 	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 	import imageAttributesCollection from '../image-attributes-collection';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
 	import { pageMeta } from '$lib/shared-strings';
 	import {
 		JDGAccentBlockWithText,
@@ -30,7 +30,6 @@
 			imageAttributes={imageAttributesCollection.jdg_photo_2}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingTop="0">
 			I live in downtown Denver, Colorado with my wife Haley and our cat
@@ -68,13 +67,11 @@
 				imageAttributes={imageAttributesCollection.hst.ccm_demolition}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 			<JDGImage
 				imageAttributes={imageAttributesCollection.hst.ccm_0}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
@@ -92,7 +89,6 @@
 			imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingBottom="0">
 			In high school, research and persistence led me to an internship with a Colorado real estate
@@ -113,36 +109,34 @@
 				imageAttributes={imageAttributesCollection.arch.random_school_diagram_construction}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 			<JDGImage
 				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			After graduation, I became an Associate at
-			<a href={jdgSharedUrls.arch505Design} target="_blank">505Design</a>, where I created places
-			uniquely designed for the people who would inhabit them, from retail developments and office
-			buildings to public spaces and main streets. During my tenure, I introduced cutting-edge
-			software to unlock new workflows at the firm - software which would prove critical for my next
-			career evolution.
+			<a href={$jdgSharedUrlsStore.arch505Design} target="_blank">505Design</a>, where I created
+			places uniquely designed for the people who would inhabit them, from retail developments and
+			office buildings to public spaces and main streets. During my tenure, I introduced
+			cutting-edge software to unlock new workflows at the firm - software which would prove
+			critical for my next career evolution.
 		</JDGBodyCopy>
 		<JDGImage
 			imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>INDUSTRIAL DESIGN + PROTOTYPING</h3>
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			While working in the architecture field, I began experimenting with visual scripting and
-			generative design software called&nbsp;<a href={jdgSharedUrls.grasshopper} target="_blank"
-				>Grasshopper</a
+			generative design software called&nbsp;<a
+				href={$jdgSharedUrlsStore.grasshopper}
+				target="_blank">Grasshopper</a
 			>
 			to venture into physical product design with the aid of the 3D printing boom of the 2010s.
 			<br /><br />
@@ -155,13 +149,11 @@
 				imageAttributes={imageAttributesCollection.ind.gh_script_0}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 			<JDGImage
 				imageAttributes={imageAttributesCollection.ind.product_line_1}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
@@ -171,8 +163,8 @@
 			I sold select designs physically at the
 			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
 			store from 2014 to 2017 and continue to offer them
-			<a href={jdgSharedUrls.pmxCgTrader} target="_blank">online</a>
-			under the label <a href={jdgSharedUrls.pmxWebsite} target="_blank">Parametrix3D</a>.
+			<a href={$jdgSharedUrlsStore.pmxCgTrader} target="_blank">online</a>
+			under the label <a href={$jdgSharedUrlsStore.pmxWebsite} target="_blank">Parametrix3D</a>.
 		</JDGBodyCopy>
 		<JDGBodyCopy textAlign="center" paddingBottom="0">
 			<h3>SOFTWARE + SIMULATION</h3>
@@ -180,7 +172,7 @@
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			In 2015, I jumped into the technology world where I harnessed my architecture background to
 			become a User Experience Designer and Product Owner for Autodesk's premier architectural 3D
-			modeling software,&nbsp;<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>.
+			modeling software,&nbsp;<a href={$jdgSharedUrlsStore.adskFormIt} target="_blank">FormIt</a>.
 			<br /><br />
 			Working with full-stack software development teams, I helped transform FormIt into a formidable
 			competitor in the 3D modeling world, creating new features and improving capabilities based on
@@ -193,20 +185,18 @@
 				imageAttributes={imageAttributesCollection.about_formit_1}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 			<JDGImage
 				imageAttributes={imageAttributesCollection.about_formit_2}
 				maxHeight="300px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			Today, I'm a Senior Product Manager building the next generation of Autodesk's 3D modeling and
 			analysis software. We're working to integrate FormIt's intuitive and powerful 3D modeling
 			engine into a new design and analysis environment called <a
-				href={jdgSharedUrls.adskForma}
+				href={$jdgSharedUrlsStore.adskForma}
 				target="_blank">Forma</a
 			>, evolving legacy software into a cutting-edge platform for sustainable design.
 		</JDGBodyCopy>
@@ -214,7 +204,6 @@
 			imageAttributes={imageAttributesCollection.about_forma_1}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingBottom="0">
 			Working at Autodesk has also afforded me the incredible opportunity to learn how to develop my
@@ -235,14 +224,13 @@
 			imageAttributes={imageAttributesCollection.swe.code_svelte_1}
 			maxHeight="300px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 		/>
 		<JDGBodyCopy paddingBottom="0">
 			Coming full-circle, I'm currently working to preserve architectural history through technology
-			with <a href={jdgSharedUrls.ccpWebsite} target="_blank">The Cinderella City Project</a>, where
-			I'm harnessing my skills in 3D modeling and software development to create an interactive,
-			historically-accurate simulation of the place that ignited my passion for architecture in the
-			first place.
+			with <a href={$jdgSharedUrlsStore.ccpWebsite} target="_blank">The Cinderella City Project</a>,
+			where I'm harnessing my skills in 3D modeling and software development to create an
+			interactive, historically-accurate simulation of the place that ignited my passion for
+			architecture in the first place.
 		</JDGBodyCopy>
 		<JDGImageCompare
 			imageAttributes1={imageAttributesCollection.hst.ccp_blue_mall_60s70s_1}
@@ -260,7 +248,8 @@
 			<br /><br />
 			Looking ahead, I may attempt similar historic simulation efforts for other mid-century Colorado
 			places like
-			<a href={jdgSharedUrls.vipFacebook} target="_blank">Villa Italia Mall</a> or Lakeside Mall.
+			<a href={$jdgSharedUrlsStore.vipFacebook} target="_blank">Villa Italia Mall</a> or Lakeside
+			Mall.
 			<br /><br />
 			I'm always seeking new ways to combine my skills and create solutions for architecture and architectural
 			history. Have an idea you'd like to collaborate with me on?
@@ -272,7 +261,7 @@
 		item1Href={'/'}
 		item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
 		item2Label="CINDERELLA CITY PROJECT"
-		item2Href={jdgSharedUrls.ccpWebsite}
+		item2Href={$jdgSharedUrlsStore.ccpWebsite}
 		item2ImageAttributes={imageAttributesCollection.swe.ccp_1}
 		item3Label="GET IN TOUCH"
 		item3Href="/contact"

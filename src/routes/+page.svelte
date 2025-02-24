@@ -1,10 +1,10 @@
 <script>
 	import { css } from '@emotion/css';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
-	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
+	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
+	import { pageMeta, sharedStyles } from '$lib/shared-strings';
 
 	import {
 		JDGBodyCopy,
@@ -84,7 +84,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#architecture"
-					useCompactHeightOnMobile={false}
+					useAutoHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
 				<JDGImageTile
@@ -93,7 +93,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#industrial-design"
-					useCompactHeightOnMobile={false}
+					useAutoHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 					objectPosition="left top"
 				/>
@@ -103,7 +103,7 @@
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
 					href="#software"
-					useCompactHeightOnMobile={false}
+					useAutoHeightOnMobile={false}
 					maxHeight={`${currentImageHeight}px`}
 				/>
 			</JDGGridLayout>
@@ -140,7 +140,7 @@
 			<JDGImageTile
 				label={'CINDERELLA CITY MALL'}
 				imageAttributes={imageAttributesCollection.hst.ccm_0}
-				href={jdgSharedUrls.ccpWebsite}
+				href={$jdgSharedUrlsStore.ccpWebsite}
 				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
@@ -233,7 +233,7 @@
 			<h3 class="subheader-with-date">EXPERIMENTAL ARCHITECTURE</h3>
 			<h4 class="date">2015-2022</h4>
 			Testing grounds for architecture and software. These projects were digitally built using&nbsp;<a
-				href={jdgSharedUrls.adskFormIt}>Autodesk FormIt</a
+				href={$jdgSharedUrlsStore.adskFormIt}>Autodesk FormIt</a
 			>, for which I was the Senior Product Manager.
 		</JDGBodyCopy>
 		<JDGClipFade>
@@ -294,7 +294,7 @@
 		<JDGH3H4 h3String="PARAMETRIX3D" h4String="Generative 3D-printed products" />
 		<JDGBodyCopy textAlign="center" paddingTop="0">
 			Harnessing skills from my architecture career, I use <a
-				href={jdgSharedUrls.grasshopper}
+				href={$jdgSharedUrlsStore.grasshopper}
 				target="_blank">visual scripting</a
 			>
 			and 3D printing to design, test, and refine useful products for the home under the label
@@ -408,8 +408,8 @@
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy>
-			<a href={jdgSharedUrls.adskFormIt}>FormIt</a> is Autodesk's premier cross-platform conceptual
-			modeling app featuring intuitive tools, materials and visualization, and impressive
+			<a href={$jdgSharedUrlsStore.adskFormIt}>FormIt</a> is Autodesk's premier cross-platform
+			conceptual modeling app featuring intuitive tools, materials and visualization, and impressive
 			interoperability with other apps.
 			<br /><br />
 			As a Senior Product Owner, I grew FormIt into a formidable competitor in the 3D modeling space,
@@ -441,10 +441,10 @@
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">DYNAMO VISUAL SCRIPTING</h4>
-					The synergy between&nbsp<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>, a
-					3D modeling and visualization engine, and
-					<a href={jdgSharedUrls.adskDynamo} target="_blank">Dynamo</a>, a computational scripting
-					and automation app, creates an unrivaled architectural design powerhouse.
+					The synergy between&nbsp<a href={$jdgSharedUrlsStore.adskFormIt} target="_blank">FormIt</a
+					>, a 3D modeling and visualization engine, and
+					<a href={$jdgSharedUrlsStore.adskDynamo} target="_blank">Dynamo</a>, a computational
+					scripting and automation app, creates an unrivaled architectural design powerhouse.
 					<br /><br />
 					I created dozens of
 					<a href="https://formit.autodesk.com/redirect/formit-dynamo" target="_blank"
@@ -510,26 +510,25 @@
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
 		<JDGBodyCopy
-			><a href={jdgSharedUrls.adskForma} target="_blank">Forma</a> is a next-generation analysis and
-			design platform that charts the future of Autodesk's offerings, allowing legacy apps to
-			support outcome-based design across industries and phases.
+			><a href={$jdgSharedUrlsStore.adskForma} target="_blank">Forma</a> is a next-generation
+			analysis and design platform that charts the future of Autodesk's offerings, allowing legacy
+			apps to support outcome-based design across industries and phases.
 			<br /><br />
 			As Senior Product Manager, I helped integrate
-			<a href={jdgSharedUrls.adskFormIt} target="_blank">FormIt</a>'s powerful 3D creation tools
-			into the Forma platform, providing intuitive modeling capabilities that seamlessly blend with
-			Forma's analysis suite and underlying element system.
+			<a href={$jdgSharedUrlsStore.adskFormIt} target="_blank">FormIt</a>'s powerful 3D creation
+			tools into the Forma platform, providing intuitive modeling capabilities that seamlessly blend
+			with Forma's analysis suite and underlying element system.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}
 					cropToFillContainer={true}
-					useCompactHeightOnMobile={true}
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
 					Collaborating with full-stack development teams across organizations, we integrated&nbsp;<a
-						href={jdgSharedUrls.adskFormIt}
+						href={$jdgSharedUrlsStore.adskFormIt}
 						target="_blank">FormIt</a
 					>'s legacy modeling kernel into Forma, providing 3D modeling capabilities critical to
 					Forma's adoption in the market.
@@ -543,7 +542,6 @@
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1}
 					cropToFillContainer={true}
-					useCompactHeightOnMobile={true}
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">CUSTOMER SUPPORT + ADVOCACY</h4>
@@ -567,7 +565,6 @@
 				<JDGImage
 					imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1}
 					cropToFillContainer={true}
-					useCompactHeightOnMobile={true}
 				/>
 				<div class="image-details">
 					<h4 style="text-align: center;">DELIVERY + OPERATIONS EVOLUTION</h4>
@@ -575,10 +572,10 @@
 					customer interaction, and software management.
 					<br /><br />
 					Unlike our legacy desktop app world,
-					<a href={jdgSharedUrls.adskForma} target="_blank">Forma</a> is delivered continuously as a
-					web experience. As a result, I've adapted my way of working - learning new development and
-					release methods, as well as new apps for customer engagement and analytics like Intercom and
-					Mixpanel.
+					<a href={$jdgSharedUrlsStore.adskForma} target="_blank">Forma</a> is delivered continuously
+					as a web experience. As a result, I've adapted my way of working - learning new development
+					and release methods, as well as new apps for customer engagement and analytics like Intercom
+					and Mixpanel.
 				</div>
 			</div>
 		</JDGGridLayout>
@@ -642,7 +639,7 @@
 				<div class="image-details">
 					<h4 style="text-align: center;">BUILDING THE MALL</h4>
 					The Cinderella City Project has humble roots, starting out as a testing model for&nbsp;<a
-						href={jdgSharedUrls.adskFormIt}
+						href={$jdgSharedUrlsStore.adskFormIt}
 						target="_blank">FormIt</a
 					>, intended to push performance limits and exercise new capabilities through several
 					releases.

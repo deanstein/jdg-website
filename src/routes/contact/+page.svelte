@@ -1,5 +1,6 @@
 <script>
-	imageAttributesCollection;
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
+	import imageAttributesCollection from '../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -8,12 +9,10 @@
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../../components/SocialMedia.svelte';
-	import imageAttributesCollection from '../image-attributes-collection';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title={'GET IN TOUCH'} subtitle={'Questions? Comments?'}>
+	<JDGContentBoxFloating title={'GET IN TOUCH'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
 			<h3>SOCIAL MEDIA</h3>
 			<SocialMedia />
@@ -38,7 +37,7 @@
 		item2ImageAttributes={imageAttributesCollection.jdg_photo_2}
 		item2ObjectPosition="right"
 		item3Label="CINDERELLA CITY PROJECT"
-		item3Href={jdgSharedUrls.ccpWebsite}
+		item3Href={$jdgSharedUrlsStore.ccpWebsite}
 		item3ImageAttributes={imageAttributesCollection.swe.ccp_1}
 	/>
 </JDGContentContainer>
