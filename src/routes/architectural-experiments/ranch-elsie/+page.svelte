@@ -36,7 +36,6 @@
 				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
 				maxHeight="600px"
 				cropToFillContainer={false}
-				useCompactHeightOnMobile={true}
 				showBlurInUnfilledSpace={true}
 				showCaption={true}
 			/>
@@ -50,7 +49,6 @@
 			imageAttributes={imageAttributesCollection.exp.ranch_elsie_roof_optioneering}
 			maxHeight="600px"
 			cropToFillContainer={false}
-			useCompactHeightOnMobile={true}
 			showBlurInUnfilledSpace={false}
 			showCaption={true}
 		/>
