@@ -1595,6 +1595,32 @@ const imageAttributesCollection = {
 			),
 			imgCaption: 'A snippet of SvelteJS code.'
 		}),
+		family_tree_roy_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740891601/jdg-website/swe/family-tree-roy-1.jpg'
+			),
+			imgCaption:
+				'The family tree main interface, featuring five generations of the person in focus.'
+		}),
+		family_tree_roy_crop_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740893469/jdg-website/swe/family-tree-roy-crop-1.jpg'
+			),
+			imgCaption:
+				'The family tree main interface, featuring multiple generations of the person in focus.'
+		}),
+		hashtag_generator_results: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740892214/jdg-website/swe/hashtag-generator-results.jpg'
+			),
+			imgCaption: 'The hashtag generator with results shown.'
+		}),
+		json_to_html_results: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740893911/jdg-website/swe/json-to-html-results-1.jpg'
+			),
+			imgCaption: 'The json-to-html interface.'
+		}),
 		forma_3d_spaces_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727623728/jdg-website/swe/forma-3d-spaces-1.jpg'

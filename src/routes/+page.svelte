@@ -700,6 +700,49 @@
 				</div>
 			</div>
 		</JDGGridLayout>
+		<JDGBodyCopy></JDGBodyCopy>
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.swe.family_tree_roy_1}
+			maxHeight="350px"
+			primaryText="Other Projects"
+			primaryTextBold
+			overlayColorRgba="rgba(50, 50, 50, 0.5)"
+		/>
+		<JDGGridLayout>
+			<div class="image-with-details {imageWithDetailsCss}">
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.family_tree_roy_crop_1}
+					href={$jdgSharedUrlsStore.sweFamilyTree}
+					hrefOpenInNewTab={true}
+				/>
+				<div class="image-details">
+					<h4 style="text-align: center;">FAMILY TREE</h4>
+					Some text about the family tree...
+				</div>
+			</div>
+			<div class="image-with-details {imageWithDetailsCss}">
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.hashtag_generator_results}
+					href={$jdgSharedUrlsStore.sweHashtagGenerator}
+					hrefOpenInNewTab={true}
+				/>
+				<div class="image-details">
+					<h4 style="text-align: center;">HASHTAG GENERATOR</h4>
+					Some text about the hashtag generator...
+				</div>
+			</div>
+			<div class="image-with-details {imageWithDetailsCss}">
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.swe.json_to_html_results}
+					href={$jdgSharedUrlsStore.sweJsonToHtml}
+					hrefOpenInNewTab={true}
+				/>
+				<div class="image-details">
+					<h4 style="text-align: center;">JSON TO HTML</h4>
+					Some text about json to html...
+				</div>
+			</div>
+		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
