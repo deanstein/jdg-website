@@ -702,47 +702,65 @@
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.swe.family_tree_roy_1}
+			imageAttributes={imageAttributesCollection.swe.code_stylized}
 			maxHeight="350px"
-			primaryText="Other Projects"
+			primaryText="Other Software Projects"
 			primaryTextBold
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
-		<JDGGridLayout>
-			<div class="image-with-details {imageWithDetailsCss}">
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.family_tree_roy_crop_1}
-					href={$jdgSharedUrlsStore.sweFamilyTree}
-					hrefOpenInNewTab={true}
-				/>
-				<div class="image-details">
-					<h4 style="text-align: center;">FAMILY TREE</h4>
-					Some text about the family tree...
+		<JDGClipFade>
+			<JDGGridLayout>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.jdg_svelte_ui}
+						href={$jdgSharedUrlsStore.sweFamilyTree}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">JDG SVELTE UI</h4>
+						My first UI package harnesses the power of SvelteJS to underpin all of my project websites,
+						featuring a series of modular components that create a unique and layered UI experience for
+						a variety of content.
+					</div>
 				</div>
-			</div>
-			<div class="image-with-details {imageWithDetailsCss}">
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.hashtag_generator_results}
-					href={$jdgSharedUrlsStore.sweHashtagGenerator}
-					hrefOpenInNewTab={true}
-				/>
-				<div class="image-details">
-					<h4 style="text-align: center;">HASHTAG GENERATOR</h4>
-					Some text about the hashtag generator...
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.family_tree_jdg_1}
+						href={$jdgSharedUrlsStore.sweFamilyTree}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">FAMILY TREE</h4>
+						An interactive family tree showing five generations of the person in focus with the ability
+						to climb and descend the tree infinitely.
+					</div>
 				</div>
-			</div>
-			<div class="image-with-details {imageWithDetailsCss}">
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.json_to_html_results}
-					href={$jdgSharedUrlsStore.sweJsonToHtml}
-					hrefOpenInNewTab={true}
-				/>
-				<div class="image-details">
-					<h4 style="text-align: center;">JSON TO HTML</h4>
-					Some text about json to html...
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.hashtag_generator_stylized}
+						href={$jdgSharedUrlsStore.sweHashtagGenerator}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">HASHTAG GENERATOR</h4>
+						An internal tool to enter hashtags and have them added to a series of default tags to copy
+						and paste for Instagram posts.
+					</div>
 				</div>
-			</div>
-		</JDGGridLayout>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.json_to_html_stylized}
+						href={$jdgSharedUrlsStore.sweJsonToHtml}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">JSON TO LIST</h4>
+						An internal tool to convert a JSON object to a formatted list for the purposes of documenting
+						changelogs for my projects.
+					</div>
+				</div>
+			</JDGGridLayout>
+		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
