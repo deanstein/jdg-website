@@ -1595,6 +1595,42 @@ const imageAttributesCollection = {
 			),
 			imgCaption: 'A snippet of SvelteJS code.'
 		}),
+		code_stylized: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740970826/jdg-website/swe/code-stylized.jpg'
+			),
+			imgCaption: 'A snippet of stylized SvelteJS code.'
+		}),
+		family_tree_stylized: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740970826/jdg-website/swe/family-tree-stylized.jpg'
+			),
+			imgCaption: 'A stylized screenshot of the Family Tree.'
+		}),
+		family_tree_jdg_1: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1741051340/jdg-website/swe/family-tree-jdg-1.jpg'
+			),
+			imgCaption: 'A preview of the Family Tree app.'
+		}),
+		hashtag_generator_stylized: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740978127/jdg-website/swe/hashtag-generator-stylized.png'
+			),
+			imgCaption: 'A stylized screenshot of the Hashtag Generator.'
+		}),
+		jdg_svelte_ui: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740980021/jdg-website/swe/jdg-svelte-ui-1.jpg'
+			),
+			imgCaption: 'The JDG-UI-SVELTE testing page.'
+		}),
+		json_to_html_stylized: instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740978107/jdg-website/swe/json-to-html-stylized.png'
+			),
+			imgCaption: 'A stylized screenshot of JSON-to-HTML.'
+		}),
 		forma_3d_spaces_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1727623728/jdg-website/swe/forma-3d-spaces-1.jpg'

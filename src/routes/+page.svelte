@@ -2,6 +2,7 @@
 	import { css } from '@emotion/css';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import imageAttributesCollection from './image-attributes-collection';
+	import { jdgRepoOwner, jdgUiSvelteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
 	import { pageMeta, sharedStyles } from '$lib/shared-strings';
@@ -21,6 +22,7 @@
 	import UpNext from '../components/UpNext.svelte';
 	import ImpactItem from '../components/ImpactItem.svelte';
 	import ImpactSection from '../components/ImpactSection.svelte';
+	import RepoPackageVersion from '../components/RepoPackageVersion.svelte';
 	import { jdgBreakpoints } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	const imageHeightLg = 350;
@@ -700,6 +702,88 @@
 				</div>
 			</div>
 		</JDGGridLayout>
+		<JDGBodyCopy></JDGBodyCopy>
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.swe.code_stylized}
+			maxHeight="350px"
+			primaryText="Other Software Projects"
+			primaryTextBold
+			secondaryText="Custom libraries, apps, and tools"
+			overlayColorRgba="rgba(50, 50, 50, 0.5)"
+		/>
+		<JDGClipFade>
+			<JDGGridLayout>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.jdg_svelte_ui}
+						objectPosition="top"
+						href={$jdgSharedUrlsStore.jdgSvelteUi}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">JDG SVELTE UI</h4>
+						<div class="version">
+							<RepoPackageVersion
+								repoOwner={jdgRepoOwner}
+								repoName={jdgUiSvelteRepoName}
+								showIfInvalid={false}
+							/>
+						</div>
+						My first UI package harnesses the power of
+						<a href="https://svelte.dev/" target="_blank">SvelteJS</a> to create a series of modular
+						components that underpin all of my project websites, including this one!
+					</div>
+				</div>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.family_tree_jdg_1}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">FAMILY TREE</h4>
+						<div class="version">
+							<RepoPackageVersion
+								repoOwner={jdgRepoOwner}
+								repoName={'family-tree'}
+								showIfInvalid={false}
+							/>
+						</div>
+						An interactive family tree that highlights five generations of the person in focus with the
+						ability to climb and descend the tree infinitely.
+					</div>
+				</div>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.hashtag_generator_stylized}
+						href={$jdgSharedUrlsStore.sweHashtagGenerator}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">HASHTAG GENERATOR</h4>
+						<div class="version">
+							<RepoPackageVersion repoOwner={jdgRepoOwner} repoName={null} defaultVersion="2.2.0" />
+						</div>
+						An internal tool to enter hashtags and have them combined with a series of default tags that
+						can be copied and pasted for Instagram posts.
+					</div>
+				</div>
+				<div class="image-with-details {imageWithDetailsCss}">
+					<JDGImageTile
+						imageAttributes={imageAttributesCollection.swe.json_to_html_stylized}
+						href={$jdgSharedUrlsStore.sweJsonToHtml}
+						hrefOpenInNewTab={true}
+					/>
+					<div class="image-details">
+						<h4 style="text-align: center;">JSON TO LIST</h4>
+						<div class="version">
+							<RepoPackageVersion repoOwner={jdgRepoOwner} repoName={null} defaultVersion="1.0.0" />
+						</div>
+						An internal tool to convert a JSON object to a formatted list for the purposes of documenting
+						changelogs for my projects.
+					</div>
+				</div>
+			</JDGGridLayout>
+		</JDGClipFade>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
@@ -731,6 +815,13 @@
 
 	.image-details h4 {
 		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	.image-details .version {
+		display: flex;
+		justify-content: center;
+		margin-top: -15px;
 		margin-bottom: 15px;
 	}
 </style>
