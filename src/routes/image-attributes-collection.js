@@ -1609,7 +1609,7 @@ const imageAttributesCollection = {
 		}),
 		family_tree_jdg_1: instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1740978389/jdg-website/swe/family-tree-jdg-1.jpg'
+				'https://res.cloudinary.com/jdg-main/image/upload/v1741051340/jdg-website/swe/family-tree-jdg-1.jpg'
 			),
 			imgCaption: 'A preview of the Family Tree app.'
 		}),
