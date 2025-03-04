@@ -822,6 +822,6 @@
 		display: flex;
 		justify-content: center;
 		margin-top: -15px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 </style>
