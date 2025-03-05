@@ -711,7 +711,7 @@
 			secondaryText="Custom libraries, apps, and tools"
 			overlayColorRgba="rgba(50, 50, 50, 0.5)"
 		/>
-		<JDGClipFade>
+		<JDGClipFade moduleCountMobile={2.5}>
 			<JDGGridLayout>
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
