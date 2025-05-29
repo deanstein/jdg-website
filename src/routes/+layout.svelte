@@ -76,7 +76,7 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'G-8Y56LMC5GF');
+		gtag('config', trackingId);
 	</script>
 </svelte:head>
 <MetaTags {...metaTags} />
