@@ -737,6 +737,7 @@
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
 						imageAttributes={imageAttributesCollection.swe.family_tree_jdg_1}
+						href={$jdgSharedUrlsStore.sweFamilyTree}
 						hrefOpenInNewTab={true}
 					/>
 					<div class="image-details">
