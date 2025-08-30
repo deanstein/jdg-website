@@ -1560,7 +1560,7 @@ const imageAttributesCollection = {
 	jdg_photo_2: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1724204050/jdg-website/jdg-photo-2.jpg',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1756520231/jdg-website/jdg-photo-2.jpg',
 			imgCaption: 'Josh, his wife Haley, and their cat Iris in their renovated kitchen in 2024.'
 		})
 	),
@@ -1568,7 +1568,7 @@ const imageAttributesCollection = {
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
 				'https://res.cloudinary.com/jdg-main/image/upload/v1724392902/jdg-website/jdg-photo-3.jpg',
-			imgCaption: 'Josh giving a presentation in 2022.'
+			imgCaption: 'Joshua Dean Goldstein.'
 		})
 	)
 };
