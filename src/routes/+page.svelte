@@ -112,7 +112,7 @@
 			</JDGGridLayout>
 		</div>
 		<JDGBodyCopy>
-			Inspired by natural and built environments of Colorado, my passion for 3D design of all things
+			Inspired by the natural and built environments of Colorado, my passion for 3D design of all things
 			ignited a career in architecture that evolved into a unique software legacy, spanning domains
 			and defying categorization.
 			<br /><br />
