@@ -116,8 +116,8 @@
 			ignited a career in architecture that evolved into a unique software legacy, spanning domains
 			and defying categorization.
 			<br /><br />
-			By day, I'm a Senior Product Manager building the next generation of 3D architectural modeling
-			software at <a href="https://www.autodesk.com" target="blank">Autodesk</a>. By night, I'm a
+			By day, I'm building the next generation of 3D architectural
+			software at <a href="http://motif.io/" target="blank">Motif</a>. By night, I'm a
 			software and simulation developer, product designer, and architectural historian.
 			<br /><br />
 			I'm also the creator of
