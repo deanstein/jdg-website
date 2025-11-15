@@ -32,16 +32,15 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingTop="0">
-			I live in downtown Denver, Colorado with my wife Haley and our two 
-			<a href="https://www.instagram.com/iris_theragdoll" target="_blank">ragdoll cats</a>. Surrounded by
-			natural and architectural beauty, we spend our time urban exploring, biking, and playing
-			racquetball.
+			I live in downtown Denver, Colorado with my wife Haley and our two
+			<a href="https://www.instagram.com/iris_theragdoll" target="_blank">ragdoll cats</a>.
+			Surrounded by natural and architectural beauty, we spend our time urban exploring, biking, and
+			playing racquetball.
 			<br /><br />
 			By day, I'm a Principal Product Quality and Customer Advocate at
 			<a href="http://motif.io/" target="_blank">Motif</a>
-			helping shape the next generation of powerful 3D software for architects
-			and designers everywhere. By night, I'm a software and simulation developer, product designer,
-			and architectural historian.
+			helping shape the next generation of powerful 3D software for architects and designers everywhere.
+			By night, I'm a software and simulation developer, product designer, and architectural historian.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGAccentBlockWithText
