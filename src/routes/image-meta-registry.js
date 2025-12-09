@@ -4,7 +4,7 @@
 // New images with a caption must be added manually or via ImageMetaModal
 const imageMetaRegistry = {
 	reupload_test: {
-		src: 'https://res.cloudinary.com/jdg-main/image/upload/v1765245473/jdg-ui-svelte/image-testing/reupload-test.jpg',
+		src: 'https://res.cloudinary.com/jdg-main/image/upload/v1765245473/jdg-ui-svelte/image-testing/reupload-test2.jpg',
 		alt: 'This is a reupload test!',
 		caption:
 			'This is a reupload test!',
