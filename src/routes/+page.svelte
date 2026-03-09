@@ -28,21 +28,25 @@
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
 	let currentImageHeight = 0;
+	let heroOverlapMultiplier = 0.5;
 
 	const imageHeightBreakpointHandler = () => {
 		breakpointHandler(
-			// breakpoint 0
+			// breakpoint 0 (mobile)
 			() => {
 				// force the mobile nav on
 				currentImageHeight = imageHeightSm;
+				heroOverlapMultiplier = 0.6;
 			},
-			// breakpoint 1
+			// breakpoint 1 (mobile)
 			() => {
 				currentImageHeight = imageHeightSm;
+				heroOverlapMultiplier = 0.7;
 			},
-			// breakpoint 2
+			// breakpoint 2 (tablet/desktop)
 			() => {
 				currentImageHeight = imageHeightLg;
+				heroOverlapMultiplier = 0.8;
 			}
 		);
 	};
@@ -78,7 +82,7 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
-		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight / 2}px;`}>
+		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight * heroOverlapMultiplier}px;`}>
 			<JDGGridLayout>
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
