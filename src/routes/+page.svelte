@@ -36,7 +36,7 @@
 			() => {
 				// force the mobile nav on
 				currentImageHeight = imageHeightSm;
-				heroOverlapMultiplier = 0.6;
+				heroOverlapMultiplier = 0.5;
 			},
 			// breakpoint 1 (mobile)
 			() => {
