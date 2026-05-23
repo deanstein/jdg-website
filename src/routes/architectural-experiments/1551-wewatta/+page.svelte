@@ -7,7 +7,7 @@
 		JDGImageFullWidth,
 		JDGFullWidthContainer
 	} from 'jdg-ui-svelte';
-	
+
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { sharedStyles } from '$lib/shared-strings';
 	import UpNext from '$lib/components/UpNext.svelte';

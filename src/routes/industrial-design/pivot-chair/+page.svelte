@@ -33,10 +33,7 @@
 			The central pivoting hub allows for precise angle and height customization as well as unique configurations
 			for storage and slumber.
 		</JDGBodyCopy>
-		<JDGImage
-			imageMeta={imageMetaRegistry.ind.pivot_chair_positions_all}
-			maxHeight="300px"
-		/>
+		<JDGImage imageMeta={imageMetaRegistry.ind.pivot_chair_positions_all} maxHeight="300px" />
 		<JDGBodyCopy paddingBottom="0"
 			>When combined with the Pivot Ottoman, the Pivot Chair can transform into a small bed,
 			creating a compact and versatile solution for urban homes or empty nesters.
