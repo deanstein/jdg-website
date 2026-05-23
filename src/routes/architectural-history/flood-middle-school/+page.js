@@ -1,5 +1,5 @@
+import imageMetaRegistry from '$lib/image-meta-registry';
 import { pageMeta } from '$lib/shared-strings';
-import imageMetaRegistry from '../../image-attributes-collection';
 
 export const load = () => {
 	// define page meta tags for social media previews

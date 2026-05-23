@@ -1,6 +1,6 @@
 <script>
-	import { fetchJsonFromRepo } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { onMount } from 'svelte';
+	import { fetchJsonFromRepo } from 'jdg-ui-svelte';
 
 	export let repoOwner;
 	export let repoName;

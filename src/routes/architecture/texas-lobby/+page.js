@@ -1,4 +1,4 @@
-import imageMetaRegistry from '../../image-attributes-collection';
+import imageMetaRegistry from '$lib/image-meta-registry';
 
 export function load() {
 	return {

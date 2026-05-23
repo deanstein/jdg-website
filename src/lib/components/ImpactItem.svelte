@@ -1,8 +1,6 @@
 <script>
 	import { css } from '@emotion/css';
-	import { adjustColorForContrast } from 'jdg-ui-svelte/jdg-utils.js';
-	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
+	import { adjustColorForContrast, appAccentColors, jdgColors } from 'jdg-ui-svelte';
 
 	export let faIcon = 'fa-burst';
 	export let impactNumber;

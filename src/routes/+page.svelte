@@ -1,7 +1,14 @@
 <script>
 	import { css } from '@emotion/css';
 
-	import { breakpointHandler, jdgBreakpoints, jdgRepoOwner, jdgSharedUrlsStore, jdgUiSvelteRepoName, windowWidth } from 'jdg-ui-svelte';
+	import {
+		breakpointHandler,
+		jdgBreakpoints,
+		jdgRepoOwner,
+		jdgSharedUrlsStore,
+		jdgUiSvelteRepoName,
+		windowWidth
+	} from 'jdg-ui-svelte';
 
 	import {
 		JDGBodyCopy,
@@ -18,11 +25,11 @@
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, sharedStyles } from '$lib/shared-strings';
-	
-	import UpNext from '../components/UpNext.svelte';
-	import ImpactItem from '../components/ImpactItem.svelte';
-	import ImpactSection from '../components/ImpactSection.svelte';
-	import RepoPackageVersion from '../components/RepoPackageVersion.svelte';
+
+	import UpNext from '../lib/components/UpNext.svelte';
+	import ImpactItem from '../lib/components/ImpactItem.svelte';
+	import ImpactSection from '../lib/components/ImpactSection.svelte';
+	import RepoPackageVersion from '../lib/components/RepoPackageVersion.svelte';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
@@ -82,7 +89,10 @@
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
 	<JDGContentBoxFloating animateWhenVisible={false} paddingTop="0px">
-		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight * heroOverlapMultiplier}px;`}>
+		<div
+			class="hero-image-overlap"
+			style={`margin-top: -${currentImageHeight * heroOverlapMultiplier}px;`}
+		>
 			<JDGGridLayout>
 				<JDGImageTile
 					imageMeta={imageMetaRegistry.arch.mindful_campus_boulevard_close}
@@ -528,10 +538,7 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
-				<JDGImage
-					imageMeta={imageMetaRegistry.swe.forma_sun_hours_1}
-					cropToFillContainer={true}
-				/>
+				<JDGImage imageMeta={imageMetaRegistry.swe.forma_sun_hours_1} cropToFillContainer={true} />
 				<div class="image-details">
 					<h4 style="text-align: center;">3D ENGINE INTEGRATION</h4>
 					Collaborating with full-stack development teams across organizations, we integrated&nbsp;<a
@@ -569,10 +576,7 @@
 				</div>
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
-				<JDGImage
-					imageMeta={imageMetaRegistry.swe.forma_3d_spaces_1}
-					cropToFillContainer={true}
-				/>
+				<JDGImage imageMeta={imageMetaRegistry.swe.forma_3d_spaces_1} cropToFillContainer={true} />
 				<div class="image-details">
 					<h4 style="text-align: center;">DELIVERY + OPERATIONS EVOLUTION</h4>
 					Forma presented a fundamental change in the way our teams worked, introducing new ways of delivery,
@@ -638,8 +642,7 @@
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageMeta={imageMetaRegistry.swe
-						.ccp_construction_60s70s_blue_mall_columns_ceiling}
+					imageMeta={imageMetaRegistry.swe.ccp_construction_60s70s_blue_mall_columns_ceiling}
 					href="https://www.youtube.com/watch?v=Rjq-hv47vsk"
 					hrefOpenInNewTab={true}
 				/>

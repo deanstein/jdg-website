@@ -1,5 +1,5 @@
 <script>
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
+	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
 	import { JDGSocialMedia } from 'jdg-ui-svelte';
 </script>
 

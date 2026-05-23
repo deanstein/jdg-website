@@ -1,7 +1,7 @@
 <script>
-	import { appAccentColors, jdgSharedUrlsStore } from 'jdg-ui-svelte';
-
 	import {
+		appAccentColors,
+		jdgSharedUrlsStore,
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
