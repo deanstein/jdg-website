@@ -94,6 +94,7 @@
 	{imageMetaRegistry}
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	showHeaderStripes={false}
+	invertLoadingIconInDarkMode={false}
 >
 	<JDGHeader
 		logoSupertitle={'THE WORK OF'}
@@ -101,6 +102,7 @@
 		logoSrc={addCloudinaryUrlTransformation(
 			'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
 		)}
+		invertLogoInDarkMode={false}
 		{navItems}
 	/>
 
