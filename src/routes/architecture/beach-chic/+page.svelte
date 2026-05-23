@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="COASTAL DESTINATION ADAPTIVE REUSE"
 		primaryTextBold
 		secondaryText="A historic block gets a beach chic makeover"
-		imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+		imageMeta={imageMetaRegistry.arch.beach_chic_concourse}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,10 +28,10 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.beach_chic_concourse,
-					imageAttributesCollection.arch.beach_chic_towers,
-					imageAttributesCollection.arch.beach_chic_aerial
+				imageMetaSet={[
+					imageMetaRegistry.arch.beach_chic_concourse,
+					imageMetaRegistry.arch.beach_chic_towers,
+					imageMetaRegistry.arch.beach_chic_aerial
 				]}
 				maxHeight="600px"
 			/>

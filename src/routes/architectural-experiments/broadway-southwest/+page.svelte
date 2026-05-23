@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -21,7 +21,7 @@
 		primaryText="DEPARTMENT STORE ADAPTIVE REUSE"
 		primaryTextBold
 		secondaryText="Two reuse schemes for a former mall anchor"
-		imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+		imageMeta={imageMetaRegistry.exp.broadway_southwest_concept_2_promenade}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -38,12 +38,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.broadway_southwest_before_1}
+				imageMeta={imageMetaRegistry.exp.broadway_southwest_before_1}
 				showCaption={true}
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.broadway_southwest_before_2}
+				imageMeta={imageMetaRegistry.exp.broadway_southwest_before_2}
 				showCaption={true}
 				cropToFillContainer={false}
 			/>
@@ -63,10 +63,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.broadway_southwest_concept_1_promenade,
-					imageAttributesCollection.exp.broadway_southwest_concept_1_market,
-					imageAttributesCollection.exp.broadway_southwest_concept_1_aerial
+				imageMetaSet={[
+					imageMetaRegistry.exp.broadway_southwest_concept_1_promenade,
+					imageMetaRegistry.exp.broadway_southwest_concept_1_market,
+					imageMetaRegistry.exp.broadway_southwest_concept_1_aerial
 				]}
 				maxHeight="600px"
 			/>
@@ -88,10 +88,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.broadway_southwest_concept_2_promenade,
-					imageAttributesCollection.exp.broadway_southwest_concept_2_passage,
-					imageAttributesCollection.exp.broadway_southwest_concept_2_aerial
+				imageMetaSet={[
+					imageMetaRegistry.exp.broadway_southwest_concept_2_promenade,
+					imageMetaRegistry.exp.broadway_southwest_concept_2_passage,
+					imageMetaRegistry.exp.broadway_southwest_concept_2_aerial
 				]}
 				maxHeight="600px"
 			/>

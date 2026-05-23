@@ -1,6 +1,6 @@
 <script>
 	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import imageAttributesCollection from '../image-attributes-collection';
+	import imageMetaRegistry from '../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -31,14 +31,14 @@
 	<JDGUpNext
 		item1Label={'SEE ALL WORK'}
 		item1Href={'/'}
-		item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
+		item1ImageAttributes={imageMetaRegistry.arch.texas_lobby}
 		item2Label={'ABOUT JOSH'}
 		item2Href="/about"
-		item2ImageAttributes={imageAttributesCollection.jdg_photo_2}
+		item2ImageAttributes={imageMetaRegistry.jdg_photo_2}
 		item2ObjectPosition="right"
 		item3Label="CINDERELLA CITY PROJECT"
 		item3Href={$jdgSharedUrlsStore.ccpWebsite}
-		item3ImageAttributes={imageAttributesCollection.swe.ccp_1}
+		item3ImageAttributes={imageMetaRegistry.swe.ccp_1}
 	/>
 </JDGContentContainer>
 

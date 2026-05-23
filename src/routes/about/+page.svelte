@@ -1,8 +1,6 @@
 <script>
-	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
-	import imageAttributesCollection from '../image-attributes-collection';
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import { pageMeta } from '$lib/shared-strings';
+	import { appAccentColors, jdgSharedUrlsStore } from 'jdg-ui-svelte';
+
 	import {
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
@@ -14,6 +12,9 @@
 		JDGImageCompare,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta } from '$lib/shared-strings';
 </script>
 
 <JDGContentContainer>
@@ -27,7 +28,7 @@
 			<br /><br />
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.jdg_photo_2}
+			imageMeta={imageMetaRegistry.jdg_photo_2}
 			maxHeight="300px"
 			cropToFillContainer={false}
 		/>
@@ -63,12 +64,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.hst.ccm_demolition}
+				imageMeta={imageMetaRegistry.hst.ccm_demolition}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.hst.ccm_0}
+				imageMeta={imageMetaRegistry.hst.ccm_0}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
@@ -85,7 +86,7 @@
 			>.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
+			imageMeta={imageMetaRegistry.hst.fms_1968_southeast_corner_entrance}
 			maxHeight="300px"
 			cropToFillContainer={false}
 		/>
@@ -105,12 +106,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.arch.random_school_diagram_construction}
+				imageMeta={imageMetaRegistry.arch.random_school_diagram_construction}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+				imageMeta={imageMetaRegistry.arch.random_school_terrace}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
@@ -124,7 +125,7 @@
 			critical for my next career evolution.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+			imageMeta={imageMetaRegistry.arch.beach_chic_concourse}
 			maxHeight="300px"
 			cropToFillContainer={false}
 		/>
@@ -145,12 +146,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.ind.gh_script_0}
+				imageMeta={imageMetaRegistry.ind.gh_script_0}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.ind.product_line_1}
+				imageMeta={imageMetaRegistry.ind.product_line_1}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
@@ -181,12 +182,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.about_formit_1}
+				imageMeta={imageMetaRegistry.about_formit_1}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.about_formit_2}
+				imageMeta={imageMetaRegistry.about_formit_2}
 				maxHeight="300px"
 				cropToFillContainer={false}
 			/>
@@ -200,7 +201,7 @@
 			>, evolving legacy software into a cutting-edge platform for sustainable design.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.about_forma_1}
+			imageMeta={imageMetaRegistry.about_forma_1}
 			maxHeight="300px"
 			cropToFillContainer={false}
 		/>
@@ -220,7 +221,7 @@
 			and simulation.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.swe.code_svelte_1}
+			imageMeta={imageMetaRegistry.swe.code_svelte_1}
 			maxHeight="300px"
 			cropToFillContainer={false}
 		/>
@@ -232,8 +233,8 @@
 			architecture in the first place.
 		</JDGBodyCopy>
 		<JDGImageCompare
-			imageAttributes1={imageAttributesCollection.hst.ccp_blue_mall_60s70s_1}
-			imageAttributes2={imageAttributesCollection.hst.ccp_blue_mall_80s90s_1}
+			imageMeta1={imageMetaRegistry.hst.ccp_blue_mall_60s70s_1}
+			imageMeta2={imageMetaRegistry.hst.ccp_blue_mall_80s90s_1}
 			maxHeight="400px"
 			showBlurInUnfilledSpace={false}
 			caption={"Cinderella City's Blue Mall as seen simulated in two distinct time periods."}
@@ -258,13 +259,13 @@
 	<JDGUpNext
 		item1Label={'SEE ALL WORK'}
 		item1Href={'/'}
-		item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
+		item1ImageAttributes={imageMetaRegistry.arch.texas_lobby}
 		item2Label="CINDERELLA CITY PROJECT"
 		item2Href={$jdgSharedUrlsStore.ccpWebsite}
-		item2ImageAttributes={imageAttributesCollection.swe.ccp_1}
+		item2ImageAttributes={imageMetaRegistry.swe.ccp_1}
 		item3Label="GET IN TOUCH"
 		item3Href="/contact"
-		item3ImageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+		item3ImageAttributes={imageMetaRegistry.exp.broadway_southwest_concept_2_promenade}
 	/>
 </JDGContentContainer>
 

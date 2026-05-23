@@ -1,5 +1,5 @@
 import { pageMeta } from '$lib/shared-strings';
-import imageAttributesCollection from '../../image-attributes-collection';
+import imageMetaRegistry from '../../image-attributes-collection';
 
 export const load = () => {
 	// define page meta tags for social media previews
@@ -11,7 +11,7 @@ export const load = () => {
 			description: pageMeta.ind.pivot_chair.description,
 			images: [
 				{
-					url: imageAttributesCollection.ind.pivot_chair_model_1.imgSrc,
+					url: imageMetaRegistry.ind.pivot_chair_model_1.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

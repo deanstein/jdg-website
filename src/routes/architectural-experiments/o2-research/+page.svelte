@@ -1,6 +1,6 @@
 <script>
 	import { sharedStyles } from '$lib/shared-strings';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 
 	import {
 		JDGBodyCopy,
@@ -19,7 +19,7 @@
 		primaryText="O2 RESEARCH LOBBY STUDY"
 		primaryTextBold
 		secondaryText="A spacious and curvacious office lobby"
-		imageAttributes={imageAttributesCollection.exp.o2_research}
+		imageMeta={imageMetaRegistry.exp.o2_research}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -34,7 +34,7 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.exp.o2_research}
+				imageMeta={imageMetaRegistry.exp.o2_research}
 				maxHeight="600px"
 				cropToFillContainer={false}
 				showBlurInUnfilledSpace={true}

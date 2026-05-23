@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="MINDFUL MULTIFAMILY"
 		primaryTextBold
 		secondaryText="Multifamily for a cutting-edge tech/health/research campus"
-		imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
+		imageMeta={imageMetaRegistry.arch.mindful_multifamily}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,10 +28,10 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.mindful_multifamily,
-					imageAttributesCollection.arch.mindful_multifamily_highway,
-					imageAttributesCollection.arch.mindful_multifamily_close
+				imageMetaSet={[
+					imageMetaRegistry.arch.mindful_multifamily,
+					imageMetaRegistry.arch.mindful_multifamily_highway,
+					imageMetaRegistry.arch.mindful_multifamily_close
 				]}
 				maxHeight="600px"
 			/>

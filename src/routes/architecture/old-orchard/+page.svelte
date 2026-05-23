@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="OLD ORCHARD"
 		primaryTextBold
 		secondaryText="Architectural fabrication that reinforces a brand"
-		imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
+		imageMeta={imageMetaRegistry.arch.old_orchard_outside}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,10 +28,10 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.old_orchard_close,
-					imageAttributesCollection.arch.old_orchard_outside,
-					imageAttributesCollection.arch.old_orchard_covered
+				imageMetaSet={[
+					imageMetaRegistry.arch.old_orchard_close,
+					imageMetaRegistry.arch.old_orchard_outside,
+					imageMetaRegistry.arch.old_orchard_covered
 				]}
 				maxHeight="600px"
 			/>

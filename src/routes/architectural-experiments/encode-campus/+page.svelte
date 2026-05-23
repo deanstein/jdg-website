@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -17,7 +17,7 @@
 		primaryText="ENCODE CAMPUS"
 		primaryTextBold
 		secondaryText="Enhancing a quirky, under-utilized site"
-		imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+		imageMeta={imageMetaRegistry.exp.encode_campus_after}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		overlapWithHeader
 	/>
@@ -41,7 +41,7 @@
 			shape of all elements.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+			imageMeta={imageMetaRegistry.exp.encode_campus_after}
 			maxHeight="600px"
 			cropToFillContainer={false}
 			showBlurInUnfilledSpace={true}

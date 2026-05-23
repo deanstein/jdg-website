@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -19,7 +19,7 @@
 		primaryText="FIFTEEN PLATTE MODERN OFFICE"
 		primaryTextBold
 		secondaryText="Powerful 3D software generating unique architecture"
-		imageAttributes={imageAttributesCollection.exp.fifteen_platte_dynamo}
+		imageMeta={imageMetaRegistry.exp.fifteen_platte_dynamo}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -35,10 +35,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.fifteen_platte_sunset,
-					imageAttributesCollection.exp.fifteen_platte_grayscale,
-					imageAttributesCollection.exp.fifteen_platte_dynamo
+				imageMetaSet={[
+					imageMetaRegistry.exp.fifteen_platte_sunset,
+					imageMetaRegistry.exp.fifteen_platte_grayscale,
+					imageMetaRegistry.exp.fifteen_platte_dynamo
 				]}
 				maxHeight="600px"
 			/>

@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -19,7 +19,7 @@
 		primaryText="PIVOT CHAIR"
 		primaryTextBold
 		secondaryText="Versatile, flexible, and comfortable"
-		imageAttributes={imageAttributesCollection.ind.pivot_chair_model_1}
+		imageMeta={imageMetaRegistry.ind.pivot_chair_model_1}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -34,14 +34,14 @@
 			for storage and slumber.
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.ind.pivot_chair_positions_all}
+			imageMeta={imageMetaRegistry.ind.pivot_chair_positions_all}
 			maxHeight="300px"
 		/>
 		<JDGBodyCopy paddingBottom="0"
 			>When combined with the Pivot Ottoman, the Pivot Chair can transform into a small bed,
 			creating a compact and versatile solution for urban homes or empty nesters.
 		</JDGBodyCopy>
-		<JDGImage imageAttributes={imageAttributesCollection.ind.pivot_chair_ottoman_composite} />
+		<JDGImage imageMeta={imageMetaRegistry.ind.pivot_chair_ottoman_composite} />
 		<JDGBodyCopy paddingBottom="0">
 			A functioning prototype of the Pivot Chair was built using CNC machining and hand assembly,
 			along with a bespoke fabricated cushion.
@@ -49,7 +49,7 @@
 			The Pivot Chair prototype now resides in my condo:
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.ind.pivot_chair_photo_1}
+			imageMeta={imageMetaRegistry.ind.pivot_chair_photo_1}
 			cropToFillContainer={false}
 			maxHeight="600px"
 		/>

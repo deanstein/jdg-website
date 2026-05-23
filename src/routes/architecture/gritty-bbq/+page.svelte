@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="GRITTY BARBECUE"
 		primaryTextBold
 		secondaryText="Studies for transforming a derelict duplex into a new restaurant"
-		imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
+		imageMeta={imageMetaRegistry.arch.gritty_bbq_option_3}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,10 +28,10 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.gritty_bbq_option_2,
-					imageAttributesCollection.arch.gritty_bbq_option_3,
-					imageAttributesCollection.arch.gritty_bbq_option_5
+				imageMetaSet={[
+					imageMetaRegistry.arch.gritty_bbq_option_2,
+					imageMetaRegistry.arch.gritty_bbq_option_3,
+					imageMetaRegistry.arch.gritty_bbq_option_5
 				]}
 				maxHeight="600px"
 			/>

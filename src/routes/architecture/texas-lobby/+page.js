@@ -1,4 +1,4 @@
-import imageAttributesCollection from '../../image-attributes-collection';
+import imageMetaRegistry from '../../image-attributes-collection';
 
 export function load() {
 	return {
@@ -6,7 +6,7 @@ export function load() {
 		meta: {
 			title: 'Modern Texas Lobby',
 			description: 'A contemporary take on Texas charm for a new tech office complex',
-			image: imageAttributesCollection.arch.texas_lobby.imgSrc
+			image: imageMetaRegistry.arch.texas_lobby.imgSrc
 		}
 	};
 }
