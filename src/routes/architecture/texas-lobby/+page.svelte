@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -17,7 +17,7 @@
 		primaryText="MODERN TEXAS LOBBY"
 		primaryTextBold
 		secondaryText="A contemporary take on Texas charm for a new tech office complex"
-		imageAttributes={imageAttributesCollection.arch.texas_lobby}
+		imageMeta={imageMetaRegistry.arch.texas_lobby}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -26,7 +26,7 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<Series505 />
 		<JDGImage
-			imageAttributes={imageAttributesCollection.arch.texas_lobby}
+			imageMeta={imageMetaRegistry.arch.texas_lobby}
 			maxHeight="600px"
 			cropToFillContainer={false}
 			useCompactHeightOnMobile

@@ -11,7 +11,8 @@
 		"lint": "prettier --check . && eslint .",
 		"prettier": "prettier --write \"{,!(node_modules|public|dist)/**/}*.{js,svelte}\"",
 		"prettier:check": "prettier --check \"{,!(node_modules|public|dist)/**/}*.{js,svelte}\"",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"convert-image-registry-to-json": "node convert-image-registry-to-json.js"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.0.0",
@@ -32,7 +33,7 @@
 	"dependencies": {
 		"@emotion/css": "^11.11.2",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"jdg-ui-svelte": "1.4.6",
+		"jdg-ui-svelte": "3.0.3",
 		"just-extend": "^6.2.0"
 	}
 }

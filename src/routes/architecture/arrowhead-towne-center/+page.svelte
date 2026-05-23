@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -17,7 +17,7 @@
 		primaryText="ARROWHEAD TOWNE CENTER"
 		primaryTextBold
 		secondaryText="Finding desert charm in an Arizona shopping center"
-		imageAttributes={imageAttributesCollection.arch.atc_elevator}
+		imageMeta={imageMetaRegistry.arch.atc_elevator}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -26,10 +26,10 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<Series505 />
 		<JDGImageCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.arch.atc_elevator,
-				imageAttributesCollection.arch.atc_escalator,
-				imageAttributesCollection.arch.atc_food_court
+			imageMetaSet={[
+				imageMetaRegistry.arch.atc_elevator,
+				imageMetaRegistry.arch.atc_escalator,
+				imageMetaRegistry.arch.atc_food_court
 			]}
 			maxHeight="600px"
 		/>

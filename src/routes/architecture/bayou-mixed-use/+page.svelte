@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="BAYOU MIXED USE"
 		primaryTextBold
 		secondaryText="A new riverside destination"
-		imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_4}
+		imageMeta={imageMetaRegistry.arch.bayou_mixed_use_4}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,11 +28,11 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.bayou_mixed_use_4,
-					imageAttributesCollection.arch.bayou_mixed_use_2,
-					imageAttributesCollection.arch.bayou_mixed_use_3,
-					imageAttributesCollection.arch.bayou_mixed_use_1
+				imageMetaSet={[
+					imageMetaRegistry.arch.bayou_mixed_use_4,
+					imageMetaRegistry.arch.bayou_mixed_use_2,
+					imageMetaRegistry.arch.bayou_mixed_use_3,
+					imageMetaRegistry.arch.bayou_mixed_use_1
 				]}
 				maxHeight="600px"
 			/>

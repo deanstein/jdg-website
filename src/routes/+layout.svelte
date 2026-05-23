@@ -3,13 +3,16 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 
+	import { jdgNavItem, jdgWebsiteRepoName, repoName } from 'jdg-ui-svelte';
+	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
+
+	// Define the repo name
+	repoName.set(jdgWebsiteRepoName);
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -82,6 +85,7 @@
 </svelte:head>
 <MetaTags {...metaTags} />
 <JDGAppContainer
+	{imageMetaRegistry}
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	showHeaderStripes={false}
 >

@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -19,7 +19,7 @@
 		primaryText="RANCH ELSIE MODERN HOME"
 		primaryTextBold
 		secondaryText="A marriage of software and architecture"
-		imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+		imageMeta={imageMetaRegistry.exp.ranch_elsie_option_3}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -33,7 +33,7 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImage
-				imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+				imageMeta={imageMetaRegistry.exp.ranch_elsie_option_3}
 				maxHeight="600px"
 				cropToFillContainer={false}
 				showBlurInUnfilledSpace={true}
@@ -46,7 +46,7 @@
 			design than ever before:
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.exp.ranch_elsie_roof_optioneering}
+			imageMeta={imageMetaRegistry.exp.ranch_elsie_roof_optioneering}
 			maxHeight="600px"
 			cropToFillContainer={false}
 			showBlurInUnfilledSpace={false}

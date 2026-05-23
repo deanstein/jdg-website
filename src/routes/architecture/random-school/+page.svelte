@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="ABANDONED SCHOOL REUSE"
 		primaryTextBold
 		secondaryText="Resurrecting a post-war relic for a unique public space"
-		imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+		imageMeta={imageMetaRegistry.arch.random_school_terrace}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -34,13 +34,13 @@
 			</JDGBodyCopy>
 
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.random_school_terrace,
-					imageAttributesCollection.arch.random_school_canopy,
-					imageAttributesCollection.arch.random_school_play,
-					imageAttributesCollection.arch.random_school_aerial,
-					imageAttributesCollection.arch.random_school_before_exterior,
-					imageAttributesCollection.arch.random_school_before_walkway
+				imageMetaSet={[
+					imageMetaRegistry.arch.random_school_terrace,
+					imageMetaRegistry.arch.random_school_canopy,
+					imageMetaRegistry.arch.random_school_play,
+					imageMetaRegistry.arch.random_school_aerial,
+					imageMetaRegistry.arch.random_school_before_exterior,
+					imageMetaRegistry.arch.random_school_before_walkway
 				]}
 				maxHeight="600px"
 			/>

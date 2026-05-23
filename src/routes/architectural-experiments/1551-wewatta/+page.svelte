@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -19,7 +19,7 @@
 		primaryText="MINDFUL SHOWROOM"
 		primaryTextBold
 		secondaryText="Softening a corporate corner with a pedestrian-scale showroom"
-		imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+		imageMeta={imageMetaRegistry.exp.corporate_showroom_corner}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -38,10 +38,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.corporate_showroom_corner,
-					imageAttributesCollection.exp.corporate_showroom_before,
-					imageAttributesCollection.exp.corporate_showroom_elevation
+				imageMetaSet={[
+					imageMetaRegistry.exp.corporate_showroom_corner,
+					imageMetaRegistry.exp.corporate_showroom_before,
+					imageMetaRegistry.exp.corporate_showroom_elevation
 				]}
 				maxHeight="600px"
 			/>

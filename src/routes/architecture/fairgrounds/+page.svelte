@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -18,7 +18,7 @@
 		primaryText="THE FAIRGROUNDS"
 		primaryTextBold
 		secondaryText="A new community on a former World's Fair site"
-		imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
+		imageMeta={imageMetaRegistry.arch.fairgrounds_aerial}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -28,11 +28,11 @@
 		<Series505 />
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.arch.fairgrounds_aerial,
-					imageAttributesCollection.arch.fairgrounds_river,
-					imageAttributesCollection.arch.fairgrounds_fountain,
-					imageAttributesCollection.arch.fairgrounds_park
+				imageMetaSet={[
+					imageMetaRegistry.arch.fairgrounds_aerial,
+					imageMetaRegistry.arch.fairgrounds_river,
+					imageMetaRegistry.arch.fairgrounds_fountain,
+					imageMetaRegistry.arch.fairgrounds_park
 				]}
 				maxHeight="600px"
 			/>

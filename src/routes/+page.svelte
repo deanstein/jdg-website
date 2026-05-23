@@ -1,11 +1,7 @@
 <script>
 	import { css } from '@emotion/css';
-	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
-	import imageAttributesCollection from './image-attributes-collection';
-	import { jdgRepoOwner, jdgUiSvelteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
-	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import { pageMeta, sharedStyles } from '$lib/shared-strings';
+
+	import { breakpointHandler, jdgBreakpoints, jdgRepoOwner, jdgSharedUrlsStore, jdgUiSvelteRepoName, windowWidth } from 'jdg-ui-svelte';
 
 	import {
 		JDGBodyCopy,
@@ -19,17 +15,21 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, sharedStyles } from '$lib/shared-strings';
+	
 	import UpNext from '../components/UpNext.svelte';
 	import ImpactItem from '../components/ImpactItem.svelte';
 	import ImpactSection from '../components/ImpactSection.svelte';
 	import RepoPackageVersion from '../components/RepoPackageVersion.svelte';
-	import { jdgBreakpoints } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	const imageHeightLg = 350;
 	const imageHeightSm = 250;
 	let currentImageHeight = 0;
 	let heroOverlapMultiplier = 0.5;
 
+	// This handles breakpoints for the custom JDG Website hero image overlap design
 	const imageHeightBreakpointHandler = () => {
 		breakpointHandler(
 			// breakpoint 0 (mobile)
@@ -72,7 +72,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.arch.beach_chic_aerial}
+		imageMeta={imageMetaRegistry.arch.beach_chic_aerial}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		superText={`Hi! 👋 I'm Josh.`}
 		primaryText={"I'm a 3D creator"}
@@ -85,7 +85,7 @@
 		<div class="hero-image-overlap" style={`margin-top: -${currentImageHeight * heroOverlapMultiplier}px;`}>
 			<JDGGridLayout>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
+					imageMeta={imageMetaRegistry.arch.mindful_campus_boulevard_close}
 					label={'ARCHITECTURE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
@@ -95,7 +95,7 @@
 					objectPosition="top"
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
+					imageMeta={imageMetaRegistry.ind.planter_003F_0}
 					label={'PRODUCTS'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
@@ -105,7 +105,7 @@
 					objectPosition="left top"
 				/>
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.formit_0}
+					imageMeta={imageMetaRegistry.swe.formit_0}
 					label={'SOFTWARE'}
 					labelContainerVerticalAlign="top"
 					labelJustification="center"
@@ -146,13 +146,13 @@
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'CINDERELLA CITY MALL'}
-				imageAttributes={imageAttributesCollection.hst.ccm_0}
+				imageMeta={imageMetaRegistry.hst.ccm_0}
 				href={$jdgSharedUrlsStore.ccpWebsite}
 				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'FLOOD MIDDLE SCHOOL'}
-				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
+				imageMeta={imageMetaRegistry.hst.fms_1968_southeast_corner_entrance}
 				href={pageMeta.hst.flood_middle_school.url}
 			/>
 		</JDGGridLayout>
@@ -179,59 +179,59 @@
 				<JDGImageTile
 					label={'BAYOU MIXED USE'}
 					href="./architecture/bayou-mixed-use"
-					imageAttributes={imageAttributesCollection.arch.bayou_mixed_use_4}
+					imageMeta={imageMetaRegistry.arch.bayou_mixed_use_4}
 				/>
 				<JDGImageTile
 					label={'MODERN TEXAS LOBBY'}
 					href="./architecture/texas-lobby"
-					imageAttributes={imageAttributesCollection.arch.texas_lobby}
+					imageMeta={imageMetaRegistry.arch.texas_lobby}
 				/>
 				<JDGImageTile
 					label={'ORCHARD TOWN CENTER'}
 					href="./architecture/orchard-town-center"
-					imageAttributes={imageAttributesCollection.arch.otc_below}
+					imageMeta={imageMetaRegistry.arch.otc_below}
 				/>
 				<JDGImageTile
 					label={'OLD ORCHARD'}
 					href="./architecture/old-orchard"
-					imageAttributes={imageAttributesCollection.arch.old_orchard_outside}
+					imageMeta={imageMetaRegistry.arch.old_orchard_outside}
 				/>
 				<JDGImageTile
 					label={'ABANDONED SCHOOL REUSE'}
 					href={pageMeta.arch.random_school.url}
-					imageAttributes={imageAttributesCollection.arch.random_school_terrace}
+					imageMeta={imageMetaRegistry.arch.random_school_terrace}
 				/>
 				<JDGImageTile
 					label={'MINDFUL LIVE/WORK CAMPUS'}
 					href="./architecture/mindful-campus"
-					imageAttributes={imageAttributesCollection.arch.mindful_campus_boulevard_close}
+					imageMeta={imageMetaRegistry.arch.mindful_campus_boulevard_close}
 					objectPosition="right"
 				/>
 				<JDGImageTile
 					label={'THE FAIRGROUNDS'}
 					href="./architecture/fairgrounds"
-					imageAttributes={imageAttributesCollection.arch.fairgrounds_aerial}
+					imageMeta={imageMetaRegistry.arch.fairgrounds_aerial}
 				/>
 				<JDGImageTile
 					label={'BEACH CHIC ADAPTIVE REUSE'}
 					href="./architecture/beach-chic"
-					imageAttributes={imageAttributesCollection.arch.beach_chic_concourse}
+					imageMeta={imageMetaRegistry.arch.beach_chic_concourse}
 				/>
 				<JDGImageTile
 					label={'GRITTY BBQ ADAPTIVE REUSE'}
 					href="./architecture/gritty-bbq"
-					imageAttributes={imageAttributesCollection.arch.gritty_bbq_option_3}
+					imageMeta={imageMetaRegistry.arch.gritty_bbq_option_3}
 				/>
 				<JDGImageTile
 					label={'MINDFUL MULTIFAMILY'}
 					href="./architecture/mindful-multifamily"
-					imageAttributes={imageAttributesCollection.arch.mindful_multifamily}
+					imageMeta={imageMetaRegistry.arch.mindful_multifamily}
 					objectPosition="left"
 				/>
 				<JDGImageTile
 					label={'ARROWHEAD TOWNE CENTER'}
 					href="./architecture/arrowhead-towne-center"
-					imageAttributes={imageAttributesCollection.arch.atc_elevator}
+					imageMeta={imageMetaRegistry.arch.atc_elevator}
 					objectPosition="left"
 				/>
 			</JDGGridLayout>
@@ -248,47 +248,47 @@
 				<JDGImageTile
 					label={'MINDFUL SHOWROOM'}
 					href="./architectural-experiments/1551-wewatta"
-					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+					imageMeta={imageMetaRegistry.exp.corporate_showroom_corner}
 				/>
 				<JDGImageTile
 					label={'CAMPUS VILLAGE ADAPTIVE REUSE'}
 					href="./architectural-experiments/fms-campus"
-					imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+					imageMeta={imageMetaRegistry.exp.fms_campus_lawn}
 				/>
 				<JDGImageTile
 					label={'ENCODE CAMPUS'}
 					href="./architectural-experiments/encode-campus"
-					imageAttributes={imageAttributesCollection.exp.encode_campus_after}
+					imageMeta={imageMetaRegistry.exp.encode_campus_after}
 				/>
 				<JDGImageTile
 					label={'DEPARTMENT STORE ADAPTIVE REUSE'}
 					href="./architectural-experiments/broadway-southwest"
-					imageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+					imageMeta={imageMetaRegistry.exp.broadway_southwest_concept_2_promenade}
 				/>
 				<JDGImageTile
 					label={'RANCH ELSIE MODERN HOME'}
 					href="./architectural-experiments/ranch-elsie"
-					imageAttributes={imageAttributesCollection.exp.ranch_elsie_option_3}
+					imageMeta={imageMetaRegistry.exp.ranch_elsie_option_3}
 				/>
 				<JDGImageTile
 					label={'O2 RESEARCH LOBBY STUDY'}
 					href="./architectural-experiments/o2-research"
-					imageAttributes={imageAttributesCollection.exp.o2_research}
+					imageMeta={imageMetaRegistry.exp.o2_research}
 				/>
 				<JDGImageTile
 					label={'16 PEARL ADAPTIVE REUSE'}
 					href="./architectural-experiments/sixteen-pearl"
-					imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
+					imageMeta={imageMetaRegistry.exp.sixteen_pearl_corner}
 				/>
 				<JDGImageTile
 					label={'SPEER POINT ADAPTIVE REUSE'}
 					href="./architectural-experiments/speer-point"
-					imageAttributes={imageAttributesCollection.exp.speer_point_after}
+					imageMeta={imageMetaRegistry.exp.speer_point_after}
 				/>
 				<JDGImageTile
 					label={'FIFTEEN PLATTE MODERN OFFICE'}
 					href="./architectural-experiments/fifteen-platte"
-					imageAttributes={imageAttributesCollection.exp.fifteen_platte_sunset}
+					imageMeta={imageMetaRegistry.exp.fifteen_platte_sunset}
 				/>
 			</JDGGridLayout>
 		</JDGClipFade>
@@ -317,66 +317,66 @@
 			<JDGGridLayout>
 				<JDGImageTile
 					label={'DENVER CITYSCAPE'}
-					imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
+					imageMeta={imageMetaRegistry.ind.cityscape_021A_0}
 					href="http://www.parametrix3d.com/021.html"
 					hrefOpenInNewTab={true}
 				/>
 				<JDGImageTile
 					label={'PUZZLE DECOR'}
-					imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
+					imageMeta={imageMetaRegistry.ind.puzzle_decor_030A_0}
 					href="http://www.parametrix3d.com/030.html"
 					hrefOpenInNewTab={true}
 					objectPosition="left"
 				/>
 				<JDGImageTile
 					label={'ADVANCED PLANTER'}
-					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
+					imageMeta={imageMetaRegistry.ind.planter_003F_0}
 					href="http://www.parametrix3d.com/003.html"
 					hrefOpenInNewTab={true}
 					objectPosition="left top"
 				/>
 				<JDGImageTile
 					label={'PEN HOLDER'}
-					imageAttributes={imageAttributesCollection.ind.pen_holder_008I_0}
+					imageMeta={imageMetaRegistry.ind.pen_holder_008I_0}
 					href="http://www.parametrix3d.com/008.html"
 					hrefOpenInNewTab={true}
 				/>
 				<JDGImageTile
 					label={'CARD HOLDER'}
-					imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
+					imageMeta={imageMetaRegistry.ind.card_holder_015C_0}
 					href="http://www.parametrix3d.com/015.html"
 					hrefOpenInNewTab={true}
 					objectPosition="left top"
 				/>
 				<JDGImageTile
 					label={'DEN / CO MAGNETS'}
-					imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
+					imageMeta={imageMetaRegistry.ind.den_co_magnets_047BC_0}
 					href="http://www.parametrix3d.com/047.html"
 					hrefOpenInNewTab={true}
 					objectPosition="top"
 				/>
 				<JDGImageTile
 					label={'CO TOPO MAGNET'}
-					imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
+					imageMeta={imageMetaRegistry.ind.co_topo_magnet_047D_0}
 					href="http://www.parametrix3d.com/047d.html"
 					hrefOpenInNewTab={true}
 					objectPosition="left bottom"
 				/>
 				<JDGImageTile
 					label={'HERB GRINDER'}
-					imageAttributes={imageAttributesCollection.ind.grinder_039A_0}
+					imageMeta={imageMetaRegistry.ind.grinder_039A_0}
 					href="http://www.parametrix3d.com/039.html"
 					hrefOpenInNewTab={true}
 				/>
 				<JDGImageTile
 					label={'DENVER MAP COASTER'}
-					imageAttributes={imageAttributesCollection.ind.coaster_028A_0}
+					imageMeta={imageMetaRegistry.ind.coaster_028A_0}
 					href="http://www.parametrix3d.com/028.html"
 					hrefOpenInNewTab={true}
 				/>
 				<JDGImageTile
 					label={'KITCHEN CADDY'}
-					imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
+					imageMeta={imageMetaRegistry.ind.kitchen_caddy_007F_0}
 					href="http://www.parametrix3d.com/007.html"
 					hrefOpenInNewTab={true}
 					objectPosition="left bottom"
@@ -391,7 +391,7 @@
 		</JDGBodyCopy>
 		<JDGImageTile
 			label={'PIVOT CHAIR'}
-			imageAttributes={imageAttributesCollection.ind.pivot_chair_model_1_transparent}
+			imageMeta={imageMetaRegistry.ind.pivot_chair_model_1_transparent}
 			href={pageMeta.ind.pivot_chair.url}
 			cropToFillContainer={false}
 		/>
@@ -407,7 +407,7 @@
 			simulation as well as a SvelteJS UI package that powers this very website.
 		</JDGBodyCopy>
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.swe.formit_0}
+			imageMeta={imageMetaRegistry.swe.formit_0}
 			maxHeight="350px"
 			primaryText="Autodesk FormIt"
 			primaryTextBold
@@ -426,7 +426,7 @@
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.exp.corporate_showroom_corner}
+					imageMeta={imageMetaRegistry.exp.corporate_showroom_corner}
 					href="./#experimental-architecture"
 				/>
 				<div class="image-details">
@@ -443,7 +443,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.formit_dynamo_1}
+					imageMeta={imageMetaRegistry.swe.formit_dynamo_1}
 					href="https://formit.autodesk.com/redirect/formit-dynamo"
 				/>
 				<div class="image-details">
@@ -462,7 +462,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.formit_plugins_1}
+					imageMeta={imageMetaRegistry.swe.formit_plugins_1}
 					href="https://github.com/FormIt3D"
 				/>
 				<div class="image-details">
@@ -509,7 +509,7 @@
 		</JDGBodyCopy>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.swe.forma_wind_1}
+			imageMeta={imageMetaRegistry.swe.forma_wind_1}
 			maxHeight="350px"
 			primaryText="Autodesk Forma"
 			primaryTextBold
@@ -529,7 +529,7 @@
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
-					imageAttributes={imageAttributesCollection.swe.forma_sun_hours_1}
+					imageMeta={imageMetaRegistry.swe.forma_sun_hours_1}
 					cropToFillContainer={true}
 				/>
 				<div class="image-details">
@@ -547,7 +547,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
-					imageAttributes={imageAttributesCollection.swe.forma_daylight_potential_1}
+					imageMeta={imageMetaRegistry.swe.forma_daylight_potential_1}
 					cropToFillContainer={true}
 				/>
 				<div class="image-details">
@@ -570,7 +570,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImage
-					imageAttributes={imageAttributesCollection.swe.forma_3d_spaces_1}
+					imageMeta={imageMetaRegistry.swe.forma_3d_spaces_1}
 					cropToFillContainer={true}
 				/>
 				<div class="image-details">
@@ -613,7 +613,7 @@
 		</JDGBodyCopy>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.swe.ccp_1}
+			imageMeta={imageMetaRegistry.swe.ccp_1}
 			maxHeight="350px"
 			primaryText="The Cinderella City Project"
 			primaryTextBold
@@ -638,7 +638,7 @@
 		<JDGGridLayout>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe
+					imageMeta={imageMetaRegistry.swe
 						.ccp_construction_60s70s_blue_mall_columns_ceiling}
 					href="https://www.youtube.com/watch?v=Rjq-hv47vsk"
 					hrefOpenInNewTab={true}
@@ -661,7 +661,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.ccp_construction_unity_npc_1}
+					imageMeta={imageMetaRegistry.swe.ccp_construction_unity_npc_1}
 					href="https://github.com/deanstein/CinderellaCityProject"
 					hrefOpenInNewTab={true}
 				/>
@@ -682,7 +682,7 @@
 			</div>
 			<div class="image-with-details {imageWithDetailsCss}">
 				<JDGImageTile
-					imageAttributes={imageAttributesCollection.swe.ccp_exhibit}
+					imageMeta={imageMetaRegistry.swe.ccp_exhibit}
 					href="https://www.cinderellacityproject.com/exhibit"
 					hrefOpenInNewTab={true}
 				/>
@@ -708,7 +708,7 @@
 		</JDGGridLayout>
 		<JDGBodyCopy></JDGBodyCopy>
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.swe.code_stylized}
+			imageMeta={imageMetaRegistry.swe.code_stylized}
 			maxHeight="350px"
 			primaryText="Other Software Projects"
 			primaryTextBold
@@ -719,7 +719,7 @@
 			<JDGGridLayout>
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
-						imageAttributes={imageAttributesCollection.swe.jdg_svelte_ui}
+						imageMeta={imageMetaRegistry.swe.jdg_svelte_ui}
 						objectPosition="top"
 						href={$jdgSharedUrlsStore.jdgSvelteUi}
 						hrefOpenInNewTab={true}
@@ -740,7 +740,7 @@
 				</div>
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
-						imageAttributes={imageAttributesCollection.swe.family_tree_jdg_1}
+						imageMeta={imageMetaRegistry.swe.family_tree_jdg_1}
 						href={$jdgSharedUrlsStore.sweFamilyTree}
 						hrefOpenInNewTab={true}
 					/>
@@ -759,7 +759,7 @@
 				</div>
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
-						imageAttributes={imageAttributesCollection.swe.hashtag_generator_stylized}
+						imageMeta={imageMetaRegistry.swe.hashtag_generator_stylized}
 						href={$jdgSharedUrlsStore.sweHashtagGenerator}
 						hrefOpenInNewTab={true}
 					/>
@@ -774,7 +774,7 @@
 				</div>
 				<div class="image-with-details {imageWithDetailsCss}">
 					<JDGImageTile
-						imageAttributes={imageAttributesCollection.swe.json_to_html_stylized}
+						imageMeta={imageMetaRegistry.swe.json_to_html_stylized}
 						href={$jdgSharedUrlsStore.sweJsonToHtml}
 						hrefOpenInNewTab={true}
 					/>

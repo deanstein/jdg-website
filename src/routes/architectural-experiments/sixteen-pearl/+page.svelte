@@ -1,6 +1,6 @@
 <script>
 	import { sharedStyles } from '$lib/shared-strings';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 
 	import {
 		JDGBodyCopy,
@@ -20,7 +20,7 @@
 		primaryText="16 PEARL ADAPTIVE REUSE"
 		primaryTextBold
 		secondaryText="Striking new townhomes emerge from a bland apartment block"
-		imageAttributes={imageAttributesCollection.exp.sixteen_pearl_corner}
+		imageMeta={imageMetaRegistry.exp.sixteen_pearl_corner}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -39,10 +39,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.sixteen_pearl_corner,
-					imageAttributesCollection.exp.sixteen_pearl_before,
-					imageAttributesCollection.exp.sixteen_pearl_terrace
+				imageMetaSet={[
+					imageMetaRegistry.exp.sixteen_pearl_corner,
+					imageMetaRegistry.exp.sixteen_pearl_before,
+					imageMetaRegistry.exp.sixteen_pearl_terrace
 				]}
 				maxHeight="600px"
 			/>
@@ -53,7 +53,7 @@
 			the first floor, which is retained.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.exp.sixteen_pearl_interior}
+			imageMeta={imageMetaRegistry.exp.sixteen_pearl_interior}
 			cropToFillContainer={false}
 			maxHeight="50vh"
 			showCaption={true}

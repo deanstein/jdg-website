@@ -1,6 +1,6 @@
 <script>
 	import { pageMeta, sharedStyles } from '$lib/shared-strings';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 
 	import {
 		JDGBodyCopy,
@@ -19,7 +19,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast_noname}
+		imageMeta={imageMetaRegistry.hst.fms_2000_broadway_northeast_noname}
 		primaryText={pageMeta.hst.flood_middle_school.title.toUpperCase()}
 		primaryTextBold
 		secondaryText={pageMeta.hst.flood_middle_school.description}
@@ -41,11 +41,11 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.ehs_1920_broadway_northeast}
+				imageMeta={imageMetaRegistry.hst.ehs_1920_broadway_northeast}
 				showCaption={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2013_broadway_northeast}
+				imageMeta={imageMetaRegistry.hst.fms_2013_broadway_northeast}
 				showCaption={true}
 			/>
 		</JDGGridLayout>
@@ -70,9 +70,9 @@
 			on the south side which expanded classrooms and office space.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1919_plan,
-				imageAttributesCollection.hst.fms_2000s_plan_additions
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1919_plan,
+				imageMetaRegistry.hst.fms_2000s_plan_additions
 			]}
 			cropToFillContainer={false}
 			fullWidthCarouselOnMobile={false}
@@ -87,9 +87,9 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.ehs_1940s_aerial_northwest,
-					imageAttributesCollection.hst.fms_2010s_aerial_northwest
+				imageMetaSet={[
+					imageMetaRegistry.hst.ehs_1940s_aerial_northwest,
+					imageMetaRegistry.hst.fms_2010s_aerial_northwest
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -108,20 +108,20 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_1960s_courtyard_renovation}
+				imageMeta={imageMetaRegistry.hst.fms_1960s_courtyard_renovation}
 				cropToFillContainer={false}
 				showCaption={true}
 				showAttribution={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_courtyard_southwest}
+				imageMeta={imageMetaRegistry.hst.fms_2012_courtyard_southwest}
 				cropToFillContainer={false}
 				showCaption={true}
 				showAttribution={true}
 			/>
 		</JDGGridLayout>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.hst.fms_1967_east_side}
+			imageMeta={imageMetaRegistry.hst.fms_1967_east_side}
 			cropToFillContainer={false}
 			showCaption={true}
 			showAttribution={true}
@@ -139,9 +139,9 @@
 			corner at Lincoln and Kenyon, where the existing south wing and new east wing came together.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1936_southeast_wing,
-				imageAttributesCollection.hst.fms_1968_southeast_corner_entrance
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1936_southeast_wing,
+				imageMetaRegistry.hst.fms_1968_southeast_corner_entrance
 			]}
 		/>
 		<JDGBodyCopy>
@@ -153,10 +153,10 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
-					imageAttributesCollection.hst.fms_1960s_broadway_entrance_renovation,
-					imageAttributesCollection.hst.fms_1960s_broadway_entrance
+				imageMetaSet={[
+					imageMetaRegistry.hst.ehs_1950s_broadway_entrance,
+					imageMetaRegistry.hst.fms_1960s_broadway_entrance_renovation,
+					imageMetaRegistry.hst.fms_1960s_broadway_entrance
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -169,9 +169,9 @@
 			metal louvers.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_1964_classroom,
-				imageAttributesCollection.hst.fms_2007_classroom
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_1964_classroom,
+				imageMetaRegistry.hst.fms_2007_classroom
 			]}
 		/>
 		<JDGBodyCopy>
@@ -181,18 +181,18 @@
 			school design were filled in and concealed by new interior walls.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1930s_auditorium_interior,
-				imageAttributesCollection.hst.fms_2007_auditorium_interior
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1930s_auditorium_interior,
+				imageMetaRegistry.hst.fms_2007_auditorium_interior
 			]}
 		/>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_1,
-					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_2,
-					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_3,
-					imageAttributesCollection.hst.fms_2013_demo_auditorium_interior_4
+				imageMetaSet={[
+					imageMetaRegistry.hst.fms_2013_demo_auditorium_interior_1,
+					imageMetaRegistry.hst.fms_2013_demo_auditorium_interior_2,
+					imageMetaRegistry.hst.fms_2013_demo_auditorium_interior_3,
+					imageMetaRegistry.hst.fms_2013_demo_auditorium_interior_4
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -206,7 +206,7 @@
 			<br /><br />
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.hst.fms_1967_band_room_construction}
+			imageMeta={imageMetaRegistry.hst.fms_1967_band_room_construction}
 			showCaption={true}
 			showAttribution={true}
 			cropToFillContainer={false}
@@ -219,9 +219,9 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.fms_1967_north_wing_renovation,
-					imageAttributesCollection.hst.fms_2013_north_wing
+				imageMetaSet={[
+					imageMetaRegistry.hst.fms_1967_north_wing_renovation,
+					imageMetaRegistry.hst.fms_2013_north_wing
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -231,9 +231,9 @@
 			completing the identity transformation to Flood Junior High School.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1940s_broadway_southeast,
-				imageAttributesCollection.hst.fms_2012_broadway_southeast
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1940s_broadway_southeast,
+				imageMetaRegistry.hst.fms_2012_broadway_southeast
 			]}
 		/>
 	</JDGContentBoxFloating>
@@ -244,7 +244,7 @@
 			different period of architectural history.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.hst.fms_2000s_plan_additions}
+			imageMeta={imageMetaRegistry.hst.fms_2000s_plan_additions}
 			showCaption
 			cropToFillContainer={false}
 			maxHeight="500px"
@@ -257,12 +257,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.ehs_1936_southeast_wing}
+				imageMeta={imageMetaRegistry.hst.ehs_1936_southeast_wing}
 				showCaption
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_1968_southeast_corner_entrance}
+				imageMeta={imageMetaRegistry.hst.fms_1968_southeast_corner_entrance}
 				showCaption
 				cropToFillContainer={false}
 			/>
@@ -278,13 +278,13 @@
 			in 1967 added the new circular band room on the south side.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2012_southeast_corner_entrance,
-				imageAttributesCollection.hst.fms_2007_band_room_interior_1,
-				imageAttributesCollection.hst.fms_2007_southeast_stair_interior_1,
-				imageAttributesCollection.hst.fms_2007_south_wing_l1,
-				imageAttributesCollection.hst.fms_2007_attendance_office,
-				imageAttributesCollection.hst.fms_2013_south_wing_basement_1
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2012_southeast_corner_entrance,
+				imageMetaRegistry.hst.fms_2007_band_room_interior_1,
+				imageMetaRegistry.hst.fms_2007_southeast_stair_interior_1,
+				imageMetaRegistry.hst.fms_2007_south_wing_l1,
+				imageMetaRegistry.hst.fms_2007_attendance_office,
+				imageMetaRegistry.hst.fms_2013_south_wing_basement_1
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -295,10 +295,10 @@
 			off-center hallway with windows providing views into the courtyard.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2012_east_wing_1,
-				imageAttributesCollection.hst.fms_2007_east_wing_l1,
-				imageAttributesCollection.hst.fms_2012_courtyard_southwest_2
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2012_east_wing_1,
+				imageMetaRegistry.hst.fms_2007_east_wing_l1,
+				imageMetaRegistry.hst.fms_2012_courtyard_southwest_2
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -310,12 +310,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_1967_north_wing_renovation}
+				imageMeta={imageMetaRegistry.hst.fms_1967_north_wing_renovation}
 				showCaption
 				cropToFillContainer={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2000_broadway_northeast}
+				imageMeta={imageMetaRegistry.hst.fms_2000_broadway_northeast}
 				showCaption
 				cropToFillContainer={true}
 			/>
@@ -331,10 +331,10 @@
 			with carpet.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2013_north_wing,
-				imageAttributesCollection.hst.fms_2007_north_wing_l2,
-				imageAttributesCollection.hst.fms_2007_northwest_connector_l2
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2013_north_wing,
+				imageMetaRegistry.hst.fms_2007_north_wing_l2,
+				imageMetaRegistry.hst.fms_2007_northwest_connector_l2
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -344,9 +344,9 @@
 			spaces.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2007_fitness_room,
-				imageAttributesCollection.hst.fms_2007_locker_hall
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2007_fitness_room,
+				imageMetaRegistry.hst.fms_2007_locker_hall
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -357,10 +357,10 @@
 			demolition as the original walls were revealed.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1950s_broadway_entrance,
-				imageAttributesCollection.hst.fms_2013_demo_detail_cornice,
-				imageAttributesCollection.hst.fms_1960s_broadway_entrance
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1950s_broadway_entrance,
+				imageMetaRegistry.hst.fms_2013_demo_detail_cornice,
+				imageMetaRegistry.hst.fms_1960s_broadway_entrance
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -370,9 +370,9 @@
 			school became a junior high.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2007_library,
-				imageAttributesCollection.hst.fms_2007_library_mlf
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2007_library,
+				imageMetaRegistry.hst.fms_2007_library_mlf
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -381,15 +381,15 @@
 			during subsequent renovations.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1930s_auditorium_interior,
-				imageAttributesCollection.hst.fms_2007_auditorium_interior
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1930s_auditorium_interior,
+				imageMetaRegistry.hst.fms_2007_auditorium_interior
 			]}
 		/>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.ehs_1948_small_gym,
-				imageAttributesCollection.hst.fms_1970_small_gym
+			imageMetaSet={[
+				imageMetaRegistry.hst.ehs_1948_small_gym,
+				imageMetaRegistry.hst.fms_1970_small_gym
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -398,9 +398,9 @@
 			various places due to foundation height changes.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_2007_basement_2,
-				imageAttributesCollection.hst.fms_2007_vault_composite
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_2007_basement_2,
+				imageMetaRegistry.hst.fms_2007_vault_composite
 			]}
 		/>
 		<JDGBodyCopy paddingBottom="0">
@@ -410,10 +410,10 @@
 			third was found in the basement storage area during abandonment.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.hst.fms_identity_1,
-				imageAttributesCollection.hst.fms_identity_2,
-				imageAttributesCollection.hst.fms_identity_3
+			imageMetaSet={[
+				imageMetaRegistry.hst.fms_identity_1,
+				imageMetaRegistry.hst.fms_identity_2,
+				imageMetaRegistry.hst.fms_identity_3
 			]}
 		/>
 	</JDGContentBoxFloating>
@@ -431,12 +431,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_southeast_corner_entrance}
+				imageMeta={imageMetaRegistry.hst.fms_2012_southeast_corner_entrance}
 				showCaption
 				cropToFillContainer={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2013_broadway_northeast}
+				imageMeta={imageMetaRegistry.hst.fms_2013_broadway_northeast}
 				showCaption
 				cropToFillContainer={true}
 			/>
@@ -454,7 +454,7 @@
 			its basement vault:
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.hst.fms_2007_vault_composite}
+			imageMeta={imageMetaRegistry.hst.fms_2007_vault_composite}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -464,12 +464,12 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_entrance_interior}
+				imageMeta={imageMetaRegistry.hst.fms_2012_entrance_interior}
 				showCaption
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.hst.fms_2012_east_wing_l1}
+				imageMeta={imageMetaRegistry.hst.fms_2012_east_wing_l1}
 				showCaption
 				cropToFillContainer={false}
 			/>
@@ -483,7 +483,7 @@
 			was gone. By fall of 2015, a 306-unit luxury apartment complex stood in its place.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.hst.fms_2013_demo_lincoln}
+			imageMeta={imageMetaRegistry.hst.fms_2013_demo_lincoln}
 			showCaption
 			showAttribution
 			cropToFillContainer={false}
@@ -494,19 +494,19 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.fms_2013_demo_hallway_3,
-					imageAttributesCollection.hst.fms_2013_demo_wood_floors,
-					imageAttributesCollection.hst.fms_2013_demo_library_1,
-					imageAttributesCollection.hst.fms_2013_demo_hallway_lockers_1,
-					imageAttributesCollection.hst.fms_2013_demo_hallway_2,
-					imageAttributesCollection.hst.fms_2013_demo_basement_1,
-					imageAttributesCollection.hst.fms_2013_demo_classroom_1,
-					imageAttributesCollection.hst.fms_2013_demo_ceiling_fixture_2,
-					imageAttributesCollection.hst.fms_2013_demo_large_gym,
-					imageAttributesCollection.hst.fms_2013_demo_window_sizes,
-					imageAttributesCollection.hst.fms_2013_demo_chimney,
-					imageAttributesCollection.hst.fms_2013_demo_basement_2
+				imageMetaSet={[
+					imageMetaRegistry.hst.fms_2013_demo_hallway_3,
+					imageMetaRegistry.hst.fms_2013_demo_wood_floors,
+					imageMetaRegistry.hst.fms_2013_demo_library_1,
+					imageMetaRegistry.hst.fms_2013_demo_hallway_lockers_1,
+					imageMetaRegistry.hst.fms_2013_demo_hallway_2,
+					imageMetaRegistry.hst.fms_2013_demo_basement_1,
+					imageMetaRegistry.hst.fms_2013_demo_classroom_1,
+					imageMetaRegistry.hst.fms_2013_demo_ceiling_fixture_2,
+					imageMetaRegistry.hst.fms_2013_demo_large_gym,
+					imageMetaRegistry.hst.fms_2013_demo_window_sizes,
+					imageMetaRegistry.hst.fms_2013_demo_chimney,
+					imageMetaRegistry.hst.fms_2013_demo_basement_2
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -521,11 +521,11 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.hst.fms_2013_demo_brickwork_1,
-					imageAttributesCollection.hst.fms_2013_demo_brickwork_2,
-					imageAttributesCollection.hst.fms_2013_demo_brickwork_3,
-					imageAttributesCollection.hst.fms_2013_demo_brickwork_4
+				imageMetaSet={[
+					imageMetaRegistry.hst.fms_2013_demo_brickwork_1,
+					imageMetaRegistry.hst.fms_2013_demo_brickwork_2,
+					imageMetaRegistry.hst.fms_2013_demo_brickwork_3,
+					imageMetaRegistry.hst.fms_2013_demo_brickwork_4
 				]}
 			/>
 		</JDGFullWidthContainer>
@@ -544,7 +544,7 @@
 			for Englewood.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+			imageMeta={imageMetaRegistry.exp.fms_campus_lawn}
 			showCaption
 			cropToFillContainer={false}
 		/>

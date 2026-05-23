@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import { sharedStyles } from '$lib/shared-strings';
 
 	import {
@@ -19,7 +19,7 @@
 		primaryText="SPEER POINT ADAPTIVE REUSE"
 		primaryTextBold
 		secondaryText="Enhancing a quirky, under-utilized site"
-		imageAttributes={imageAttributesCollection.exp.speer_point_after}
+		imageMeta={imageMetaRegistry.exp.speer_point_after}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -37,9 +37,9 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.speer_point_after,
-					imageAttributesCollection.exp.speer_point_before
+				imageMetaSet={[
+					imageMetaRegistry.exp.speer_point_after,
+					imageMetaRegistry.exp.speer_point_before
 				]}
 				maxHeight="600px"
 			/>

@@ -11,7 +11,7 @@
 		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '../../image-attributes-collection';
 	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 </script>
@@ -21,7 +21,7 @@
 		primaryText={pageMeta.exp.fms_campus.title.toUpperCase()}
 		primaryTextBold
 		secondaryText={pageMeta.exp.fms_campus.description}
-		imageAttributes={imageAttributesCollection.exp.fms_campus_lawn}
+		imageMeta={imageMetaRegistry.exp.fms_campus_lawn}
 		overlapWithHeader
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 	/>
@@ -51,17 +51,17 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.fms_campus_before_aerial}
+				imageMeta={imageMetaRegistry.exp.fms_campus_before_aerial}
 				showCaption={true}
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.fms_campus_massing}
+				imageMeta={imageMetaRegistry.exp.fms_campus_massing}
 				showCaption={true}
 				cropToFillContainer={false}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.exp.fms_campus_aerial}
+				imageMeta={imageMetaRegistry.exp.fms_campus_aerial}
 				showCaption={true}
 				cropToFillContainer={false}
 			/>
@@ -75,11 +75,11 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.fms_campus_lawn,
-					imageAttributesCollection.exp.fms_campus_before_1,
-					imageAttributesCollection.exp.fms_campus_kenyon_corner,
-					imageAttributesCollection.exp.fms_campus_before_3
+				imageMetaSet={[
+					imageMetaRegistry.exp.fms_campus_lawn,
+					imageMetaRegistry.exp.fms_campus_before_1,
+					imageMetaRegistry.exp.fms_campus_kenyon_corner,
+					imageMetaRegistry.exp.fms_campus_before_3
 				]}
 				maxHeight="600px"
 			/>
@@ -91,9 +91,9 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.fms_campus_plaza,
-					imageAttributesCollection.exp.fms_campus_before_2
+				imageMetaSet={[
+					imageMetaRegistry.exp.fms_campus_plaza,
+					imageMetaRegistry.exp.fms_campus_before_2
 				]}
 				maxHeight="600px"
 			/>
@@ -106,9 +106,9 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.exp.fms_campus_paseo,
-					imageAttributesCollection.exp.fms_campus_before_4
+				imageMetaSet={[
+					imageMetaRegistry.exp.fms_campus_paseo,
+					imageMetaRegistry.exp.fms_campus_before_4
 				]}
 				maxHeight="600px"
 			/>
