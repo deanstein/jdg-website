@@ -3,13 +3,18 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import imageMetaRegistry from '$lib/image-meta-registry';
-
-	import { jdgNavItem, jdgWebsiteRepoName, repoName } from 'jdg-ui-svelte';
-	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+	import {
+		addCloudinaryUrlTransformation,
+		instantiateObject,
+		jdgNavItem,
+		jdgWebsiteRepoName,
+		repoName
+	} from 'jdg-ui-svelte';
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
-	import SocialMedia from '../components/SocialMedia.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
+	import SocialMedia from '$lib/components/SocialMedia.svelte';
 
 	// Define the repo name
 	repoName.set(jdgWebsiteRepoName);
@@ -70,6 +75,7 @@
 
 <!-- GOOGLE ANALYTICS -->
 <svelte:head>
+	<!-- Google tag (gtag.js) -->
 	<!-- Google tag (gtag.js) -->
 	<!-- Google tag (gtag.js) -->
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>

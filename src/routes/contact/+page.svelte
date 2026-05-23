@@ -1,14 +1,15 @@
 <script>
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import imageMetaRegistry from '../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGIFrame,
-		JDGUpNext
+		JDGUpNext,
+		jdgSharedUrlsStore
 	} from 'jdg-ui-svelte';
-	import SocialMedia from '../../components/SocialMedia.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import SocialMedia from '$lib/components/SocialMedia.svelte';
 </script>
 
 <JDGContentContainer>

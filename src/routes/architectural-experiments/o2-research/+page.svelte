@@ -1,7 +1,4 @@
 <script>
-	import { sharedStyles } from '$lib/shared-strings';
-	import imageMetaRegistry from '../../image-attributes-collection';
-
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -10,8 +7,11 @@
 		JDGImage,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import UpNext from '../../../components/UpNext.svelte';
-	import SeriesExperimental from '../../../components/SeriesExperimental.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { sharedStyles } from '$lib/shared-strings';
+	import SeriesExperimental from '$lib/components/SeriesExperimental.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader paddingTop="0" paddingBottom="0" gap="0">

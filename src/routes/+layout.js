@@ -1,5 +1,5 @@
 import { pageMeta } from '$lib/shared-strings.js';
-import imageMetaRegistry from './image-attributes-collection.js';
+import imageMetaRegistry from '$lib/image-meta-registry';
 
 export const prerender = true;
 
@@ -18,8 +18,7 @@ export const load = ({ url }) => {
 			description: pageMeta.home.description,
 			images: [
 				{
-					url: imageMetaRegistry.swe.ccp_construction_60s70s_blue_mall_columns_ceiling
-						.imgSrc,
+					url: imageMetaRegistry.swe.ccp_construction_60s70s_blue_mall_columns_ceiling.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'
