@@ -7,7 +7,7 @@
 		JDGImage,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import { darkenColor } from 'jdg-ui-svelte/jdg-utils.js';
+	import { darkenColor } from 'jdg-ui-svelte';
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { sharedStyles } from '$lib/shared-strings';
