@@ -358,9 +358,18 @@
       "caption": "Renovations begin in the courtyard, where a new semi-circular library would be added."
     },
     "fms_1967_band_room_construction": {
+      "id": "37c08fb1-dc95-43b2-91a1-3aea042c9a49",
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722832940/jdg-website/hst/fms-1967-band-room-construction.jpg",
+      "caption": "A new band room is constructed in 1967 against the south wing and auditorium. Notice the original building detailing still visible in the background.",
       "attribution": "Getty Images",
-      "caption": "A new band room is constructed in 1967 against the south wing and auditorium. Notice the original building detailing still visible in the background."
+      "alt": "A new band room is constructed in 1967 against the south wing and auditorium. Notice the original building detailing still visible in the background.",
+      "title": "",
+      "isApprxDate": true,
+      "showInTimeline": true,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1967-01-01"
     },
     "fms_1967_east_side": {
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722745769/jdg-website/hst/fms-1967-east-side.jpg",
