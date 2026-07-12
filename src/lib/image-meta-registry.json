@@ -299,9 +299,18 @@
       "caption": "Englewood High School viewed from Broadway in 1920, a year after it was constructed."
     },
     "ehs_1930s_auditorium_interior": {
+      "id": "6d854b69-f52f-451d-b00a-ee67066e0a0b",
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722820392/jdg-website/hst/ehs-1930s-auditorium-interior.jpg",
+      "caption": "The auditorium as it appeared in 1964. Two classes - one in front, one in back - are being held here while other parts of the school are being renovated.",
       "attribution": "Getty Images",
-      "caption": "The auditorium as it appeared in the 1930s."
+      "alt": "The auditorium as it appeared in 1964. Two classes - one in front, one in back - are being held here while other parts of the school are being renovated.",
+      "title": "",
+      "isApprxDate": false,
+      "showInTimeline": true,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1964-09-04"
     },
     "ehs_1936_southeast_wing": {
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722745253/jdg-website/hst/ehs-1936-southeast-wing.jpg",
