@@ -359,9 +359,18 @@
       "caption": "The new connector wing and new entrance attached to the south wing. Note the south wing's original architecture on the left."
     },
     "fms_1967_north_wing_renovation": {
+      "id": "c67e2499-0239-4232-9fbf-654e39b20319",
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722835704/jdg-website/hst/fms-1967-north-wing-renovation.jpg",
+      "caption": "The north wing is renovated to match the rest of the newly-modernized building.",
       "attribution": "Getty Images",
-      "caption": "The north wing is renovated to match the rest of the newly-modernized building."
+      "alt": "The north wing is renovated to match the rest of the newly-modernized building.",
+      "title": "",
+      "isApprxDate": false,
+      "showInTimeline": true,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1968-08-12"
     },
     "fms_1968_southeast_corner_entrance": {
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1722746162/jdg-website/hst/fms-1968-southeast-corner-entrance.jpg",
