@@ -177,7 +177,7 @@
 		<JDGBodyCopy>
 			The gymnasium and auditorium also saw major changes during the 1960s renovation efforts.
 			<br /><br />
-			Large exposed wood trusses were obscured by lowered ceilings, and expansive windows from the original
+			High ceilings were lowered and expansive windows from the original
 			school design were filled in and concealed by new interior walls.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
